@@ -1,0 +1,515 @@
+<SUBSKILLS_CHALLENGES>
+  <!-- Yuri - Traços de Classe -->
+  <SUBSKILL-YURI_FORJA_VIVA Delay="0.0" Animation="Hit15" Sound="SubskillAddAttribute">
+    <DescriptionInfo Name="DES_YURI_FORJA_VIVA" Description="DES_YURI_FORJA_VIVA_DES" IconName="SKILL_YURI_FORJA_VIVA" />
+    <ShortInfo TriggerIcon="TAG-TRIGGER_PASSIVE" DamageIcon="TAG-DAMAGE_ADD_CRAFTING" TargetIcon="TAG-TARGET_SELF" AttackInfo="{SCRIPT:SI_DefaultAttributeChange}" />
+    <Trigger Priority="10" RequiredToBeInFrontline="FALSE" RequiredToBeInBackline="FALSE">
+      <TriggerGroup Value="Passive" />
+      <TriggerScript ScriptName="" />
+    </Trigger>
+    <Targets>
+      <TargetScript ScriptName="Trg_Self" />
+      <TargetCountRange MinimumCount="1" MaximumCount="1" TargetIndication="Random" />
+    </Targets>
+    <Activation ScriptName="WAct_AttributeChange" />
+    <ChallengeType Value="TypePhysical" />
+    <SubskillAttributesOnLevel Level="0" PowerLevel="0.0">
+      <SubskillAttribute Identifier="TAG-DAMAGE_ADD_CRAFTING" AttributeStringValue="+" AttributeFloatValue="2" />
+      <SubskillAttribute Identifier="TAG-DAMAGE_ADD_GROUP_CARRY" AttributeStringValue="+" AttributeFloatValue="10" />
+    </SubskillAttributesOnLevel>
+    <SubskillAttributesOnLevel Level="1" PowerLevel="10.0">
+      <SubskillAttribute Identifier="TAG-DAMAGE_ADD_CRAFTING" AttributeStringValue="+" AttributeFloatValue="3" />
+      <SubskillAttribute Identifier="TAG-DAMAGE_ADD_GROUP_CARRY" AttributeStringValue="+" AttributeFloatValue="15" />
+    </SubskillAttributesOnLevel>
+    <SubskillAttributesOnLevel Level="2" PowerLevel="30.0">
+      <SubskillAttribute Identifier="TAG-DAMAGE_ADD_CRAFTING" AttributeStringValue="+" AttributeFloatValue="4" />
+      <SubskillAttribute Identifier="TAG-DAMAGE_ADD_GROUP_CARRY" AttributeStringValue="+" AttributeFloatValue="20" />
+    </SubskillAttributesOnLevel>
+    <SubskillAttributesOnLevel Level="3" PowerLevel="90.0">
+      <SubskillAttribute Identifier="TAG-DAMAGE_ADD_CRAFTING" AttributeStringValue="+" AttributeFloatValue="5" />
+      <SubskillAttribute Identifier="TAG-DAMAGE_ADD_GROUP_CARRY" AttributeStringValue="+" AttributeFloatValue="25" />
+    </SubskillAttributesOnLevel>
+    <SubskillAttributesOnLevel Level="4" PowerLevel="250.0">
+      <SubskillAttribute Identifier="TAG-DAMAGE_ADD_CRAFTING" AttributeStringValue="+" AttributeFloatValue="6" />
+      <SubskillAttribute Identifier="TAG-DAMAGE_ADD_GROUP_CARRY" AttributeStringValue="+" AttributeFloatValue="30" />
+    </SubskillAttributesOnLevel>
+    <SubskillAttributesOnLevel Level="5" PowerLevel="500.0">
+      <SubskillAttribute Identifier="TAG-DAMAGE_ADD_CRAFTING" AttributeStringValue="+" AttributeFloatValue="8" />
+      <SubskillAttribute Identifier="TAG-DAMAGE_ADD_GROUP_CARRY" AttributeStringValue="+" AttributeFloatValue="40" />
+    </SubskillAttributesOnLevel>
+  </SUBSKILL-YURI_FORJA_VIVA>
+  <SUBSKILL-YURI_FORNAR Delay="0.0" Animation="Hit15" Sound="SubskillAddAttribute">
+    <DescriptionInfo Name="DES_YURI_FORNAR" Description="DES_YURI_FORNAR_DES" IconName="SKILL_YURI_FORNAR" />
+    <ShortInfo TriggerIcon="TAG-TRIGGER_PASSIVE" DamageIcon="TAG-DAMAGE_ADD_CRAFTING" TargetIcon="TAG-TARGET_SELF" AttackInfo="{SCRIPT:SI_DefaultAttributeChange}" />
+    <Trigger Priority="10" RequiredToBeInFrontline="FALSE" RequiredToBeInBackline="FALSE">
+      <TriggerGroup Value="Passive" />
+      <TriggerScript ScriptName="" />
+    </Trigger>
+    <Targets>
+      <TargetScript ScriptName="Trg_Self" />
+      <TargetCountRange MinimumCount="1" MaximumCount="1" TargetIndication="Random" />
+    </Targets>
+    <Activation ScriptName="WAct_AttributeChange" />
+    <ChallengeType Value="TypePhysical" />
+    <SubskillAttributesOnLevel Level="0" PowerLevel="0.0">
+      <SubskillAttribute Identifier="TAG-DAMAGE_ADD_CRAFTING" AttributeStringValue="+" AttributeFloatValue="1" />
+    </SubskillAttributesOnLevel>
+    <SubskillAttributesOnLevel Level="1" PowerLevel="10.0">
+      <SubskillAttribute Identifier="TAG-DAMAGE_ADD_CRAFTING" AttributeStringValue="+" AttributeFloatValue="2" />
+    </SubskillAttributesOnLevel>
+    <SubskillAttributesOnLevel Level="2" PowerLevel="30.0">
+      <SubskillAttribute Identifier="TAG-DAMAGE_ADD_CRAFTING" AttributeStringValue="+" AttributeFloatValue="3" />
+    </SubskillAttributesOnLevel>
+    <SubskillAttributesOnLevel Level="3" PowerLevel="90.0">
+      <SubskillAttribute Identifier="TAG-DAMAGE_ADD_CRAFTING" AttributeStringValue="+" AttributeFloatValue="4" />
+    </SubskillAttributesOnLevel>
+    <SubskillAttributesOnLevel Level="4" PowerLevel="250.0">
+      <SubskillAttribute Identifier="TAG-DAMAGE_ADD_CRAFTING" AttributeStringValue="+" AttributeFloatValue="5" />
+    </SubskillAttributesOnLevel>
+    <SubskillAttributesOnLevel Level="5" PowerLevel="500.0">
+      <SubskillAttribute Identifier="TAG-DAMAGE_ADD_CRAFTING" AttributeStringValue="+" AttributeFloatValue="6" />
+    </SubskillAttributesOnLevel>
+  </SUBSKILL-YURI_FORNAR>
+  <SUBSKILL-YURI_BATISMO Delay="0.0" Animation="Spell2" Sound="SubskillSummonWildBeast">
+    <DescriptionInfo Name="DES_YURI_BATISMO" Description="DES_YURI_BATISMO_DES" IconName="SKILL_YURI_BATISMO" />
+    <ShortInfo TriggerIcon="TAG-TRIGGER_DO_CAST_INSTANT" DamageIcon="TAG-DAMAGE_ADD_RITUALS" TargetIcon="TAG-TARGET_SELF" AttackInfo="{SCRIPT:SI_DefaultAttributeChange}" />
+    <Trigger Priority="20" RequiredToBeInFrontline="FALSE" RequiredToBeInBackline="FALSE">
+      <TriggerGroup Value="DoCastInstant" />
+      <TriggerScript ScriptName="" />
+    </Trigger>
+    <Targets>
+      <TargetScript ScriptName="Trg_Self" />
+      <TargetCountRange MinimumCount="1" MaximumCount="1" TargetIndication="Random" />
+    </Targets>
+    <Activation ScriptName="Act_Summon" />
+    <ChallengeType Value="TypeSpirit" />
+    <SubskillAttributesOnLevel Level="0" PowerLevel="0.0">
+      <SubskillAttribute Identifier="TAG-DAMAGE_ADD_RITUALS" AttributeStringValue="+" AttributeFloatValue="1" />
+      <SubskillAttribute Identifier="TAG-DAMAGE_ADD_MYSTICISM" AttributeStringValue="+" AttributeFloatValue="1" />
+    </SubskillAttributesOnLevel>
+    <SubskillAttributesOnLevel Level="1" PowerLevel="10.0">
+      <SubskillAttribute Identifier="TAG-DAMAGE_ADD_RITUALS" AttributeStringValue="+" AttributeFloatValue="2" />
+      <SubskillAttribute Identifier="TAG-DAMAGE_ADD_MYSTICISM" AttributeStringValue="+" AttributeFloatValue="2" />
+    </SubskillAttributesOnLevel>
+    <SubskillAttributesOnLevel Level="2" PowerLevel="30.0">
+      <SubskillAttribute Identifier="TAG-DAMAGE_ADD_RITUALS" AttributeStringValue="+" AttributeFloatValue="3" />
+      <SubskillAttribute Identifier="TAG-DAMAGE_ADD_MYSTICISM" AttributeStringValue="+" AttributeFloatValue="3" />
+    </SubskillAttributesOnLevel>
+    <SubskillAttributesOnLevel Level="3" PowerLevel="90.0">
+      <SubskillAttribute Identifier="TAG-DAMAGE_ADD_RITUALS" AttributeStringValue="+" AttributeFloatValue="4" />
+      <SubskillAttribute Identifier="TAG-DAMAGE_ADD_MYSTICISM" AttributeStringValue="+" AttributeFloatValue="4" />
+    </SubskillAttributesOnLevel>
+    <SubskillAttributesOnLevel Level="4" PowerLevel="250.0">
+      <SubskillAttribute Identifier="TAG-DAMAGE_ADD_RITUALS" AttributeStringValue="+" AttributeFloatValue="5" />
+      <SubskillAttribute Identifier="TAG-DAMAGE_ADD_MYSTICISM" AttributeStringValue="+" AttributeFloatValue="5" />
+    </SubskillAttributesOnLevel>
+    <SubskillAttributesOnLevel Level="5" PowerLevel="500.0">
+      <SubskillAttribute Identifier="TAG-DAMAGE_ADD_RITUALS" AttributeStringValue="+" AttributeFloatValue="6" />
+      <SubskillAttribute Identifier="TAG-DAMAGE_ADD_MYSTICISM" AttributeStringValue="+" AttributeFloatValue="6" />
+    </SubskillAttributesOnLevel>
+  </SUBSKILL-YURI_BATISMO>
+  <SUBSKILL-YURI_APRENDIZ Delay="0.0" Animation="Hit15" Sound="SubskillAddAttribute">
+    <DescriptionInfo Name="DES_YURI_APRENDIZ" Description="DES_YURI_APRENDIZ_DES" IconName="SKILL_YURI_APRENDIZ" />
+    <ShortInfo TriggerIcon="TAG-TRIGGER_PASSIVE" DamageIcon="TAG-DAMAGE_ADD_CRAFTING" TargetIcon="TAG-TARGET_SELF" AttackInfo="{SCRIPT:SI_DefaultAttributeChange}" />
+    <Trigger Priority="10" RequiredToBeInFrontline="FALSE" RequiredToBeInBackline="FALSE">
+      <TriggerGroup Value="Passive" />
+      <TriggerScript ScriptName="" />
+    </Trigger>
+    <Targets>
+      <TargetScript ScriptName="Trg_Self" />
+      <TargetCountRange MinimumCount="1" MaximumCount="1" TargetIndication="Random" />
+    </Targets>
+    <Activation ScriptName="WAct_AttributeChange" />
+    <ChallengeType Value="TypePhysical" />
+    <SubskillAttributesOnLevel Level="0" PowerLevel="0.0">
+      <SubskillAttribute Identifier="TAG-DAMAGE_ADD_CRAFTING" AttributeStringValue="+" AttributeFloatValue="1" />
+    </SubskillAttributesOnLevel>
+    <SubskillAttributesOnLevel Level="1" PowerLevel="10.0">
+      <SubskillAttribute Identifier="TAG-DAMAGE_ADD_CRAFTING" AttributeStringValue="+" AttributeFloatValue="2" />
+    </SubskillAttributesOnLevel>
+    <SubskillAttributesOnLevel Level="2" PowerLevel="30.0">
+      <SubskillAttribute Identifier="TAG-DAMAGE_ADD_CRAFTING" AttributeStringValue="+" AttributeFloatValue="3" />
+    </SubskillAttributesOnLevel>
+    <SubskillAttributesOnLevel Level="3" PowerLevel="90.0">
+      <SubskillAttribute Identifier="TAG-DAMAGE_ADD_CRAFTING" AttributeStringValue="+" AttributeFloatValue="4" />
+    </SubskillAttributesOnLevel>
+    <SubskillAttributesOnLevel Level="4" PowerLevel="250.0">
+      <SubskillAttribute Identifier="TAG-DAMAGE_ADD_CRAFTING" AttributeStringValue="+" AttributeFloatValue="5" />
+    </SubskillAttributesOnLevel>
+    <SubskillAttributesOnLevel Level="5" PowerLevel="500.0">
+      <SubskillAttribute Identifier="TAG-DAMAGE_ADD_CRAFTING" AttributeStringValue="+" AttributeFloatValue="6" />
+    </SubskillAttributesOnLevel>
+  </SUBSKILL-YURI_APRENDIZ>
+
+  <!-- Traços de Personalidade dos Golens -->
+  <SUBSKILL-PERS_LEAL Delay="0.0" Animation="Hit15" Sound="SubskillAddAttribute">
+    <DescriptionInfo Name="DES_YM_PERS_LEAL" Description="DES_YM_PERS_LEAL_DES" IconName="SKILL_PERS_LEAL" />
+    <ShortInfo TriggerIcon="TAG-TRIGGER_PASSIVE" DamageIcon="TAG-DAMAGE_ADD_MORALE" TargetIcon="TAG-TARGET_SELF" AttackInfo="{SCRIPT:SI_DefaultAttributeChange}" />
+    <Trigger Priority="10" RequiredToBeInFrontline="FALSE" RequiredToBeInBackline="FALSE">
+      <TriggerGroup Value="Passive" />
+      <TriggerScript ScriptName="" />
+    </Trigger>
+    <Targets>
+      <TargetScript ScriptName="Trg_Self" />
+      <TargetCountRange MinimumCount="1" MaximumCount="1" TargetIndication="Random" />
+    </Targets>
+    <Activation ScriptName="WAct_AttributeChange" />
+    <ChallengeType Value="TypePhysical" />
+    <SubskillAttributesOnLevel Level="0" PowerLevel="0.0">
+      <SubskillAttribute Identifier="TAG-DAMAGE_ADD_MORALE" AttributeStringValue="+" AttributeFloatValue="2" />
+      <SubskillAttribute Identifier="TAG-DAMAGE_CHARACTER_LEAVE_CHANCE" AttributeStringValue="-" AttributeFloatValue="50" />
+    </SubskillAttributesOnLevel>
+    <SubskillAttributesOnLevel Level="1" PowerLevel="0.0">
+      <SubskillAttribute Identifier="TAG-DAMAGE_ADD_MORALE" AttributeStringValue="+" AttributeFloatValue="3" />
+      <SubskillAttribute Identifier="TAG-DAMAGE_CHARACTER_LEAVE_CHANCE" AttributeStringValue="-" AttributeFloatValue="50" />
+    </SubskillAttributesOnLevel>
+    <SubskillAttributesOnLevel Level="2" PowerLevel="0.0">
+      <SubskillAttribute Identifier="TAG-DAMAGE_ADD_MORALE" AttributeStringValue="+" AttributeFloatValue="4" />
+      <SubskillAttribute Identifier="TAG-DAMAGE_CHARACTER_LEAVE_CHANCE" AttributeStringValue="-" AttributeFloatValue="50" />
+    </SubskillAttributesOnLevel>
+    <SubskillAttributesOnLevel Level="3" PowerLevel="0.0">
+      <SubskillAttribute Identifier="TAG-DAMAGE_ADD_MORALE" AttributeStringValue="+" AttributeFloatValue="5" />
+      <SubskillAttribute Identifier="TAG-DAMAGE_CHARACTER_LEAVE_CHANCE" AttributeStringValue="-" AttributeFloatValue="50" />
+    </SubskillAttributesOnLevel>
+    <SubskillAttributesOnLevel Level="4" PowerLevel="0.0">
+      <SubskillAttribute Identifier="TAG-DAMAGE_ADD_MORALE" AttributeStringValue="+" AttributeFloatValue="6" />
+      <SubskillAttribute Identifier="TAG-DAMAGE_CHARACTER_LEAVE_CHANCE" AttributeStringValue="-" AttributeFloatValue="50" />
+    </SubskillAttributesOnLevel>
+    <SubskillAttributesOnLevel Level="5" PowerLevel="0.0">
+      <SubskillAttribute Identifier="TAG-DAMAGE_ADD_MORALE" AttributeStringValue="+" AttributeFloatValue="8" />
+      <SubskillAttribute Identifier="TAG-DAMAGE_CHARACTER_LEAVE_CHANCE" AttributeStringValue="-" AttributeFloatValue="50" />
+    </SubskillAttributesOnLevel>
+  </SUBSKILL-PERS_LEAL>
+  <SUBSKILL-PERS_AGRESSIVO Delay="0.0" Animation="Explosion2" Sound="AttackDefault">
+    <DescriptionInfo Name="DES_YM_PERS_AGRESSIVO" Description="DES_YM_PERS_AGRESSIVO_DES" IconName="SKILL_PERS_AGRESSIVO" />
+    <ShortInfo TriggerIcon="TAG-TRIGGER_PASSIVE" DamageIcon="TAG-DAMAGE_ADD_STRENGTH" TargetIcon="TAG-TARGET_SELF" AttackInfo="{SCRIPT:SI_DefaultAttributeChange}" />
+    <Trigger Priority="10" RequiredToBeInFrontline="FALSE" RequiredToBeInBackline="FALSE">
+      <TriggerGroup Value="Passive" />
+      <TriggerScript ScriptName="" />
+    </Trigger>
+    <Targets>
+      <TargetScript ScriptName="Trg_Self" />
+      <TargetCountRange MinimumCount="1" MaximumCount="1" TargetIndication="Random" />
+    </Targets>
+    <Activation ScriptName="WAct_AttributeChange" />
+    <ChallengeType Value="TypePhysical" />
+    <SubskillAttributesOnLevel Level="0" PowerLevel="0.0">
+      <SubskillAttribute Identifier="TAG-DAMAGE_ADD_STRENGTH" AttributeStringValue="+" AttributeFloatValue="1" />
+    </SubskillAttributesOnLevel>
+    <SubskillAttributesOnLevel Level="1" PowerLevel="0.0">
+      <SubskillAttribute Identifier="TAG-DAMAGE_ADD_STRENGTH" AttributeStringValue="+" AttributeFloatValue="2" />
+    </SubskillAttributesOnLevel>
+    <SubskillAttributesOnLevel Level="2" PowerLevel="0.0">
+      <SubskillAttribute Identifier="TAG-DAMAGE_ADD_STRENGTH" AttributeStringValue="+" AttributeFloatValue="3" />
+    </SubskillAttributesOnLevel>
+    <SubskillAttributesOnLevel Level="3" PowerLevel="0.0">
+      <SubskillAttribute Identifier="TAG-DAMAGE_ADD_STRENGTH" AttributeStringValue="+" AttributeFloatValue="4" />
+    </SubskillAttributesOnLevel>
+    <SubskillAttributesOnLevel Level="4" PowerLevel="0.0">
+      <SubskillAttribute Identifier="TAG-DAMAGE_ADD_STRENGTH" AttributeStringValue="+" AttributeFloatValue="5" />
+    </SubskillAttributesOnLevel>
+    <SubskillAttributesOnLevel Level="5" PowerLevel="0.0">
+      <SubskillAttribute Identifier="TAG-DAMAGE_ADD_STRENGTH" AttributeStringValue="+" AttributeFloatValue="6" />
+    </SubskillAttributesOnLevel>
+  </SUBSKILL-PERS_AGRESSIVO>
+  <SUBSKILL-PERS_SERENO Delay="0.0" Animation="Hit15" Sound="SubskillAddAttribute">
+    <DescriptionInfo Name="DES_YM_PERS_SERENO" Description="DES_YM_PERS_SERENO_DES" IconName="SKILL_PERS_SERENO" />
+    <ShortInfo TriggerIcon="TAG-TRIGGER_PASSIVE" DamageIcon="TAG-DAMAGE_ADD_MORALE" TargetIcon="TAG-TARGET_SELF" AttackInfo="{SCRIPT:SI_DefaultAttributeChange}" />
+    <Trigger Priority="10" RequiredToBeInFrontline="FALSE" RequiredToBeInBackline="FALSE">
+      <TriggerGroup Value="Passive" />
+      <TriggerScript ScriptName="" />
+    </Trigger>
+    <Targets>
+      <TargetScript ScriptName="Trg_Self" />
+      <TargetCountRange MinimumCount="1" MaximumCount="1" TargetIndication="Random" />
+    </Targets>
+    <Activation ScriptName="WAct_AttributeChange" />
+    <ChallengeType Value="TypePhysical" />
+    <SubskillAttributesOnLevel Level="0" PowerLevel="0.0">
+      <SubskillAttribute Identifier="TAG-DAMAGE_ADD_MORALE" AttributeStringValue="+" AttributeFloatValue="10" />
+    </SubskillAttributesOnLevel>
+    <SubskillAttributesOnLevel Level="1" PowerLevel="0.0">
+      <SubskillAttribute Identifier="TAG-DAMAGE_ADD_MORALE" AttributeStringValue="+" AttributeFloatValue="10" />
+    </SubskillAttributesOnLevel>
+    <SubskillAttributesOnLevel Level="2" PowerLevel="0.0">
+      <SubskillAttribute Identifier="TAG-DAMAGE_ADD_MORALE" AttributeStringValue="+" AttributeFloatValue="10" />
+    </SubskillAttributesOnLevel>
+    <SubskillAttributesOnLevel Level="3" PowerLevel="0.0">
+      <SubskillAttribute Identifier="TAG-DAMAGE_ADD_MORALE" AttributeStringValue="+" AttributeFloatValue="10" />
+    </SubskillAttributesOnLevel>
+    <SubskillAttributesOnLevel Level="4" PowerLevel="0.0">
+      <SubskillAttribute Identifier="TAG-DAMAGE_ADD_MORALE" AttributeStringValue="+" AttributeFloatValue="10" />
+    </SubskillAttributesOnLevel>
+    <SubskillAttributesOnLevel Level="5" PowerLevel="0.0">
+      <SubskillAttribute Identifier="TAG-DAMAGE_ADD_MORALE" AttributeStringValue="+" AttributeFloatValue="10" />
+    </SubskillAttributesOnLevel>
+  </SUBSKILL-PERS_SERENO>
+  <SUBSKILL-PERS_VAIDOSO Delay="0.0" Animation="Hit15" Sound="SubskillAddAttribute">
+    <DescriptionInfo Name="DES_YM_PERS_VAIDOSO" Description="DES_YM_PERS_VAIDOSO_DES" IconName="SKILL_PERS_VAIDOSO" />
+    <ShortInfo TriggerIcon="TAG-TRIGGER_PASSIVE" DamageIcon="TAG-DAMAGE_ADD_LUCK" TargetIcon="TAG-TARGET_SELF" AttackInfo="{SCRIPT:SI_DefaultAttributeChange}" />
+    <Trigger Priority="10" RequiredToBeInFrontline="FALSE" RequiredToBeInBackline="FALSE">
+      <TriggerGroup Value="Passive" />
+      <TriggerScript ScriptName="" />
+    </Trigger>
+    <Targets>
+      <TargetScript ScriptName="Trg_Self" />
+      <TargetCountRange MinimumCount="1" MaximumCount="1" TargetIndication="Random" />
+    </Targets>
+    <Activation ScriptName="WAct_AttributeChange" />
+    <ChallengeType Value="TypePhysical" />
+    <SubskillAttributesOnLevel Level="0" PowerLevel="0.0">
+      <SubskillAttribute Identifier="TAG-DAMAGE_ADD_LUCK" AttributeStringValue="+" AttributeFloatValue="1" />
+    </SubskillAttributesOnLevel>
+    <SubskillAttributesOnLevel Level="1" PowerLevel="0.0">
+      <SubskillAttribute Identifier="TAG-DAMAGE_ADD_LUCK" AttributeStringValue="+" AttributeFloatValue="2" />
+    </SubskillAttributesOnLevel>
+    <SubskillAttributesOnLevel Level="2" PowerLevel="0.0">
+      <SubskillAttribute Identifier="TAG-DAMAGE_ADD_LUCK" AttributeStringValue="+" AttributeFloatValue="3" />
+    </SubskillAttributesOnLevel>
+    <SubskillAttributesOnLevel Level="3" PowerLevel="0.0">
+      <SubskillAttribute Identifier="TAG-DAMAGE_ADD_LUCK" AttributeStringValue="+" AttributeFloatValue="4" />
+    </SubskillAttributesOnLevel>
+    <SubskillAttributesOnLevel Level="4" PowerLevel="0.0">
+      <SubskillAttribute Identifier="TAG-DAMAGE_ADD_LUCK" AttributeStringValue="+" AttributeFloatValue="5" />
+    </SubskillAttributesOnLevel>
+    <SubskillAttributesOnLevel Level="5" PowerLevel="0.0">
+      <SubskillAttribute Identifier="TAG-DAMAGE_ADD_LUCK" AttributeStringValue="+" AttributeFloatValue="6" />
+    </SubskillAttributesOnLevel>
+  </SUBSKILL-PERS_VAIDOSO>
+
+  <!-- Passivas dos novos itens de equipamento -->
+  <SUBSKILL-YM_ITEM_ESPADA_RUNICA Delay="0.0" Animation="Hit15" Sound="SubskillAddAttribute">
+    <DescriptionInfo Name="DES_YM_ESPADA_RUNICA" Description="DES_YM_ESPADA_RUNICA_DES" IconName="YM_ESPADA_RUNICA_Icon" />
+    <ShortInfo TriggerIcon="TAG-TRIGGER_PASSIVE" DamageIcon="TAG-DAMAGE_ADD_ATT" TargetIcon="TAG-TARGET_SELF" AttackInfo="{SCRIPT:SI_DefaultAttributeChange}" />
+    <Trigger Priority="10" RequiredToBeInFrontline="FALSE" RequiredToBeInBackline="FALSE">
+      <TriggerGroup Value="Passive" />
+      <TriggerScript ScriptName="" />
+    </Trigger>
+    <Targets>
+      <TargetScript ScriptName="Trg_Self" />
+      <TargetCountRange MinimumCount="1" MaximumCount="1" TargetIndication="Random" />
+    </Targets>
+    <Activation ScriptName="WAct_AttributeChange" />
+    <ChallengeType Value="TypePhysical" />
+    <SubskillAttributesOnLevel Level="0" PowerLevel="0.0">
+      <SubskillAttribute Identifier="TAG-DAMAGE_ADD_ATT" AttributeStringValue="+" AttributeFloatValue="2" />
+      <SubskillAttribute Identifier="TAG-DAMAGE_ADD_MYSTICISM" AttributeStringValue="+" AttributeFloatValue="1" />
+    </SubskillAttributesOnLevel>
+    <SubskillAttributesOnLevel Level="1" PowerLevel="10.0">
+      <SubskillAttribute Identifier="TAG-DAMAGE_ADD_ATT" AttributeStringValue="+" AttributeFloatValue="3" />
+      <SubskillAttribute Identifier="TAG-DAMAGE_ADD_MYSTICISM" AttributeStringValue="+" AttributeFloatValue="2" />
+    </SubskillAttributesOnLevel>
+    <SubskillAttributesOnLevel Level="2" PowerLevel="30.0">
+      <SubskillAttribute Identifier="TAG-DAMAGE_ADD_ATT" AttributeStringValue="+" AttributeFloatValue="4" />
+      <SubskillAttribute Identifier="TAG-DAMAGE_ADD_MYSTICISM" AttributeStringValue="+" AttributeFloatValue="3" />
+    </SubskillAttributesOnLevel>
+    <SubskillAttributesOnLevel Level="3" PowerLevel="90.0">
+      <SubskillAttribute Identifier="TAG-DAMAGE_ADD_ATT" AttributeStringValue="+" AttributeFloatValue="5" />
+      <SubskillAttribute Identifier="TAG-DAMAGE_ADD_MYSTICISM" AttributeStringValue="+" AttributeFloatValue="4" />
+    </SubskillAttributesOnLevel>
+    <SubskillAttributesOnLevel Level="4" PowerLevel="250.0">
+      <SubskillAttribute Identifier="TAG-DAMAGE_ADD_ATT" AttributeStringValue="+" AttributeFloatValue="6" />
+      <SubskillAttribute Identifier="TAG-DAMAGE_ADD_MYSTICISM" AttributeStringValue="+" AttributeFloatValue="5" />
+    </SubskillAttributesOnLevel>
+    <SubskillAttributesOnLevel Level="5" PowerLevel="500.0">
+      <SubskillAttribute Identifier="TAG-DAMAGE_ADD_ATT" AttributeStringValue="+" AttributeFloatValue="8" />
+      <SubskillAttribute Identifier="TAG-DAMAGE_ADD_MYSTICISM" AttributeStringValue="+" AttributeFloatValue="6" />
+    </SubskillAttributesOnLevel>
+  </SUBSKILL-YM_ITEM_ESPADA_RUNICA>
+
+  <SUBSKILL-YM_ITEM_AMULETO_FORJA Delay="0.0" Animation="Hit15" Sound="SubskillAddAttribute">
+    <DescriptionInfo Name="DES_YM_AMULETO_FORJA" Description="DES_YM_AMULETO_FORJA_DES" IconName="YM_AMULETO_FORJA_Icon" />
+    <ShortInfo TriggerIcon="TAG-TRIGGER_PASSIVE" DamageIcon="TAG-DAMAGE_ADD_CRAFTING" TargetIcon="TAG-TARGET_SELF" AttackInfo="{SCRIPT:SI_DefaultAttributeChange}" />
+    <Trigger Priority="10" RequiredToBeInFrontline="FALSE" RequiredToBeInBackline="FALSE">
+      <TriggerGroup Value="Passive" />
+      <TriggerScript ScriptName="" />
+    </Trigger>
+    <Targets>
+      <TargetScript ScriptName="Trg_Self" />
+      <TargetCountRange MinimumCount="1" MaximumCount="1" TargetIndication="Random" />
+    </Targets>
+    <Activation ScriptName="WAct_AttributeChange" />
+    <ChallengeType Value="TypePhysical" />
+    <SubskillAttributesOnLevel Level="0" PowerLevel="0.0">
+      <SubskillAttribute Identifier="TAG-DAMAGE_ADD_CRAFTING" AttributeStringValue="+" AttributeFloatValue="2" />
+      <SubskillAttribute Identifier="TAG-DAMAGE_ADD_RITUALS" AttributeStringValue="+" AttributeFloatValue="1" />
+    </SubskillAttributesOnLevel>
+    <SubskillAttributesOnLevel Level="1" PowerLevel="10.0">
+      <SubskillAttribute Identifier="TAG-DAMAGE_ADD_CRAFTING" AttributeStringValue="+" AttributeFloatValue="3" />
+      <SubskillAttribute Identifier="TAG-DAMAGE_ADD_RITUALS" AttributeStringValue="+" AttributeFloatValue="2" />
+    </SubskillAttributesOnLevel>
+    <SubskillAttributesOnLevel Level="2" PowerLevel="30.0">
+      <SubskillAttribute Identifier="TAG-DAMAGE_ADD_CRAFTING" AttributeStringValue="+" AttributeFloatValue="4" />
+      <SubskillAttribute Identifier="TAG-DAMAGE_ADD_RITUALS" AttributeStringValue="+" AttributeFloatValue="3" />
+    </SubskillAttributesOnLevel>
+    <SubskillAttributesOnLevel Level="3" PowerLevel="90.0">
+      <SubskillAttribute Identifier="TAG-DAMAGE_ADD_CRAFTING" AttributeStringValue="+" AttributeFloatValue="5" />
+      <SubskillAttribute Identifier="TAG-DAMAGE_ADD_RITUALS" AttributeStringValue="+" AttributeFloatValue="4" />
+    </SubskillAttributesOnLevel>
+    <SubskillAttributesOnLevel Level="4" PowerLevel="250.0">
+      <SubskillAttribute Identifier="TAG-DAMAGE_ADD_CRAFTING" AttributeStringValue="+" AttributeFloatValue="6" />
+      <SubskillAttribute Identifier="TAG-DAMAGE_ADD_RITUALS" AttributeStringValue="+" AttributeFloatValue="5" />
+    </SubskillAttributesOnLevel>
+    <SubskillAttributesOnLevel Level="5" PowerLevel="500.0">
+      <SubskillAttribute Identifier="TAG-DAMAGE_ADD_CRAFTING" AttributeStringValue="+" AttributeFloatValue="8" />
+      <SubskillAttribute Identifier="TAG-DAMAGE_ADD_RITUALS" AttributeStringValue="+" AttributeFloatValue="6" />
+    </SubskillAttributesOnLevel>
+  </SUBSKILL-YM_ITEM_AMULETO_FORJA>
+
+  <SUBSKILL-YM_ITEM_BOTAS_ARGILA Delay="0.0" Animation="Hit15" Sound="SubskillAddAttribute">
+    <DescriptionInfo Name="DES_YM_BOTAS_ARGILA" Description="DES_YM_BOTAS_ARGILA_DES" IconName="YM_BOTAS_ARGILA_Icon" />
+    <ShortInfo TriggerIcon="TAG-TRIGGER_PASSIVE" DamageIcon="TAG-DAMAGE_ADD_MOVEMENT_POINTS" TargetIcon="TAG-TARGET_SELF" AttackInfo="{SCRIPT:SI_DefaultAttributeChange}" />
+    <Trigger Priority="10" RequiredToBeInFrontline="FALSE" RequiredToBeInBackline="FALSE">
+      <TriggerGroup Value="Passive" />
+      <TriggerScript ScriptName="" />
+    </Trigger>
+    <Targets>
+      <TargetScript ScriptName="Trg_Self" />
+      <TargetCountRange MinimumCount="1" MaximumCount="1" TargetIndication="Random" />
+    </Targets>
+    <Activation ScriptName="WAct_AttributeChange" />
+    <ChallengeType Value="TypePhysical" />
+    <SubskillAttributesOnLevel Level="0" PowerLevel="0.0">
+      <SubskillAttribute Identifier="TAG-DAMAGE_ADD_MOVEMENT_POINTS" AttributeStringValue="+" AttributeFloatValue="1" />
+      <SubskillAttribute Identifier="TAG-DAMAGE_ADD_GROUP_CARRY" AttributeStringValue="+" AttributeFloatValue="5" />
+    </SubskillAttributesOnLevel>
+    <SubskillAttributesOnLevel Level="1" PowerLevel="10.0">
+      <SubskillAttribute Identifier="TAG-DAMAGE_ADD_MOVEMENT_POINTS" AttributeStringValue="+" AttributeFloatValue="2" />
+      <SubskillAttribute Identifier="TAG-DAMAGE_ADD_GROUP_CARRY" AttributeStringValue="+" AttributeFloatValue="10" />
+    </SubskillAttributesOnLevel>
+    <SubskillAttributesOnLevel Level="2" PowerLevel="30.0">
+      <SubskillAttribute Identifier="TAG-DAMAGE_ADD_MOVEMENT_POINTS" AttributeStringValue="+" AttributeFloatValue="3" />
+      <SubskillAttribute Identifier="TAG-DAMAGE_ADD_GROUP_CARRY" AttributeStringValue="+" AttributeFloatValue="15" />
+    </SubskillAttributesOnLevel>
+    <SubskillAttributesOnLevel Level="3" PowerLevel="90.0">
+      <SubskillAttribute Identifier="TAG-DAMAGE_ADD_MOVEMENT_POINTS" AttributeStringValue="+" AttributeFloatValue="4" />
+      <SubskillAttribute Identifier="TAG-DAMAGE_ADD_GROUP_CARRY" AttributeStringValue="+" AttributeFloatValue="20" />
+    </SubskillAttributesOnLevel>
+    <SubskillAttributesOnLevel Level="4" PowerLevel="250.0">
+      <SubskillAttribute Identifier="TAG-DAMAGE_ADD_MOVEMENT_POINTS" AttributeStringValue="+" AttributeFloatValue="5" />
+      <SubskillAttribute Identifier="TAG-DAMAGE_ADD_GROUP_CARRY" AttributeStringValue="+" AttributeFloatValue="25" />
+    </SubskillAttributesOnLevel>
+    <SubskillAttributesOnLevel Level="5" PowerLevel="500.0">
+      <SubskillAttribute Identifier="TAG-DAMAGE_ADD_MOVEMENT_POINTS" AttributeStringValue="+" AttributeFloatValue="6" />
+      <SubskillAttribute Identifier="TAG-DAMAGE_ADD_GROUP_CARRY" AttributeStringValue="+" AttributeFloatValue="30" />
+    </SubskillAttributesOnLevel>
+  </SUBSKILL-YM_ITEM_BOTAS_ARGILA>
+
+  <!-- Sanidade (Sanity) - Mecânica de corrupção mental -->
+
+  <SUBSKILL-YM_SANIDADE_RECOVER Delay="0.0" Animation="Hit15" Sound="SubskillAddAttribute">
+    <DescriptionInfo Name="DES_YM_SANIDADE_RECOVER" Description="DES_YM_SANIDADE_RECOVER_DES" IconName="SKILL_YURI_FORJA_VIVA" />
+    <ShortInfo TriggerIcon="TAG-TRIGGER_PASSIVE" DamageIcon="TAG-DAMAGE_ADD_MYSTICISM" TargetIcon="TAG-TARGET_SELF" AttackInfo="{SCRIPT:SI_DefaultAttributeChange}" />
+    <Trigger Priority="10" RequiredToBeInFrontline="FALSE" RequiredToBeInBackline="FALSE">
+      <TriggerGroup Value="Passive" />
+      <TriggerScript ScriptName="" />
+    </Trigger>
+    <Targets>
+      <TargetScript ScriptName="Trg_Self" />
+      <TargetCountRange MinimumCount="1" MaximumCount="1" TargetIndication="Random" />
+    </Targets>
+    <Activation ScriptName="WAct_AttributeChange" />
+    <ChallengeType Value="TypeSpirit" />
+    <SubskillAttributesOnLevel Level="0" PowerLevel="0.0">
+      <SubskillAttribute Identifier="TAG-DAMAGE_ADD_MYSTICISM" AttributeStringValue="+" AttributeFloatValue="1" />
+      <SubskillAttribute Identifier="TAG-DAMAGE_ADD_WISDOM" AttributeStringValue="+" AttributeFloatValue="1" />
+    </SubskillAttributesOnLevel>
+    <SubskillAttributesOnLevel Level="1" PowerLevel="10.0">
+      <SubskillAttribute Identifier="TAG-DAMAGE_ADD_MYSTICISM" AttributeStringValue="+" AttributeFloatValue="2" />
+      <SubskillAttribute Identifier="TAG-DAMAGE_ADD_WISDOM" AttributeStringValue="+" AttributeFloatValue="2" />
+    </SubskillAttributesOnLevel>
+    <SubskillAttributesOnLevel Level="2" PowerLevel="30.0">
+      <SubskillAttribute Identifier="TAG-DAMAGE_ADD_MYSTICISM" AttributeStringValue="+" AttributeFloatValue="3" />
+      <SubskillAttribute Identifier="TAG-DAMAGE_ADD_WISDOM" AttributeStringValue="+" AttributeFloatValue="3" />
+    </SubskillAttributesOnLevel>
+    <SubskillAttributesOnLevel Level="3" PowerLevel="90.0">
+      <SubskillAttribute Identifier="TAG-DAMAGE_ADD_MYSTICISM" AttributeStringValue="+" AttributeFloatValue="4" />
+      <SubskillAttribute Identifier="TAG-DAMAGE_ADD_WISDOM" AttributeStringValue="+" AttributeFloatValue="4" />
+    </SubskillAttributesOnLevel>
+    <SubskillAttributesOnLevel Level="4" PowerLevel="250.0">
+      <SubskillAttribute Identifier="TAG-DAMAGE_ADD_MYSTICISM" AttributeStringValue="+" AttributeFloatValue="5" />
+      <SubskillAttribute Identifier="TAG-DAMAGE_ADD_WISDOM" AttributeStringValue="+" AttributeFloatValue="5" />
+    </SubskillAttributesOnLevel>
+    <SubskillAttributesOnLevel Level="5" PowerLevel="500.0">
+      <SubskillAttribute Identifier="TAG-DAMAGE_ADD_MYSTICISM" AttributeStringValue="+" AttributeFloatValue="6" />
+      <SubskillAttribute Identifier="TAG-DAMAGE_ADD_WISDOM" AttributeStringValue="+" AttributeFloatValue="6" />
+    </SubskillAttributesOnLevel>
+  </SUBSKILL-YM_SANIDADE_RECOVER>
+  <SUBSKILL-YM_KAGURA_TECNICA Delay="0.0" Animation="Inspire2" Sound="SubskillInspire">
+    <DescriptionInfo Name="DES_YM_KAGURA_TECNICA" Description="DES_YM_KAGURA_TECNICA_DES" IconName="YM_Kagura_Icon" />
+    <ShortInfo TriggerIcon="TAG-TRIGGER_ON_CARD_SELF_PLAY" DamageIcon="TAG-DAMAGE_INSPIRE" TargetIcon="TAG-TARGET_RANDOM_ALLIES2" AttackInfo="{SCRIPT:SI_Inspire}" />
+    <Trigger Priority="0" RequiredToBeInFrontline="FALSE" RequiredToBeInBackline="FALSE">
+      <TriggerGroup Value="OnCardPlay" />
+      <TriggerScript ScriptName="Tri_OnOwnEnterBf" />
+    </Trigger>
+    <Targets>
+      <TargetScript ScriptName="Trg_FriendlyTarget" />
+      <TargetCountRange MinimumCount="1" MaximumCount="2" TargetIndication="Random" />
+    </Targets>
+    <Activation ScriptName="Act_InspireEffect" />
+    <ChallengeType Value="TypeMental" />
+    <ChallengeType Value="TypeSpirit" />
+    <SubskillAttributesOnLevel Level="0" PowerLevel="0.0">
+      <MainAtt Amount="0.0" Tag="TAG-MYSTICISM" />
+      <SubskillAttribute Identifier="InspirePower" AttributeFloatValue="0.0" />
+      <SubskillAttribute Identifier="InspireSpeed" AttributeFloatValue="0.0" />
+    </SubskillAttributesOnLevel>
+    <SubskillAttributesOnLevel Level="1" PowerLevel="4.0">
+      <MainAtt Amount="1.0" Tag="TAG-MYSTICISM" />
+      <SubskillAttribute Identifier="InspirePower" AttributeFloatValue="1.0" />
+      <SubskillAttribute Identifier="InspireSpeed" AttributeFloatValue="2.0" />
+    </SubskillAttributesOnLevel>
+    <SubskillAttributesOnLevel Level="2" PowerLevel="8.0">
+      <MainAtt Amount="1.2" Tag="TAG-MYSTICISM" />
+      <SubskillAttribute Identifier="InspirePower" AttributeFloatValue="1.0" />
+      <SubskillAttribute Identifier="InspireSpeed" AttributeFloatValue="2.5" />
+    </SubskillAttributesOnLevel>
+    <SubskillAttributesOnLevel Level="3" PowerLevel="16.0">
+      <MainAtt Amount="1.4" Tag="TAG-MYSTICISM" />
+      <SubskillAttribute Identifier="InspirePower" AttributeFloatValue="1.0" />
+      <SubskillAttribute Identifier="InspireSpeed" AttributeFloatValue="3.0" />
+    </SubskillAttributesOnLevel>
+    <SubskillAttributesOnLevel Level="4" PowerLevel="30.0">
+      <MainAtt Amount="1.6" Tag="TAG-MYSTICISM" />
+      <SubskillAttribute Identifier="InspirePower" AttributeFloatValue="1.0" />
+      <SubskillAttribute Identifier="InspireSpeed" AttributeFloatValue="4.0" />
+    </SubskillAttributesOnLevel>
+    <SubskillAttributesOnLevel Level="5" PowerLevel="120.0">
+      <MainAtt Amount="2.0" Tag="TAG-MYSTICISM" />
+      <SubskillAttribute Identifier="InspirePower" AttributeFloatValue="1.0" />
+      <SubskillAttribute Identifier="InspireSpeed" AttributeFloatValue="5.0" />
+    </SubskillAttributesOnLevel>
+  </SUBSKILL-YM_KAGURA_TECNICA>
+  <SUBSKILL-YM_KOMAINU_TECNICA Delay="0.0" Animation="ShieldBonus" Sound="SubskillAddShielding">
+    <DescriptionInfo Name="DES_YM_KOMAINU_TECNICA" Description="DES_YM_KOMAINU_TECNICA_DES" IconName="YM_Komainu_Icon" />
+    <ShortInfo TriggerIcon="TAG-TRIGGER_DO_CAST_INSTANT" DamageIcon="TAG-DAMAGE_SHIELD" TargetIcon="TAG-TARGET_SELECTED_ALLIES" AttackInfo="{SCRIPT:SI_DefaultAttributeTrioChange}" />
+    <Trigger Priority="0" RequiredToBeInFrontline="TRUE" RequiredToBeInBackline="FALSE">
+      <TriggerGroup Value="DoCastInstant" />
+      <TriggerScript ScriptName="" />
+    </Trigger>
+    <Targets>
+      <TargetScript ScriptName="Trg_FriendlyTarget" />
+      <TargetCountRange MinimumCount="1" MaximumCount="2" TargetIndication="Chosen" />
+    </Targets>
+    <Activation ScriptName="Act_AddShielding" />
+    <ChallengeType Value="TypeSpirit" />
+    <SubskillAttributesOnLevel Level="0" PowerLevel="0.0">
+      <SubskillAttribute Identifier="TAG-SHIELDING_SPIRIT" AttributeStringValue="+" AttributeFloatValue="0" />
+    </SubskillAttributesOnLevel>
+    <SubskillAttributesOnLevel Level="1" PowerLevel="0.0">
+      <SubskillAttribute Identifier="TAG-SHIELDING_SPIRIT" AttributeStringValue="+" AttributeFloatValue="3" />
+    </SubskillAttributesOnLevel>
+    <SubskillAttributesOnLevel Level="2" PowerLevel="4.0">
+      <SubskillAttribute Identifier="TAG-SHIELDING_SPIRIT" AttributeStringValue="+" AttributeFloatValue="5" />
+    </SubskillAttributesOnLevel>
+    <SubskillAttributesOnLevel Level="3" PowerLevel="14.0">
+      <SubskillAttribute Identifier="TAG-SHIELDING_SPIRIT" AttributeStringValue="+" AttributeFloatValue="7" />
+    </SubskillAttributesOnLevel>
+    <SubskillAttributesOnLevel Level="4" PowerLevel="29.0">
+      <SubskillAttribute Identifier="TAG-SHIELDING_SPIRIT" AttributeStringValue="+" AttributeFloatValue="9" />
+    </SubskillAttributesOnLevel>
+    <SubskillAttributesOnLevel Level="5" PowerLevel="59.0">
+      <SubskillAttribute Identifier="TAG-SHIELDING_SPIRIT" AttributeStringValue="+" AttributeFloatValue="11" />
+    </SubskillAttributesOnLevel>
+  </SUBSKILL-YM_KOMAINU_TECNICA>
+</SUBSKILLS_CHALLENGES>

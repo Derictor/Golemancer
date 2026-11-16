@@ -1,0 +1,164 @@
+<ModInfo Name="Golemancer — A Forja Viva" Graphic="Golemancer_Capa.jpg" Visibility="0">
+  <IMAGE Name="YURI_Yuri_Portrait" Model="HumanInventorM01" Path="Images/Interface/YM_Mizuki.png" Path2="Images/Interface/Roster/YM_Mizuki.png" MemoryStorage="true" TagMode="false" EventImage="false" />
+  <IMAGE Name="YURI_Yuri_Card" Path="Images/Interface/YM_Mizuki.png" MemoryStorage="true" TagMode="false" EventImage="false" />
+  <IMAGE Name="YURI_Yuri_Classe" Path="Images/Interface/Classe/YURI_Yuri_Classe.png" MemoryStorage="true" TagMode="false" EventImage="false" />
+  <IMAGE Name="GOLEM_CHOQUE_Roster" Path="Images/Interface/Roster/GOLEM_CHOQUE_Roster.png" MemoryStorage="true" TagMode="false" EventImage="false" />
+  <IMAGE Name="GOLEM_CASCALHO_Roster" Path="Images/Interface/Roster/GOLEM_CASCALHO_Roster.png" MemoryStorage="true" TagMode="false" EventImage="false" />
+  <IMAGE Name="GOLEM_GALHO_Roster" Path="Images/Interface/Roster/GOLEM_GALHO_Roster.png" MemoryStorage="true" TagMode="false" EventImage="false" />
+  <IMAGE Name="GOLEM_LAMPEJO_Roster" Path="Images/Interface/Roster/GOLEM_LAMPEJO_Roster.png" MemoryStorage="true" TagMode="false" EventImage="false" />
+  <IMAGE Name="GOLEM_MASSA_Roster" Path="Images/Interface/Roster/GOLEM_MASSA_Roster.png" MemoryStorage="true" TagMode="false" EventImage="false" />
+  <IMAGE Name="GOLEM_SEIXO_Roster" Path="Images/Interface/Roster/GOLEM_SEIXO_Roster.png" MemoryStorage="true" TagMode="false" EventImage="false" />
+  <IMAGE Name="GOLEM_FERRO_VIDO_Roster" Path="Images/Interface/Roster/GOLEM_FERRO_VIDO_Roster.png" MemoryStorage="true" TagMode="false" EventImage="false" />
+  <IMAGE Name="GOLEM_RAIZ_Roster" Path="Images/Interface/Roster/GOLEM_RAIZ_Roster.png" MemoryStorage="true" TagMode="false" EventImage="false" />
+  <IMAGE Name="GOLEM_OSSADA_Roster" Path="Images/Interface/Roster/GOLEM_OSSADA_Roster.png" MemoryStorage="true" TagMode="false" EventImage="false" />
+  <IMAGE Name="GOLEM_CRISTAL_Roster" Path="Images/Interface/Roster/GOLEM_CRISTAL_Roster.png" MemoryStorage="true" TagMode="false" EventImage="false" />
+  <IMAGE Name="GOLEM_PAO_DO_CAMPO_Roster" Path="Images/Interface/Roster/GOLEM_PAO_DO_CAMPO_Roster.png" MemoryStorage="true" TagMode="false" EventImage="false" />
+  <IMAGE Name="GOLEM_MURALHA_Roster" Path="Images/Interface/Roster/GOLEM_MURALHA_Roster.png" MemoryStorage="true" TagMode="false" EventImage="false" />
+  <IMAGE Name="GOLEM_VIUVA_Roster" Path="Images/Interface/Roster/GOLEM_VIUVA_Roster.png" MemoryStorage="true" TagMode="false" EventImage="false" />
+  <IMAGE Name="GOLEM_VEJO_Roster" Path="Images/Interface/Roster/GOLEM_VEJO_Roster.png" MemoryStorage="true" TagMode="false" EventImage="false" />
+  <IMAGE Name="GOLEM_AGULHA_Roster" Path="Images/Interface/Roster/GOLEM_AGULHA_Roster.png" MemoryStorage="true" TagMode="false" EventImage="false" />
+  <IMAGE Name="GOLEM_FERREIRO_Roster" Path="Images/Interface/Roster/GOLEM_FERREIRO_Roster.png" MemoryStorage="true" TagMode="false" EventImage="false" />
+  <IMAGE Name="GOLEM_GUARDAO_DA_MINA_Roster" Path="Images/Interface/Cards/GOLEM_GUARDAO_DA_MINA_Mizuki.png" MemoryStorage="true" TagMode="false" EventImage="false" Path2="Images/Interface/Roster/GOLEM_GUARDAO_DA_MINA_Mizuki.png" />
+  <IMAGE Name="GOLEM_DRAGAO_OSSO_Roster" Path="Images/Interface/Roster/GOLEM_DRAGAO_OSSO_Roster.png" MemoryStorage="true" TagMode="false" EventImage="false" />
+  <IMAGE Name="GOLEM_CEVA_Roster" Path="Images/Interface/Roster/GOLEM_CEVA_Roster.png" MemoryStorage="true" TagMode="false" EventImage="false" />
+  <IMAGE Name="GOLEM_CINZEL_Roster" Path="Images/Interface/Cards/GOLEM_CINZEL_Mizuki.png" MemoryStorage="true" TagMode="false" EventImage="false" Path2="Images/Interface/Roster/GOLEM_CINZEL_Mizuki.png" />
+  <IMAGE Name="GOLEM_OBSIDIANA_Roster" Path="Images/Interface/Roster/GOLEM_OBSIDIANA_Roster.png" MemoryStorage="true" TagMode="false" EventImage="false" />
+  <IMAGE Name="GOLEM_SANGUE_Roster" Path="Images/Interface/Roster/GOLEM_SANGUE_Roster.png" MemoryStorage="true" TagMode="false" EventImage="false" />
+  <IMAGE Name="GOLEM_NEBULINA_Roster" Path="Images/Interface/Roster/GOLEM_NEBULINA_Roster.png" MemoryStorage="true" TagMode="false" EventImage="false" />
+  <IMAGE Name="GOLEM_FUNGO_Roster" Path="Images/Interface/Roster/GOLEM_FUNGO_Roster.png" MemoryStorage="true" TagMode="false" EventImage="false" />
+  <IMAGE Name="GOLEM_RELIQUIA_Roster" Path="Images/Interface/Cards/GOLEM_RELIQUIA_Mizuki.png" MemoryStorage="true" TagMode="false" EventImage="false" Path2="Images/Interface/Roster/GOLEM_RELIQUIA_Mizuki.png" />
+  <IMAGE Name="HALF_OBSIDIANA_Roster" Path="Images/Interface/Roster/HALF_OBSIDIANA_Roster.png" MemoryStorage="true" TagMode="false" EventImage="false" />
+  <IMAGE Name="HALF_NEBULINA_Roster" Path="Images/Interface/Roster/HALF_NEBULINA_Roster.png" MemoryStorage="true" TagMode="false" EventImage="false" />
+  <IMAGE Name="HALF_OBSIDIANA_Classe" Path="Images/Interface/Classe/HALF_OBSIDIANA_Classe.png" MemoryStorage="true" TagMode="false" EventImage="false" />
+  <IMAGE Name="HALF_NEBULINA_Classe" Path="Images/Interface/Classe/HALF_NEBULINA_Classe.png" MemoryStorage="true" TagMode="false" EventImage="false" />
+  <IMAGE Name="ITEM_ESPADA_RUNICA" Path="Images/Interface/Items/ITEM_ESPADA_RUNICA.png" MemoryStorage="true" TagMode="false" EventImage="false" />
+  <IMAGE Name="ITEM_AMULETO_FORJA" Path="Images/Interface/Items/ITEM_AMULETO_FORJA.png" MemoryStorage="true" TagMode="false" EventImage="false" />
+  <IMAGE Name="ITEM_BOTAS_ARGILA" Path="Images/Interface/Items/ITEM_BOTAS_ARGILA.png" MemoryStorage="true" TagMode="false" EventImage="false" />
+  <IMAGE Name="SKILL_YM_ITEM_ESPADA_RUNICA" Path="Images/Interface/Skills/SKILL_YM_ITEM_ESPADA_RUNICA.png" MemoryStorage="true" TagMode="false" EventImage="false" />
+  <IMAGE Name="SKILL_YM_ITEM_AMULETO_FORJA" Path="Images/Interface/Skills/SKILL_YM_ITEM_AMULETO_FORJA.png" MemoryStorage="true" TagMode="false" EventImage="false" />
+  <IMAGE Name="SKILL_YM_ITEM_BOTAS_ARGILA" Path="Images/Interface/Skills/SKILL_YM_ITEM_BOTAS_ARGILA.png" MemoryStorage="true" TagMode="false" EventImage="false" />
+  <IMAGE Name="SKILL_YM_SANIDADE_LOSS" Path="Images/Interface/Skills/SKILL_YM_SANIDADE_LOSS.png" MemoryStorage="true" TagMode="false" EventImage="false" />
+  <IMAGE Name="SKILL_YM_SANIDADE_RECOVER" Path="Images/Interface/Skills/SKILL_YM_SANIDADE_RECOVER.png" MemoryStorage="true" TagMode="false" EventImage="false" />
+  <IMAGE Name="GOLEM_OBSIDIANA_Card" Path="Images/Interface/Cards/GOLEM_OBSIDIANA_Card.png" MemoryStorage="true" TagMode="false" EventImage="false" />
+  <IMAGE Name="GOLEM_SANGUE_Card" Path="Images/Interface/Cards/GOLEM_SANGUE_Card.png" MemoryStorage="true" TagMode="false" EventImage="false" />
+  <IMAGE Name="GOLEM_NEBULINA_Card" Path="Images/Interface/Cards/GOLEM_NEBULINA_Card.png" MemoryStorage="true" TagMode="false" EventImage="false" />
+  <IMAGE Name="GOLEM_FUNGO_Card" Path="Images/Interface/Cards/GOLEM_FUNGO_Card.png" MemoryStorage="true" TagMode="false" EventImage="false" />
+  <IMAGE Name="GOLEM_RELIQUIA_Card" Path="Images/Interface/Cards/GOLEM_RELIQUIA_Mizuki.png" MemoryStorage="true" TagMode="false" EventImage="false" />
+  <IMAGE Name="EV_A_OFICINA_NO_VALE" Path="Images/Interface/Events/EV_A_OFICINA_NO_VALE_Vertical.png" MemoryStorage="false" TagMode="false" EventImage="true" />
+  <IMAGE Name="EV_A_FORJA_VIVA" Path="Images/Interface/Events/EV_A_FORJA_VIVA_Vertical.png" MemoryStorage="false" TagMode="false" EventImage="true" />
+  <IMAGE Name="EV_SOPRO_DE_ARGILA" Path="Images/Interface/Events/EV_SOPRO_DE_ARGILA_Vertical.png" MemoryStorage="false" TagMode="false" EventImage="true" />
+  <IMAGE Name="EV_BATISMO" Path="Images/Interface/Events/EV_BATISMO_Vertical.png" MemoryStorage="false" TagMode="false" EventImage="true" />
+  <IMAGE Name="EV_FILHO_SEM_NOME" Path="Images/Interface/Events/EV_FILHO_SEM_NOME_Vertical.png" MemoryStorage="false" TagMode="false" EventImage="true" />
+  <IMAGE Name="EV_FERRAMENTA_ENGOLIU" Path="Images/Interface/Events/EV_FERRAMENTA_ENGOLIU_Vertical.png" MemoryStorage="false" TagMode="false" EventImage="true" />
+  <IMAGE Name="EV_PESO_DO_PAO" Path="Images/Interface/Events/EV_PESO_DO_PAO_Vertical.png" MemoryStorage="false" TagMode="false" EventImage="true" />
+  <IMAGE Name="EV_CEVA_CHORA" Path="Images/Interface/Events/EV_CEVA_CHORA_Vertical.png" MemoryStorage="false" TagMode="false" EventImage="true" />
+  <IMAGE Name="EV_PEDIDO_DO_CINZEL" Path="Images/Interface/Events/EV_PEDIDO_DO_CINZEL_Vertical.png" MemoryStorage="false" TagMode="false" EventImage="true" />
+  <IMAGE Name="SKILL_YURI_FORJA_VIVA" Path="Images/Interface/Skills/SKILL_YURI_FORJA_VIVA.png" MemoryStorage="true" TagMode="false" EventImage="false" />
+  <IMAGE Name="SKILL_YURI_FORNAR" Path="Images/Interface/Skills/SKILL_YURI_FORNAR.png" MemoryStorage="true" TagMode="false" EventImage="false" />
+  <IMAGE Name="SKILL_YURI_BATISMO" Path="Images/Interface/Skills/SKILL_YURI_BATISMO.png" MemoryStorage="true" TagMode="false" EventImage="false" />
+  <IMAGE Name="SKILL_YURI_APRENDIZ" Path="Images/Interface/Skills/SKILL_YURI_APRENDIZ.png" MemoryStorage="true" TagMode="false" EventImage="false" />
+  <IMAGE Name="SKILL_GOLEM_ESCUDO" Path="Images/Interface/Skills/SKILL_GOLEM_ESCUDO.png" MemoryStorage="true" TagMode="false" EventImage="false" />
+  <IMAGE Name="SKILL_GOLEM_PUNHO" Path="Images/Interface/Skills/SKILL_GOLEM_PUNHO.png" MemoryStorage="true" TagMode="false" EventImage="false" />
+  <IMAGE Name="SKILL_GOLEM_ECO" Path="Images/Interface/Skills/SKILL_GOLEM_ECO.png" MemoryStorage="true" TagMode="false" EventImage="false" />
+  <IMAGE Name="SKILL_GOLEM_CURA" Path="Images/Interface/Skills/SKILL_GOLEM_CURA.png" MemoryStorage="true" TagMode="false" EventImage="false" />
+  <IMAGE Name="SKILL_GOLEM_LUTO" Path="Images/Interface/Skills/SKILL_GOLEM_LUTO.png" MemoryStorage="true" TagMode="false" EventImage="false" />
+  <IMAGE Name="SKILL_GOLEM_VAZIO" Path="Images/Interface/Skills/SKILL_GOLEM_VAZIO.png" MemoryStorage="true" TagMode="false" EventImage="false" />
+  <IMAGE Name="SKILL_GOLEM_RAIZ" Path="Images/Interface/Skills/SKILL_GOLEM_RAIZ.png" MemoryStorage="true" TagMode="false" EventImage="false" />
+  <IMAGE Name="SKILL_GOLEM_MURALHA" Path="Images/Interface/Skills/SKILL_GOLEM_MURALHA.png" MemoryStorage="true" TagMode="false" EventImage="false" />
+  <IMAGE Name="SKILL_GOLEM_FERREIRO" Path="Images/Interface/Skills/SKILL_GOLEM_FERREIRO.png" MemoryStorage="true" TagMode="false" EventImage="false" />
+  <IMAGE Name="SKILL_GOLEM_ESTALO" Path="Images/Interface/Skills/SKILL_GOLEM_ESTALO.png" MemoryStorage="true" TagMode="false" EventImage="false" />
+  <IMAGE Name="SKILL_GOLEM_ARGILA" Path="Images/Interface/Skills/SKILL_GOLEM_ARGILA.png" MemoryStorage="true" TagMode="false" EventImage="false" />
+  <IMAGE Name="SKILL_GOLEM_BRASA" Path="Images/Interface/Skills/SKILL_GOLEM_BRASA.png" MemoryStorage="true" TagMode="false" EventImage="false" />
+  <IMAGE Name="SKILL_PERS_LEAL" Path="Images/Interface/Skills/SKILL_PERS_LEAL.png" MemoryStorage="true" TagMode="false" EventImage="false" />
+  <IMAGE Name="SKILL_PERS_AGRESSIVO" Path="Images/Interface/Skills/SKILL_PERS_AGRESSIVO.png" MemoryStorage="true" TagMode="false" EventImage="false" />
+  <IMAGE Name="SKILL_PERS_SERENO" Path="Images/Interface/Skills/SKILL_PERS_SERENO.png" MemoryStorage="true" TagMode="false" EventImage="false" />
+  <IMAGE Name="SKILL_PERS_VAIDOSO" Path="Images/Interface/Skills/SKILL_PERS_VAIDOSO.png" MemoryStorage="true" TagMode="false" EventImage="false" />
+  <IMAGE Name="ITEM_LAMINA_FORJA" Path="Images/Interface/Items/ITEM_LAMINA_FORJA.png" MemoryStorage="true" TagMode="false" EventImage="false" />
+  <IMAGE Name="ITEM_MARTELO_MESTRE" Path="Images/Interface/Items/ITEM_MARTELO_MESTRE.png" MemoryStorage="true" TagMode="false" EventImage="false" />
+  <IMAGE Name="ITEM_MALHA_COTA" Path="Images/Interface/Items/ITEM_MALHA_COTA.png" MemoryStorage="true" TagMode="false" EventImage="false" />
+  <IMAGE Name="ITEM_ESCUDO_PEDRA" Path="Images/Interface/Items/ITEM_ESCUDO_PEDRA.png" MemoryStorage="true" TagMode="false" EventImage="false" />
+  <IMAGE Name="ITEM_ALVO_AMBER" Path="Images/Interface/Items/ITEM_ALVO_AMBER.png" MemoryStorage="true" TagMode="false" EventImage="false" />
+  <IMAGE Name="ITEM_PAO_VIVO" Path="Images/Interface/Items/ITEM_PAO_VIVO.png" MemoryStorage="true" TagMode="false" EventImage="false" />
+  <IMAGE Name="ITEM_ERVA_FORJA" Path="Images/Interface/Items/ITEM_ERVA_FORJA.png" MemoryStorage="true" TagMode="false" EventImage="false" />
+  <IMAGE Name="ITEM_ARMADILHA_LAMBRI" Path="Images/Interface/Items/ITEM_ARMADILHA_LAMBRI.png" MemoryStorage="true" TagMode="false" EventImage="false" />
+  <IMAGE Name="ITEM_PINGENTE_NOME" Path="Images/Interface/Items/ITEM_PINGENTE_NOME.png" MemoryStorage="true" TagMode="false" EventImage="false" />
+  <IMAGE Name="SC_YURI_ENSINA" Path="Images/Interface/Scenes/SC_YURI_ENSINA.png" MemoryStorage="false" TagMode="false" EventImage="true" />
+  <IMAGE Name="SC_FORJA_GOLEM" Path="Images/Interface/Scenes/SC_FORJA_GOLEM.png" MemoryStorage="false" TagMode="false" EventImage="true" />
+  <IMAGE Name="SC_BATISMO_D100" Path="Images/Interface/Scenes/SC_BATISMO_D100.png" MemoryStorage="false" TagMode="false" EventImage="true" />
+  <IMAGE Name="SC_HALFS" Path="Images/Interface/Scenes/SC_HALFS.png" MemoryStorage="false" TagMode="false" EventImage="true" />
+  <IMAGE Name="YURI_HALF_ARGILA_Roster" Path="Images/Interface/Roster/YURI_HALF_ARGILA_Roster.png" MemoryStorage="true" TagMode="false" EventImage="false" />
+  <IMAGE Name="YURI_HALF_BRASA_Roster" Path="Images/Interface/Roster/YURI_HALF_BRASA_Roster.png" MemoryStorage="true" TagMode="false" EventImage="false" />
+  <IMAGE Name="HALF_ARGILA_Classe" Path="Images/Interface/Classe/HALF_ARGILA_Classe.png" MemoryStorage="true" TagMode="false" EventImage="false" />
+  <IMAGE Name="HALF_BRASA_Classe" Path="Images/Interface/Classe/HALF_BRASA_Classe.png" MemoryStorage="true" TagMode="false" EventImage="false" />
+  <DB>DATABASE_YM_FORJA_VIVA_RECIPES_BUILDINGS.xml</DB>
+  <DB>DATABASE_YM_FORJA_VIVA_RECIPES_RITUALS.xml</DB>
+  <DB>DATABASE_YM_FORJA_VIVA_SKILLS_BUILDINGS.xml</DB>
+  <DB>DATABASE_YM_FORJA_VIVA_SKILLS_PACKS.xml</DB>
+  <DB>DATABASE_YM_FORJA_VIVA_SUBSKILLS_BUILDINGS.xml</DB>
+  <DB>DATABASE_YM_FORJA_VIVA_TAGS.xml</DB>
+  <DB>DATABASE_YM_FORJA_VIVA_TECH_BUILDING_RITUALS.xml</DB>
+  <DB>DATABASE_TAGS_QUEST.xml</DB>
+  <DB>DATABASE_DES_NAMES.xml</DB>
+  <DB>DATABASE_DES_LOCALIZATION.xml</DB>
+  <DB>DATABASE_YM_RACES.xml</DB>
+  <DB>DATABASE_YM_LINEAGE_SUBSKILLS.xml</DB>
+  <DB>DATABASE_SUBRACE.xml</DB>
+  <DB>DATABASE_SKILLS_1_NATURAL.xml</DB>
+  <DB>DATABASE_SKILLS_PACKS.xml</DB>
+  <DB>DATABASE_SUBSKILLS_CHALLENGES_SUPPORT.xml</DB>
+  <DB>DATABASE_SUBSKILLS_CHALLENGES_OFFENCE.xml</DB>
+  <DB>DATABASE_SUBSKILLS_CHALLENGES_DEFENCE.xml</DB>
+  <DB>DATABASE_ITEMS_CARGOS.xml</DB>
+  <DB>DATABASE_TRAIT_CARDS.xml</DB>
+  <DB>DATABASE_RECIPES_ITEMS.xml</DB>
+  <DB>DATABASE_TECH_ITEM.xml</DB>
+  <SCRIPT>YM_UniqueRecruitment.cs</SCRIPT>
+  <SCRIPT>YM_ForjarProle.cs</SCRIPT>
+  <SCRIPT>YM_ShrineKinship.cs</SCRIPT>
+  <STORY_MODULE>YM_ForjaViva.xml</STORY_MODULE>
+  <TAG>Characters</TAG>
+Yuri Mizuki tem mais paciência para ensinar argila a andar do que para discutir com gente.
+
+O QUE O MOD ADICIONA
+- Yuri Mizuki como personagem recrutável e 30 variedades de golens.
+- Familiares equipáveis e três guardiões de elite que entram como personagens. Forje seus núcleos raros para despertá-los com Yuri.
+- Eventos para resgatar Seixo e reparar golens feridos na expedição.
+- Linhagens Golem e Meio-Golem transmitem traços à descendência. Jovens aptos podem aprender a classe Geomancer.
+  <IMAGE Name="YM_Daisho_Icon" Path="Images/Interface/Skills/YM_Daisho_Icon.png" MemoryStorage="true" TagMode="false" EventImage="false" />
+  <IMAGE Name="YM_Kagura_Icon" Path="Images/Interface/Skills/YM_Kagura_Icon.png" MemoryStorage="true" TagMode="false" EventImage="false" />
+  <IMAGE Name="YM_Tempera_Icon" Path="Images/Interface/Skills/YM_Tempera_Icon.png" MemoryStorage="true" TagMode="false" EventImage="false" />
+  <IMAGE Name="YM_Omamori_Icon" Path="Images/Interface/Items/YM_Omamori_Icon.png" MemoryStorage="true" TagMode="false" EventImage="false" />
+  <IMAGE Name="GOLEM_KOMAINU_Roster" Path="Images/Interface/Cards/GOLEM_KOMAINU_Mizuki.png" Path2="Images/Interface/Roster/GOLEM_KOMAINU_Mizuki.png" MemoryStorage="true" TagMode="false" EventImage="false" Model="Wolf1" />
+  <IMAGE Name="YM_Komainu_Evento" Path="Images/Interface/Events/YM_Komainu_Limiar.jpg" MemoryStorage="false" TagMode="false" EventImage="true" />
+  <IMAGE Name="YM_DESC_GOLEM_CHILD" Path="Images/Interface/Cards/YM_DESC_GOLEM_CHILD.png" MemoryStorage="true" TagMode="false" EventImage="false" Path2="Images/Interface/Roster/YM_DESC_GOLEM_CHILD.png" Model="Rocker" />
+  <IMAGE Name="YM_DESC_GOLEM_ADULT" Path="Images/Interface/Cards/YM_DESC_GOLEM_ADULT.png" MemoryStorage="true" TagMode="false" EventImage="false" Path2="Images/Interface/Roster/YM_DESC_GOLEM_ADULT.png" Model="Rocker" />
+  <IMAGE Name="YM_DESC_HUMAN_CHILD" Path="Images/Interface/Cards/YM_DESC_HUMAN_CHILD.png" MemoryStorage="true" TagMode="false" EventImage="false" Path2="Images/Interface/Roster/YM_DESC_HUMAN_CHILD.png" Model="HumanInventorM01" />
+  <IMAGE Name="YM_DESC_HUMAN_ADULT" Path="Images/Interface/Cards/YM_DESC_HUMAN_ADULT.png" MemoryStorage="true" TagMode="false" EventImage="false" Path2="Images/Interface/Roster/YM_DESC_HUMAN_ADULT.png" Model="HumanInventorM01" />
+  <IMAGE Name="YM_DESC_ELF_CHILD" Path="Images/Interface/Cards/YM_DESC_ELF_CHILD.png" MemoryStorage="true" TagMode="false" EventImage="false" Path2="Images/Interface/Roster/YM_DESC_ELF_CHILD.png" Model="HumanInventorM01" />
+  <IMAGE Name="YM_DESC_ELF_ADULT" Path="Images/Interface/Cards/YM_DESC_ELF_ADULT.png" MemoryStorage="true" TagMode="false" EventImage="false" Path2="Images/Interface/Roster/YM_DESC_ELF_ADULT.png" Model="HumanInventorM01" />
+  <IMAGE Name="YM_DESC_ORC_CHILD" Path="Images/Interface/Cards/YM_DESC_ORC_CHILD.png" MemoryStorage="true" TagMode="false" EventImage="false" Path2="Images/Interface/Roster/YM_DESC_ORC_CHILD.png" Model="HumanWarriorM01" />
+  <IMAGE Name="YM_DESC_ORC_ADULT" Path="Images/Interface/Cards/YM_DESC_ORC_ADULT.png" MemoryStorage="true" TagMode="false" EventImage="false" Path2="Images/Interface/Roster/YM_DESC_ORC_ADULT.png" Model="HumanWarriorM01" />
+  <IMAGE Name="YM_DESC_DWARF_CHILD" Path="Images/Interface/Cards/YM_DESC_DWARF_CHILD.png" MemoryStorage="true" TagMode="false" EventImage="false" Path2="Images/Interface/Roster/YM_DESC_DWARF_CHILD.png" Model="HumanCraftsmanM01" />
+  <IMAGE Name="YM_DESC_DWARF_ADULT" Path="Images/Interface/Cards/YM_DESC_DWARF_ADULT.png" MemoryStorage="true" TagMode="false" EventImage="false" Path2="Images/Interface/Roster/YM_DESC_DWARF_ADULT.png" Model="HumanCraftsmanM01" />
+  <IMAGE Name="YM_DESC_GOBLIN_CHILD" Path="Images/Interface/Cards/YM_DESC_GOBLIN_CHILD.png" MemoryStorage="true" TagMode="false" EventImage="false" Path2="Images/Interface/Roster/YM_DESC_GOBLIN_CHILD.png" Model="HumanCraftsmanM01" />
+  <IMAGE Name="YM_DESC_GOBLIN_ADULT" Path="Images/Interface/Cards/YM_DESC_GOBLIN_ADULT.png" MemoryStorage="true" TagMode="false" EventImage="false" Path2="Images/Interface/Roster/YM_DESC_GOBLIN_ADULT.png" Model="HumanCraftsmanM01" />
+  <IMAGE Name="YM_DESC_SHADOWELF_CHILD" Path="Images/Interface/Cards/YM_DESC_SHADOWELF_CHILD.png" MemoryStorage="true" TagMode="false" EventImage="false" Path2="Images/Interface/Roster/YM_DESC_SHADOWELF_CHILD.png" Model="HumanInventorM01" />
+  <IMAGE Name="YM_DESC_SHADOWELF_ADULT" Path="Images/Interface/Cards/YM_DESC_SHADOWELF_ADULT.png" MemoryStorage="true" TagMode="false" EventImage="false" Path2="Images/Interface/Roster/YM_DESC_SHADOWELF_ADULT.png" Model="HumanInventorM01" />
+  <IMAGE Name="YM_DESC_DEMON_CHILD" Path="Images/Interface/Cards/YM_DESC_DEMON_CHILD.png" MemoryStorage="true" TagMode="false" EventImage="false" Path2="Images/Interface/Roster/YM_DESC_DEMON_CHILD.png" Model="HumanWitchF4" />
+  <IMAGE Name="YM_DESC_DEMON_ADULT" Path="Images/Interface/Cards/YM_DESC_DEMON_ADULT.png" MemoryStorage="true" TagMode="false" EventImage="false" Path2="Images/Interface/Roster/YM_DESC_DEMON_ADULT.png" Model="HumanWitchF4" />
+  <IMAGE Name="YM_DESC_BEAST_CHILD" Path="Images/Interface/Cards/YM_DESC_BEAST_CHILD.png" MemoryStorage="true" TagMode="false" EventImage="false" Path2="Images/Interface/Roster/YM_DESC_BEAST_CHILD.png" Model="HumanWarriorM01" />
+  <IMAGE Name="YM_DESC_BEAST_ADULT" Path="Images/Interface/Cards/YM_DESC_BEAST_ADULT.png" MemoryStorage="true" TagMode="false" EventImage="false" Path2="Images/Interface/Roster/YM_DESC_BEAST_ADULT.png" Model="HumanWarriorM01" />
+  <IMAGE Name="YM_Komainu_Icon" Path="Images/Interface/Skills/YM_Komainu_Icon.png" MemoryStorage="true" TagMode="false" EventImage="false" />
+  <IMAGE Name="YM_Arma_ARCO" Path="Images/Interface/Items/YM_Arma_ARCO.png" MemoryStorage="true" TagMode="false" EventImage="false" />
+  <IMAGE Name="YM_Arma_ARCO_Arte" Path="Images/Interface/Items/YM_Arma_ARCO_Arte.png" MemoryStorage="true" TagMode="false" EventImage="false" />
+  <IMAGE Name="YM_Arma_BESTA" Path="Images/Interface/Items/YM_Arma_BESTA.png" MemoryStorage="true" TagMode="false" EventImage="false" />
+  <IMAGE Name="YM_Arma_BESTA_Arte" Path="Images/Interface/Items/YM_Arma_BESTA_Arte.png" MemoryStorage="true" TagMode="false" EventImage="false" />
+  <IMAGE Name="YM_Arma_ARCABUZ" Path="Images/Interface/Items/YM_Arma_ARCABUZ.png" MemoryStorage="true" TagMode="false" EventImage="false" />
+  <IMAGE Name="YM_Arma_ARCABUZ_Arte" Path="Images/Interface/Items/YM_Arma_ARCABUZ_Arte.png" MemoryStorage="true" TagMode="false" EventImage="false" />
+  <IMAGE Name="YM_Arma_FUNDA" Path="Images/Interface/Items/YM_Arma_FUNDA.png" MemoryStorage="true" TagMode="false" EventImage="false" />
+  <IMAGE Name="YM_Arma_FUNDA_Arte" Path="Images/Interface/Items/YM_Arma_FUNDA_Arte.png" MemoryStorage="true" TagMode="false" EventImage="false" />
+  <IMAGE Name="YM_Arma_CHICOTE" Path="Images/Interface/Items/YM_Arma_CHICOTE.png" MemoryStorage="true" TagMode="false" EventImage="false" />
+  <IMAGE Name="YM_Arma_CHICOTE_Arte" Path="Images/Interface/Items/YM_Arma_CHICOTE_Arte.png" MemoryStorage="true" TagMode="false" EventImage="false" />
+  <IMAGE Name="YM_Arma_CHICOTE_REFORCADO" Path="Images/Interface/Items/YM_Arma_CHICOTE_REFORCADO.png" MemoryStorage="true" TagMode="false" EventImage="false" />
+  <IMAGE Name="YM_Arma_CHICOTE_REFORCADO_Arte" Path="Images/Interface/Items/YM_Arma_CHICOTE_REFORCADO_Arte.png" MemoryStorage="true" TagMode="false" EventImage="false" />
+</ModInfo>

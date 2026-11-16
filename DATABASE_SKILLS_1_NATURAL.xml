@@ -1,0 +1,539 @@
+<SKILLS_1_NATURAL name="1_Natural">
+  <SKILL-YURI_CLASSE Rarity="0">
+    <DescriptionInfo Name="DES_YURI_CLASSE" Description="DES_YURI_CLASSE_DES" IconName="YURI_Yuri_Classe" />
+    <BaseEssence Amount="5" Tag="TAG-ESSENCE_GRAY" />
+    <SkillSubskill Value="SUBSKILL-ADD_CRAFTING" />
+    <SkillSubskill Value="SUBSKILL-ADD_RITUALS" />
+    <SkillGroupFilter Value="Fallback" />
+  </SKILL-YURI_CLASSE>
+  <SKILL-YURI_FORJA_VIVA Rarity="0">
+    <DescriptionInfo Name="DES_YURI_FORJA_VIVA" Description="DES_YURI_FORJA_VIVA_DES" IconName="SKILL_YURI_FORJA_VIVA" />
+    <BaseEssence Amount="5" Tag="TAG-ESSENCE_GRAY" />
+    <SkillSubskill Value="SUBSKILL-ADD_CRAFTING" />
+    <SkillSubskill Value="SUBSKILL-ADD_GROUP_CARRY" />
+    <SkillGroupFilter Value="ClassGolemancer" />
+    <SkillGroupFilter Value="AdvBuffGiver" />
+  </SKILL-YURI_FORJA_VIVA>
+  <SKILL-YURI_FORNAR Rarity="0">
+    <DescriptionInfo Name="DES_YURI_FORNAR" Description="DES_YURI_FORNAR_DES" IconName="SKILL_YURI_FORNAR" />
+    <BaseEssence Amount="5" Tag="TAG-ESSENCE_GRAY" />
+    <SkillSubskill Value="SUBSKILL-ADD_CRAFTING" />
+    <SkillGroupFilter Value="ClassGolemancer" />
+  </SKILL-YURI_FORNAR>
+  <SKILL-YURI_BATISMO Rarity="0">
+    <DescriptionInfo Name="DES_YURI_BATISMO" Description="DES_YURI_BATISMO_DES" IconName="SKILL_YURI_BATISMO" />
+    <BaseEssence Amount="5" Tag="TAG-ESSENCE_GRAY" />
+    <SkillSubskill Value="SUBSKILL-ADD_RITUALS" />
+    <SkillSubskill Value="SUBSKILL-ADD_MYSTICISM" />
+    <SkillGroupFilter Value="ClassGolemancer" />
+  </SKILL-YURI_BATISMO>
+  <SKILL-YURI_APRENDIZ Rarity="0">
+    <DescriptionInfo Name="DES_YURI_APRENDIZ" Description="DES_YURI_APRENDIZ_DES" IconName="SKILL_YURI_APRENDIZ" />
+    <BaseEssence Amount="5" Tag="TAG-ESSENCE_GRAY" />
+    <SkillSubskill Value="SUBSKILL-ADD_CRAFTING" />
+    <SkillGroupFilter Value="ClassGolemancer" />
+  </SKILL-YURI_APRENDIZ>
+  <SKILL-YM_GOLEM_CHOQUE Rarity="0">
+    <DescriptionInfo Name="DES_YM_CHOQUE" Description="DES_YM_CHOQUE_DES" IconName="GOLEM_CHOQUE_Roster" />
+    <BaseEssence Amount="5" Tag="TAG-ESSENCE_GRAY" />
+    <SkillSubskill Value="SUBSKILL-ADD_WEAK_MAX_HEALTH_P" />
+    <SkillSubskill Value="SUBSKILL-CONST_ADD_SHIELDING_PHYSICAL" />
+    <SkillGroupFilter Value="Pet" />
+    <SkillGroupFilter Value="YM_Golem" />
+  </SKILL-YM_GOLEM_CHOQUE>
+  <SKILL-YM_GOLEM_CASCALHO Rarity="0">
+    <DescriptionInfo Name="DES_YM_CASCALHO" Description="DES_YM_CASCALHO_DES" IconName="GOLEM_CASCALHO_Roster" />
+    <BaseEssence Amount="5" Tag="TAG-ESSENCE_GRAY" />
+    <SkillSubskill Value="SUBSKILL-ADD_WEAK_STRENGTH" />
+    <SkillSubskill Value="SUBSKILL-THROW" />
+    <SkillGroupFilter Value="Pet" />
+    <SkillGroupFilter Value="YM_Golem" />
+  </SKILL-YM_GOLEM_CASCALHO>
+  <SKILL-YM_GOLEM_GALHO Rarity="0">
+    <DescriptionInfo Name="DES_YM_GALHO" Description="DES_YM_GALHO_DES" IconName="GOLEM_GALHO_Roster" />
+    <BaseEssence Amount="5" Tag="TAG-ESSENCE_GRAY" />
+    <SkillSubskill Value="SUBSKILL-ADD_WEAK_PERCEPTION" />
+    <SkillSubskill Value="SUBSKILL-CONST_WEAK_ADD_RANGE_OF_SIGHT" />
+    <SkillGroupFilter Value="Pet" />
+    <SkillGroupFilter Value="YM_Golem" />
+  </SKILL-YM_GOLEM_GALHO>
+  <SKILL-YM_GOLEM_LAMPEJO Rarity="0">
+    <DescriptionInfo Name="DES_YM_LAMPEJO" Description="DES_YM_LAMPEJO_DES" IconName="GOLEM_LAMPEJO_Roster" />
+    <BaseEssence Amount="5" Tag="TAG-ESSENCE_GRAY" />
+    <SkillSubskill Value="SUBSKILL-ADD_WEAK_PERCEPTION" />
+    <SkillSubskill Value="SUBSKILL-CONST_NIGHT_PREDATOR_RANGE_OF_SIGHT" />
+    <SkillGroupFilter Value="Pet" />
+    <SkillGroupFilter Value="YM_Golem" />
+  </SKILL-YM_GOLEM_LAMPEJO>
+  <SKILL-YM_GOLEM_MASSA Rarity="0">
+    <DescriptionInfo Name="DES_YM_MASSA" Description="DES_YM_MASSA_DES" IconName="GOLEM_MASSA_Roster" />
+    <BaseEssence Amount="5" Tag="TAG-ESSENCE_GRAY" />
+    <SkillSubskill Value="SUBSKILL-ADD_WEAK_RITUALS" />
+    <SkillSubskill Value="SUBSKILL-CONST_WEAK_ADD_HEALTH_P_REGENERATION" />
+    <SkillGroupFilter Value="Pet" />
+    <SkillGroupFilter Value="YM_Golem" />
+  </SKILL-YM_GOLEM_MASSA>
+  <SKILL-YM_GOLEM_SEIXO Rarity="0">
+    <DescriptionInfo Name="DES_YM_SEIXO" Description="DES_YM_SEIXO_DES" IconName="GOLEM_SEIXO_Roster" />
+    <BaseEssence Amount="5" Tag="TAG-ESSENCE_GRAY" />
+    <SkillSubskill Value="SUBSKILL-ADD_LUCK" />
+    <SkillGroupFilter Value="Pet" />
+    <SkillGroupFilter Value="YM_Golem" />
+  </SKILL-YM_GOLEM_SEIXO>
+  <SKILL-YM_GOLEM_FERRO_VIDO Rarity="0">
+    <DescriptionInfo Name="DES_YM_FERRO_VIDO" Description="DES_YM_FERRO_VIDO_DES" IconName="GOLEM_FERRO_VIDO_Roster" />
+    <BaseEssence Amount="5" Tag="TAG-ESSENCE_GRAY" />
+    <SkillSubskill Value="SUBSKILL-ADD_WEAK_MAX_HEALTH_P" />
+    <SkillSubskill Value="SUBSKILL-CONST_ADD_SHIELDING_PHYSICAL" />
+    <SkillGroupFilter Value="Pet" />
+    <SkillGroupFilter Value="YM_Golem" />
+  </SKILL-YM_GOLEM_FERRO_VIDO>
+  <SKILL-YM_GOLEM_RAIZ Rarity="0">
+    <DescriptionInfo Name="DES_YM_RAIZ" Description="DES_YM_RAIZ_DES" IconName="GOLEM_RAIZ_Roster" />
+    <BaseEssence Amount="5" Tag="TAG-ESSENCE_GRAY" />
+    <SkillSubskill Value="SUBSKILL-ADD_WEAK_GATHERING" />
+    <SkillSubskill Value="SUBSKILL-WEAK_REGENERATION_M" />
+    <SkillGroupFilter Value="Pet" />
+    <SkillGroupFilter Value="YM_Golem" />
+  </SKILL-YM_GOLEM_RAIZ>
+  <SKILL-YM_GOLEM_OSSADA Rarity="0">
+    <DescriptionInfo Name="DES_YM_OSSADA" Description="DES_YM_OSSADA_DES" IconName="GOLEM_OSSADA_Roster" />
+    <BaseEssence Amount="5" Tag="TAG-ESSENCE_GRAY" />
+    <SkillSubskill Value="SUBSKILL-ADD_WEAK_STRENGTH" />
+    <SkillGroupFilter Value="Pet" />
+    <SkillGroupFilter Value="YM_Golem" />
+  </SKILL-YM_GOLEM_OSSADA>
+  <SKILL-YM_GOLEM_CRISTAL Rarity="0">
+    <DescriptionInfo Name="DES_YM_CRISTAL" Description="DES_YM_CRISTAL_DES" IconName="GOLEM_CRISTAL_Roster" />
+    <BaseEssence Amount="5" Tag="TAG-ESSENCE_GRAY" />
+    <SkillSubskill Value="SUBSKILL-ADD_WEAK_MYSTICISM" />
+    <SkillSubskill Value="SUBSKILL-ADD_WEAK_RITUALS" />
+    <SkillGroupFilter Value="Pet" />
+    <SkillGroupFilter Value="YM_Golem" />
+  </SKILL-YM_GOLEM_CRISTAL>
+  <SKILL-YM_GOLEM_PAO_DO_CAMPO Rarity="0">
+    <DescriptionInfo Name="DES_YM_PAO_DO_CAMPO" Description="DES_YM_PAO_DO_CAMPO_DES" IconName="GOLEM_PAO_DO_CAMPO_Roster" />
+    <BaseEssence Amount="5" Tag="TAG-ESSENCE_GRAY" />
+    <SkillSubskill Value="SUBSKILL-ADD_WEAK_GROUP_CARRY" />
+    <SkillSubskill Value="SUBSKILL-INSPIRE" />
+    <SkillGroupFilter Value="Pet" />
+    <SkillGroupFilter Value="YM_Golem" />
+  </SKILL-YM_GOLEM_PAO_DO_CAMPO>
+  <SKILL-YM_GOLEM_MURALHA Rarity="0">
+    <DescriptionInfo Name="DES_YM_MURALHA" Description="DES_YM_MURALHA_DES" IconName="GOLEM_MURALHA_Roster" />
+    <BaseEssence Amount="5" Tag="TAG-ESSENCE_GRAY" />
+    <SkillSubskill Value="SUBSKILL-CONST_WEAK_ADD_SHIELDING" />
+    <SkillSubskill Value="SUBSKILL-CONST_ADD_SHIELDING_PHYSICAL" />
+    <SkillGroupFilter Value="Pet" />
+    <SkillGroupFilter Value="YM_Golem" />
+  </SKILL-YM_GOLEM_MURALHA>
+  <SKILL-YM_GOLEM_VIUVA Rarity="0">
+    <DescriptionInfo Name="DES_YM_VIUVA" Description="DES_YM_VIUVA_DES" IconName="GOLEM_VIUVA_Roster" />
+    <BaseEssence Amount="5" Tag="TAG-ESSENCE_GRAY" />
+    <SkillSubskill Value="SUBSKILL-INSPIRE" />
+    <SkillSubskill Value="SUBSKILL-INSPIRE" />
+    <SkillGroupFilter Value="Pet" />
+    <SkillGroupFilter Value="YM_Golem" />
+  </SKILL-YM_GOLEM_VIUVA>
+  <SKILL-YM_GOLEM_VEJO Rarity="0">
+    <DescriptionInfo Name="DES_YM_VEJO" Description="DES_YM_VEJO_DES" IconName="GOLEM_VEJO_Roster" />
+    <BaseEssence Amount="5" Tag="TAG-ESSENCE_GRAY" />
+    <SkillSubskill Value="SUBSKILL-ADD_WEAK_MYSTICISM" />
+    <SkillSubskill Value="SUBSKILL-ADD_LUCK" />
+    <SkillGroupFilter Value="Pet" />
+    <SkillGroupFilter Value="YM_Golem" />
+  </SKILL-YM_GOLEM_VEJO>
+  <SKILL-YM_GOLEM_AGULHA Rarity="0">
+    <DescriptionInfo Name="DES_YM_AGULHA" Description="DES_YM_AGULHA_DES" IconName="GOLEM_AGULHA_Roster" />
+    <BaseEssence Amount="5" Tag="TAG-ESSENCE_GRAY" />
+    <SkillSubskill Value="SUBSKILL-CONST_WEAK_ADD_HEALTH_P_REGENERATION" />
+    <SkillSubskill Value="SUBSKILL-ADD_WEAK_WISDOM" />
+    <SkillGroupFilter Value="Pet" />
+    <SkillGroupFilter Value="YM_Golem" />
+  </SKILL-YM_GOLEM_AGULHA>
+  <SKILL-YM_GOLEM_FERREIRO Rarity="0">
+    <DescriptionInfo Name="DES_YM_FERREIRO" Description="DES_YM_FERREIRO_DES" IconName="GOLEM_FERREIRO_Roster" />
+    <BaseEssence Amount="5" Tag="TAG-ESSENCE_GRAY" />
+    <SkillSubskill Value="SUBSKILL-ADD_STRONG_CRAFTING" />
+    <SkillSubskill Value="SUBSKILL-ADD_WEAK_GROUP_CARRY" />
+    <SkillGroupFilter Value="Pet" />
+    <SkillGroupFilter Value="YM_Golem" />
+  </SKILL-YM_GOLEM_FERREIRO>
+  <SKILL-YM_GOLEM_GUARDAO_DA_MINA Rarity="0">
+    <DescriptionInfo Name="DES_YM_GUARDAO_DA_MINA" Description="DES_YM_GUARDAO_DA_MINA_DES" IconName="YM_Daisho_Icon" />
+    <BaseEssence Amount="5" Tag="TAG-ESSENCE_GRAY" />
+    <SkillSubskill Value="SUBSKILL-YM_DAISHO_TECNICA" />
+    <SkillSubskill Value="SUBSKILL-YM_WAKIZASHI_TECNICA" />
+    <SkillSubskill Value="SUBSKILL-CONST_ADD_SHIELDING_PHYSICAL" />
+    <SkillGroupFilter Value="YM_Golem" />
+  </SKILL-YM_GOLEM_GUARDAO_DA_MINA>
+  <SKILL-YM_GOLEM_DRAGAO_OSSO Rarity="0">
+    <DescriptionInfo Name="DES_YM_DRAGAO_OSSO" Description="DES_YM_DRAGAO_OSSO_DES" IconName="GOLEM_DRAGAO_OSSO_Roster" />
+    <BaseEssence Amount="5" Tag="TAG-ESSENCE_GRAY" />
+    <SkillSubskill Value="SUBSKILL-ADD_MYSTICISM" />
+    <SkillSubskill Value="SUBSKILL-ADD_WEAK_MYSTICISM" />
+    <SkillGroupFilter Value="Pet" />
+    <SkillGroupFilter Value="YM_Golem" />
+  </SKILL-YM_GOLEM_DRAGAO_OSSO>
+  <SKILL-YM_GOLEM_CEVA Rarity="0">
+    <DescriptionInfo Name="DES_YM_CEVA" Description="DES_YM_CEVA_DES" IconName="GOLEM_CEVA_Roster" />
+    <BaseEssence Amount="5" Tag="TAG-ESSENCE_GRAY" />
+    <SkillSubskill Value="SUBSKILL-CONST_WEAK_ADD_HEALTH_P_REGENERATION" />
+    <SkillGroupFilter Value="Pet" />
+    <SkillGroupFilter Value="YM_Golem" />
+  </SKILL-YM_GOLEM_CEVA>
+  <SKILL-YM_GOLEM_CINZEL Rarity="0">
+    <DescriptionInfo Name="DES_YM_CINZEL" Description="DES_YM_CINZEL_DES" IconName="YM_Tempera_Icon" />
+    <BaseEssence Amount="5" Tag="TAG-ESSENCE_GRAY" />
+    <SkillSubskill Value="SUBSKILL-YM_CINZEL_TECNICA" />
+    <SkillSubskill Value="SUBSKILL-ADD_VSTRONG_CRAFTING" />
+    <SkillGroupFilter Value="Pet" />
+    <SkillGroupFilter Value="YM_Golem" />
+  </SKILL-YM_GOLEM_CINZEL>
+  <SKILL-YM_GOLEM_ESTALO Rarity="0">
+    <DescriptionInfo Name="DES_YM_ESTALO" Description="DES_YM_ESTALO_DES" IconName="GOLEM_ESTALO_Roster" />
+    <BaseEssence Amount="5" Tag="TAG-ESSENCE_GRAY" />
+    <SkillSubskill Value="SUBSKILL-ADD_WEAK_MYSTICISM" />
+    <SkillGroupFilter Value="Pet" />
+    <SkillGroupFilter Value="YM_Golem" />
+  </SKILL-YM_GOLEM_ESTALO>
+  <SKILL-YM_GOLEM_TERRA_VIVA Rarity="0">
+    <DescriptionInfo Name="DES_YM_TERRA_VIVA" Description="DES_YM_TERRA_VIVA_DES" IconName="GOLEM_TERRA_VIVA_Roster" />
+    <BaseEssence Amount="5" Tag="TAG-ESSENCE_GRAY" />
+    <SkillSubskill Value="SUBSKILL-CONST_WEAK_ADD_SHIELDING" />
+    <SkillSubskill Value="SUBSKILL-CONST_WEAK_ADD_HEALTH_P_REGENERATION" />
+    <SkillGroupFilter Value="Pet" />
+    <SkillGroupFilter Value="YM_Golem" />
+  </SKILL-YM_GOLEM_TERRA_VIVA>
+  <SKILL-YM_GOLEM_FANTASMA_DE_FORG Rarity="0">
+    <DescriptionInfo Name="DES_YM_FANTASMA_DE_FORG" Description="DES_YM_FANTASMA_DE_FORG_DES" IconName="GOLEM_FANTASMA_DE_FORG_Roster" />
+    <BaseEssence Amount="5" Tag="TAG-ESSENCE_GRAY" />
+    <SkillSubskill Value="SUBSKILL-ADD_MYSTICISM" />
+    <SkillSubskill Value="SUBSKILL-ADD_WEAK_MYSTICISM" />
+    <SkillGroupFilter Value="Pet" />
+    <SkillGroupFilter Value="YM_Golem" />
+  </SKILL-YM_GOLEM_FANTASMA_DE_FORG>
+  <SKILL-YM_GOLEM_GEMEO Rarity="0">
+    <DescriptionInfo Name="DES_YM_GEMEO" Description="DES_YM_GEMEO_DES" IconName="GOLEM_GEMEO_Roster" />
+    <BaseEssence Amount="5" Tag="TAG-ESSENCE_GRAY" />
+    <SkillSubskill Value="SUBSKILL-ADD_WITS" />
+    <SkillSubskill Value="SUBSKILL-ADD_PERCEPTION" />
+    <SkillGroupFilter Value="Pet" />
+    <SkillGroupFilter Value="YM_Golem" />
+  </SKILL-YM_GOLEM_GEMEO>
+  <SKILL-HALF_ARGILA_CLASSE Rarity="0">
+    <DescriptionInfo Name="DES_HALF_ARGILA" Description="DES_HALF_ARGILA_DES" IconName="HALF_ARGILA_Classe" />
+    <BaseEssence Amount="5" Tag="TAG-ESSENCE_GRAY" />
+    <SkillSubskill Value="SUBSKILL-ADD_INTELLIGENCE" />
+    <SkillSubskill Value="SUBSKILL-ADD_WISDOM" />
+    <SkillGroupFilter Value="Fallback" />
+  </SKILL-HALF_ARGILA_CLASSE>
+  <SKILL-HALF_BRASA_CLASSE Rarity="0">
+    <DescriptionInfo Name="DES_HALF_BRASA" Description="DES_HALF_BRASA_DES" IconName="HALF_BRASA_Classe" />
+    <BaseEssence Amount="5" Tag="TAG-ESSENCE_GRAY" />
+    <SkillSubskill Value="SUBSKILL-ADD_WISDOM" />
+    <SkillSubskill Value="SUBSKILL-ADD_MYSTICISM" />
+    <SkillGroupFilter Value="Fallback" />
+  </SKILL-HALF_BRASA_CLASSE>
+  <SKILL-PERS_LEAL Rarity="0">
+    <DescriptionInfo Name="DES_YM_PERS_LEAL" Description="DES_YM_PERS_LEAL_DES" IconName="SKILL_PERS_LEAL" />
+    <BaseEssence Amount="0" Tag="TAG-ESSENCE_GRAY" />
+    <SkillSubskill Value="SUBSKILL-PERS_LEAL" />
+    <SkillGroupFilter Value="Pet" />
+  </SKILL-PERS_LEAL>
+  <SKILL-PERS_AGRESSIVO Rarity="0">
+    <DescriptionInfo Name="DES_YM_PERS_AGRESSIVO" Description="DES_YM_PERS_AGRESSIVO_DES" IconName="SKILL_PERS_AGRESSIVO" />
+    <BaseEssence Amount="0" Tag="TAG-ESSENCE_GRAY" />
+    <SkillSubskill Value="SUBSKILL-PERS_AGRESSIVO" />
+    <SkillGroupFilter Value="Pet" />
+  </SKILL-PERS_AGRESSIVO>
+  <SKILL-PERS_SERENO Rarity="0">
+    <DescriptionInfo Name="DES_YM_PERS_SERENO" Description="DES_YM_PERS_SERENO_DES" IconName="SKILL_PERS_SERENO" />
+    <BaseEssence Amount="0" Tag="TAG-ESSENCE_GRAY" />
+    <SkillSubskill Value="SUBSKILL-PERS_SERENO" />
+    <SkillGroupFilter Value="Pet" />
+  </SKILL-PERS_SERENO>
+  <SKILL-PERS_VAIDOSO Rarity="0">
+    <DescriptionInfo Name="DES_YM_PERS_VAIDOSO" Description="DES_YM_PERS_VAIDOSO_DES" IconName="SKILL_PERS_VAIDOSO" />
+    <BaseEssence Amount="0" Tag="TAG-ESSENCE_GRAY" />
+    <SkillSubskill Value="SUBSKILL-PERS_VAIDOSO" />
+    <SkillGroupFilter Value="Pet" />
+  </SKILL-PERS_VAIDOSO>
+  <SKILL-YM_GOLEM_OBSIDIANA Rarity="0">
+    <DescriptionInfo Name="DES_YM_OBSIDIANA" Description="DES_YM_OBSIDIANA_DES" IconName="GOLEM_OBSIDIANA_Roster" />
+    <BaseEssence Amount="5" Tag="TAG-ESSENCE_GRAY" />
+    <SkillSubskill Value="SUBSKILL-CONST_WEAK_ADD_SHIELDING" />
+    <SkillSubskill Value="SUBSKILL-CONST_ADD_SHIELDING_PHYSICAL" />
+    <SkillGroupFilter Value="Pet" />
+    <SkillGroupFilter Value="YM_Golem" />
+  </SKILL-YM_GOLEM_OBSIDIANA>
+  <SKILL-YM_GOLEM_SANGUE Rarity="0">
+    <DescriptionInfo Name="DES_YM_SANGUE" Description="DES_YM_SANGUE_DES" IconName="GOLEM_SANGUE_Roster" />
+    <BaseEssence Amount="5" Tag="TAG-ESSENCE_GRAY" />
+    <SkillSubskill Value="SUBSKILL-CONST_WEAK_ADD_HEALTH_P_REGENERATION" />
+    <SkillSubskill Value="SUBSKILL-LEECH_BITE" />
+    <SkillGroupFilter Value="Pet" />
+    <SkillGroupFilter Value="YM_Golem" />
+  </SKILL-YM_GOLEM_SANGUE>
+  <SKILL-YM_GOLEM_NEBULINA Rarity="0">
+    <DescriptionInfo Name="DES_YM_NEBULINA" Description="DES_YM_NEBULINA_DES" IconName="GOLEM_NEBULINA_Roster" />
+    <BaseEssence Amount="5" Tag="TAG-ESSENCE_GRAY" />
+    <SkillSubskill Value="SUBSKILL-ADD_WEAK_MYSTICISM" />
+    <SkillSubskill Value="SUBSKILL-ADD_WEAK_PERCEPTION" />
+    <SkillGroupFilter Value="Pet" />
+    <SkillGroupFilter Value="YM_Golem" />
+  </SKILL-YM_GOLEM_NEBULINA>
+  <SKILL-YM_GOLEM_FUNGO Rarity="0">
+    <DescriptionInfo Name="DES_YM_FUNGO" Description="DES_YM_FUNGO_DES" IconName="GOLEM_FUNGO_Roster" />
+    <BaseEssence Amount="5" Tag="TAG-ESSENCE_GRAY" />
+    <SkillSubskill Value="SUBSKILL-ADD_WEAK_RITUALS" />
+    <SkillSubskill Value="SUBSKILL-CONST_WEAK_ADD_HEALTH_P_REGENERATION" />
+    <SkillGroupFilter Value="Pet" />
+    <SkillGroupFilter Value="YM_Golem" />
+  </SKILL-YM_GOLEM_FUNGO>
+  <SKILL-YM_GOLEM_RELIQUIA Rarity="0">
+    <DescriptionInfo Name="DES_YM_RELIQUIA" Description="DES_YM_RELIQUIA_DES" IconName="YM_Kagura_Icon" />
+    <BaseEssence Amount="5" Tag="TAG-ESSENCE_GRAY" />
+    <SkillSubskill Value="SUBSKILL-YM_KAGURA_TECNICA" />
+    <SkillSubskill Value="SUBSKILL-ADD_WEAK_MYSTICISM" />
+    <SkillGroupFilter Value="YM_Golem" />
+  </SKILL-YM_GOLEM_RELIQUIA>
+  <SKILL-HALF_OBSIDIANA_CLASSE Rarity="0">
+    <DescriptionInfo Name="DES_HALF_OBSIDIANA" Description="DES_HALF_OBSIDIANA_DES" IconName="HALF_OBSIDIANA_Classe" />
+    <BaseEssence Amount="5" Tag="TAG-ESSENCE_GRAY" />
+    <SkillSubskill Value="SUBSKILL-ADD_WEAK_STRENGTH" />
+    <SkillSubskill Value="SUBSKILL-ADD_INTELLIGENCE" />
+    <SkillGroupFilter Value="Fallback" />
+  </SKILL-HALF_OBSIDIANA_CLASSE>
+  <SKILL-HALF_NEBULINA_CLASSE Rarity="0">
+    <DescriptionInfo Name="DES_HALF_NEBULINA" Description="DES_HALF_NEBULINA_DES" IconName="HALF_NEBULINA_Classe" />
+    <BaseEssence Amount="5" Tag="TAG-ESSENCE_GRAY" />
+    <SkillSubskill Value="SUBSKILL-ADD_WISDOM" />
+    <SkillSubskill Value="SUBSKILL-ADD_MYSTICISM" />
+    <SkillGroupFilter Value="Fallback" />
+  </SKILL-HALF_NEBULINA_CLASSE>
+  <SKILL-YM_ITEM_ESPADA_RUNICA Rarity="0">
+    <DescriptionInfo Name="DES_YM_ESPADA_RUNICA" Description="DES_YM_ESPADA_RUNICA_DES" IconName="YM_ESPADA_RUNICA_Icon" />
+    <BaseEssence Amount="5" Tag="TAG-ESSENCE_GRAY" />
+    <SkillSubskill Value="SUBSKILL-YM_ITEM_ESPADA_RUNICA" />
+    <SkillGroupFilter Value="YM_Item" />
+  </SKILL-YM_ITEM_ESPADA_RUNICA>
+  <SKILL-YM_ITEM_AMULETO_FORJA Rarity="0">
+    <DescriptionInfo Name="DES_YM_AMULETO_FORJA" Description="DES_YM_AMULETO_FORJA_DES" IconName="YM_AMULETO_FORJA_Icon" />
+    <BaseEssence Amount="5" Tag="TAG-ESSENCE_GRAY" />
+    <SkillSubskill Value="SUBSKILL-YM_ITEM_AMULETO_FORJA" />
+    <SkillGroupFilter Value="YM_Item" />
+  </SKILL-YM_ITEM_AMULETO_FORJA>
+  <SKILL-YM_ITEM_BOTAS_ARGILA Rarity="0">
+    <DescriptionInfo Name="DES_YM_BOTAS_ARGILA" Description="DES_YM_BOTAS_ARGILA_DES" IconName="YM_BOTAS_ARGILA_Icon" />
+    <BaseEssence Amount="5" Tag="TAG-ESSENCE_GRAY" />
+    <SkillSubskill Value="SUBSKILL-YM_ITEM_BOTAS_ARGILA" />
+    <SkillGroupFilter Value="YM_Item" />
+  </SKILL-YM_ITEM_BOTAS_ARGILA>
+  <SKILL-YM_SANIDADE_LOSS Rarity="0">
+    <DescriptionInfo Name="DES_YM_SANIDADE_LOSS" Description="DES_YM_SANIDADE_LOSS_DES" IconName="SKILL_YURI_BATISMO" />
+    <BaseEssence Amount="0" Tag="TAG-ESSENCE_GRAY" />
+    <SkillSubskill Value="SUBSKILL-YM_SANIDADE_LOSS" />
+    <SkillGroupFilter Value="YM_Sanity" />
+  </SKILL-YM_SANIDADE_LOSS>
+  <SKILL-YM_SANIDADE_RECOVER Rarity="0">
+    <DescriptionInfo Name="DES_YM_SANIDADE_RECOVER" Description="DES_YM_SANIDADE_RECOVER_DES" IconName="SKILL_YURI_FORJA_VIVA" />
+    <BaseEssence Amount="0" Tag="TAG-ESSENCE_GRAY" />
+    <SkillSubskill Value="SUBSKILL-YM_SANIDADE_RECOVER" />
+    <SkillGroupFilter Value="YM_Sanity" />
+  </SKILL-YM_SANIDADE_RECOVER>
+  <SKILL-YM_ITEM_LAMINA_FORJA Rarity="0">
+    <DescriptionInfo Name="DES_YM_LAMINA_FORJA" Description="DES_YM_LAMINA_FORJA_DES" IconName="YM_LAMINA_FORJA_Icon" />
+    <BaseEssence Tag="TAG-ESSENCE_GRAY" Amount="5" />
+    <SkillSubskill Value="SUBSKILL-POISON_THROWING_DAGGER" />
+  </SKILL-YM_ITEM_LAMINA_FORJA>
+  <SKILL-YM_ITEM_MARTELO_MESTRE Rarity="0">
+    <DescriptionInfo Name="DES_YM_MARTELO_MESTRE" Description="DES_YM_MARTELO_MESTRE_DES" IconName="YM_MARTELO_MESTRE_Icon" />
+    <BaseEssence Tag="TAG-ESSENCE_GRAY" Amount="5" />
+    <SkillSubskill Value="SUBSKILL-THROW" />
+  </SKILL-YM_ITEM_MARTELO_MESTRE>
+  <SKILL-YM_ITEM_MALHA_COTA Rarity="0">
+    <DescriptionInfo Name="DES_YM_MALHA_COTA" Description="DES_YM_MALHA_COTA_DES" IconName="YM_MALHA_COTA_Icon" />
+    <BaseEssence Tag="TAG-ESSENCE_GRAY" Amount="5" />
+    <SkillSubskill Value="SUBSKILL-CONST_ADD_SHIELDING_PHYSICAL" />
+  </SKILL-YM_ITEM_MALHA_COTA>
+  <SKILL-YM_ITEM_ESCUDO_PEDRA Rarity="0">
+    <DescriptionInfo Name="DES_YM_ESCUDO_PEDRA" Description="DES_YM_ESCUDO_PEDRA_DES" IconName="YM_ESCUDO_PEDRA_Icon" />
+    <BaseEssence Tag="TAG-ESSENCE_GRAY" Amount="5" />
+    <SkillSubskill Value="SUBSKILL-CONST_ADD_SHIELDING_PHYSICAL" />
+  </SKILL-YM_ITEM_ESCUDO_PEDRA>
+  <SKILL-YM_ITEM_ALVO_AMBER Rarity="0">
+    <DescriptionInfo Name="DES_YM_ALVO_AMBER" Description="DES_YM_ALVO_AMBER_DES" IconName="YM_ALVO_AMBER_Icon" />
+    <BaseEssence Tag="TAG-ESSENCE_GRAY" Amount="5" />
+    <SkillSubskill Value="SUBSKILL-ADD_WITS" />
+  </SKILL-YM_ITEM_ALVO_AMBER>
+  <SKILL-YM_ITEM_PAO_VIVO Rarity="0">
+    <DescriptionInfo Name="DES_YM_PAO_VIVO" Description="DES_YM_PAO_VIVO_DES" IconName="YM_PAO_VIVO_Icon" />
+    <BaseEssence Tag="TAG-ESSENCE_GRAY" Amount="5" />
+    <SkillSubskill Value="SUBSKILL-CONST_WEAK_ADD_HEALTH_P_REGENERATION" />
+  </SKILL-YM_ITEM_PAO_VIVO>
+  <SKILL-YM_ITEM_ERVA_FORJA Rarity="0">
+    <DescriptionInfo Name="DES_YM_ERVA_FORJA" Description="DES_YM_ERVA_FORJA_DES" IconName="YM_ERVA_FORJA_Icon" />
+    <BaseEssence Tag="TAG-ESSENCE_GRAY" Amount="5" />
+    <SkillSubskill Value="SUBSKILL-ADD_RITUALS" />
+  </SKILL-YM_ITEM_ERVA_FORJA>
+  <SKILL-YM_ITEM_ARMADILHA_LAMBRI Rarity="0">
+    <DescriptionInfo Name="DES_YM_ARMADILHA_LAMBRI" Description="DES_YM_ARMADILHA_LAMBRI_DES" IconName="YM_ARMADILHA_LAMBRI_Icon" />
+    <BaseEssence Tag="TAG-ESSENCE_GRAY" Amount="5" />
+    <SkillSubskill Value="SUBSKILL-DELAY_ENEMY" />
+  </SKILL-YM_ITEM_ARMADILHA_LAMBRI>
+  <SKILL-YM_ITEM_PINGENTE_NOME Rarity="0">
+    <DescriptionInfo Name="DES_YM_PINGENTE_NOME" Description="DES_YM_PINGENTE_NOME_DES" IconName="YM_PINGENTE_NOME_Icon" />
+    <BaseEssence Tag="TAG-ESSENCE_GRAY" Amount="5" />
+    <SkillSubskill Value="SUBSKILL-ADD_LUCK" />
+  </SKILL-YM_ITEM_PINGENTE_NOME>
+  <SKILL-YM_GOLEM_KOMAINU Rarity="0">
+    <DescriptionInfo Name="DES_YM_KOMAINU" Description="DES_YM_KOMAINU_DES" IconName="YM_Komainu_Icon" />
+    <BaseEssence Amount="5" Tag="TAG-ESSENCE_GRAY" />
+    <SkillSubskill Value="SUBSKILL-YM_KOMAINU_TECNICA" />
+    <SkillSubskill Value="SUBSKILL-ADD_WEAK_PERCEPTION" />
+    <SkillGroupFilter Value="YM_Golem" />
+  </SKILL-YM_GOLEM_KOMAINU>
+  <SKILL-YM_GOLEM_GUARDAO_DA_MINA_AVANCO Rarity="0">
+    <DescriptionInfo Name="DES_YM_GOLEM_GUARDAO_DA_MINA_AVANCO" Description="DES_YM_GOLEM_GUARDAO_DA_MINA_AVANCO_DES" IconName="YM_Daisho_Icon" />
+    <BaseEssence Amount="5" Tag="TAG-ESSENCE_GRAY" />
+    <SkillSubskill Value="SUBSKILL-ADD_WEAK_WISDOM" />
+    <SkillGroupFilter Value="YM_GOLEM_GUARDAO_DA_MINA_AVANCO" />
+  </SKILL-YM_GOLEM_GUARDAO_DA_MINA_AVANCO>
+  <SKILL-YM_GOLEM_RELIQUIA_AVANCO Rarity="0">
+    <DescriptionInfo Name="DES_YM_GOLEM_RELIQUIA_AVANCO" Description="DES_YM_GOLEM_RELIQUIA_AVANCO_DES" IconName="YM_Kagura_Icon" />
+    <BaseEssence Amount="5" Tag="TAG-ESSENCE_GRAY" />
+    <SkillSubskill Value="SUBSKILL-MULTI_WEAK_ADD_DESTINY" />
+    <SkillGroupFilter Value="YM_GOLEM_RELIQUIA_AVANCO" />
+  </SKILL-YM_GOLEM_RELIQUIA_AVANCO>
+  <SKILL-YM_GOLEM_CINZEL_AVANCO Rarity="0">
+    <DescriptionInfo Name="DES_YM_GOLEM_CINZEL_AVANCO" Description="DES_YM_GOLEM_CINZEL_AVANCO_DES" IconName="YM_Tempera_Icon" />
+    <BaseEssence Amount="5" Tag="TAG-ESSENCE_GRAY" />
+    <SkillSubskill Value="SUBSKILL-ADD_WEAK_PERCEPTION" />
+    <SkillGroupFilter Value="YM_GOLEM_CINZEL_AVANCO" />
+  </SKILL-YM_GOLEM_CINZEL_AVANCO>
+  <SKILL-YM_GOLEM_KOMAINU_AVANCO Rarity="0">
+    <DescriptionInfo Name="DES_YM_GOLEM_KOMAINU_AVANCO" Description="DES_YM_GOLEM_KOMAINU_AVANCO_DES" IconName="GOLEM_KOMAINU_Roster" />
+    <BaseEssence Amount="5" Tag="TAG-ESSENCE_GRAY" />
+    <SkillSubskill Value="SUBSKILL-ADD_WEAK_MYSTICISM" />
+    <SkillGroupFilter Value="YM_GOLEM_KOMAINU_AVANCO" />
+  </SKILL-YM_GOLEM_KOMAINU_AVANCO>
+  <SKILL-YM_EQUIP_DAISHO Rarity="0">
+    <DescriptionInfo Name="DES_YM_DAISHO" Description="DES_YM_DAISHO_DES" IconName="YM_Daisho_Icon" />
+    <BaseEssence Amount="5" Tag="TAG-ESSENCE_GRAY" />
+    <SkillSubskill Value="SUBSKILL-YM_DAISHO_TECNICA" />
+    <SkillSubskill Value="SUBSKILL-YM_WAKIZASHI_TECNICA" />
+    <SkillGroupFilter Value="YM_EQUIP_DAISHO" />
+  </SKILL-YM_EQUIP_DAISHO>
+  <SKILL-YM_EQUIP_OMAMORI Rarity="0">
+    <DescriptionInfo Name="DES_YM_OMAMORI" Description="DES_YM_OMAMORI_DES" IconName="YM_Omamori_Icon" />
+    <BaseEssence Amount="5" Tag="TAG-ESSENCE_GRAY" />
+    <SkillSubskill Value="SUBSKILL-ADD_SHIELDING_MEDIUM_S" />
+    <SkillGroupFilter Value="YM_EQUIP_OMAMORI" />
+  </SKILL-YM_EQUIP_OMAMORI>
+  <SKILL-YM_LINHAGEM_GOLEM Rarity="0">
+    <DescriptionInfo Name="DES_YM_LINHAGEM_GOLEM" Description="DES_YM_LINHAGEM_GOLEM_DES" IconName="YM_DESC_GOLEM_ADULT" />
+    <BaseEssence Amount="0" Tag="TAG-ESSENCE_GRAY" />
+    <SkillSubskill Value="SUBSKILL-YM_LINHAGEM_GOLEM_SHIELDING_PHYSICAL" />
+    <SkillSubskill Value="SUBSKILL-YM_LINHAGEM_GOLEM_MOVEMENT_RANGE" />
+    <SkillGroupFilter Value="YM_LINHAGEM_GOLEM" />
+  </SKILL-YM_LINHAGEM_GOLEM>
+  <SKILL-YM_LINHAGEM_HUMAN Rarity="0">
+    <DescriptionInfo Name="DES_YM_LINHAGEM_HUMAN" Description="DES_YM_LINHAGEM_HUMAN_DES" IconName="YM_DESC_HUMAN_ADULT" />
+    <BaseEssence Amount="0" Tag="TAG-ESSENCE_GRAY" />
+    <SkillSubskill Value="SUBSKILL-YM_LINHAGEM_HUMAN_INTELLIGENCE" />
+    <SkillSubskill Value="SUBSKILL-YM_LINHAGEM_HUMAN_MYSTICISM" />
+    <SkillGroupFilter Value="YM_LINHAGEM_HUMAN" />
+  </SKILL-YM_LINHAGEM_HUMAN>
+  <SKILL-YM_LINHAGEM_ELF Rarity="0">
+    <DescriptionInfo Name="DES_YM_LINHAGEM_ELF" Description="DES_YM_LINHAGEM_ELF_DES" IconName="YM_DESC_ELF_ADULT" />
+    <BaseEssence Amount="0" Tag="TAG-ESSENCE_GRAY" />
+    <SkillSubskill Value="SUBSKILL-YM_LINHAGEM_ELF_PERCEPTION" />
+    <SkillSubskill Value="SUBSKILL-YM_LINHAGEM_ELF_STRENGTH" />
+    <SkillGroupFilter Value="YM_LINHAGEM_ELF" />
+  </SKILL-YM_LINHAGEM_ELF>
+  <SKILL-YM_LINHAGEM_ORC Rarity="0">
+    <DescriptionInfo Name="DES_YM_LINHAGEM_ORC" Description="DES_YM_LINHAGEM_ORC_DES" IconName="YM_DESC_ORC_ADULT" />
+    <BaseEssence Amount="0" Tag="TAG-ESSENCE_GRAY" />
+    <SkillSubskill Value="SUBSKILL-YM_LINHAGEM_ORC_STRENGTH" />
+    <SkillSubskill Value="SUBSKILL-YM_LINHAGEM_ORC_INTELLIGENCE" />
+    <SkillGroupFilter Value="YM_LINHAGEM_ORC" />
+  </SKILL-YM_LINHAGEM_ORC>
+  <SKILL-YM_LINHAGEM_DWARF Rarity="0">
+    <DescriptionInfo Name="DES_YM_LINHAGEM_DWARF" Description="DES_YM_LINHAGEM_DWARF_DES" IconName="YM_DESC_DWARF_ADULT" />
+    <BaseEssence Amount="0" Tag="TAG-ESSENCE_GRAY" />
+    <SkillSubskill Value="SUBSKILL-YM_LINHAGEM_DWARF_CRAFTING" />
+    <SkillSubskill Value="SUBSKILL-YM_LINHAGEM_DWARF_WITS" />
+    <SkillGroupFilter Value="YM_LINHAGEM_DWARF" />
+  </SKILL-YM_LINHAGEM_DWARF>
+  <SKILL-YM_LINHAGEM_GOBLIN Rarity="0">
+    <DescriptionInfo Name="DES_YM_LINHAGEM_GOBLIN" Description="DES_YM_LINHAGEM_GOBLIN_DES" IconName="YM_DESC_GOBLIN_ADULT" />
+    <BaseEssence Amount="0" Tag="TAG-ESSENCE_GRAY" />
+    <SkillSubskill Value="SUBSKILL-YM_LINHAGEM_GOBLIN_WITS" />
+    <SkillSubskill Value="SUBSKILL-YM_LINHAGEM_GOBLIN_MAX_HEALTH_PHYSICAL" />
+    <SkillGroupFilter Value="YM_LINHAGEM_GOBLIN" />
+  </SKILL-YM_LINHAGEM_GOBLIN>
+  <SKILL-YM_LINHAGEM_SHADOWELF Rarity="0">
+    <DescriptionInfo Name="DES_YM_LINHAGEM_SHADOWELF" Description="DES_YM_LINHAGEM_SHADOWELF_DES" IconName="YM_DESC_SHADOWELF_ADULT" />
+    <BaseEssence Amount="0" Tag="TAG-ESSENCE_GRAY" />
+    <SkillSubskill Value="SUBSKILL-YM_LINHAGEM_SHADOWELF_RANGE_OF_SIGHT_NIGHT" />
+    <SkillSubskill Value="SUBSKILL-YM_LINHAGEM_SHADOWELF_RANGE_OF_SIGHT_DAY" />
+    <SkillGroupFilter Value="YM_LINHAGEM_SHADOWELF" />
+  </SKILL-YM_LINHAGEM_SHADOWELF>
+  <SKILL-YM_LINHAGEM_DEMON Rarity="0">
+    <DescriptionInfo Name="DES_YM_LINHAGEM_DEMON" Description="DES_YM_LINHAGEM_DEMON_DES" IconName="YM_DESC_DEMON_ADULT" />
+    <BaseEssence Amount="0" Tag="TAG-ESSENCE_GRAY" />
+    <SkillSubskill Value="SUBSKILL-YM_LINHAGEM_DEMON_MYSTICISM" />
+    <SkillSubskill Value="SUBSKILL-YM_LINHAGEM_DEMON_WISDOM" />
+    <SkillGroupFilter Value="YM_LINHAGEM_DEMON" />
+  </SKILL-YM_LINHAGEM_DEMON>
+  <SKILL-YM_LINHAGEM_BEAST Rarity="0">
+    <DescriptionInfo Name="DES_YM_LINHAGEM_BEAST" Description="DES_YM_LINHAGEM_BEAST_DES" IconName="YM_DESC_BEAST_ADULT" />
+    <BaseEssence Amount="0" Tag="TAG-ESSENCE_GRAY" />
+    <SkillSubskill Value="SUBSKILL-YM_LINHAGEM_BEAST_PERCEPTION" />
+    <SkillSubskill Value="SUBSKILL-YM_LINHAGEM_BEAST_WISDOM" />
+    <SkillGroupFilter Value="YM_LINHAGEM_BEAST" />
+  </SKILL-YM_LINHAGEM_BEAST>
+  <SKILL-YM_CORE_INERTE Rarity="0">
+    <DescriptionInfo Name="DES_YM_CORE_INERTE" Description="DES_YM_CORE_INERTE_DES" IconName="YM_Komainu_Icon" />
+    <BaseEssence Amount="0" Tag="TAG-ESSENCE_GRAY" />
+    <SkillSubskill Value="SUBSKILL-YM_CORE_INERTE" />
+    <SkillGroupFilter Value="YM_CoreInerte" />
+  </SKILL-YM_CORE_INERTE>
+  <SKILL-YM_ARMA_ARCO Rarity="0">
+    <DescriptionInfo Name="Tiro de Vigília" Description="Disparo físico rápido da retaguarda. O dano escala com Percepção." IconName="YM_Arma_ARCO" />
+    <BaseEssence Amount="5" Tag="TAG-ESSENCE_GRAY" />
+    <SkillSubskill Value="SUBSKILL-YM_ARMA_ARCO" />
+    <SkillGroupFilter Value="YM_ARMA_ARCO" />
+  </SKILL-YM_ARMA_ARCO>
+  <SKILL-YM_ARMA_BESTA Rarity="0">
+    <DescriptionInfo Name="Virote de Travessia" Description="Disparo físico mais lento que o arco. Usa Inteligência e causa dano verdadeiro de essência a um alvo." IconName="YM_Arma_BESTA" />
+    <BaseEssence Amount="5" Tag="TAG-ESSENCE_GRAY" />
+    <SkillSubskill Value="SUBSKILL-YM_ARMA_BESTA" />
+    <SkillGroupFilter Value="YM_ARMA_BESTA" />
+  </SKILL-YM_ARMA_BESTA>
+  <SKILL-YM_ARMA_ARCABUZ Rarity="0">
+    <DescriptionInfo Name="Disparo de Faísca" Description="Disparo físico pesado da retaguarda. Usa Percepção e causa metade do dano a alvos secundários na área em T. Tem o maior atraso entre as armas da oficina." IconName="YM_Arma_ARCABUZ" />
+    <BaseEssence Amount="5" Tag="TAG-ESSENCE_GRAY" />
+    <SkillSubskill Value="SUBSKILL-YM_ARMA_ARCABUZ" />
+    <SkillGroupFilter Value="YM_ARMA_ARCABUZ" />
+  </SKILL-YM_ARMA_ARCABUZ>
+  <SKILL-YM_ARMA_FUNDA Rarity="0">
+    <DescriptionInfo Name="Pedrada de Rio" Description="Tiro físico leve da retaguarda. Usa Perspicácia e atrasa a próxima ação do alvo quando há uma ação na fila." IconName="YM_Arma_FUNDA" />
+    <BaseEssence Amount="5" Tag="TAG-ESSENCE_GRAY" />
+    <SkillSubskill Value="SUBSKILL-YM_ARMA_FUNDA" />
+    <SkillGroupFilter Value="YM_ARMA_FUNDA" />
+  </SKILL-YM_ARMA_FUNDA>
+  <SKILL-YM_ARMA_CHICOTE Rarity="0">
+    <DescriptionInfo Name="Estalo de Couro" Description="Golpe físico de uma mão na linha de frente. Usa Força e atrasa a ação enfileirada do alvo." IconName="YM_Arma_CHICOTE" />
+    <BaseEssence Amount="5" Tag="TAG-ESSENCE_GRAY" />
+    <SkillSubskill Value="SUBSKILL-YM_ARMA_CHICOTE" />
+    <SkillGroupFilter Value="YM_ARMA_CHICOTE" />
+  </SKILL-YM_ARMA_CHICOTE>
+  <SKILL-YM_ARMA_CHICOTE_REFORCADO Rarity="0">
+    <DescriptionInfo Name="Varredura de Ferro" Description="Golpe físico de uma mão na linha de frente. Usa Força e causa metade do dano aos inimigos adjacentes. O atraso afeta os alvos atingidos que têm ação na fila." IconName="YM_Arma_CHICOTE_REFORCADO" />
+    <BaseEssence Amount="5" Tag="TAG-ESSENCE_GRAY" />
+    <SkillSubskill Value="SUBSKILL-YM_ARMA_CHICOTE_REFORCADO" />
+    <SkillGroupFilter Value="YM_ARMA_CHICOTE_REFORCADO" />
+  </SKILL-YM_ARMA_CHICOTE_REFORCADO>
+</SKILLS_1_NATURAL>

@@ -1,0 +1,335 @@
+<CHARACTER_NAMES>
+  <!-- Yuri Mizuki -->
+  <NAME_COLLECTION-YURI_MIZUKI>
+    <Race Value="RACE-HUMAN" />
+    <Subrace Value="SUBRACE-YURI_MIZUKI" />
+    <CharacterMale Value="Yuri Mizuki" />
+    <CharacterFemale Value="Yuri Mizuki" />
+  </NAME_COLLECTION-YURI_MIZUKI>
+  
+  <!-- GOLEMS T1 (Inferiores) -->
+  <NAME_COLLECTION-GOLEM_CHOQUE>
+    <Race Value="RACE-CONCEPT" />
+    <Subrace Value="SUBRACE-GOLEM_CHOQUE" />
+    <CharacterMale Value="Choque" />
+    <CharacterFemale Value="Choque" />
+  </NAME_COLLECTION-GOLEM_CHOQUE>
+  <NAME_COLLECTION-GOLEM_CASCALHO>
+    <Race Value="RACE-CONCEPT" />
+    <Subrace Value="SUBRACE-GOLEM_CASCALHO" />
+    <CharacterMale Value="Cascalho" />
+    <CharacterFemale Value="Cascalha" />
+  </NAME_COLLECTION-GOLEM_CASCALHO>
+  <NAME_COLLECTION-GOLEM_GALHO>
+    <Race Value="RACE-CONCEPT" />
+    <Subrace Value="SUBRACE-GOLEM_GALHO" />
+    <CharacterMale Value="Galho" />
+    <CharacterFemale Value="Galha" />
+  </NAME_COLLECTION-GOLEM_GALHO>
+  <NAME_COLLECTION-GOLEM_LAMPEJO>
+    <Race Value="RACE-CONCEPT" />
+    <Subrace Value="SUBRACE-GOLEM_LAMPEJO" />
+    <CharacterMale Value="Lampejo" />
+    <CharacterFemale Value="Lampeja" />
+  </NAME_COLLECTION-GOLEM_LAMPEJO>
+  <NAME_COLLECTION-GOLEM_MASSA>
+    <Race Value="RACE-CONCEPT" />
+    <Subrace Value="SUBRACE-GOLEM_MASSA" />
+    <CharacterMale Value="Massa" />
+    <CharacterFemale Value="Massa" />
+  </NAME_COLLECTION-GOLEM_MASSA>
+  <NAME_COLLECTION-GOLEM_SEIXO>
+    <Race Value="RACE-CONCEPT" />
+    <Subrace Value="SUBRACE-GOLEM_SEIXO" />
+    <CharacterMale Value="Seixo" />
+    <CharacterFemale Value="Seixa" />
+  </NAME_COLLECTION-GOLEM_SEIXO>
+  
+  <!-- GOLEMS T2 (Feitores) -->
+  <NAME_COLLECTION-GOLEM_FERRO_VIDO>
+    <Race Value="RACE-CONCEPT" />
+    <Subrace Value="SUBRACE-GOLEM_FERRO_VIDO" />
+    <CharacterMale Value="Ferro-Vivo" />
+    <CharacterFemale Value="Ferro-Viva" />
+  </NAME_COLLECTION-GOLEM_FERRO_VIDO>
+  <NAME_COLLECTION-GOLEM_RAIZ>
+    <Race Value="RACE-CONCEPT" />
+    <Subrace Value="SUBRACE-GOLEM_RAIZ" />
+    <CharacterMale Value="Raiz" />
+    <CharacterFemale Value="Raíza" />
+  </NAME_COLLECTION-GOLEM_RAIZ>
+  <NAME_COLLECTION-GOLEM_OSSADA>
+    <Race Value="RACE-CONCEPT" />
+    <Subrace Value="SUBRACE-GOLEM_OSSADA" />
+    <CharacterMale Value="Ossada" />
+    <CharacterFemale Value="Ossada" />
+  </NAME_COLLECTION-GOLEM_OSSADA>
+  <NAME_COLLECTION-GOLEM_CRISTAL>
+    <Race Value="RACE-CONCEPT" />
+    <Subrace Value="SUBRACE-GOLEM_CRISTAL" />
+    <CharacterMale Value="Cristal" />
+    <CharacterFemale Value="Cristal" />
+  </NAME_COLLECTION-GOLEM_CRISTAL>
+  <NAME_COLLECTION-GOLEM_PAO_DO_CAMPO>
+    <Race Value="RACE-CONCEPT" />
+    <Subrace Value="SUBRACE-GOLEM_PAO_DO_CAMPO" />
+    <CharacterMale Value="Pão-do-Campo" />
+    <CharacterFemale Value="Pão-do-Campo" />
+  </NAME_COLLECTION-GOLEM_PAO_DO_CAMPO>
+  
+  <!-- GOLEMS T3 (Superiores) -->
+  <NAME_COLLECTION-GOLEM_MURALHA>
+    <Race Value="RACE-CONCEPT" />
+    <Subrace Value="SUBRACE-GOLEM_MURALHA" />
+    <CharacterMale Value="Muralha" />
+    <CharacterFemale Value="Muralha" />
+  </NAME_COLLECTION-GOLEM_MURALHA>
+  <NAME_COLLECTION-GOLEM_VIUVA>
+    <Race Value="RACE-CONCEPT" />
+    <Subrace Value="SUBRACE-GOLEM_VIUVA" />
+    <CharacterMale Value="Viúvo-de-Cedro" />
+    <CharacterFemale Value="Viúva-de-Cedro" />
+  </NAME_COLLECTION-GOLEM_VIUVA>
+  <NAME_COLLECTION-GOLEM_VEJO>
+    <Race Value="RACE-CONCEPT" />
+    <Subrace Value="SUBRACE-GOLEM_VEJO" />
+    <CharacterMale Value="Veio" />
+    <CharacterFemale Value="Veia" />
+  </NAME_COLLECTION-GOLEM_VEJO>
+  <NAME_COLLECTION-GOLEM_AGULHA>
+    <Race Value="RACE-CONCEPT" />
+    <Subrace Value="SUBRACE-GOLEM_AGULHA" />
+    <CharacterMale Value="Agulha" />
+    <CharacterFemale Value="Agulha" />
+  </NAME_COLLECTION-GOLEM_AGULHA>
+  <NAME_COLLECTION-GOLEM_FERREIRO>
+    <Race Value="RACE-CONCEPT" />
+    <Subrace Value="SUBRACE-GOLEM_FERREIRO" />
+    <CharacterMale Value="Ferreiro" />
+    <CharacterFemale Value="Ferreira" />
+  </NAME_COLLECTION-GOLEM_FERREIRO>
+  
+  <!-- GOLEMS T4 Únicos -->
+  <NAME_COLLECTION-GOLEM_GUARDAO_DA_MINA>
+    <Race Value="RACE-CONCEPT" />
+    <Subrace Value="SUBRACE-GOLEM_GUARDAO_DA_MINA" />
+    <CharacterMale Value="Guardião" />
+    <CharacterFemale Value="Guardiã" />
+  </NAME_COLLECTION-GOLEM_GUARDAO_DA_MINA>
+  <NAME_COLLECTION-GOLEM_DRAGAO_OSSO>
+    <Race Value="RACE-CONCEPT" />
+    <Subrace Value="SUBRACE-GOLEM_DRAGAO_OSSO" />
+    <CharacterMale Value="Dragão de Osso" />
+    <CharacterFemale Value="Dragão de Osso" />
+  </NAME_COLLECTION-GOLEM_DRAGAO_OSSO>
+  <NAME_COLLECTION-GOLEM_CEVA>
+    <Race Value="RACE-CONCEPT" />
+    <Subrace Value="SUBRACE-GOLEM_CEVA" />
+    <CharacterMale Value="Ceva" />
+    <CharacterFemale Value="Ceva" />
+  </NAME_COLLECTION-GOLEM_CEVA>
+  <NAME_COLLECTION-GOLEM_CINZEL>
+    <Race Value="RACE-CONCEPT" />
+    <Subrace Value="SUBRACE-GOLEM_CINZEL" />
+    <CharacterMale Value="Cinzel" />
+    <CharacterFemale Value="Cinzel" />
+  </NAME_COLLECTION-GOLEM_CINZEL>
+  
+  <!-- GOLEMS DE EVENTO -->
+  <NAME_COLLECTION-GOLEM_ESTALO>
+    <Race Value="RACE-CONCEPT" />
+    <Subrace Value="SUBRACE-GOLEM_ESTALO" />
+    <CharacterMale Value="Estalo" />
+    <CharacterFemale Value="Estalo" />
+  </NAME_COLLECTION-GOLEM_ESTALO>
+  <NAME_COLLECTION-GOLEM_TERRA_VIVA>
+    <Race Value="RACE-CONCEPT" />
+    <Subrace Value="SUBRACE-GOLEM_TERRA_VIVA" />
+    <CharacterMale Value="Terra Viva" />
+    <CharacterFemale Value="Terra Viva" />
+  </NAME_COLLECTION-GOLEM_TERRA_VIVA>
+  <NAME_COLLECTION-GOLEM_FANTASMA_DE_FORG>
+    <Race Value="RACE-CONCEPT" />
+    <Subrace Value="SUBRACE-GOLEM_FANTASMA_DE_FORG" />
+    <CharacterMale Value="Fantasma" />
+    <CharacterFemale Value="Fantasma" />
+  </NAME_COLLECTION-GOLEM_FANTASMA_DE_FORG>
+  <NAME_COLLECTION-GOLEM_GEMEO>
+    <Race Value="RACE-CONCEPT" />
+    <Subrace Value="SUBRACE-GOLEM_GEMEO" />
+    <CharacterMale Value="Gêmeo" />
+    <CharacterFemale Value="Gêmea" />
+  </NAME_COLLECTION-GOLEM_GEMEO>
+  
+  <!-- NOVOS GOLEMS EXPANSÃO -->
+  <NAME_COLLECTION-GOLEM_OBSIDIANA>
+    <Race Value="RACE-CONCEPT" />
+    <Subrace Value="SUBRACE-GOLEM_OBSIDIANA" />
+    <CharacterMale Value="Obsidiana" />
+    <CharacterFemale Value="Obsidiana" />
+  </NAME_COLLECTION-GOLEM_OBSIDIANA>
+  <NAME_COLLECTION-GOLEM_SANGUE>
+    <Race Value="RACE-CONCEPT" />
+    <Subrace Value="SUBRACE-GOLEM_SANGUE" />
+    <CharacterMale Value="Sangue" />
+    <CharacterFemale Value="Sangue" />
+  </NAME_COLLECTION-GOLEM_SANGUE>
+  <NAME_COLLECTION-GOLEM_NEBULINA>
+    <Race Value="RACE-CONCEPT" />
+    <Subrace Value="SUBRACE-GOLEM_NEBULINA" />
+    <CharacterMale Value="Nebulina" />
+    <CharacterFemale Value="Nebulina" />
+  </NAME_COLLECTION-GOLEM_NEBULINA>
+  <NAME_COLLECTION-GOLEM_FUNGO>
+    <Race Value="RACE-CONCEPT" />
+    <Subrace Value="SUBRACE-GOLEM_FUNGO" />
+    <CharacterMale Value="Fungo" />
+    <CharacterFemale Value="Fungo" />
+  </NAME_COLLECTION-GOLEM_FUNGO>
+  <NAME_COLLECTION-GOLEM_RELIQUIA>
+    <Race Value="RACE-CONCEPT" />
+    <Subrace Value="SUBRACE-GOLEM_RELIQUIA" />
+    <CharacterMale Value="Relíquia" />
+    <CharacterFemale Value="Relíquia" />
+  </NAME_COLLECTION-GOLEM_RELIQUIA>
+  
+  <!-- HALF-DESCENDENTES -->
+  <NAME_COLLECTION-HALF_ARGILA>
+    <Race Value="RACE-HUMAN" />
+    <Subrace Value="SUBRACE-HALF_ARGILA" />
+    <CharacterMale Value="Argil" />
+    <CharacterFemale Value="Argila" />
+  </NAME_COLLECTION-HALF_ARGILA>
+  <NAME_COLLECTION-HALF_BRASA>
+    <Race Value="RACE-HUMAN" />
+    <Subrace Value="SUBRACE-HALF_BRASA" />
+    <CharacterMale Value="Brasa" />
+    <CharacterFemale Value="Brise" />
+  </NAME_COLLECTION-HALF_BRASA>
+  <NAME_COLLECTION-HALF_OBSIDIANA>
+    <Race Value="RACE-HUMAN" />
+    <Subrace Value="SUBRACE-HALF_OBSIDIANA" />
+    <CharacterMale Value="Obsidiano" />
+    <CharacterFemale Value="Obsidiana" />
+  </NAME_COLLECTION-HALF_OBSIDIANA>
+  <NAME_COLLECTION-HALF_NEBULINA>
+    <Race Value="RACE-HUMAN" />
+    <Subrace Value="SUBRACE-HALF_NEBULINA" />
+    <CharacterMale Value="Nebul" />
+    <CharacterFemale Value="Nebulina" />
+  </NAME_COLLECTION-HALF_NEBULINA>
+  <NAME_COLLECTION-GOLEM_KOMAINU>
+    <Race Value="RACE-CONCEPT" />
+    <Subrace Value="SUBRACE-GOLEM_KOMAINU" />
+    <CharacterMale Value="Komainu do Limiar" />
+    <CharacterFemale Value="Komainu do Limiar" />
+  </NAME_COLLECTION-GOLEM_KOMAINU>
+  <NAME_COLLECTION-YM_DESC_GOLEM_CHILD Language="Any">
+    <Race Value="RACE-YM_GOLEM" />
+    <Subrace Value="SUBRACE-YM_DESC_GOLEM_CHILD" />
+    <CharacterMale Value="Ren" />
+    <CharacterFemale Value="Aki" />
+  </NAME_COLLECTION-YM_DESC_GOLEM_CHILD>
+  <NAME_COLLECTION-YM_DESC_GOLEM_ADULT Language="Any">
+    <Race Value="RACE-YM_GOLEM" />
+    <Subrace Value="SUBRACE-YM_DESC_GOLEM_ADULT" />
+    <CharacterMale Value="Ren" />
+    <CharacterFemale Value="Aki" />
+  </NAME_COLLECTION-YM_DESC_GOLEM_ADULT>
+  <NAME_COLLECTION-YM_DESC_HUMAN_CHILD Language="Any">
+    <Race Value="RACE-YM_MEIO_GOLEM" />
+    <Subrace Value="SUBRACE-YM_DESC_HUMAN_CHILD" />
+    <CharacterMale Value="Ren" />
+    <CharacterFemale Value="Aki" />
+  </NAME_COLLECTION-YM_DESC_HUMAN_CHILD>
+  <NAME_COLLECTION-YM_DESC_HUMAN_ADULT Language="Any">
+    <Race Value="RACE-YM_MEIO_GOLEM" />
+    <Subrace Value="SUBRACE-YM_DESC_HUMAN_ADULT" />
+    <CharacterMale Value="Ren" />
+    <CharacterFemale Value="Aki" />
+  </NAME_COLLECTION-YM_DESC_HUMAN_ADULT>
+  <NAME_COLLECTION-YM_DESC_ELF_CHILD Language="Any">
+    <Race Value="RACE-YM_MEIO_GOLEM" />
+    <Subrace Value="SUBRACE-YM_DESC_ELF_CHILD" />
+    <CharacterMale Value="Ren" />
+    <CharacterFemale Value="Aki" />
+  </NAME_COLLECTION-YM_DESC_ELF_CHILD>
+  <NAME_COLLECTION-YM_DESC_ELF_ADULT Language="Any">
+    <Race Value="RACE-YM_MEIO_GOLEM" />
+    <Subrace Value="SUBRACE-YM_DESC_ELF_ADULT" />
+    <CharacterMale Value="Ren" />
+    <CharacterFemale Value="Aki" />
+  </NAME_COLLECTION-YM_DESC_ELF_ADULT>
+  <NAME_COLLECTION-YM_DESC_ORC_CHILD Language="Any">
+    <Race Value="RACE-YM_MEIO_GOLEM" />
+    <Subrace Value="SUBRACE-YM_DESC_ORC_CHILD" />
+    <CharacterMale Value="Ren" />
+    <CharacterFemale Value="Aki" />
+  </NAME_COLLECTION-YM_DESC_ORC_CHILD>
+  <NAME_COLLECTION-YM_DESC_ORC_ADULT Language="Any">
+    <Race Value="RACE-YM_MEIO_GOLEM" />
+    <Subrace Value="SUBRACE-YM_DESC_ORC_ADULT" />
+    <CharacterMale Value="Ren" />
+    <CharacterFemale Value="Aki" />
+  </NAME_COLLECTION-YM_DESC_ORC_ADULT>
+  <NAME_COLLECTION-YM_DESC_DWARF_CHILD Language="Any">
+    <Race Value="RACE-YM_MEIO_GOLEM" />
+    <Subrace Value="SUBRACE-YM_DESC_DWARF_CHILD" />
+    <CharacterMale Value="Ren" />
+    <CharacterFemale Value="Aki" />
+  </NAME_COLLECTION-YM_DESC_DWARF_CHILD>
+  <NAME_COLLECTION-YM_DESC_DWARF_ADULT Language="Any">
+    <Race Value="RACE-YM_MEIO_GOLEM" />
+    <Subrace Value="SUBRACE-YM_DESC_DWARF_ADULT" />
+    <CharacterMale Value="Ren" />
+    <CharacterFemale Value="Aki" />
+  </NAME_COLLECTION-YM_DESC_DWARF_ADULT>
+  <NAME_COLLECTION-YM_DESC_GOBLIN_CHILD Language="Any">
+    <Race Value="RACE-YM_MEIO_GOLEM" />
+    <Subrace Value="SUBRACE-YM_DESC_GOBLIN_CHILD" />
+    <CharacterMale Value="Ren" />
+    <CharacterFemale Value="Aki" />
+  </NAME_COLLECTION-YM_DESC_GOBLIN_CHILD>
+  <NAME_COLLECTION-YM_DESC_GOBLIN_ADULT Language="Any">
+    <Race Value="RACE-YM_MEIO_GOLEM" />
+    <Subrace Value="SUBRACE-YM_DESC_GOBLIN_ADULT" />
+    <CharacterMale Value="Ren" />
+    <CharacterFemale Value="Aki" />
+  </NAME_COLLECTION-YM_DESC_GOBLIN_ADULT>
+  <NAME_COLLECTION-YM_DESC_SHADOWELF_CHILD Language="Any">
+    <Race Value="RACE-YM_MEIO_GOLEM" />
+    <Subrace Value="SUBRACE-YM_DESC_SHADOWELF_CHILD" />
+    <CharacterMale Value="Ren" />
+    <CharacterFemale Value="Aki" />
+  </NAME_COLLECTION-YM_DESC_SHADOWELF_CHILD>
+  <NAME_COLLECTION-YM_DESC_SHADOWELF_ADULT Language="Any">
+    <Race Value="RACE-YM_MEIO_GOLEM" />
+    <Subrace Value="SUBRACE-YM_DESC_SHADOWELF_ADULT" />
+    <CharacterMale Value="Ren" />
+    <CharacterFemale Value="Aki" />
+  </NAME_COLLECTION-YM_DESC_SHADOWELF_ADULT>
+  <NAME_COLLECTION-YM_DESC_DEMON_CHILD Language="Any">
+    <Race Value="RACE-YM_MEIO_GOLEM" />
+    <Subrace Value="SUBRACE-YM_DESC_DEMON_CHILD" />
+    <CharacterMale Value="Ren" />
+    <CharacterFemale Value="Aki" />
+  </NAME_COLLECTION-YM_DESC_DEMON_CHILD>
+  <NAME_COLLECTION-YM_DESC_DEMON_ADULT Language="Any">
+    <Race Value="RACE-YM_MEIO_GOLEM" />
+    <Subrace Value="SUBRACE-YM_DESC_DEMON_ADULT" />
+    <CharacterMale Value="Ren" />
+    <CharacterFemale Value="Aki" />
+  </NAME_COLLECTION-YM_DESC_DEMON_ADULT>
+  <NAME_COLLECTION-YM_DESC_BEAST_CHILD Language="Any">
+    <Race Value="RACE-YM_MEIO_GOLEM" />
+    <Subrace Value="SUBRACE-YM_DESC_BEAST_CHILD" />
+    <CharacterMale Value="Ren" />
+    <CharacterFemale Value="Aki" />
+  </NAME_COLLECTION-YM_DESC_BEAST_CHILD>
+  <NAME_COLLECTION-YM_DESC_BEAST_ADULT Language="Any">
+    <Race Value="RACE-YM_MEIO_GOLEM" />
+    <Subrace Value="SUBRACE-YM_DESC_BEAST_ADULT" />
+    <CharacterMale Value="Ren" />
+    <CharacterFemale Value="Aki" />
+  </NAME_COLLECTION-YM_DESC_BEAST_ADULT>
+</CHARACTER_NAMES>

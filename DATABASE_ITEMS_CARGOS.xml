@@ -1,0 +1,285 @@
+<ITEMS_CARGOS>
+  <!-- Golens T1 -->
+  <ITEM_CARGO-YM_GOLEM_CHOQUE TrashChance="0" MasterChance="0">
+    <ResourceRarityRange MinimumCount="0" MaximumCount="100" />
+    <SkillRarityRange MinimumCount="0" MaximumCount="100" />
+    <LevelRange MinimumCount="1" MaximumCount="1" />
+    <NumberOfItems MinimumCount="1" MaximumCount="1" />
+    <RequiredTag Value="TAG-YM_GOLEM_CHOQUE" />
+  </ITEM_CARGO-YM_GOLEM_CHOQUE>
+  <ITEM_CARGO-YM_GOLEM_CASCALHO TrashChance="0" MasterChance="0">
+    <ResourceRarityRange MinimumCount="0" MaximumCount="100" />
+    <SkillRarityRange MinimumCount="0" MaximumCount="100" />
+    <LevelRange MinimumCount="1" MaximumCount="1" />
+    <NumberOfItems MinimumCount="1" MaximumCount="1" />
+    <RequiredTag Value="TAG-YM_GOLEM_CASCALHO" />
+  </ITEM_CARGO-YM_GOLEM_CASCALHO>
+  <ITEM_CARGO-YM_GOLEM_GALHO TrashChance="0" MasterChance="0">
+    <ResourceRarityRange MinimumCount="0" MaximumCount="100" />
+    <SkillRarityRange MinimumCount="0" MaximumCount="100" />
+    <LevelRange MinimumCount="1" MaximumCount="1" />
+    <NumberOfItems MinimumCount="1" MaximumCount="1" />
+    <RequiredTag Value="TAG-YM_GOLEM_GALHO" />
+  </ITEM_CARGO-YM_GOLEM_GALHO>
+  <ITEM_CARGO-YM_GOLEM_LAMPEJO TrashChance="0" MasterChance="0">
+    <ResourceRarityRange MinimumCount="0" MaximumCount="100" />
+    <SkillRarityRange MinimumCount="0" MaximumCount="100" />
+    <LevelRange MinimumCount="1" MaximumCount="1" />
+    <NumberOfItems MinimumCount="1" MaximumCount="1" />
+    <RequiredTag Value="TAG-YM_GOLEM_LAMPEJO" />
+  </ITEM_CARGO-YM_GOLEM_LAMPEJO>
+  <ITEM_CARGO-YM_GOLEM_MASSA TrashChance="0" MasterChance="0">
+    <ResourceRarityRange MinimumCount="0" MaximumCount="100" />
+    <SkillRarityRange MinimumCount="0" MaximumCount="100" />
+    <LevelRange MinimumCount="1" MaximumCount="1" />
+    <NumberOfItems MinimumCount="1" MaximumCount="1" />
+    <RequiredTag Value="TAG-YM_GOLEM_MASSA" />
+  </ITEM_CARGO-YM_GOLEM_MASSA>
+  <ITEM_CARGO-YM_GOLEM_SEIXO TrashChance="0" MasterChance="0">
+    <ResourceRarityRange MinimumCount="0" MaximumCount="100" />
+    <SkillRarityRange MinimumCount="0" MaximumCount="100" />
+    <LevelRange MinimumCount="1" MaximumCount="1" />
+    <NumberOfItems MinimumCount="1" MaximumCount="1" />
+    <RequiredTag Value="TAG-YM_GOLEM_SEIXO" />
+  </ITEM_CARGO-YM_GOLEM_SEIXO>
+  <!-- Golens T2 -->
+  <ITEM_CARGO-YM_GOLEM_FERRO_VIDO TrashChance="0" MasterChance="0">
+    <ResourceRarityRange MinimumCount="0" MaximumCount="100" />
+    <SkillRarityRange MinimumCount="0" MaximumCount="100" />
+    <LevelRange MinimumCount="1" MaximumCount="1" />
+    <NumberOfItems MinimumCount="1" MaximumCount="1" />
+    <RequiredTag Value="TAG-YM_GOLEM_FERRO_VIDO" />
+  </ITEM_CARGO-YM_GOLEM_FERRO_VIDO>
+  <ITEM_CARGO-YM_GOLEM_RAIZ TrashChance="0" MasterChance="0">
+    <ResourceRarityRange MinimumCount="0" MaximumCount="100" />
+    <SkillRarityRange MinimumCount="0" MaximumCount="100" />
+    <LevelRange MinimumCount="1" MaximumCount="1" />
+    <NumberOfItems MinimumCount="1" MaximumCount="1" />
+    <RequiredTag Value="TAG-YM_GOLEM_RAIZ" />
+  </ITEM_CARGO-YM_GOLEM_RAIZ>
+  <ITEM_CARGO-YM_GOLEM_OSSADA TrashChance="0" MasterChance="0">
+    <ResourceRarityRange MinimumCount="0" MaximumCount="100" />
+    <SkillRarityRange MinimumCount="0" MaximumCount="100" />
+    <LevelRange MinimumCount="1" MaximumCount="1" />
+    <NumberOfItems MinimumCount="1" MaximumCount="1" />
+    <RequiredTag Value="TAG-YM_GOLEM_OSSADA" />
+  </ITEM_CARGO-YM_GOLEM_OSSADA>
+  <ITEM_CARGO-YM_GOLEM_CRISTAL TrashChance="0" MasterChance="0">
+    <ResourceRarityRange MinimumCount="0" MaximumCount="100" />
+    <SkillRarityRange MinimumCount="0" MaximumCount="100" />
+    <LevelRange MinimumCount="1" MaximumCount="1" />
+    <NumberOfItems MinimumCount="1" MaximumCount="1" />
+    <RequiredTag Value="TAG-YM_GOLEM_CRISTAL" />
+  </ITEM_CARGO-YM_GOLEM_CRISTAL>
+  <ITEM_CARGO-YM_GOLEM_PAO_DO_CAMPO TrashChance="0" MasterChance="0">
+    <ResourceRarityRange MinimumCount="0" MaximumCount="100" />
+    <SkillRarityRange MinimumCount="0" MaximumCount="100" />
+    <LevelRange MinimumCount="1" MaximumCount="1" />
+    <NumberOfItems MinimumCount="1" MaximumCount="1" />
+    <RequiredTag Value="TAG-YM_GOLEM_PAO_DO_CAMPO" />
+  </ITEM_CARGO-YM_GOLEM_PAO_DO_CAMPO>
+  <!-- Golens T3 -->
+  <ITEM_CARGO-YM_GOLEM_MURALHA TrashChance="0" MasterChance="0">
+    <ResourceRarityRange MinimumCount="0" MaximumCount="100" />
+    <SkillRarityRange MinimumCount="0" MaximumCount="100" />
+    <LevelRange MinimumCount="1" MaximumCount="1" />
+    <NumberOfItems MinimumCount="1" MaximumCount="1" />
+    <RequiredTag Value="TAG-YM_GOLEM_MURALHA" />
+  </ITEM_CARGO-YM_GOLEM_MURALHA>
+  <ITEM_CARGO-YM_GOLEM_VIUVA TrashChance="0" MasterChance="0">
+    <ResourceRarityRange MinimumCount="0" MaximumCount="100" />
+    <SkillRarityRange MinimumCount="0" MaximumCount="100" />
+    <LevelRange MinimumCount="1" MaximumCount="1" />
+    <NumberOfItems MinimumCount="1" MaximumCount="1" />
+    <RequiredTag Value="TAG-YM_GOLEM_VIUVA" />
+  </ITEM_CARGO-YM_GOLEM_VIUVA>
+  <ITEM_CARGO-YM_GOLEM_VEJO TrashChance="0" MasterChance="0">
+    <ResourceRarityRange MinimumCount="0" MaximumCount="100" />
+    <SkillRarityRange MinimumCount="0" MaximumCount="100" />
+    <LevelRange MinimumCount="1" MaximumCount="1" />
+    <NumberOfItems MinimumCount="1" MaximumCount="1" />
+    <RequiredTag Value="TAG-YM_GOLEM_VEJO" />
+  </ITEM_CARGO-YM_GOLEM_VEJO>
+  <ITEM_CARGO-YM_GOLEM_AGULHA TrashChance="0" MasterChance="0">
+    <ResourceRarityRange MinimumCount="0" MaximumCount="100" />
+    <SkillRarityRange MinimumCount="0" MaximumCount="100" />
+    <LevelRange MinimumCount="1" MaximumCount="1" />
+    <NumberOfItems MinimumCount="1" MaximumCount="1" />
+    <RequiredTag Value="TAG-YM_GOLEM_AGULHA" />
+  </ITEM_CARGO-YM_GOLEM_AGULHA>
+  <ITEM_CARGO-YM_GOLEM_FERREIRO TrashChance="0" MasterChance="0">
+    <ResourceRarityRange MinimumCount="0" MaximumCount="100" />
+    <SkillRarityRange MinimumCount="0" MaximumCount="100" />
+    <LevelRange MinimumCount="1" MaximumCount="1" />
+    <NumberOfItems MinimumCount="1" MaximumCount="1" />
+    <RequiredTag Value="TAG-YM_GOLEM_FERREIRO" />
+  </ITEM_CARGO-YM_GOLEM_FERREIRO>
+  <!-- Golens T4 Únicos -->
+  <ITEM_CARGO-YM_GOLEM_DRAGAO_OSSO TrashChance="0" MasterChance="0">
+    <ResourceRarityRange MinimumCount="0" MaximumCount="100" />
+    <SkillRarityRange MinimumCount="0" MaximumCount="100" />
+    <LevelRange MinimumCount="1" MaximumCount="1" />
+    <NumberOfItems MinimumCount="1" MaximumCount="1" />
+    <RequiredTag Value="TAG-YM_GOLEM_DRAGAO_OSSO" />
+  </ITEM_CARGO-YM_GOLEM_DRAGAO_OSSO>
+  <ITEM_CARGO-YM_GOLEM_CEVA TrashChance="0" MasterChance="0">
+    <ResourceRarityRange MinimumCount="0" MaximumCount="100" />
+    <SkillRarityRange MinimumCount="0" MaximumCount="100" />
+    <LevelRange MinimumCount="1" MaximumCount="1" />
+    <NumberOfItems MinimumCount="1" MaximumCount="1" />
+    <RequiredTag Value="TAG-YM_GOLEM_CEVA" />
+  </ITEM_CARGO-YM_GOLEM_CEVA>
+  <ITEM_CARGO-YM_GOLEM_CINZEL TrashChance="0" MasterChance="0">
+    <ResourceRarityRange MinimumCount="0" MaximumCount="100" />
+    <SkillRarityRange MinimumCount="0" MaximumCount="100" />
+    <LevelRange MinimumCount="1" MaximumCount="1" />
+    <NumberOfItems MinimumCount="1" MaximumCount="1" />
+    <RequiredTag Value="TAG-YM_GOLEM_CINZEL" />
+  </ITEM_CARGO-YM_GOLEM_CINZEL>
+  <!-- Golens de Evento -->
+  <ITEM_CARGO-YM_GOLEM_ESTALO TrashChance="0" MasterChance="0">
+    <ResourceRarityRange MinimumCount="0" MaximumCount="100" />
+    <SkillRarityRange MinimumCount="0" MaximumCount="100" />
+    <LevelRange MinimumCount="1" MaximumCount="1" />
+    <NumberOfItems MinimumCount="1" MaximumCount="1" />
+    <RequiredTag Value="TAG-YM_GOLEM_ESTALO" />
+  </ITEM_CARGO-YM_GOLEM_ESTALO>
+  <ITEM_CARGO-YM_GOLEM_TERRA_VIVA TrashChance="0" MasterChance="0">
+    <ResourceRarityRange MinimumCount="0" MaximumCount="100" />
+    <SkillRarityRange MinimumCount="0" MaximumCount="100" />
+    <LevelRange MinimumCount="1" MaximumCount="1" />
+    <NumberOfItems MinimumCount="1" MaximumCount="1" />
+    <RequiredTag Value="TAG-YM_GOLEM_TERRA_VIVA" />
+  </ITEM_CARGO-YM_GOLEM_TERRA_VIVA>
+  <ITEM_CARGO-YM_GOLEM_FANTASMA_DE_FORG TrashChance="0" MasterChance="0">
+    <ResourceRarityRange MinimumCount="0" MaximumCount="100" />
+    <SkillRarityRange MinimumCount="0" MaximumCount="100" />
+    <LevelRange MinimumCount="1" MaximumCount="1" />
+    <NumberOfItems MinimumCount="1" MaximumCount="1" />
+    <RequiredTag Value="TAG-YM_GOLEM_FANTASMA_DE_FORG" />
+  </ITEM_CARGO-YM_GOLEM_FANTASMA_DE_FORG>
+  <ITEM_CARGO-YM_GOLEM_GEMEO TrashChance="0" MasterChance="0">
+    <ResourceRarityRange MinimumCount="0" MaximumCount="100" />
+    <SkillRarityRange MinimumCount="0" MaximumCount="100" />
+    <LevelRange MinimumCount="1" MaximumCount="1" />
+    <NumberOfItems MinimumCount="1" MaximumCount="1" />
+    <RequiredTag Value="TAG-YM_GOLEM_GEMEO" />
+  </ITEM_CARGO-YM_GOLEM_GEMEO>
+  <!-- Itens de Yuri -->
+  <ITEM_CARGO-YM_ITEM_LAMINA_FORJA TrashChance="0" MasterChance="0">
+    <ResourceRarityRange MinimumCount="0" MaximumCount="100" />
+    <SkillRarityRange MinimumCount="0" MaximumCount="100" />
+    <LevelRange MinimumCount="1" MaximumCount="1" />
+    <NumberOfItems MinimumCount="1" MaximumCount="1" />
+    <RequiredTag Value="TAG-YM_ITEM_LAMINA_FORJA" />
+  </ITEM_CARGO-YM_ITEM_LAMINA_FORJA>
+  <ITEM_CARGO-YM_ITEM_MARTELO_MESTRE TrashChance="0" MasterChance="0">
+    <ResourceRarityRange MinimumCount="0" MaximumCount="100" />
+    <SkillRarityRange MinimumCount="0" MaximumCount="100" />
+    <LevelRange MinimumCount="1" MaximumCount="1" />
+    <NumberOfItems MinimumCount="1" MaximumCount="1" />
+    <RequiredTag Value="TAG-YM_ITEM_MARTELO_MESTRE" />
+  </ITEM_CARGO-YM_ITEM_MARTELO_MESTRE>
+  <ITEM_CARGO-YM_ITEM_MALHA_COTA TrashChance="0" MasterChance="0">
+    <ResourceRarityRange MinimumCount="0" MaximumCount="100" />
+    <SkillRarityRange MinimumCount="0" MaximumCount="100" />
+    <LevelRange MinimumCount="1" MaximumCount="1" />
+    <NumberOfItems MinimumCount="1" MaximumCount="1" />
+    <RequiredTag Value="TAG-YM_ITEM_MALHA_COTA" />
+  </ITEM_CARGO-YM_ITEM_MALHA_COTA>
+  <ITEM_CARGO-YM_ITEM_ESCUDO_PEDRA TrashChance="0" MasterChance="0">
+    <ResourceRarityRange MinimumCount="0" MaximumCount="100" />
+    <SkillRarityRange MinimumCount="0" MaximumCount="100" />
+    <LevelRange MinimumCount="1" MaximumCount="1" />
+    <NumberOfItems MinimumCount="1" MaximumCount="1" />
+    <RequiredTag Value="TAG-YM_ITEM_ESCUDO_PEDRA" />
+  </ITEM_CARGO-YM_ITEM_ESCUDO_PEDRA>
+  <ITEM_CARGO-YM_ITEM_ALVO_AMBER TrashChance="0" MasterChance="0">
+    <ResourceRarityRange MinimumCount="0" MaximumCount="100" />
+    <SkillRarityRange MinimumCount="0" MaximumCount="100" />
+    <LevelRange MinimumCount="1" MaximumCount="1" />
+    <NumberOfItems MinimumCount="1" MaximumCount="1" />
+    <RequiredTag Value="TAG-YM_ITEM_ALVO_AMBER" />
+  </ITEM_CARGO-YM_ITEM_ALVO_AMBER>
+  <ITEM_CARGO-YM_ITEM_PAO_VIVO TrashChance="0" MasterChance="0">
+    <ResourceRarityRange MinimumCount="0" MaximumCount="100" />
+    <SkillRarityRange MinimumCount="0" MaximumCount="100" />
+    <LevelRange MinimumCount="1" MaximumCount="1" />
+    <NumberOfItems MinimumCount="1" MaximumCount="1" />
+    <RequiredTag Value="TAG-YM_ITEM_PAO_VIVO" />
+  </ITEM_CARGO-YM_ITEM_PAO_VIVO>
+  <ITEM_CARGO-YM_ITEM_ERVA_FORJA TrashChance="0" MasterChance="0">
+    <ResourceRarityRange MinimumCount="0" MaximumCount="100" />
+    <SkillRarityRange MinimumCount="0" MaximumCount="100" />
+    <LevelRange MinimumCount="1" MaximumCount="1" />
+    <NumberOfItems MinimumCount="1" MaximumCount="1" />
+    <RequiredTag Value="TAG-YM_ITEM_ERVA_FORJA" />
+  </ITEM_CARGO-YM_ITEM_ERVA_FORJA>
+  <ITEM_CARGO-YM_ITEM_ARMADILHA_LAMBRI TrashChance="0" MasterChance="0">
+    <ResourceRarityRange MinimumCount="0" MaximumCount="100" />
+    <SkillRarityRange MinimumCount="0" MaximumCount="100" />
+    <LevelRange MinimumCount="1" MaximumCount="1" />
+    <NumberOfItems MinimumCount="1" MaximumCount="1" />
+    <RequiredTag Value="TAG-YM_ITEM_ARMADILHA_LAMBRI" />
+  </ITEM_CARGO-YM_ITEM_ARMADILHA_LAMBRI>
+  <ITEM_CARGO-YM_ITEM_PINGENTE_NOME TrashChance="0" MasterChance="0">
+    <ResourceRarityRange MinimumCount="0" MaximumCount="100" />
+    <SkillRarityRange MinimumCount="0" MaximumCount="100" />
+    <LevelRange MinimumCount="1" MaximumCount="1" />
+    <NumberOfItems MinimumCount="1" MaximumCount="1" />
+    <RequiredTag Value="TAG-YM_ITEM_PINGENTE_NOME" />
+  </ITEM_CARGO-YM_ITEM_PINGENTE_NOME>
+
+  <!-- Cargos dos novos golens -->
+  <ITEM_CARGO-YM_GOLEM_OBSIDIANA TrashChance="0" MasterChance="0">
+    <ResourceRarityRange MinimumCount="0" MaximumCount="100" />
+    <SkillRarityRange MinimumCount="0" MaximumCount="100" />
+    <LevelRange MinimumCount="1" MaximumCount="1" />
+    <NumberOfItems MinimumCount="1" MaximumCount="1" />
+    <RequiredTag Value="TAG-YM_GOLEM_OBSIDIANA" />
+  </ITEM_CARGO-YM_GOLEM_OBSIDIANA>
+  <ITEM_CARGO-YM_GOLEM_SANGUE TrashChance="0" MasterChance="0">
+    <ResourceRarityRange MinimumCount="0" MaximumCount="100" />
+    <SkillRarityRange MinimumCount="0" MaximumCount="100" />
+    <LevelRange MinimumCount="1" MaximumCount="1" />
+    <NumberOfItems MinimumCount="1" MaximumCount="1" />
+    <RequiredTag Value="TAG-YM_GOLEM_SANGUE" />
+  </ITEM_CARGO-YM_GOLEM_SANGUE>
+  <ITEM_CARGO-YM_GOLEM_NEBULINA TrashChance="0" MasterChance="0">
+    <ResourceRarityRange MinimumCount="0" MaximumCount="100" />
+    <SkillRarityRange MinimumCount="0" MaximumCount="100" />
+    <LevelRange MinimumCount="1" MaximumCount="1" />
+    <NumberOfItems MinimumCount="1" MaximumCount="1" />
+    <RequiredTag Value="TAG-YM_GOLEM_NEBULINA" />
+  </ITEM_CARGO-YM_GOLEM_NEBULINA>
+  <ITEM_CARGO-YM_GOLEM_FUNGO TrashChance="0" MasterChance="0">
+    <ResourceRarityRange MinimumCount="0" MaximumCount="100" />
+    <SkillRarityRange MinimumCount="0" MaximumCount="100" />
+    <LevelRange MinimumCount="1" MaximumCount="1" />
+    <NumberOfItems MinimumCount="1" MaximumCount="1" />
+    <RequiredTag Value="TAG-YM_GOLEM_FUNGO" />
+  </ITEM_CARGO-YM_GOLEM_FUNGO>
+
+  <!-- Cargos dos novos itens -->
+  <ITEM_CARGO-YM_ITEM_ESPADA_RUNICA TrashChance="0" MasterChance="0">
+    <ResourceRarityRange MinimumCount="0" MaximumCount="100" />
+    <SkillRarityRange MinimumCount="0" MaximumCount="100" />
+    <LevelRange MinimumCount="1" MaximumCount="1" />
+    <NumberOfItems MinimumCount="1" MaximumCount="1" />
+    <RequiredTag Value="TAG-YM_ITEM_ESPADA_RUNICA" />
+  </ITEM_CARGO-YM_ITEM_ESPADA_RUNICA>
+  <ITEM_CARGO-YM_ITEM_AMULETO_FORJA TrashChance="0" MasterChance="0">
+    <ResourceRarityRange MinimumCount="0" MaximumCount="100" />
+    <SkillRarityRange MinimumCount="0" MaximumCount="100" />
+    <LevelRange MinimumCount="1" MaximumCount="1" />
+    <NumberOfItems MinimumCount="1" MaximumCount="1" />
+    <RequiredTag Value="TAG-YM_ITEM_AMULETO_FORJA" />
+  </ITEM_CARGO-YM_ITEM_AMULETO_FORJA>
+  <ITEM_CARGO-YM_ITEM_BOTAS_ARGILA TrashChance="0" MasterChance="0">
+    <ResourceRarityRange MinimumCount="0" MaximumCount="100" />
+    <SkillRarityRange MinimumCount="0" MaximumCount="100" />
+    <LevelRange MinimumCount="1" MaximumCount="1" />
+    <NumberOfItems MinimumCount="1" MaximumCount="1" />
+    <RequiredTag Value="TAG-YM_ITEM_BOTAS_ARGILA" />
+  </ITEM_CARGO-YM_ITEM_BOTAS_ARGILA>
+</ITEMS_CARGOS>

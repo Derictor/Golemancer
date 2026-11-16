@@ -1,0 +1,953 @@
+<SUBSKILLS_CHALLANGES>
+  <!-- Golem T1 - Defesas -->
+  <SUBSKILL-YM_GOLEM_CHOQUE Delay="0.0" Animation="Hit15" Sound="SubskillAddAttribute">
+    <DescriptionInfo Name="DES_YM_CHOQUE" Description="DES_YM_CHOQUE_DES" IconName="GOLEM_CHOQUE_Roster" />
+    <ShortInfo TriggerIcon="TAG-TRIGGER_PASSIVE" DamageIcon="TAG-DAMAGE_SHIELD_P" TargetIcon="TAG-TARGET_SELF" AttackInfo="{SCRIPT:SI_DefaultAttributeChange}" />
+    <Trigger Priority="0" RequiredToBeInFrontline="FALSE" RequiredToBeInBackline="FALSE">
+      <TriggerGroup Value="Passive" />
+      <TriggerScript ScriptName="" />
+    </Trigger>
+    <Targets>
+      <TargetScript ScriptName="Trg_Self" />
+      <TargetCountRange MinimumCount="1" MaximumCount="1" TargetIndication="Random" />
+    </Targets>
+    <Activation ScriptName="WAct_AttributeChange" />
+    <ChallengeType Value="TypePhysical" />
+    <SubskillAttributesOnLevel Level="0" PowerLevel="0.0">
+      <SubskillAttribute Identifier="TAG-SHIELDING_PHYSICAL" AttributeStringValue="+" AttributeFloatValue="3" />
+    </SubskillAttributesOnLevel>
+    <SubskillAttributesOnLevel Level="1" PowerLevel="0.0">
+      <SubskillAttribute Identifier="TAG-SHIELDING_PHYSICAL" AttributeStringValue="+" AttributeFloatValue="4" />
+    </SubskillAttributesOnLevel>
+    <SubskillAttributesOnLevel Level="2" PowerLevel="4.0">
+      <SubskillAttribute Identifier="TAG-SHIELDING_PHYSICAL" AttributeStringValue="+" AttributeFloatValue="5" />
+    </SubskillAttributesOnLevel>
+    <SubskillAttributesOnLevel Level="3" PowerLevel="14.0">
+      <SubskillAttribute Identifier="TAG-SHIELDING_PHYSICAL" AttributeStringValue="+" AttributeFloatValue="6" />
+    </SubskillAttributesOnLevel>
+    <SubskillAttributesOnLevel Level="4" PowerLevel="29.0">
+      <SubskillAttribute Identifier="TAG-SHIELDING_PHYSICAL" AttributeStringValue="+" AttributeFloatValue="7" />
+    </SubskillAttributesOnLevel>
+    <SubskillAttributesOnLevel Level="5" PowerLevel="59.0">
+      <SubskillAttribute Identifier="TAG-SHIELDING_PHYSICAL" AttributeStringValue="+" AttributeFloatValue="8" />
+    </SubskillAttributesOnLevel>
+  </SUBSKILL-YM_GOLEM_CHOQUE>
+  <SUBSKILL-YM_GOLEM_CASCALHO Delay="0.0" Animation="Hit15" Sound="SubskillAddAttribute">
+    <DescriptionInfo Name="DES_YM_CASCALHO" Description="DES_YM_CASCALHO_DES" IconName="GOLEM_CASCALHO_Roster" />
+    <ShortInfo TriggerIcon="TAG-TRIGGER_PASSIVE" DamageIcon="TAG-DAMAGE_SHIELD_P" TargetIcon="TAG-TARGET_SELF" AttackInfo="{SCRIPT:SI_DefaultAttributeChange}" />
+    <Trigger Priority="0" RequiredToBeInFrontline="FALSE" RequiredToBeInBackline="FALSE">
+      <TriggerGroup Value="Passive" />
+      <TriggerScript ScriptName="" />
+    </Trigger>
+    <Targets>
+      <TargetScript ScriptName="Trg_Self" />
+      <TargetCountRange MinimumCount="1" MaximumCount="1" TargetIndication="Random" />
+    </Targets>
+    <Activation ScriptName="WAct_AttributeChange" />
+    <ChallengeType Value="TypePhysical" />
+    <SubskillAttributesOnLevel Level="0" PowerLevel="0.0">
+      <SubskillAttribute Identifier="TAG-SHIELDING_PHYSICAL" AttributeStringValue="+" AttributeFloatValue="4" />
+    </SubskillAttributesOnLevel>
+    <SubskillAttributesOnLevel Level="1" PowerLevel="0.0">
+      <SubskillAttribute Identifier="TAG-SHIELDING_PHYSICAL" AttributeStringValue="+" AttributeFloatValue="5" />
+    </SubskillAttributesOnLevel>
+    <SubskillAttributesOnLevel Level="2" PowerLevel="4.0">
+      <SubskillAttribute Identifier="TAG-SHIELDING_PHYSICAL" AttributeStringValue="+" AttributeFloatValue="6" />
+    </SubskillAttributesOnLevel>
+    <SubskillAttributesOnLevel Level="3" PowerLevel="14.0">
+      <SubskillAttribute Identifier="TAG-SHIELDING_PHYSICAL" AttributeStringValue="+" AttributeFloatValue="7" />
+    </SubskillAttributesOnLevel>
+    <SubskillAttributesOnLevel Level="4" PowerLevel="29.0">
+      <SubskillAttribute Identifier="TAG-SHIELDING_PHYSICAL" AttributeStringValue="+" AttributeFloatValue="8" />
+    </SubskillAttributesOnLevel>
+    <SubskillAttributesOnLevel Level="5" PowerLevel="59.0">
+      <SubskillAttribute Identifier="TAG-SHIELDING_PHYSICAL" AttributeStringValue="+" AttributeFloatValue="9" />
+    </SubskillAttributesOnLevel>
+  </SUBSKILL-YM_GOLEM_CASCALHO>
+  <SUBSKILL-YM_GOLEM_GALHO Delay="0.0" Animation="Hit15" Sound="SubskillAddAttribute">
+    <DescriptionInfo Name="DES_YM_GALHO" Description="DES_YM_GALHO_DES" IconName="GOLEM_GALHO_Roster" />
+    <ShortInfo TriggerIcon="TAG-TRIGGER_PASSIVE" DamageIcon="TAG-DAMAGE_SHIELD_M" TargetIcon="TAG-TARGET_SELF" AttackInfo="{SCRIPT:SI_DefaultAttributeChange}" />
+    <Trigger Priority="0" RequiredToBeInFrontline="FALSE" RequiredToBeInBackline="FALSE">
+      <TriggerGroup Value="Passive" />
+      <TriggerScript ScriptName="" />
+    </Trigger>
+    <Targets>
+      <TargetScript ScriptName="Trg_Self" />
+      <TargetCountRange MinimumCount="1" MaximumCount="1" TargetIndication="Random" />
+    </Targets>
+    <Activation ScriptName="WAct_AttributeChange" />
+    <ChallengeType Value="TypeMental" />
+    <SubskillAttributesOnLevel Level="0" PowerLevel="0.0">
+      <SubskillAttribute Identifier="TAG-SHIELDING_MENTAL" AttributeStringValue="+" AttributeFloatValue="2" />
+    </SubskillAttributesOnLevel>
+    <SubskillAttributesOnLevel Level="1" PowerLevel="0.0">
+      <SubskillAttribute Identifier="TAG-SHIELDING_MENTAL" AttributeStringValue="+" AttributeFloatValue="3" />
+    </SubskillAttributesOnLevel>
+    <SubskillAttributesOnLevel Level="2" PowerLevel="4.0">
+      <SubskillAttribute Identifier="TAG-SHIELDING_MENTAL" AttributeStringValue="+" AttributeFloatValue="4" />
+    </SubskillAttributesOnLevel>
+    <SubskillAttributesOnLevel Level="3" PowerLevel="14.0">
+      <SubskillAttribute Identifier="TAG-SHIELDING_MENTAL" AttributeStringValue="+" AttributeFloatValue="5" />
+    </SubskillAttributesOnLevel>
+    <SubskillAttributesOnLevel Level="4" PowerLevel="29.0">
+      <SubskillAttribute Identifier="TAG-SHIELDING_MENTAL" AttributeStringValue="+" AttributeFloatValue="6" />
+    </SubskillAttributesOnLevel>
+    <SubskillAttributesOnLevel Level="5" PowerLevel="59.0">
+      <SubskillAttribute Identifier="TAG-SHIELDING_MENTAL" AttributeStringValue="+" AttributeFloatValue="7" />
+    </SubskillAttributesOnLevel>
+  </SUBSKILL-YM_GOLEM_GALHO>
+  <SUBSKILL-YM_GOLEM_LAMPEJO Delay="0.0" Animation="Hit15" Sound="SubskillAddAttribute">
+    <DescriptionInfo Name="DES_YM_LAMPEJO" Description="DES_YM_LAMPEJO_DES" IconName="GOLEM_LAMPEJO_Roster" />
+    <ShortInfo TriggerIcon="TAG-TRIGGER_PASSIVE" DamageIcon="TAG-DAMAGE_SHIELD_S" TargetIcon="TAG-TARGET_SELF" AttackInfo="{SCRIPT:SI_DefaultAttributeChange}" />
+    <Trigger Priority="0" RequiredToBeInFrontline="FALSE" RequiredToBeInBackline="FALSE">
+      <TriggerGroup Value="Passive" />
+      <TriggerScript ScriptName="" />
+    </Trigger>
+    <Targets>
+      <TargetScript ScriptName="Trg_Self" />
+      <TargetCountRange MinimumCount="1" MaximumCount="1" TargetIndication="Random" />
+    </Targets>
+    <Activation ScriptName="WAct_AttributeChange" />
+    <ChallengeType Value="TypeSpirit" />
+    <SubskillAttributesOnLevel Level="0" PowerLevel="0.0">
+      <SubskillAttribute Identifier="TAG-SHIELDING_SPIRIT" AttributeStringValue="+" AttributeFloatValue="2" />
+    </SubskillAttributesOnLevel>
+    <SubskillAttributesOnLevel Level="1" PowerLevel="0.0">
+      <SubskillAttribute Identifier="TAG-SHIELDING_SPIRIT" AttributeStringValue="+" AttributeFloatValue="3" />
+    </SubskillAttributesOnLevel>
+    <SubskillAttributesOnLevel Level="2" PowerLevel="4.0">
+      <SubskillAttribute Identifier="TAG-SHIELDING_SPIRIT" AttributeStringValue="+" AttributeFloatValue="4" />
+    </SubskillAttributesOnLevel>
+    <SubskillAttributesOnLevel Level="3" PowerLevel="14.0">
+      <SubskillAttribute Identifier="TAG-SHIELDING_SPIRIT" AttributeStringValue="+" AttributeFloatValue="5" />
+    </SubskillAttributesOnLevel>
+    <SubskillAttributesOnLevel Level="4" PowerLevel="29.0">
+      <SubskillAttribute Identifier="TAG-SHIELDING_SPIRIT" AttributeStringValue="+" AttributeFloatValue="6" />
+    </SubskillAttributesOnLevel>
+    <SubskillAttributesOnLevel Level="5" PowerLevel="59.0">
+      <SubskillAttribute Identifier="TAG-SHIELDING_SPIRIT" AttributeStringValue="+" AttributeFloatValue="7" />
+    </SubskillAttributesOnLevel>
+  </SUBSKILL-YM_GOLEM_LAMPEJO>
+  <SUBSKILL-YM_GOLEM_MASSA Delay="0.0" Animation="Hit15" Sound="SubskillAddAttribute">
+    <DescriptionInfo Name="DES_YM_MASSA" Description="DES_YM_MASSA_DES" IconName="GOLEM_MASSA_Roster" />
+    <ShortInfo TriggerIcon="TAG-TRIGGER_PASSIVE" DamageIcon="TAG-DAMAGE_SHIELD_P" TargetIcon="TAG-TARGET_SELF" AttackInfo="{SCRIPT:SI_DefaultAttributeChange}" />
+    <Trigger Priority="0" RequiredToBeInFrontline="FALSE" RequiredToBeInBackline="FALSE">
+      <TriggerGroup Value="Passive" />
+      <TriggerScript ScriptName="" />
+    </Trigger>
+    <Targets>
+      <TargetScript ScriptName="Trg_Self" />
+      <TargetCountRange MinimumCount="1" MaximumCount="1" TargetIndication="Random" />
+    </Targets>
+    <Activation ScriptName="WAct_AttributeChange" />
+    <ChallengeType Value="TypePhysical" />
+    <SubskillAttributesOnLevel Level="0" PowerLevel="0.0">
+      <SubskillAttribute Identifier="TAG-SHIELDING_PHYSICAL" AttributeStringValue="+" AttributeFloatValue="2" />
+    </SubskillAttributesOnLevel>
+    <SubskillAttributesOnLevel Level="1" PowerLevel="0.0">
+      <SubskillAttribute Identifier="TAG-SHIELDING_PHYSICAL" AttributeStringValue="+" AttributeFloatValue="3" />
+    </SubskillAttributesOnLevel>
+    <SubskillAttributesOnLevel Level="2" PowerLevel="4.0">
+      <SubskillAttribute Identifier="TAG-SHIELDING_PHYSICAL" AttributeStringValue="+" AttributeFloatValue="4" />
+    </SubskillAttributesOnLevel>
+    <SubskillAttributesOnLevel Level="3" PowerLevel="14.0">
+      <SubskillAttribute Identifier="TAG-SHIELDING_PHYSICAL" AttributeStringValue="+" AttributeFloatValue="5" />
+    </SubskillAttributesOnLevel>
+    <SubskillAttributesOnLevel Level="4" PowerLevel="29.0">
+      <SubskillAttribute Identifier="TAG-SHIELDING_PHYSICAL" AttributeStringValue="+" AttributeFloatValue="6" />
+    </SubskillAttributesOnLevel>
+    <SubskillAttributesOnLevel Level="5" PowerLevel="59.0">
+      <SubskillAttribute Identifier="TAG-SHIELDING_PHYSICAL" AttributeStringValue="+" AttributeFloatValue="7" />
+    </SubskillAttributesOnLevel>
+  </SUBSKILL-YM_GOLEM_MASSA>
+  <SUBSKILL-YM_GOLEM_SEIXO Delay="0.0" Animation="Hit15" Sound="SubskillAddAttribute">
+    <DescriptionInfo Name="DES_YM_SEIXO" Description="DES_YM_SEIXO_DES" IconName="GOLEM_SEIXO_Roster" />
+    <ShortInfo TriggerIcon="TAG-TRIGGER_PASSIVE" DamageIcon="TAG-DAMAGE_SHIELD_P" TargetIcon="TAG-TARGET_SELF" AttackInfo="{SCRIPT:SI_DefaultAttributeChange}" />
+    <Trigger Priority="0" RequiredToBeInFrontline="FALSE" RequiredToBeInBackline="FALSE">
+      <TriggerGroup Value="Passive" />
+      <TriggerScript ScriptName="" />
+    </Trigger>
+    <Targets>
+      <TargetScript ScriptName="Trg_Self" />
+      <TargetCountRange MinimumCount="1" MaximumCount="1" TargetIndication="Random" />
+    </Targets>
+    <Activation ScriptName="WAct_AttributeChange" />
+    <ChallengeType Value="TypePhysical" />
+    <SubskillAttributesOnLevel Level="0" PowerLevel="0.0">
+      <SubskillAttribute Identifier="TAG-SHIELDING_PHYSICAL" AttributeStringValue="+" AttributeFloatValue="1" />
+    </SubskillAttributesOnLevel>
+    <SubskillAttributesOnLevel Level="1" PowerLevel="0.0">
+      <SubskillAttribute Identifier="TAG-SHIELDING_PHYSICAL" AttributeStringValue="+" AttributeFloatValue="2" />
+    </SubskillAttributesOnLevel>
+    <SubskillAttributesOnLevel Level="2" PowerLevel="4.0">
+      <SubskillAttribute Identifier="TAG-SHIELDING_PHYSICAL" AttributeStringValue="+" AttributeFloatValue="3" />
+    </SubskillAttributesOnLevel>
+    <SubskillAttributesOnLevel Level="3" PowerLevel="14.0">
+      <SubskillAttribute Identifier="TAG-SHIELDING_PHYSICAL" AttributeStringValue="+" AttributeFloatValue="4" />
+    </SubskillAttributesOnLevel>
+    <SubskillAttributesOnLevel Level="4" PowerLevel="29.0">
+      <SubskillAttribute Identifier="TAG-SHIELDING_PHYSICAL" AttributeStringValue="+" AttributeFloatValue="5" />
+    </SubskillAttributesOnLevel>
+    <SubskillAttributesOnLevel Level="5" PowerLevel="59.0">
+      <SubskillAttribute Identifier="TAG-SHIELDING_PHYSICAL" AttributeStringValue="+" AttributeFloatValue="6" />
+    </SubskillAttributesOnLevel>
+  </SUBSKILL-YM_GOLEM_SEIXO>
+
+  <!-- Golem T2 - Defesas -->
+  <SUBSKILL-YM_GOLEM_FERRO_VIDO Delay="0.0" Animation="Hit15" Sound="SubskillAddAttribute">
+    <DescriptionInfo Name="DES_YM_FERRO_VIDO" Description="DES_YM_FERRO_VIDO_DES" IconName="GOLEM_FERRO_VIDO_Roster" />
+    <ShortInfo TriggerIcon="TAG-TRIGGER_PASSIVE" DamageIcon="TAG-DAMAGE_SHIELD_P" TargetIcon="TAG-TARGET_SELF" AttackInfo="{SCRIPT:SI_DefaultAttributeChange}" />
+    <Trigger Priority="0" RequiredToBeInFrontline="FALSE" RequiredToBeInBackline="FALSE">
+      <TriggerGroup Value="Passive" />
+      <TriggerScript ScriptName="" />
+    </Trigger>
+    <Targets>
+      <TargetScript ScriptName="Trg_Self" />
+      <TargetCountRange MinimumCount="1" MaximumCount="1" TargetIndication="Random" />
+    </Targets>
+    <Activation ScriptName="WAct_AttributeChange" />
+    <ChallengeType Value="TypePhysical" />
+    <SubskillAttributesOnLevel Level="0" PowerLevel="0.0">
+      <SubskillAttribute Identifier="TAG-SHIELDING_PHYSICAL" AttributeStringValue="+" AttributeFloatValue="5" />
+    </SubskillAttributesOnLevel>
+    <SubskillAttributesOnLevel Level="1" PowerLevel="0.0">
+      <SubskillAttribute Identifier="TAG-SHIELDING_PHYSICAL" AttributeStringValue="+" AttributeFloatValue="6" />
+    </SubskillAttributesOnLevel>
+    <SubskillAttributesOnLevel Level="2" PowerLevel="4.0">
+      <SubskillAttribute Identifier="TAG-SHIELDING_PHYSICAL" AttributeStringValue="+" AttributeFloatValue="7" />
+    </SubskillAttributesOnLevel>
+    <SubskillAttributesOnLevel Level="3" PowerLevel="14.0">
+      <SubskillAttribute Identifier="TAG-SHIELDING_PHYSICAL" AttributeStringValue="+" AttributeFloatValue="8" />
+    </SubskillAttributesOnLevel>
+    <SubskillAttributesOnLevel Level="4" PowerLevel="29.0">
+      <SubskillAttribute Identifier="TAG-SHIELDING_PHYSICAL" AttributeStringValue="+" AttributeFloatValue="9" />
+    </SubskillAttributesOnLevel>
+    <SubskillAttributesOnLevel Level="5" PowerLevel="59.0">
+      <SubskillAttribute Identifier="TAG-SHIELDING_PHYSICAL" AttributeStringValue="+" AttributeFloatValue="10" />
+    </SubskillAttributesOnLevel>
+  </SUBSKILL-YM_GOLEM_FERRO_VIDO>
+  <SUBSKILL-YM_GOLEM_RAIZ Delay="0.0" Animation="Hit15" Sound="SubskillAddAttribute">
+    <DescriptionInfo Name="DES_YM_RAIZ" Description="DES_YM_RAIZ_DES" IconName="GOLEM_RAIZ_Roster" />
+    <ShortInfo TriggerIcon="TAG-TRIGGER_PASSIVE" DamageIcon="TAG-DAMAGE_SHIELD_M" TargetIcon="TAG-TARGET_SELF" AttackInfo="{SCRIPT:SI_DefaultAttributeChange}" />
+    <Trigger Priority="0" RequiredToBeInFrontline="FALSE" RequiredToBeInBackline="FALSE">
+      <TriggerGroup Value="Passive" />
+      <TriggerScript ScriptName="" />
+    </Trigger>
+    <Targets>
+      <TargetScript ScriptName="Trg_Self" />
+      <TargetCountRange MinimumCount="1" MaximumCount="1" TargetIndication="Random" />
+    </Targets>
+    <Activation ScriptName="WAct_AttributeChange" />
+    <ChallengeType Value="TypeMental" />
+    <SubskillAttributesOnLevel Level="0" PowerLevel="0.0">
+      <SubskillAttribute Identifier="TAG-SHIELDING_MENTAL" AttributeStringValue="+" AttributeFloatValue="4" />
+    </SubskillAttributesOnLevel>
+    <SubskillAttributesOnLevel Level="1" PowerLevel="0.0">
+      <SubskillAttribute Identifier="TAG-SHIELDING_MENTAL" AttributeStringValue="+" AttributeFloatValue="5" />
+    </SubskillAttributesOnLevel>
+    <SubskillAttributesOnLevel Level="2" PowerLevel="4.0">
+      <SubskillAttribute Identifier="TAG-SHIELDING_MENTAL" AttributeStringValue="+" AttributeFloatValue="6" />
+    </SubskillAttributesOnLevel>
+    <SubskillAttributesOnLevel Level="3" PowerLevel="14.0">
+      <SubskillAttribute Identifier="TAG-SHIELDING_MENTAL" AttributeStringValue="+" AttributeFloatValue="7" />
+    </SubskillAttributesOnLevel>
+    <SubskillAttributesOnLevel Level="4" PowerLevel="29.0">
+      <SubskillAttribute Identifier="TAG-SHIELDING_MENTAL" AttributeStringValue="+" AttributeFloatValue="8" />
+    </SubskillAttributesOnLevel>
+    <SubskillAttributesOnLevel Level="5" PowerLevel="59.0">
+      <SubskillAttribute Identifier="TAG-SHIELDING_MENTAL" AttributeStringValue="+" AttributeFloatValue="9" />
+    </SubskillAttributesOnLevel>
+  </SUBSKILL-YM_GOLEM_RAIZ>
+  <SUBSKILL-YM_GOLEM_OSSADA Delay="0.0" Animation="Hit15" Sound="SubskillAddAttribute">
+    <DescriptionInfo Name="DES_YM_OSSADA" Description="DES_YM_OSSADA_DES" IconName="GOLEM_OSSADA_Roster" />
+    <ShortInfo TriggerIcon="TAG-TRIGGER_PASSIVE" DamageIcon="TAG-DAMAGE_SHIELD_P" TargetIcon="TAG-TARGET_SELF" AttackInfo="{SCRIPT:SI_DefaultAttributeChange}" />
+    <Trigger Priority="0" RequiredToBeInFrontline="FALSE" RequiredToBeInBackline="FALSE">
+      <TriggerGroup Value="Passive" />
+      <TriggerScript ScriptName="" />
+    </Trigger>
+    <Targets>
+      <TargetScript ScriptName="Trg_Self" />
+      <TargetCountRange MinimumCount="1" MaximumCount="1" TargetIndication="Random" />
+    </Targets>
+    <Activation ScriptName="WAct_AttributeChange" />
+    <ChallengeType Value="TypePhysical" />
+    <SubskillAttributesOnLevel Level="0" PowerLevel="0.0">
+      <SubskillAttribute Identifier="TAG-SHIELDING_PHYSICAL" AttributeStringValue="+" AttributeFloatValue="5" />
+    </SubskillAttributesOnLevel>
+    <SubskillAttributesOnLevel Level="1" PowerLevel="0.0">
+      <SubskillAttribute Identifier="TAG-SHIELDING_PHYSICAL" AttributeStringValue="+" AttributeFloatValue="6" />
+    </SubskillAttributesOnLevel>
+    <SubskillAttributesOnLevel Level="2" PowerLevel="4.0">
+      <SubskillAttribute Identifier="TAG-SHIELDING_PHYSICAL" AttributeStringValue="+" AttributeFloatValue="7" />
+    </SubskillAttributesOnLevel>
+    <SubskillAttributesOnLevel Level="3" PowerLevel="14.0">
+      <SubskillAttribute Identifier="TAG-SHIELDING_PHYSICAL" AttributeStringValue="+" AttributeFloatValue="8" />
+    </SubskillAttributesOnLevel>
+    <SubskillAttributesOnLevel Level="4" PowerLevel="29.0">
+      <SubskillAttribute Identifier="TAG-SHIELDING_PHYSICAL" AttributeStringValue="+" AttributeFloatValue="9" />
+    </SubskillAttributesOnLevel>
+    <SubskillAttributesOnLevel Level="5" PowerLevel="59.0">
+      <SubskillAttribute Identifier="TAG-SHIELDING_PHYSICAL" AttributeStringValue="+" AttributeFloatValue="10" />
+    </SubskillAttributesOnLevel>
+  </SUBSKILL-YM_GOLEM_OSSADA>
+  <SUBSKILL-YM_GOLEM_CRISTAL Delay="0.0" Animation="Hit15" Sound="SubskillAddAttribute">
+    <DescriptionInfo Name="DES_YM_CRISTAL" Description="DES_YM_CRISTAL_DES" IconName="GOLEM_CRISTAL_Roster" />
+    <ShortInfo TriggerIcon="TAG-TRIGGER_PASSIVE" DamageIcon="TAG-DAMAGE_SHIELD_S" TargetIcon="TAG-TARGET_SELF" AttackInfo="{SCRIPT:SI_DefaultAttributeChange}" />
+    <Trigger Priority="0" RequiredToBeInFrontline="FALSE" RequiredToBeInBackline="FALSE">
+      <TriggerGroup Value="Passive" />
+      <TriggerScript ScriptName="" />
+    </Trigger>
+    <Targets>
+      <TargetScript ScriptName="Trg_Self" />
+      <TargetCountRange MinimumCount="1" MaximumCount="1" TargetIndication="Random" />
+    </Targets>
+    <Activation ScriptName="WAct_AttributeChange" />
+    <ChallengeType Value="TypeSpirit" />
+    <SubskillAttributesOnLevel Level="0" PowerLevel="0.0">
+      <SubskillAttribute Identifier="TAG-SHIELDING_SPIRIT" AttributeStringValue="+" AttributeFloatValue="4" />
+    </SubskillAttributesOnLevel>
+    <SubskillAttributesOnLevel Level="1" PowerLevel="0.0">
+      <SubskillAttribute Identifier="TAG-SHIELDING_SPIRIT" AttributeStringValue="+" AttributeFloatValue="5" />
+    </SubskillAttributesOnLevel>
+    <SubskillAttributesOnLevel Level="2" PowerLevel="4.0">
+      <SubskillAttribute Identifier="TAG-SHIELDING_SPIRIT" AttributeStringValue="+" AttributeFloatValue="6" />
+    </SubskillAttributesOnLevel>
+    <SubskillAttributesOnLevel Level="3" PowerLevel="14.0">
+      <SubskillAttribute Identifier="TAG-SHIELDING_SPIRIT" AttributeStringValue="+" AttributeFloatValue="7" />
+    </SubskillAttributesOnLevel>
+    <SubskillAttributesOnLevel Level="4" PowerLevel="29.0">
+      <SubskillAttribute Identifier="TAG-SHIELDING_SPIRIT" AttributeStringValue="+" AttributeFloatValue="8" />
+    </SubskillAttributesOnLevel>
+    <SubskillAttributesOnLevel Level="5" PowerLevel="59.0">
+      <SubskillAttribute Identifier="TAG-SHIELDING_SPIRIT" AttributeStringValue="+" AttributeFloatValue="9" />
+    </SubskillAttributesOnLevel>
+  </SUBSKILL-YM_GOLEM_CRISTAL>
+  <SUBSKILL-YM_GOLEM_PAO_DO_CAMPO Delay="0.0" Animation="Hit15" Sound="SubskillAddAttribute">
+    <DescriptionInfo Name="DES_YM_PAO_DO_CAMPO" Description="DES_YM_PAO_DO_CAMPO_DES" IconName="GOLEM_PAO_DO_CAMPO_Roster" />
+    <ShortInfo TriggerIcon="TAG-TRIGGER_PASSIVE" DamageIcon="TAG-DAMAGE_SHIELD_P" TargetIcon="TAG-TARGET_SELF" AttackInfo="{SCRIPT:SI_DefaultAttributeChange}" />
+    <Trigger Priority="0" RequiredToBeInFrontline="FALSE" RequiredToBeInBackline="FALSE">
+      <TriggerGroup Value="Passive" />
+      <TriggerScript ScriptName="" />
+    </Trigger>
+    <Targets>
+      <TargetScript ScriptName="Trg_Self" />
+      <TargetCountRange MinimumCount="1" MaximumCount="1" TargetIndication="Random" />
+    </Targets>
+    <Activation ScriptName="WAct_AttributeChange" />
+    <ChallengeType Value="TypePhysical" />
+    <SubskillAttributesOnLevel Level="0" PowerLevel="0.0">
+      <SubskillAttribute Identifier="TAG-SHIELDING_PHYSICAL" AttributeStringValue="+" AttributeFloatValue="3" />
+    </SubskillAttributesOnLevel>
+    <SubskillAttributesOnLevel Level="1" PowerLevel="0.0">
+      <SubskillAttribute Identifier="TAG-SHIELDING_PHYSICAL" AttributeStringValue="+" AttributeFloatValue="4" />
+    </SubskillAttributesOnLevel>
+    <SubskillAttributesOnLevel Level="2" PowerLevel="4.0">
+      <SubskillAttribute Identifier="TAG-SHIELDING_PHYSICAL" AttributeStringValue="+" AttributeFloatValue="5" />
+    </SubskillAttributesOnLevel>
+    <SubskillAttributesOnLevel Level="3" PowerLevel="14.0">
+      <SubskillAttribute Identifier="TAG-SHIELDING_PHYSICAL" AttributeStringValue="+" AttributeFloatValue="6" />
+    </SubskillAttributesOnLevel>
+    <SubskillAttributesOnLevel Level="4" PowerLevel="29.0">
+      <SubskillAttribute Identifier="TAG-SHIELDING_PHYSICAL" AttributeStringValue="+" AttributeFloatValue="7" />
+    </SubskillAttributesOnLevel>
+    <SubskillAttributesOnLevel Level="5" PowerLevel="59.0">
+      <SubskillAttribute Identifier="TAG-SHIELDING_PHYSICAL" AttributeStringValue="+" AttributeFloatValue="8" />
+    </SubskillAttributesOnLevel>
+  </SUBSKILL-YM_GOLEM_PAO_DO_CAMPO>
+
+  <!-- Golem T3 - Defesas -->
+  <SUBSKILL-YM_GOLEM_MURALHA Delay="0.0" Animation="Hit15" Sound="SubskillAddAttribute">
+    <DescriptionInfo Name="DES_YM_MURALHA" Description="DES_YM_MURALHA_DES" IconName="GOLEM_MURALHA_Roster" />
+    <ShortInfo TriggerIcon="TAG-TRIGGER_PASSIVE" DamageIcon="TAG-DAMAGE_SHIELD_P" TargetIcon="TAG-TARGET_SELF" AttackInfo="{SCRIPT:SI_DefaultAttributeChange}" />
+    <Trigger Priority="0" RequiredToBeInFrontline="FALSE" RequiredToBeInBackline="FALSE">
+      <TriggerGroup Value="Passive" />
+      <TriggerScript ScriptName="" />
+    </Trigger>
+    <Targets>
+      <TargetScript ScriptName="Trg_Self" />
+      <TargetCountRange MinimumCount="1" MaximumCount="1" TargetIndication="Random" />
+    </Targets>
+    <Activation ScriptName="WAct_AttributeChange" />
+    <ChallengeType Value="TypePhysical" />
+    <SubskillAttributesOnLevel Level="0" PowerLevel="0.0">
+      <SubskillAttribute Identifier="TAG-SHIELDING_PHYSICAL" AttributeStringValue="+" AttributeFloatValue="7" />
+    </SubskillAttributesOnLevel>
+    <SubskillAttributesOnLevel Level="1" PowerLevel="0.0">
+      <SubskillAttribute Identifier="TAG-SHIELDING_PHYSICAL" AttributeStringValue="+" AttributeFloatValue="9" />
+    </SubskillAttributesOnLevel>
+    <SubskillAttributesOnLevel Level="2" PowerLevel="4.0">
+      <SubskillAttribute Identifier="TAG-SHIELDING_PHYSICAL" AttributeStringValue="+" AttributeFloatValue="11" />
+    </SubskillAttributesOnLevel>
+    <SubskillAttributesOnLevel Level="3" PowerLevel="14.0">
+      <SubskillAttribute Identifier="TAG-SHIELDING_PHYSICAL" AttributeStringValue="+" AttributeFloatValue="13" />
+    </SubskillAttributesOnLevel>
+    <SubskillAttributesOnLevel Level="4" PowerLevel="29.0">
+      <SubskillAttribute Identifier="TAG-SHIELDING_PHYSICAL" AttributeStringValue="+" AttributeFloatValue="15" />
+    </SubskillAttributesOnLevel>
+    <SubskillAttributesOnLevel Level="5" PowerLevel="59.0">
+      <SubskillAttribute Identifier="TAG-SHIELDING_PHYSICAL" AttributeStringValue="+" AttributeFloatValue="17" />
+    </SubskillAttributesOnLevel>
+  </SUBSKILL-YM_GOLEM_MURALHA>
+  <SUBSKILL-YM_GOLEM_VIUVA Delay="0.0" Animation="Hit15" Sound="SubskillAddAttribute">
+    <DescriptionInfo Name="DES_YM_VIUVA" Description="DES_YM_VIUVA_DES" IconName="GOLEM_VIUVA_Roster" />
+    <ShortInfo TriggerIcon="TAG-TRIGGER_PASSIVE" DamageIcon="TAG-DAMAGE_SHIELD_S" TargetIcon="TAG-TARGET_SELF" AttackInfo="{SCRIPT:SI_DefaultAttributeChange}" />
+    <Trigger Priority="0" RequiredToBeInFrontline="FALSE" RequiredToBeInBackline="FALSE">
+      <TriggerGroup Value="Passive" />
+      <TriggerScript ScriptName="" />
+    </Trigger>
+    <Targets>
+      <TargetScript ScriptName="Trg_Self" />
+      <TargetCountRange MinimumCount="1" MaximumCount="1" TargetIndication="Random" />
+    </Targets>
+    <Activation ScriptName="WAct_AttributeChange" />
+    <ChallengeType Value="TypeSpirit" />
+    <SubskillAttributesOnLevel Level="0" PowerLevel="0.0">
+      <SubskillAttribute Identifier="TAG-SHIELDING_SPIRIT" AttributeStringValue="+" AttributeFloatValue="5" />
+    </SubskillAttributesOnLevel>
+    <SubskillAttributesOnLevel Level="1" PowerLevel="0.0">
+      <SubskillAttribute Identifier="TAG-SHIELDING_SPIRIT" AttributeStringValue="+" AttributeFloatValue="6" />
+    </SubskillAttributesOnLevel>
+    <SubskillAttributesOnLevel Level="2" PowerLevel="4.0">
+      <SubskillAttribute Identifier="TAG-SHIELDING_SPIRIT" AttributeStringValue="+" AttributeFloatValue="7" />
+    </SubskillAttributesOnLevel>
+    <SubskillAttributesOnLevel Level="3" PowerLevel="14.0">
+      <SubskillAttribute Identifier="TAG-SHIELDING_SPIRIT" AttributeStringValue="+" AttributeFloatValue="8" />
+    </SubskillAttributesOnLevel>
+    <SubskillAttributesOnLevel Level="4" PowerLevel="29.0">
+      <SubskillAttribute Identifier="TAG-SHIELDING_SPIRIT" AttributeStringValue="+" AttributeFloatValue="9" />
+    </SubskillAttributesOnLevel>
+    <SubskillAttributesOnLevel Level="5" PowerLevel="59.0">
+      <SubskillAttribute Identifier="TAG-SHIELDING_SPIRIT" AttributeStringValue="+" AttributeFloatValue="10" />
+    </SubskillAttributesOnLevel>
+  </SUBSKILL-YM_GOLEM_VIUVA>
+  <SUBSKILL-YM_GOLEM_VEJO Delay="0.0" Animation="Hit15" Sound="SubskillAddAttribute">
+    <DescriptionInfo Name="DES_YM_VEJO" Description="DES_YM_VEJO_DES" IconName="GOLEM_VEJO_Roster" />
+    <ShortInfo TriggerIcon="TAG-TRIGGER_PASSIVE" DamageIcon="TAG-DAMAGE_SHIELD_P" TargetIcon="TAG-TARGET_SELF" AttackInfo="{SCRIPT:SI_DefaultAttributeChange}" />
+    <Trigger Priority="0" RequiredToBeInFrontline="FALSE" RequiredToBeInBackline="FALSE">
+      <TriggerGroup Value="Passive" />
+      <TriggerScript ScriptName="" />
+    </Trigger>
+    <Targets>
+      <TargetScript ScriptName="Trg_Self" />
+      <TargetCountRange MinimumCount="1" MaximumCount="1" TargetIndication="Random" />
+    </Targets>
+    <Activation ScriptName="WAct_AttributeChange" />
+    <ChallengeType Value="TypePhysical" />
+    <SubskillAttributesOnLevel Level="0" PowerLevel="0.0">
+      <SubskillAttribute Identifier="TAG-SHIELDING_PHYSICAL" AttributeStringValue="+" AttributeFloatValue="5" />
+      <SubskillAttribute Identifier="TAG-SHIELDING_MENTAL" AttributeStringValue="+" AttributeFloatValue="5" />
+      <SubskillAttribute Identifier="TAG-SHIELDING_SPIRIT" AttributeStringValue="+" AttributeFloatValue="5" />
+    </SubskillAttributesOnLevel>
+    <SubskillAttributesOnLevel Level="1" PowerLevel="0.0">
+      <SubskillAttribute Identifier="TAG-SHIELDING_PHYSICAL" AttributeStringValue="+" AttributeFloatValue="6" />
+      <SubskillAttribute Identifier="TAG-SHIELDING_MENTAL" AttributeStringValue="+" AttributeFloatValue="6" />
+      <SubskillAttribute Identifier="TAG-SHIELDING_SPIRIT" AttributeStringValue="+" AttributeFloatValue="6" />
+    </SubskillAttributesOnLevel>
+    <SubskillAttributesOnLevel Level="2" PowerLevel="4.0">
+      <SubskillAttribute Identifier="TAG-SHIELDING_PHYSICAL" AttributeStringValue="+" AttributeFloatValue="7" />
+      <SubskillAttribute Identifier="TAG-SHIELDING_MENTAL" AttributeStringValue="+" AttributeFloatValue="7" />
+      <SubskillAttribute Identifier="TAG-SHIELDING_SPIRIT" AttributeStringValue="+" AttributeFloatValue="7" />
+    </SubskillAttributesOnLevel>
+    <SubskillAttributesOnLevel Level="3" PowerLevel="14.0">
+      <SubskillAttribute Identifier="TAG-SHIELDING_PHYSICAL" AttributeStringValue="+" AttributeFloatValue="8" />
+      <SubskillAttribute Identifier="TAG-SHIELDING_MENTAL" AttributeStringValue="+" AttributeFloatValue="8" />
+      <SubskillAttribute Identifier="TAG-SHIELDING_SPIRIT" AttributeStringValue="+" AttributeFloatValue="8" />
+    </SubskillAttributesOnLevel>
+    <SubskillAttributesOnLevel Level="4" PowerLevel="29.0">
+      <SubskillAttribute Identifier="TAG-SHIELDING_PHYSICAL" AttributeStringValue="+" AttributeFloatValue="9" />
+      <SubskillAttribute Identifier="TAG-SHIELDING_MENTAL" AttributeStringValue="+" AttributeFloatValue="9" />
+      <SubskillAttribute Identifier="TAG-SHIELDING_SPIRIT" AttributeStringValue="+" AttributeFloatValue="9" />
+    </SubskillAttributesOnLevel>
+    <SubskillAttributesOnLevel Level="5" PowerLevel="59.0">
+      <SubskillAttribute Identifier="TAG-SHIELDING_PHYSICAL" AttributeStringValue="+" AttributeFloatValue="10" />
+      <SubskillAttribute Identifier="TAG-SHIELDING_MENTAL" AttributeStringValue="+" AttributeFloatValue="10" />
+      <SubskillAttribute Identifier="TAG-SHIELDING_SPIRIT" AttributeStringValue="+" AttributeFloatValue="10" />
+    </SubskillAttributesOnLevel>
+  </SUBSKILL-YM_GOLEM_VEJO>
+  <SUBSKILL-YM_GOLEM_AGULHA Delay="0.0" Animation="Hit15" Sound="SubskillAddAttribute">
+    <DescriptionInfo Name="DES_YM_AGULHA" Description="DES_YM_AGULHA_DES" IconName="GOLEM_AGULHA_Roster" />
+    <ShortInfo TriggerIcon="TAG-TRIGGER_PASSIVE" DamageIcon="TAG-DAMAGE_SHIELD_M" TargetIcon="TAG-TARGET_SELF" AttackInfo="{SCRIPT:SI_DefaultAttributeChange}" />
+    <Trigger Priority="0" RequiredToBeInFrontline="FALSE" RequiredToBeInBackline="FALSE">
+      <TriggerGroup Value="Passive" />
+      <TriggerScript ScriptName="" />
+    </Trigger>
+    <Targets>
+      <TargetScript ScriptName="Trg_Self" />
+      <TargetCountRange MinimumCount="1" MaximumCount="1" TargetIndication="Random" />
+    </Targets>
+    <Activation ScriptName="WAct_AttributeChange" />
+    <ChallengeType Value="TypeMental" />
+    <SubskillAttributesOnLevel Level="0" PowerLevel="0.0">
+      <SubskillAttribute Identifier="TAG-SHIELDING_MENTAL" AttributeStringValue="+" AttributeFloatValue="5" />
+    </SubskillAttributesOnLevel>
+    <SubskillAttributesOnLevel Level="1" PowerLevel="0.0">
+      <SubskillAttribute Identifier="TAG-SHIELDING_MENTAL" AttributeStringValue="+" AttributeFloatValue="6" />
+    </SubskillAttributesOnLevel>
+    <SubskillAttributesOnLevel Level="2" PowerLevel="4.0">
+      <SubskillAttribute Identifier="TAG-SHIELDING_MENTAL" AttributeStringValue="+" AttributeFloatValue="7" />
+    </SubskillAttributesOnLevel>
+    <SubskillAttributesOnLevel Level="3" PowerLevel="14.0">
+      <SubskillAttribute Identifier="TAG-SHIELDING_MENTAL" AttributeStringValue="+" AttributeFloatValue="8" />
+    </SubskillAttributesOnLevel>
+    <SubskillAttributesOnLevel Level="4" PowerLevel="29.0">
+      <SubskillAttribute Identifier="TAG-SHIELDING_MENTAL" AttributeStringValue="+" AttributeFloatValue="9" />
+    </SubskillAttributesOnLevel>
+    <SubskillAttributesOnLevel Level="5" PowerLevel="59.0">
+      <SubskillAttribute Identifier="TAG-SHIELDING_MENTAL" AttributeStringValue="+" AttributeFloatValue="10" />
+    </SubskillAttributesOnLevel>
+  </SUBSKILL-YM_GOLEM_AGULHA>
+  <SUBSKILL-YM_GOLEM_FERREIRO Delay="0.0" Animation="Hit15" Sound="SubskillAddAttribute">
+    <DescriptionInfo Name="DES_YM_FERREIRO" Description="DES_YM_FERREIRO_DES" IconName="GOLEM_FERREIRO_Roster" />
+    <ShortInfo TriggerIcon="TAG-TRIGGER_PASSIVE" DamageIcon="TAG-DAMAGE_SHIELD_P" TargetIcon="TAG-TARGET_SELF" AttackInfo="{SCRIPT:SI_DefaultAttributeChange}" />
+    <Trigger Priority="0" RequiredToBeInFrontline="FALSE" RequiredToBeInBackline="FALSE">
+      <TriggerGroup Value="Passive" />
+      <TriggerScript ScriptName="" />
+    </Trigger>
+    <Targets>
+      <TargetScript ScriptName="Trg_Self" />
+      <TargetCountRange MinimumCount="1" MaximumCount="1" TargetIndication="Random" />
+    </Targets>
+    <Activation ScriptName="WAct_AttributeChange" />
+    <ChallengeType Value="TypePhysical" />
+    <SubskillAttributesOnLevel Level="0" PowerLevel="0.0">
+      <SubskillAttribute Identifier="TAG-SHIELDING_PHYSICAL" AttributeStringValue="+" AttributeFloatValue="6" />
+    </SubskillAttributesOnLevel>
+    <SubskillAttributesOnLevel Level="1" PowerLevel="0.0">
+      <SubskillAttribute Identifier="TAG-SHIELDING_PHYSICAL" AttributeStringValue="+" AttributeFloatValue="7" />
+    </SubskillAttributesOnLevel>
+    <SubskillAttributesOnLevel Level="2" PowerLevel="4.0">
+      <SubskillAttribute Identifier="TAG-SHIELDING_PHYSICAL" AttributeStringValue="+" AttributeFloatValue="8" />
+    </SubskillAttributesOnLevel>
+    <SubskillAttributesOnLevel Level="3" PowerLevel="14.0">
+      <SubskillAttribute Identifier="TAG-SHIELDING_PHYSICAL" AttributeStringValue="+" AttributeFloatValue="9" />
+    </SubskillAttributesOnLevel>
+    <SubskillAttributesOnLevel Level="4" PowerLevel="29.0">
+      <SubskillAttribute Identifier="TAG-SHIELDING_PHYSICAL" AttributeStringValue="+" AttributeFloatValue="10" />
+    </SubskillAttributesOnLevel>
+    <SubskillAttributesOnLevel Level="5" PowerLevel="59.0">
+      <SubskillAttribute Identifier="TAG-SHIELDING_PHYSICAL" AttributeStringValue="+" AttributeFloatValue="11" />
+    </SubskillAttributesOnLevel>
+  </SUBSKILL-YM_GOLEM_FERREIRO>
+
+  <!-- Golem T4 Únicos - Defesas -->
+  <SUBSKILL-YM_GOLEM_GUARDAO_DA_MINA Delay="0.0" Animation="Hit15" Sound="SubskillAddAttribute">
+    <DescriptionInfo Name="DES_YM_GUARDAO_DA_MINA" Description="DES_YM_GUARDAO_DA_MINA_DES" IconName="GOLEM_GUARDAO_DA_MINA_Roster" />
+    <ShortInfo TriggerIcon="TAG-TRIGGER_PASSIVE" DamageIcon="TAG-DAMAGE_SHIELD_P" TargetIcon="TAG-TARGET_SELF" AttackInfo="{SCRIPT:SI_DefaultAttributeChange}" />
+    <Trigger Priority="0" RequiredToBeInFrontline="FALSE" RequiredToBeInBackline="FALSE">
+      <TriggerGroup Value="Passive" />
+      <TriggerScript ScriptName="" />
+    </Trigger>
+    <Targets>
+      <TargetScript ScriptName="Trg_Self" />
+      <TargetCountRange MinimumCount="1" MaximumCount="1" TargetIndication="Random" />
+    </Targets>
+    <Activation ScriptName="WAct_AttributeChange" />
+    <ChallengeType Value="TypePhysical" />
+    <SubskillAttributesOnLevel Level="0" PowerLevel="0.0">
+      <SubskillAttribute Identifier="TAG-SHIELDING_PHYSICAL" AttributeStringValue="+" AttributeFloatValue="10" />
+    </SubskillAttributesOnLevel>
+    <SubskillAttributesOnLevel Level="1" PowerLevel="0.0">
+      <SubskillAttribute Identifier="TAG-SHIELDING_PHYSICAL" AttributeStringValue="+" AttributeFloatValue="12" />
+    </SubskillAttributesOnLevel>
+    <SubskillAttributesOnLevel Level="2" PowerLevel="4.0">
+      <SubskillAttribute Identifier="TAG-SHIELDING_PHYSICAL" AttributeStringValue="+" AttributeFloatValue="14" />
+    </SubskillAttributesOnLevel>
+    <SubskillAttributesOnLevel Level="3" PowerLevel="14.0">
+      <SubskillAttribute Identifier="TAG-SHIELDING_PHYSICAL" AttributeStringValue="+" AttributeFloatValue="16" />
+    </SubskillAttributesOnLevel>
+    <SubskillAttributesOnLevel Level="4" PowerLevel="29.0">
+      <SubskillAttribute Identifier="TAG-SHIELDING_PHYSICAL" AttributeStringValue="+" AttributeFloatValue="18" />
+    </SubskillAttributesOnLevel>
+    <SubskillAttributesOnLevel Level="5" PowerLevel="59.0">
+      <SubskillAttribute Identifier="TAG-SHIELDING_PHYSICAL" AttributeStringValue="+" AttributeFloatValue="20" />
+    </SubskillAttributesOnLevel>
+  </SUBSKILL-YM_GOLEM_GUARDAO_DA_MINA>
+  <SUBSKILL-YM_GOLEM_DRAGAO_OSSO Delay="0.0" Animation="Hit15" Sound="SubskillAddAttribute">
+    <DescriptionInfo Name="DES_YM_DRAGAO_OSSO" Description="DES_YM_DRAGAO_OSSO_DES" IconName="GOLEM_DRAGAO_OSSO_Roster" />
+    <ShortInfo TriggerIcon="TAG-TRIGGER_PASSIVE" DamageIcon="TAG-DAMAGE_SHIELD_S" TargetIcon="TAG-TARGET_SELF" AttackInfo="{SCRIPT:SI_DefaultAttributeChange}" />
+    <Trigger Priority="0" RequiredToBeInFrontline="FALSE" RequiredToBeInBackline="FALSE">
+      <TriggerGroup Value="Passive" />
+      <TriggerScript ScriptName="" />
+    </Trigger>
+    <Targets>
+      <TargetScript ScriptName="Trg_Self" />
+      <TargetCountRange MinimumCount="1" MaximumCount="1" TargetIndication="Random" />
+    </Targets>
+    <Activation ScriptName="WAct_AttributeChange" />
+    <ChallengeType Value="TypeSpirit" />
+    <SubskillAttributesOnLevel Level="0" PowerLevel="0.0">
+      <SubskillAttribute Identifier="TAG-SHIELDING_SPIRIT" AttributeStringValue="+" AttributeFloatValue="8" />
+    </SubskillAttributesOnLevel>
+    <SubskillAttributesOnLevel Level="1" PowerLevel="0.0">
+      <SubskillAttribute Identifier="TAG-SHIELDING_SPIRIT" AttributeStringValue="+" AttributeFloatValue="10" />
+    </SubskillAttributesOnLevel>
+    <SubskillAttributesOnLevel Level="2" PowerLevel="4.0">
+      <SubskillAttribute Identifier="TAG-SHIELDING_SPIRIT" AttributeStringValue="+" AttributeFloatValue="12" />
+    </SubskillAttributesOnLevel>
+    <SubskillAttributesOnLevel Level="3" PowerLevel="14.0">
+      <SubskillAttribute Identifier="TAG-SHIELDING_SPIRIT" AttributeStringValue="+" AttributeFloatValue="14" />
+    </SubskillAttributesOnLevel>
+    <SubskillAttributesOnLevel Level="4" PowerLevel="29.0">
+      <SubskillAttribute Identifier="TAG-SHIELDING_SPIRIT" AttributeStringValue="+" AttributeFloatValue="16" />
+    </SubskillAttributesOnLevel>
+    <SubskillAttributesOnLevel Level="5" PowerLevel="59.0">
+      <SubskillAttribute Identifier="TAG-SHIELDING_SPIRIT" AttributeStringValue="+" AttributeFloatValue="18" />
+    </SubskillAttributesOnLevel>
+  </SUBSKILL-YM_GOLEM_DRAGAO_OSSO>
+  <SUBSKILL-YM_GOLEM_CEVA Delay="0.0" Animation="Hit15" Sound="SubskillAddAttribute">
+    <DescriptionInfo Name="DES_YM_CEVA" Description="DES_YM_CEVA_DES" IconName="GOLEM_CEVA_Roster" />
+    <ShortInfo TriggerIcon="TAG-TRIGGER_PASSIVE" DamageIcon="TAG-DAMAGE_SHIELD_M" TargetIcon="TAG-TARGET_SELF" AttackInfo="{SCRIPT:SI_DefaultAttributeChange}" />
+    <Trigger Priority="0" RequiredToBeInFrontline="FALSE" RequiredToBeInBackline="FALSE">
+      <TriggerGroup Value="Passive" />
+      <TriggerScript ScriptName="" />
+    </Trigger>
+    <Targets>
+      <TargetScript ScriptName="Trg_Self" />
+      <TargetCountRange MinimumCount="1" MaximumCount="1" TargetIndication="Random" />
+    </Targets>
+    <Activation ScriptName="WAct_AttributeChange" />
+    <ChallengeType Value="TypeMental" />
+    <SubskillAttributesOnLevel Level="0" PowerLevel="0.0">
+      <SubskillAttribute Identifier="TAG-SHIELDING_MENTAL" AttributeStringValue="+" AttributeFloatValue="8" />
+    </SubskillAttributesOnLevel>
+    <SubskillAttributesOnLevel Level="1" PowerLevel="0.0">
+      <SubskillAttribute Identifier="TAG-SHIELDING_MENTAL" AttributeStringValue="+" AttributeFloatValue="10" />
+    </SubskillAttributesOnLevel>
+    <SubskillAttributesOnLevel Level="2" PowerLevel="4.0">
+      <SubskillAttribute Identifier="TAG-SHIELDING_MENTAL" AttributeStringValue="+" AttributeFloatValue="12" />
+    </SubskillAttributesOnLevel>
+    <SubskillAttributesOnLevel Level="3" PowerLevel="14.0">
+      <SubskillAttribute Identifier="TAG-SHIELDING_MENTAL" AttributeStringValue="+" AttributeFloatValue="14" />
+    </SubskillAttributesOnLevel>
+    <SubskillAttributesOnLevel Level="4" PowerLevel="29.0">
+      <SubskillAttribute Identifier="TAG-SHIELDING_MENTAL" AttributeStringValue="+" AttributeFloatValue="16" />
+    </SubskillAttributesOnLevel>
+    <SubskillAttributesOnLevel Level="5" PowerLevel="59.0">
+      <SubskillAttribute Identifier="TAG-SHIELDING_MENTAL" AttributeStringValue="+" AttributeFloatValue="18" />
+    </SubskillAttributesOnLevel>
+  </SUBSKILL-YM_GOLEM_CEVA>
+  <SUBSKILL-YM_GOLEM_CINZEL Delay="0.0" Animation="Hit15" Sound="SubskillAddAttribute">
+    <DescriptionInfo Name="DES_YM_CINZEL" Description="DES_YM_CINZEL_DES" IconName="GOLEM_CINZEL_Roster" />
+    <ShortInfo TriggerIcon="TAG-TRIGGER_PASSIVE" DamageIcon="TAG-DAMAGE_SHIELD_P" TargetIcon="TAG-TARGET_SELF" AttackInfo="{SCRIPT:SI_DefaultAttributeChange}" />
+    <Trigger Priority="0" RequiredToBeInFrontline="FALSE" RequiredToBeInBackline="FALSE">
+      <TriggerGroup Value="Passive" />
+      <TriggerScript ScriptName="" />
+    </Trigger>
+    <Targets>
+      <TargetScript ScriptName="Trg_Self" />
+      <TargetCountRange MinimumCount="1" MaximumCount="1" TargetIndication="Random" />
+    </Targets>
+    <Activation ScriptName="WAct_AttributeChange" />
+    <ChallengeType Value="TypePhysical" />
+    <SubskillAttributesOnLevel Level="0" PowerLevel="0.0">
+      <SubskillAttribute Identifier="TAG-SHIELDING_PHYSICAL" AttributeStringValue="+" AttributeFloatValue="8" />
+    </SubskillAttributesOnLevel>
+    <SubskillAttributesOnLevel Level="1" PowerLevel="0.0">
+      <SubskillAttribute Identifier="TAG-SHIELDING_PHYSICAL" AttributeStringValue="+" AttributeFloatValue="10" />
+    </SubskillAttributesOnLevel>
+    <SubskillAttributesOnLevel Level="2" PowerLevel="4.0">
+      <SubskillAttribute Identifier="TAG-SHIELDING_PHYSICAL" AttributeStringValue="+" AttributeFloatValue="12" />
+    </SubskillAttributesOnLevel>
+    <SubskillAttributesOnLevel Level="3" PowerLevel="14.0">
+      <SubskillAttribute Identifier="TAG-SHIELDING_PHYSICAL" AttributeStringValue="+" AttributeFloatValue="14" />
+    </SubskillAttributesOnLevel>
+    <SubskillAttributesOnLevel Level="4" PowerLevel="29.0">
+      <SubskillAttribute Identifier="TAG-SHIELDING_PHYSICAL" AttributeStringValue="+" AttributeFloatValue="16" />
+    </SubskillAttributesOnLevel>
+    <SubskillAttributesOnLevel Level="5" PowerLevel="59.0">
+      <SubskillAttribute Identifier="TAG-SHIELDING_PHYSICAL" AttributeStringValue="+" AttributeFloatValue="18" />
+    </SubskillAttributesOnLevel>
+  </SUBSKILL-YM_GOLEM_CINZEL>
+
+  <!-- Golens de Evento - Defesas -->
+  <SUBSKILL-YM_GOLEM_ESTALO Delay="0.0" Animation="Hit15" Sound="SubskillAddAttribute">
+    <DescriptionInfo Name="DES_YM_ESTALO" Description="DES_YM_ESTALO_DES" IconName="GOLEM_ESTALO_Roster" />
+    <ShortInfo TriggerIcon="TAG-TRIGGER_PASSIVE" DamageIcon="TAG-DAMAGE_SHIELD_S" TargetIcon="TAG-TARGET_SELF" AttackInfo="{SCRIPT:SI_DefaultAttributeChange}" />
+    <Trigger Priority="0" RequiredToBeInFrontline="FALSE" RequiredToBeInBackline="FALSE">
+      <TriggerGroup Value="Passive" />
+      <TriggerScript ScriptName="" />
+    </Trigger>
+    <Targets>
+      <TargetScript ScriptName="Trg_Self" />
+      <TargetCountRange MinimumCount="1" MaximumCount="1" TargetIndication="Random" />
+    </Targets>
+    <Activation ScriptName="WAct_AttributeChange" />
+    <ChallengeType Value="TypeSpirit" />
+    <SubskillAttributesOnLevel Level="0" PowerLevel="0.0">
+      <SubskillAttribute Identifier="TAG-SHIELDING_SPIRIT" AttributeStringValue="+" AttributeFloatValue="6" />
+    </SubskillAttributesOnLevel>
+    <SubskillAttributesOnLevel Level="1" PowerLevel="0.0">
+      <SubskillAttribute Identifier="TAG-SHIELDING_SPIRIT" AttributeStringValue="+" AttributeFloatValue="7" />
+    </SubskillAttributesOnLevel>
+    <SubskillAttributesOnLevel Level="2" PowerLevel="4.0">
+      <SubskillAttribute Identifier="TAG-SHIELDING_SPIRIT" AttributeStringValue="+" AttributeFloatValue="8" />
+    </SubskillAttributesOnLevel>
+    <SubskillAttributesOnLevel Level="3" PowerLevel="14.0">
+      <SubskillAttribute Identifier="TAG-SHIELDING_SPIRIT" AttributeStringValue="+" AttributeFloatValue="9" />
+    </SubskillAttributesOnLevel>
+    <SubskillAttributesOnLevel Level="4" PowerLevel="29.0">
+      <SubskillAttribute Identifier="TAG-SHIELDING_SPIRIT" AttributeStringValue="+" AttributeFloatValue="10" />
+    </SubskillAttributesOnLevel>
+    <SubskillAttributesOnLevel Level="5" PowerLevel="59.0">
+      <SubskillAttribute Identifier="TAG-SHIELDING_SPIRIT" AttributeStringValue="+" AttributeFloatValue="11" />
+    </SubskillAttributesOnLevel>
+  </SUBSKILL-YM_GOLEM_ESTALO>
+  <SUBSKILL-YM_GOLEM_TERRA_VIVA Delay="0.0" Animation="Hit15" Sound="SubskillAddAttribute">
+    <DescriptionInfo Name="DES_YM_TERRA_VIVA" Description="DES_YM_TERRA_VIVA_DES" IconName="GOLEM_TERRA_VIVA_Roster" />
+    <ShortInfo TriggerIcon="TAG-TRIGGER_PASSIVE" DamageIcon="TAG-DAMAGE_SHIELD_P" TargetIcon="TAG-TARGET_SELF" AttackInfo="{SCRIPT:SI_DefaultAttributeChange}" />
+    <Trigger Priority="0" RequiredToBeInFrontline="FALSE" RequiredToBeInBackline="FALSE">
+      <TriggerGroup Value="Passive" />
+      <TriggerScript ScriptName="" />
+    </Trigger>
+    <Targets>
+      <TargetScript ScriptName="Trg_Self" />
+      <TargetCountRange MinimumCount="1" MaximumCount="1" TargetIndication="Random" />
+    </Targets>
+    <Activation ScriptName="WAct_AttributeChange" />
+    <ChallengeType Value="TypePhysical" />
+    <SubskillAttributesOnLevel Level="0" PowerLevel="0.0">
+      <SubskillAttribute Identifier="TAG-SHIELDING_PHYSICAL" AttributeStringValue="+" AttributeFloatValue="6" />
+    </SubskillAttributesOnLevel>
+    <SubskillAttributesOnLevel Level="1" PowerLevel="0.0">
+      <SubskillAttribute Identifier="TAG-SHIELDING_PHYSICAL" AttributeStringValue="+" AttributeFloatValue="7" />
+    </SubskillAttributesOnLevel>
+    <SubskillAttributesOnLevel Level="2" PowerLevel="4.0">
+      <SubskillAttribute Identifier="TAG-SHIELDING_PHYSICAL" AttributeStringValue="+" AttributeFloatValue="8" />
+    </SubskillAttributesOnLevel>
+    <SubskillAttributesOnLevel Level="3" PowerLevel="14.0">
+      <SubskillAttribute Identifier="TAG-SHIELDING_PHYSICAL" AttributeStringValue="+" AttributeFloatValue="9" />
+    </SubskillAttributesOnLevel>
+    <SubskillAttributesOnLevel Level="4" PowerLevel="29.0">
+      <SubskillAttribute Identifier="TAG-SHIELDING_PHYSICAL" AttributeStringValue="+" AttributeFloatValue="10" />
+    </SubskillAttributesOnLevel>
+    <SubskillAttributesOnLevel Level="5" PowerLevel="59.0">
+      <SubskillAttribute Identifier="TAG-SHIELDING_PHYSICAL" AttributeStringValue="+" AttributeFloatValue="11" />
+    </SubskillAttributesOnLevel>
+  </SUBSKILL-YM_GOLEM_TERRA_VIVA>
+  <SUBSKILL-YM_GOLEM_FANTASMA_DE_FORG Delay="0.0" Animation="Hit15" Sound="SubskillAddAttribute">
+    <DescriptionInfo Name="DES_YM_FANTASMA_DE_FORG" Description="DES_YM_FANTASMA_DE_FORG_DES" IconName="GOLEM_FANTASMA_DE_FORG_Roster" />
+    <ShortInfo TriggerIcon="TAG-TRIGGER_PASSIVE" DamageIcon="TAG-DAMAGE_SHIELD_S" TargetIcon="TAG-TARGET_SELF" AttackInfo="{SCRIPT:SI_DefaultAttributeChange}" />
+    <Trigger Priority="0" RequiredToBeInFrontline="FALSE" RequiredToBeInBackline="FALSE">
+      <TriggerGroup Value="Passive" />
+      <TriggerScript ScriptName="" />
+    </Trigger>
+    <Targets>
+      <TargetScript ScriptName="Trg_Self" />
+      <TargetCountRange MinimumCount="1" MaximumCount="1" TargetIndication="Random" />
+    </Targets>
+    <Activation ScriptName="WAct_AttributeChange" />
+    <ChallengeType Value="TypeSpirit" />
+    <SubskillAttributesOnLevel Level="0" PowerLevel="0.0">
+      <SubskillAttribute Identifier="TAG-SHIELDING_SPIRIT" AttributeStringValue="+" AttributeFloatValue="8" />
+    </SubskillAttributesOnLevel>
+    <SubskillAttributesOnLevel Level="1" PowerLevel="0.0">
+      <SubskillAttribute Identifier="TAG-SHIELDING_SPIRIT" AttributeStringValue="+" AttributeFloatValue="10" />
+    </SubskillAttributesOnLevel>
+    <SubskillAttributesOnLevel Level="2" PowerLevel="4.0">
+      <SubskillAttribute Identifier="TAG-SHIELDING_SPIRIT" AttributeStringValue="+" AttributeFloatValue="12" />
+    </SubskillAttributesOnLevel>
+    <SubskillAttributesOnLevel Level="3" PowerLevel="14.0">
+      <SubskillAttribute Identifier="TAG-SHIELDING_SPIRIT" AttributeStringValue="+" AttributeFloatValue="14" />
+    </SubskillAttributesOnLevel>
+    <SubskillAttributesOnLevel Level="4" PowerLevel="29.0">
+      <SubskillAttribute Identifier="TAG-SHIELDING_SPIRIT" AttributeStringValue="+" AttributeFloatValue="16" />
+    </SubskillAttributesOnLevel>
+    <SubskillAttributesOnLevel Level="5" PowerLevel="59.0">
+      <SubskillAttribute Identifier="TAG-SHIELDING_SPIRIT" AttributeStringValue="+" AttributeFloatValue="18" />
+    </SubskillAttributesOnLevel>
+  </SUBSKILL-YM_GOLEM_FANTASMA_DE_FORG>
+  <SUBSKILL-YM_GOLEM_GEMEO Delay="0.0" Animation="Hit15" Sound="SubskillAddAttribute">
+    <DescriptionInfo Name="DES_YM_GEMEO" Description="DES_YM_GEMEO_DES" IconName="GOLEM_GEMEO_Roster" />
+    <ShortInfo TriggerIcon="TAG-TRIGGER_PASSIVE" DamageIcon="TAG-DAMAGE_SHIELD_M" TargetIcon="TAG-TARGET_SELF" AttackInfo="{SCRIPT:SI_DefaultAttributeChange}" />
+    <Trigger Priority="0" RequiredToBeInFrontline="FALSE" RequiredToBeInBackline="FALSE">
+      <TriggerGroup Value="Passive" />
+      <TriggerScript ScriptName="" />
+    </Trigger>
+    <Targets>
+      <TargetScript ScriptName="Trg_Self" />
+      <TargetCountRange MinimumCount="1" MaximumCount="1" TargetIndication="Random" />
+    </Targets>
+    <Activation ScriptName="WAct_AttributeChange" />
+    <ChallengeType Value="TypeMental" />
+    <SubskillAttributesOnLevel Level="0" PowerLevel="0.0">
+      <SubskillAttribute Identifier="TAG-SHIELDING_MENTAL" AttributeStringValue="+" AttributeFloatValue="6" />
+    </SubskillAttributesOnLevel>
+    <SubskillAttributesOnLevel Level="1" PowerLevel="0.0">
+      <SubskillAttribute Identifier="TAG-SHIELDING_MENTAL" AttributeStringValue="+" AttributeFloatValue="7" />
+    </SubskillAttributesOnLevel>
+    <SubskillAttributesOnLevel Level="2" PowerLevel="4.0">
+      <SubskillAttribute Identifier="TAG-SHIELDING_MENTAL" AttributeStringValue="+" AttributeFloatValue="8" />
+    </SubskillAttributesOnLevel>
+    <SubskillAttributesOnLevel Level="3" PowerLevel="14.0">
+      <SubskillAttribute Identifier="TAG-SHIELDING_MENTAL" AttributeStringValue="+" AttributeFloatValue="9" />
+    </SubskillAttributesOnLevel>
+    <SubskillAttributesOnLevel Level="4" PowerLevel="29.0">
+      <SubskillAttribute Identifier="TAG-SHIELDING_MENTAL" AttributeStringValue="+" AttributeFloatValue="10" />
+    </SubskillAttributesOnLevel>
+    <SubskillAttributesOnLevel Level="5" PowerLevel="59.0">
+      <SubskillAttribute Identifier="TAG-SHIELDING_MENTAL" AttributeStringValue="+" AttributeFloatValue="11" />
+    </SubskillAttributesOnLevel>
+  </SUBSKILL-YM_GOLEM_GEMEO>
+
+  <!-- Defesa dos novos golens -->
+  <SUBSKILL-YM_GOLEM_OBSIDIANA Delay="0.0" Animation="Hit15" Sound="SubskillAddAttribute">
+    <DescriptionInfo Name="DES_YM_OBSIDIANA" Description="DES_YM_OBSIDIANA_DES" IconName="GOLEM_OBSIDIANA_Roster" />
+    <ShortInfo TriggerIcon="TAG-TRIGGER_PASSIVE" DamageIcon="TAG-DAMAGE_SHIELD_P" TargetIcon="TAG-TARGET_SELF" AttackInfo="{SCRIPT:SI_DefaultAttributeChange}" />
+    <Trigger Priority="0" RequiredToBeInFrontline="FALSE" RequiredToBeInBackline="FALSE">
+      <TriggerGroup Value="Passive" />
+      <TriggerScript ScriptName="" />
+    </Trigger>
+    <Targets>
+      <TargetScript ScriptName="Trg_Self" />
+      <TargetCountRange MinimumCount="1" MaximumCount="1" TargetIndication="Random" />
+    </Targets>
+    <Activation ScriptName="WAct_AttributeChange" />
+    <ChallengeType Value="TypePhysical" />
+    <SubskillAttributesOnLevel Level="0" PowerLevel="0.0">
+      <SubskillAttribute Identifier="TAG-SHIELDING_PHYSICAL" AttributeStringValue="+" AttributeFloatValue="7" />
+    </SubskillAttributesOnLevel>
+    <SubskillAttributesOnLevel Level="1" PowerLevel="0.0">
+      <SubskillAttribute Identifier="TAG-SHIELDING_PHYSICAL" AttributeStringValue="+" AttributeFloatValue="9" />
+    </SubskillAttributesOnLevel>
+    <SubskillAttributesOnLevel Level="2" PowerLevel="4.0">
+      <SubskillAttribute Identifier="TAG-SHIELDING_PHYSICAL" AttributeStringValue="+" AttributeFloatValue="11" />
+    </SubskillAttributesOnLevel>
+    <SubskillAttributesOnLevel Level="3" PowerLevel="14.0">
+      <SubskillAttribute Identifier="TAG-SHIELDING_PHYSICAL" AttributeStringValue="+" AttributeFloatValue="13" />
+    </SubskillAttributesOnLevel>
+    <SubskillAttributesOnLevel Level="4" PowerLevel="29.0">
+      <SubskillAttribute Identifier="TAG-SHIELDING_PHYSICAL" AttributeStringValue="+" AttributeFloatValue="15" />
+    </SubskillAttributesOnLevel>
+    <SubskillAttributesOnLevel Level="5" PowerLevel="59.0">
+      <SubskillAttribute Identifier="TAG-SHIELDING_PHYSICAL" AttributeStringValue="+" AttributeFloatValue="17" />
+    </SubskillAttributesOnLevel>
+  </SUBSKILL-YM_GOLEM_OBSIDIANA>
+  <SUBSKILL-YM_GOLEM_SANGUE Delay="0.0" Animation="Hit15" Sound="SubskillAddAttribute">
+    <DescriptionInfo Name="DES_YM_SANGUE" Description="DES_YM_SANGUE_DES" IconName="GOLEM_SANGUE_Roster" />
+    <ShortInfo TriggerIcon="TAG-TRIGGER_PASSIVE" DamageIcon="TAG-DAMAGE_SHIELD_S" TargetIcon="TAG-TARGET_SELF" AttackInfo="{SCRIPT:SI_DefaultAttributeChange}" />
+    <Trigger Priority="0" RequiredToBeInFrontline="FALSE" RequiredToBeInBackline="FALSE">
+      <TriggerGroup Value="Passive" />
+      <TriggerScript ScriptName="" />
+    </Trigger>
+    <Targets>
+      <TargetScript ScriptName="Trg_Self" />
+      <TargetCountRange MinimumCount="1" MaximumCount="1" TargetIndication="Random" />
+    </Targets>
+    <Activation ScriptName="WAct_AttributeChange" />
+    <ChallengeType Value="TypeSpirit" />
+    <SubskillAttributesOnLevel Level="0" PowerLevel="0.0">
+      <SubskillAttribute Identifier="TAG-SHIELDING_SPIRIT" AttributeStringValue="+" AttributeFloatValue="5" />
+    </SubskillAttributesOnLevel>
+    <SubskillAttributesOnLevel Level="1" PowerLevel="0.0">
+      <SubskillAttribute Identifier="TAG-SHIELDING_SPIRIT" AttributeStringValue="+" AttributeFloatValue="6" />
+    </SubskillAttributesOnLevel>
+    <SubskillAttributesOnLevel Level="2" PowerLevel="4.0">
+      <SubskillAttribute Identifier="TAG-SHIELDING_SPIRIT" AttributeStringValue="+" AttributeFloatValue="7" />
+    </SubskillAttributesOnLevel>
+    <SubskillAttributesOnLevel Level="3" PowerLevel="14.0">
+      <SubskillAttribute Identifier="TAG-SHIELDING_SPIRIT" AttributeStringValue="+" AttributeFloatValue="8" />
+    </SubskillAttributesOnLevel>
+    <SubskillAttributesOnLevel Level="4" PowerLevel="29.0">
+      <SubskillAttribute Identifier="TAG-SHIELDING_SPIRIT" AttributeStringValue="+" AttributeFloatValue="9" />
+    </SubskillAttributesOnLevel>
+    <SubskillAttributesOnLevel Level="5" PowerLevel="59.0">
+      <SubskillAttribute Identifier="TAG-SHIELDING_SPIRIT" AttributeStringValue="+" AttributeFloatValue="10" />
+    </SubskillAttributesOnLevel>
+  </SUBSKILL-YM_GOLEM_SANGUE>
+  <SUBSKILL-YM_GOLEM_NEBULINA Delay="0.0" Animation="Hit15" Sound="SubskillAddAttribute">
+    <DescriptionInfo Name="DES_YM_NEBULINA" Description="DES_YM_NEBULINA_DES" IconName="GOLEM_NEBULINA_Roster" />
+    <ShortInfo TriggerIcon="TAG-TRIGGER_PASSIVE" DamageIcon="TAG-DAMAGE_SHIELD_M" TargetIcon="TAG-TARGET_SELF" AttackInfo="{SCRIPT:SI_DefaultAttributeChange}" />
+    <Trigger Priority="0" RequiredToBeInFrontline="FALSE" RequiredToBeInBackline="FALSE">
+      <TriggerGroup Value="Passive" />
+      <TriggerScript ScriptName="" />
+    </Trigger>
+    <Targets>
+      <TargetScript ScriptName="Trg_Self" />
+      <TargetCountRange MinimumCount="1" MaximumCount="1" TargetIndication="Random" />
+    </Targets>
+    <Activation ScriptName="WAct_AttributeChange" />
+    <ChallengeType Value="TypeMental" />
+    <SubskillAttributesOnLevel Level="0" PowerLevel="0.0">
+      <SubskillAttribute Identifier="TAG-SHIELDING_MENTAL" AttributeStringValue="+" AttributeFloatValue="4" />
+    </SubskillAttributesOnLevel>
+    <SubskillAttributesOnLevel Level="1" PowerLevel="0.0">
+      <SubskillAttribute Identifier="TAG-SHIELDING_MENTAL" AttributeStringValue="+" AttributeFloatValue="5" />
+    </SubskillAttributesOnLevel>
+    <SubskillAttributesOnLevel Level="2" PowerLevel="4.0">
+      <SubskillAttribute Identifier="TAG-SHIELDING_MENTAL" AttributeStringValue="+" AttributeFloatValue="6" />
+    </SubskillAttributesOnLevel>
+    <SubskillAttributesOnLevel Level="3" PowerLevel="14.0">
+      <SubskillAttribute Identifier="TAG-SHIELDING_MENTAL" AttributeStringValue="+" AttributeFloatValue="7" />
+    </SubskillAttributesOnLevel>
+    <SubskillAttributesOnLevel Level="4" PowerLevel="29.0">
+      <SubskillAttribute Identifier="TAG-SHIELDING_MENTAL" AttributeStringValue="+" AttributeFloatValue="8" />
+    </SubskillAttributesOnLevel>
+    <SubskillAttributesOnLevel Level="5" PowerLevel="59.0">
+      <SubskillAttribute Identifier="TAG-SHIELDING_MENTAL" AttributeStringValue="+" AttributeFloatValue="9" />
+    </SubskillAttributesOnLevel>
+  </SUBSKILL-YM_GOLEM_NEBULINA>
+  <SUBSKILL-YM_GOLEM_FUNGO Delay="0.0" Animation="Hit15" Sound="SubskillAddAttribute">
+    <DescriptionInfo Name="DES_YM_FUNGO" Description="DES_YM_FUNGO_DES" IconName="GOLEM_FUNGO_Roster" />
+    <ShortInfo TriggerIcon="TAG-TRIGGER_PASSIVE" DamageIcon="TAG-DAMAGE_SHIELD_S" TargetIcon="TAG-TARGET_SELF" AttackInfo="{SCRIPT:SI_DefaultAttributeChange}" />
+    <Trigger Priority="0" RequiredToBeInFrontline="FALSE" RequiredToBeInBackline="FALSE">
+      <TriggerGroup Value="Passive" />
+      <TriggerScript ScriptName="" />
+    </Trigger>
+    <Targets>
+      <TargetScript ScriptName="Trg_Self" />
+      <TargetCountRange MinimumCount="1" MaximumCount="1" TargetIndication="Random" />
+    </Targets>
+    <Activation ScriptName="WAct_AttributeChange" />
+    <ChallengeType Value="TypeSpirit" />
+    <SubskillAttributesOnLevel Level="0" PowerLevel="0.0">
+      <SubskillAttribute Identifier="TAG-SHIELDING_SPIRIT" AttributeStringValue="+" AttributeFloatValue="5" />
+    </SubskillAttributesOnLevel>
+    <SubskillAttributesOnLevel Level="1" PowerLevel="0.0">
+      <SubskillAttribute Identifier="TAG-SHIELDING_SPIRIT" AttributeStringValue="+" AttributeFloatValue="6" />
+    </SubskillAttributesOnLevel>
+    <SubskillAttributesOnLevel Level="2" PowerLevel="4.0">
+      <SubskillAttribute Identifier="TAG-SHIELDING_SPIRIT" AttributeStringValue="+" AttributeFloatValue="7" />
+    </SubskillAttributesOnLevel>
+    <SubskillAttributesOnLevel Level="3" PowerLevel="14.0">
+      <SubskillAttribute Identifier="TAG-SHIELDING_SPIRIT" AttributeStringValue="+" AttributeFloatValue="8" />
+    </SubskillAttributesOnLevel>
+    <SubskillAttributesOnLevel Level="4" PowerLevel="29.0">
+      <SubskillAttribute Identifier="TAG-SHIELDING_SPIRIT" AttributeStringValue="+" AttributeFloatValue="9" />
+    </SubskillAttributesOnLevel>
+    <SubskillAttributesOnLevel Level="5" PowerLevel="59.0">
+      <SubskillAttribute Identifier="TAG-SHIELDING_SPIRIT" AttributeStringValue="+" AttributeFloatValue="10" />
+    </SubskillAttributesOnLevel>
+  </SUBSKILL-YM_GOLEM_FUNGO>
+  <SUBSKILL-YM_GOLEM_RELIQUIA Delay="0.0" Animation="Hit15" Sound="SubskillAddAttribute">
+    <DescriptionInfo Name="DES_YM_RELIQUIA" Description="DES_YM_RELIQUIA_DES" IconName="GOLEM_RELIQUIA_Roster" />
+    <ShortInfo TriggerIcon="TAG-TRIGGER_PASSIVE" DamageIcon="TAG-DAMAGE_SHIELD_P" TargetIcon="TAG-TARGET_SELF" AttackInfo="{SCRIPT:SI_DefaultAttributeChange}" />
+    <Trigger Priority="0" RequiredToBeInFrontline="FALSE" RequiredToBeInBackline="FALSE">
+      <TriggerGroup Value="Passive" />
+      <TriggerScript ScriptName="" />
+    </Trigger>
+    <Targets>
+      <TargetScript ScriptName="Trg_Self" />
+      <TargetCountRange MinimumCount="1" MaximumCount="1" TargetIndication="Random" />
+    </Targets>
+    <Activation ScriptName="WAct_AttributeChange" />
+    <ChallengeType Value="TypePhysical" />
+    <SubskillAttributesOnLevel Level="0" PowerLevel="0.0">
+      <SubskillAttribute Identifier="TAG-SHIELDING_PHYSICAL" AttributeStringValue="+" AttributeFloatValue="9" />
+    </SubskillAttributesOnLevel>
+    <SubskillAttributesOnLevel Level="1" PowerLevel="0.0">
+      <SubskillAttribute Identifier="TAG-SHIELDING_PHYSICAL" AttributeStringValue="+" AttributeFloatValue="11" />
+    </SubskillAttributesOnLevel>
+    <SubskillAttributesOnLevel Level="2" PowerLevel="4.0">
+      <SubskillAttribute Identifier="TAG-SHIELDING_PHYSICAL" AttributeStringValue="+" AttributeFloatValue="13" />
+    </SubskillAttributesOnLevel>
+    <SubskillAttributesOnLevel Level="3" PowerLevel="14.0">
+      <SubskillAttribute Identifier="TAG-SHIELDING_PHYSICAL" AttributeStringValue="+" AttributeFloatValue="15" />
+    </SubskillAttributesOnLevel>
+    <SubskillAttributesOnLevel Level="4" PowerLevel="29.0">
+      <SubskillAttribute Identifier="TAG-SHIELDING_PHYSICAL" AttributeStringValue="+" AttributeFloatValue="17" />
+    </SubskillAttributesOnLevel>
+    <SubskillAttributesOnLevel Level="5" PowerLevel="59.0">
+      <SubskillAttribute Identifier="TAG-SHIELDING_PHYSICAL" AttributeStringValue="+" AttributeFloatValue="19" />
+    </SubskillAttributesOnLevel>
+  </SUBSKILL-YM_GOLEM_RELIQUIA>
+</SUBSKILLS_CHALLANGES>

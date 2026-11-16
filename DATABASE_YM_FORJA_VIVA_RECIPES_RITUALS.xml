@@ -1,0 +1,19 @@
+<RECIPTS_RITUALS>
+  <RITUAL_REC-YM_FORJA_VIVA UseCount="-1" WorkCost="300">
+    <Script ScriptName="Rit_KnowledgeArmor" />
+    <RecipeBase ResearchCost="1" ResChildForbid="FALSE">
+      <DescriptionInfo Name="Carapaça Inscrita" Description="Concede ao grupo o efeito ritual Armadura do Conhecimento." IconName="RitualKnowledgeArmour" />
+      <CountedTag Tag="TAG-BUILDING_RITUAL" Amount="1.0" />
+      <MaterialRow>
+        <Material ResourceCount="25">
+          <Resource Value="RES-SANDSTONE" />
+        </Material>
+      </MaterialRow>
+      <MaterialRow>
+        <Material ResourceCount="16">
+          <Resource Value="RES-AMBER" />
+        </Material>
+      </MaterialRow>
+    </RecipeBase>
+  </RITUAL_REC-YM_FORJA_VIVA>
+</RECIPTS_RITUALS>

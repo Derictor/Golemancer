@@ -1,0 +1,10 @@
+<SKILLS_BUILDINGS>
+  <SKILL-YM_FORJA_VIVA Rarity="0">
+    <DescriptionInfo Name="Forja Viva" Description="Suportes de pedra abrem uma vaga de fabricação e as bancadas auxiliam a pesquisa." IconName="BuildingArmouryStone" />
+    <BaseEssence Amount="45" Tag="TAG-ESSENCE_GRAY" />
+    <SkillSubskill Value="SUBSKILL-YM_FORJA_VIVA_VAGA" />
+    <SkillSubskill Value="SUBSKILL-BUILDING_ADD_RESEARCH" />
+    <SkillGroupFilter Value="Building" />
+    <SkillGroupFilter Value="YM_FORJA_VIVA" />
+  </SKILL-YM_FORJA_VIVA>
+</SKILLS_BUILDINGS>

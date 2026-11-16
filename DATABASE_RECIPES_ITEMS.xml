@@ -1,0 +1,1298 @@
+<RECIPES_ITEMS>
+  <ITEM_REC-YM_CHOQUE ItemsAmount="1" WeightMultiplier="0.55">
+    <InventorySlot Value="Companion" />
+    <RecipeBase ResearchCost="1" ResChildForbid="FALSE">
+      <DescriptionInfo Name="DES_YM_CHOQUE" Description="DES_YM_CHOQUE_DES" IconName="GOLEM_CHOQUE_Roster" />
+      <CountedTag Tag="TAG-YM_GOLEM_CHOQUE" Amount="1.0" />
+      <MaterialRow>
+        <Material ResourceCount="3">
+          <Resource Value="RES-SANDSTONE" />
+        </Material>
+        <Material ResourceCount="1">
+          <Resource Value="RES-CLAY" />
+        </Material>
+      </MaterialRow>
+      <MaterialRow>
+        <Material ResourceCount="3">
+          <Resource Value="RES-SANDSTONE" />
+        </Material>
+        <Material ResourceCount="1">
+          <Resource Value="RES-CLAY" />
+        </Material>
+      </MaterialRow>
+    </RecipeBase>
+    <Skills Value="SKILL_PACK-YM_GOLEM_CHOQUE" />
+  </ITEM_REC-YM_CHOQUE>
+  <ITEM_REC-YM_CASCALHO ItemsAmount="1" WeightMultiplier="0.55">
+    <InventorySlot Value="Companion" />
+    <RecipeBase ResearchCost="1" ResChildForbid="FALSE">
+      <DescriptionInfo Name="DES_YM_CASCALHO" Description="DES_YM_CASCALHO_DES" IconName="GOLEM_CASCALHO_Roster" />
+      <CountedTag Tag="TAG-YM_GOLEM_CASCALHO" Amount="1.0" />
+      <MaterialRow>
+        <Material ResourceCount="4">
+          <Resource Value="RES-SANDSTONE" />
+        </Material>
+        <Material ResourceCount="1">
+          <Resource Value="RES-BONE" />
+        </Material>
+      </MaterialRow>
+      <MaterialRow>
+        <Material ResourceCount="4">
+          <Resource Value="RES-SANDSTONE" />
+        </Material>
+        <Material ResourceCount="1">
+          <Resource Value="RES-BONE" />
+        </Material>
+      </MaterialRow>
+    </RecipeBase>
+    <Skills Value="SKILL_PACK-YM_GOLEM_CASCALHO" />
+  </ITEM_REC-YM_CASCALHO>
+  <ITEM_REC-YM_GALHO ItemsAmount="1" WeightMultiplier="0.55">
+    <InventorySlot Value="Companion" />
+    <RecipeBase ResearchCost="1" ResChildForbid="FALSE">
+      <DescriptionInfo Name="DES_YM_GALHO" Description="DES_YM_GALHO_DES" IconName="GOLEM_GALHO_Roster" />
+      <CountedTag Tag="TAG-YM_GOLEM_GALHO" Amount="1.0" />
+      <MaterialRow>
+        <Material ResourceCount="4">
+          <Resource Value="RES-WOOD" />
+        </Material>
+      </MaterialRow>
+      <MaterialRow>
+        <Material ResourceCount="4">
+          <Resource Value="RES-WOOD" />
+        </Material>
+      </MaterialRow>
+    </RecipeBase>
+    <Skills Value="SKILL_PACK-YM_GOLEM_GALHO" />
+  </ITEM_REC-YM_GALHO>
+  <ITEM_REC-YM_LAMPEJO ItemsAmount="1" WeightMultiplier="0.55">
+    <InventorySlot Value="Companion" />
+    <RecipeBase ResearchCost="1" ResChildForbid="FALSE">
+      <DescriptionInfo Name="DES_YM_LAMPEJO" Description="DES_YM_LAMPEJO_DES" IconName="GOLEM_LAMPEJO_Roster" />
+      <CountedTag Tag="TAG-YM_GOLEM_LAMPEJO" Amount="1.0" />
+      <MaterialRow>
+        <Material ResourceCount="3">
+          <Resource Value="RES-AMBER" />
+        </Material>
+        <Material ResourceCount="1">
+          <Resource Value="RES-QUARTZ" />
+        </Material>
+      </MaterialRow>
+      <MaterialRow>
+        <Material ResourceCount="3">
+          <Resource Value="RES-AMBER" />
+        </Material>
+        <Material ResourceCount="1">
+          <Resource Value="RES-QUARTZ" />
+        </Material>
+      </MaterialRow>
+    </RecipeBase>
+    <Skills Value="SKILL_PACK-YM_GOLEM_LAMPEJO" />
+  </ITEM_REC-YM_LAMPEJO>
+  <ITEM_REC-YM_MASSA ItemsAmount="1" WeightMultiplier="0.55">
+    <InventorySlot Value="Companion" />
+    <RecipeBase ResearchCost="1" ResChildForbid="FALSE">
+      <DescriptionInfo Name="DES_YM_MASSA" Description="DES_YM_MASSA_DES" IconName="GOLEM_MASSA_Roster" />
+      <CountedTag Tag="TAG-YM_GOLEM_MASSA" Amount="1.0" />
+      <MaterialRow>
+        <Material ResourceCount="4">
+          <Resource Value="RES-GRAIN" />
+        </Material>
+        <Material ResourceCount="2">
+          <Resource Value="RES-NUTS" />
+        </Material>
+      </MaterialRow>
+      <MaterialRow>
+        <Material ResourceCount="4">
+          <Resource Value="RES-GRAIN" />
+        </Material>
+        <Material ResourceCount="2">
+          <Resource Value="RES-NUTS" />
+        </Material>
+      </MaterialRow>
+    </RecipeBase>
+    <Skills Value="SKILL_PACK-YM_GOLEM_MASSA" />
+  </ITEM_REC-YM_MASSA>
+  <ITEM_REC-YM_SEIXO ItemsAmount="1" WeightMultiplier="0.55">
+    <InventorySlot Value="Companion" />
+    <RecipeBase ResearchCost="1" ResChildForbid="FALSE">
+      <DescriptionInfo Name="DES_YM_SEIXO" Description="DES_YM_SEIXO_DES" IconName="GOLEM_SEIXO_Roster" />
+      <CountedTag Tag="TAG-YM_GOLEM_SEIXO" Amount="1.0" />
+      <MaterialRow>
+        <Material ResourceCount="3">
+          <Resource Value="RES-PURE_STONE" />
+        </Material>
+        <Material ResourceCount="2">
+          <Resource Value="RES-SANDSTONE" />
+        </Material>
+      </MaterialRow>
+      <MaterialRow>
+        <Material ResourceCount="3">
+          <Resource Value="RES-PURE_STONE" />
+        </Material>
+        <Material ResourceCount="2">
+          <Resource Value="RES-SANDSTONE" />
+        </Material>
+      </MaterialRow>
+    </RecipeBase>
+    <Skills Value="SKILL_PACK-YM_GOLEM_SEIXO" />
+  </ITEM_REC-YM_SEIXO>
+  <ITEM_REC-YM_FERRO_VIDO ItemsAmount="1" WeightMultiplier="0.70">
+    <InventorySlot Value="Companion" />
+    <RecipeBase ResearchCost="2" ResChildForbid="FALSE">
+      <DescriptionInfo Name="DES_YM_FERRO_VIDO" Description="DES_YM_FERRO_VIDO_DES" IconName="GOLEM_FERRO_VIDO_Roster" />
+      <CountedTag Tag="TAG-YM_GOLEM_FERRO_VIDO" Amount="1.0" />
+      <MaterialRow>
+        <Material ResourceCount="5">
+          <Resource Value="RES-IRON" />
+        </Material>
+        <Material ResourceCount="2">
+          <Resource Value="RES-SANDSTONE" />
+        </Material>
+        <Material ResourceCount="1">
+          <Resource Value="RES-COAL" />
+        </Material>
+      </MaterialRow>
+      <MaterialRow>
+        <Material ResourceCount="5">
+          <Resource Value="RES-IRON" />
+        </Material>
+        <Material ResourceCount="2">
+          <Resource Value="RES-SANDSTONE" />
+        </Material>
+        <Material ResourceCount="1">
+          <Resource Value="RES-COAL" />
+        </Material>
+      </MaterialRow>
+    </RecipeBase>
+    <Skills Value="SKILL_PACK-YM_GOLEM_FERRO_VIDO" />
+  </ITEM_REC-YM_FERRO_VIDO>
+  <ITEM_REC-YM_RAIZ ItemsAmount="1" WeightMultiplier="0.70">
+    <InventorySlot Value="Companion" />
+    <RecipeBase ResearchCost="2" ResChildForbid="FALSE">
+      <DescriptionInfo Name="DES_YM_RAIZ" Description="DES_YM_RAIZ_DES" IconName="GOLEM_RAIZ_Roster" />
+      <CountedTag Tag="TAG-YM_GOLEM_RAIZ" Amount="1.0" />
+      <MaterialRow>
+        <Material ResourceCount="5">
+          <Resource Value="RES-DRYAD_WOOD" />
+        </Material>
+        <Material ResourceCount="2">
+          <Resource Value="RES-WOOD" />
+        </Material>
+      </MaterialRow>
+      <MaterialRow>
+        <Material ResourceCount="5">
+          <Resource Value="RES-DRYAD_WOOD" />
+        </Material>
+        <Material ResourceCount="2">
+          <Resource Value="RES-WOOD" />
+        </Material>
+      </MaterialRow>
+    </RecipeBase>
+    <Skills Value="SKILL_PACK-YM_GOLEM_RAIZ" />
+  </ITEM_REC-YM_RAIZ>
+  <ITEM_REC-YM_OSSADA ItemsAmount="1" WeightMultiplier="0.70">
+    <InventorySlot Value="Companion" />
+    <RecipeBase ResearchCost="2" ResChildForbid="FALSE">
+      <DescriptionInfo Name="DES_YM_OSSADA" Description="DES_YM_OSSADA_DES" IconName="GOLEM_OSSADA_Roster" />
+      <CountedTag Tag="TAG-YM_GOLEM_OSSADA" Amount="1.0" />
+      <MaterialRow>
+        <Material ResourceCount="3">
+          <Resource Value="RES-BONE" />
+        </Material>
+        <Material ResourceCount="4">
+          <Resource Value="RES-MONSTER_BONE" />
+        </Material>
+        <Material ResourceCount="2">
+          <Resource Value="RES-CLAY" />
+        </Material>
+      </MaterialRow>
+      <MaterialRow>
+        <Material ResourceCount="3">
+          <Resource Value="RES-BONE" />
+        </Material>
+        <Material ResourceCount="4">
+          <Resource Value="RES-MONSTER_BONE" />
+        </Material>
+        <Material ResourceCount="2">
+          <Resource Value="RES-CLAY" />
+        </Material>
+      </MaterialRow>
+    </RecipeBase>
+    <Skills Value="SKILL_PACK-YM_GOLEM_OSSADA" />
+  </ITEM_REC-YM_OSSADA>
+  <ITEM_REC-YM_CRISTAL ItemsAmount="1" WeightMultiplier="0.70">
+    <InventorySlot Value="Companion" />
+    <RecipeBase ResearchCost="2" ResChildForbid="FALSE">
+      <DescriptionInfo Name="DES_YM_CRISTAL" Description="DES_YM_CRISTAL_DES" IconName="GOLEM_CRISTAL_Roster" />
+      <CountedTag Tag="TAG-YM_GOLEM_CRISTAL" Amount="1.0" />
+      <MaterialRow>
+        <Material ResourceCount="5">
+          <Resource Value="RES-QUARTZ" />
+        </Material>
+        <Material ResourceCount="3">
+          <Resource Value="RES-AMBER" />
+        </Material>
+      </MaterialRow>
+      <MaterialRow>
+        <Material ResourceCount="5">
+          <Resource Value="RES-QUARTZ" />
+        </Material>
+        <Material ResourceCount="3">
+          <Resource Value="RES-AMBER" />
+        </Material>
+      </MaterialRow>
+    </RecipeBase>
+    <Skills Value="SKILL_PACK-YM_GOLEM_CRISTAL" />
+  </ITEM_REC-YM_CRISTAL>
+  <ITEM_REC-YM_PAO_DO_CAMPO ItemsAmount="1" WeightMultiplier="0.70">
+    <InventorySlot Value="Companion" />
+    <RecipeBase ResearchCost="2" ResChildForbid="FALSE">
+      <DescriptionInfo Name="DES_YM_PAO_DO_CAMPO" Description="DES_YM_PAO_DO_CAMPO_DES" IconName="GOLEM_PAO_DO_CAMPO_Roster" />
+      <CountedTag Tag="TAG-YM_GOLEM_PAO_DO_CAMPO" Amount="1.0" />
+      <MaterialRow>
+        <Material ResourceCount="5">
+          <Resource Value="RES-COOKED_FOOD" />
+        </Material>
+        <Material ResourceCount="3">
+          <Resource Value="RES-GRAIN" />
+        </Material>
+        <Material ResourceCount="2">
+          <Resource Value="RES-BEETLE_JELLY" />
+        </Material>
+      </MaterialRow>
+      <MaterialRow>
+        <Material ResourceCount="5">
+          <Resource Value="RES-COOKED_FOOD" />
+        </Material>
+        <Material ResourceCount="3">
+          <Resource Value="RES-GRAIN" />
+        </Material>
+        <Material ResourceCount="1">
+          <Resource Value="RES-BEETLE_JELLY" />
+        </Material>
+      </MaterialRow>
+    </RecipeBase>
+    <Skills Value="SKILL_PACK-YM_GOLEM_PAO_DO_CAMPO" />
+  </ITEM_REC-YM_PAO_DO_CAMPO>
+  <ITEM_REC-YM_MURALHA ItemsAmount="1" WeightMultiplier="0.95">
+    <InventorySlot Value="Companion" />
+    <RecipeBase ResearchCost="3" ResChildForbid="FALSE">
+      <DescriptionInfo Name="DES_YM_MURALHA" Description="DES_YM_MURALHA_DES" IconName="GOLEM_MURALHA_Roster" />
+      <CountedTag Tag="TAG-YM_GOLEM_MURALHA" Amount="1.0" />
+      <MaterialRow>
+        <Material ResourceCount="7">
+          <Resource Value="RES-GRANITE" />
+        </Material>
+        <Material ResourceCount="3">
+          <Resource Value="RES-ARMOURED_STONE" />
+        </Material>
+        <Material ResourceCount="4">
+          <Resource Value="RES-IRON" />
+        </Material>
+      </MaterialRow>
+      <MaterialRow>
+        <Material ResourceCount="7">
+          <Resource Value="RES-GRANITE" />
+        </Material>
+        <Material ResourceCount="3">
+          <Resource Value="RES-ARMOURED_STONE" />
+        </Material>
+        <Material ResourceCount="4">
+          <Resource Value="RES-IRON" />
+        </Material>
+      </MaterialRow>
+    </RecipeBase>
+    <Skills Value="SKILL_PACK-YM_GOLEM_MURALHA" />
+  </ITEM_REC-YM_MURALHA>
+  <ITEM_REC-YM_VIUVA ItemsAmount="1" WeightMultiplier="0.95">
+    <InventorySlot Value="Companion" />
+    <RecipeBase ResearchCost="3" ResChildForbid="FALSE">
+      <DescriptionInfo Name="DES_YM_VIUVA" Description="DES_YM_VIUVA_DES" IconName="GOLEM_VIUVA_Roster" />
+      <CountedTag Tag="TAG-YM_GOLEM_VIUVA" Amount="1.0" />
+      <MaterialRow>
+        <Material ResourceCount="6">
+          <Resource Value="RES-SACRED_WOOD" />
+        </Material>
+        <Material ResourceCount="3">
+          <Resource Value="RES-ANCIENT_WOOD" />
+        </Material>
+      </MaterialRow>
+      <MaterialRow>
+        <Material ResourceCount="6">
+          <Resource Value="RES-SACRED_WOOD" />
+        </Material>
+        <Material ResourceCount="3">
+          <Resource Value="RES-ANCIENT_WOOD" />
+        </Material>
+      </MaterialRow>
+    </RecipeBase>
+    <Skills Value="SKILL_PACK-YM_GOLEM_VIUVA" />
+  </ITEM_REC-YM_VIUVA>
+  <ITEM_REC-YM_VEJO ItemsAmount="1" WeightMultiplier="0.95">
+    <InventorySlot Value="Companion" />
+    <RecipeBase ResearchCost="3" ResChildForbid="FALSE">
+      <DescriptionInfo Name="DES_YM_VEJO" Description="DES_YM_VEJO_DES" IconName="GOLEM_VEJO_Roster" />
+      <CountedTag Tag="TAG-YM_GOLEM_VEJO" Amount="1.0" />
+      <MaterialRow>
+        <Material ResourceCount="2">
+          <Resource Value="RES-GRANDGEM" />
+        </Material>
+        <Material ResourceCount="2">
+          <Resource Value="RES-DIAMOND" />
+        </Material>
+        <Material ResourceCount="1">
+          <Resource Value="RES-MOONSTONE" />
+        </Material>
+      </MaterialRow>
+      <MaterialRow>
+        <Material ResourceCount="2">
+          <Resource Value="RES-GRANDGEM" />
+        </Material>
+        <Material ResourceCount="1">
+          <Resource Value="RES-DIAMOND" />
+        </Material>
+        <Material ResourceCount="1">
+          <Resource Value="RES-MOONSTONE" />
+        </Material>
+      </MaterialRow>
+    </RecipeBase>
+    <Skills Value="SKILL_PACK-YM_GOLEM_VEJO" />
+  </ITEM_REC-YM_VEJO>
+  <ITEM_REC-YM_AGULHA ItemsAmount="1" WeightMultiplier="0.95">
+    <InventorySlot Value="Companion" />
+    <RecipeBase ResearchCost="3" ResChildForbid="FALSE">
+      <DescriptionInfo Name="DES_YM_AGULHA" Description="DES_YM_AGULHA_DES" IconName="GOLEM_AGULHA_Roster" />
+      <CountedTag Tag="TAG-YM_GOLEM_AGULHA" Amount="1.0" />
+      <MaterialRow>
+        <Material ResourceCount="4">
+          <Resource Value="RES-HERBS" />
+        </Material>
+        <Material ResourceCount="2">
+          <Resource Value="RES-MUSHROOMS" />
+        </Material>
+        <Material ResourceCount="1">
+          <Resource Value="RES-SPICES" />
+        </Material>
+      </MaterialRow>
+      <MaterialRow>
+        <Material ResourceCount="4">
+          <Resource Value="RES-HERBS" />
+        </Material>
+        <Material ResourceCount="2">
+          <Resource Value="RES-MUSHROOMS" />
+        </Material>
+        <Material ResourceCount="1">
+          <Resource Value="RES-SPICES" />
+        </Material>
+      </MaterialRow>
+    </RecipeBase>
+    <Skills Value="SKILL_PACK-YM_GOLEM_AGULHA" />
+  </ITEM_REC-YM_AGULHA>
+  <ITEM_REC-YM_FERREIRO ItemsAmount="1" WeightMultiplier="0.95">
+    <InventorySlot Value="Companion" />
+    <RecipeBase ResearchCost="3" ResChildForbid="FALSE">
+      <DescriptionInfo Name="DES_YM_FERREIRO" Description="DES_YM_FERREIRO_DES" IconName="GOLEM_FERREIRO_Roster" />
+      <CountedTag Tag="TAG-YM_GOLEM_FERREIRO" Amount="1.0" />
+      <MaterialRow>
+        <Material ResourceCount="6">
+          <Resource Value="RES-IRON" />
+        </Material>
+        <Material ResourceCount="3">
+          <Resource Value="RES-COAL" />
+        </Material>
+        <Material ResourceCount="2">
+          <Resource Value="RES-STEEL" />
+        </Material>
+      </MaterialRow>
+      <MaterialRow>
+        <Material ResourceCount="6">
+          <Resource Value="RES-IRON" />
+        </Material>
+        <Material ResourceCount="3">
+          <Resource Value="RES-COAL" />
+        </Material>
+        <Material ResourceCount="2">
+          <Resource Value="RES-STEEL" />
+        </Material>
+      </MaterialRow>
+    </RecipeBase>
+    <Skills Value="SKILL_PACK-YM_GOLEM_FERREIRO" />
+  </ITEM_REC-YM_FERREIRO>
+  <ITEM_REC-YM_GUARDAO_DA_MINA ItemsAmount="1" WeightMultiplier="1.15">
+    <InventorySlot Value="Tool" />
+    <RecipeBase ResearchCost="5" ResChildForbid="FALSE">
+      <DescriptionInfo Name="DES_YM_CORE_GUARDAO_DA_MINA" Description="DES_YM_CORE_GUARDAO_DA_MINA_DES" IconName="YM_Daisho_Icon" />
+      <CountedTag Tag="TAG-YM_CORE_GUARDAO_DA_MINA" Amount="1.0" />
+      <MaterialRow>
+        <Material ResourceCount="8">
+          <Resource Value="RES-MITHRILL" />
+        </Material>
+        <Material ResourceCount="4">
+          <Resource Value="RES-GRANDGEM" />
+        </Material>
+        <Material ResourceCount="3">
+          <Resource Value="RES-DIAMOND" />
+        </Material>
+      </MaterialRow>
+      <MaterialRow>
+        <Material ResourceCount="8">
+          <Resource Value="RES-MITHRILL" />
+        </Material>
+        <Material ResourceCount="4">
+          <Resource Value="RES-GRANDGEM" />
+        </Material>
+        <Material ResourceCount="3">
+          <Resource Value="RES-DIAMOND" />
+        </Material>
+      </MaterialRow>
+    </RecipeBase>
+    <Skills Value="SKILL_PACK-YM_CORE_INERTE" />
+  </ITEM_REC-YM_GUARDAO_DA_MINA>
+  <ITEM_REC-YM_DRAGAO_OSSO ItemsAmount="1" WeightMultiplier="1.15">
+    <InventorySlot Value="Companion" />
+    <RecipeBase ResearchCost="4" ResChildForbid="FALSE">
+      <DescriptionInfo Name="DES_YM_DRAGAO_OSSO" Description="DES_YM_DRAGAO_OSSO_DES" IconName="GOLEM_DRAGAO_OSSO_Roster" />
+      <CountedTag Tag="TAG-YM_GOLEM_DRAGAO_OSSO" Amount="1.0" />
+      <MaterialRow>
+        <Material ResourceCount="3">
+          <Resource Value="RES-DRAGON_BONE" />
+        </Material>
+        <Material ResourceCount="2">
+          <Resource Value="RES-RUNE_BONE" />
+        </Material>
+        <Material ResourceCount="2">
+          <Resource Value="RES-ENCHANTED_BONE" />
+        </Material>
+        <Material ResourceCount="1">
+          <Resource Value="RES-BONE" />
+        </Material>
+      </MaterialRow>
+      <MaterialRow>
+        <Material ResourceCount="3">
+          <Resource Value="RES-DRAGON_BONE" />
+        </Material>
+        <Material ResourceCount="2">
+          <Resource Value="RES-RUNE_BONE" />
+        </Material>
+        <Material ResourceCount="2">
+          <Resource Value="RES-ENCHANTED_BONE" />
+        </Material>
+        <Material ResourceCount="1">
+          <Resource Value="RES-BONE" />
+        </Material>
+      </MaterialRow>
+    </RecipeBase>
+    <Skills Value="SKILL_PACK-YM_GOLEM_DRAGAO_OSSO" />
+  </ITEM_REC-YM_DRAGAO_OSSO>
+  <ITEM_REC-YM_CEVA ItemsAmount="1" WeightMultiplier="1.15">
+    <InventorySlot Value="Companion" />
+    <RecipeBase ResearchCost="4" ResChildForbid="FALSE">
+      <DescriptionInfo Name="DES_YM_CEVA" Description="DES_YM_CEVA_DES" IconName="GOLEM_CEVA_Roster" />
+      <CountedTag Tag="TAG-YM_GOLEM_CEVA" Amount="1.0" />
+      <MaterialRow>
+        <Material ResourceCount="5">
+          <Resource Value="RES-HERBS" />
+        </Material>
+        <Material ResourceCount="2">
+          <Resource Value="RES-SEAWEED" />
+        </Material>
+        <Material ResourceCount="1">
+          <Resource Value="RES-EGGS" />
+        </Material>
+        <Material ResourceCount="1">
+          <Resource Value="RES-HERBS" />
+        </Material>
+      </MaterialRow>
+      <MaterialRow>
+        <Material ResourceCount="5">
+          <Resource Value="RES-HERBS" />
+        </Material>
+        <Material ResourceCount="2">
+          <Resource Value="RES-SEAWEED" />
+        </Material>
+        <Material ResourceCount="1">
+          <Resource Value="RES-EGGS" />
+        </Material>
+        <Material ResourceCount="1">
+          <Resource Value="RES-HERBS" />
+        </Material>
+      </MaterialRow>
+    </RecipeBase>
+    <Skills Value="SKILL_PACK-YM_GOLEM_CEVA" />
+  </ITEM_REC-YM_CEVA>
+  <ITEM_REC-YM_CINZEL ItemsAmount="1" WeightMultiplier="1.15">
+    <InventorySlot Value="Companion" />
+    <RecipeBase ResearchCost="4" ResChildForbid="FALSE">
+      <DescriptionInfo Name="DES_YM_CINZEL" Description="DES_YM_CINZEL_DES" IconName="GOLEM_CINZEL_Roster" />
+      <CountedTag Tag="TAG-YM_GOLEM_CINZEL" Amount="1.0" />
+      <MaterialRow>
+        <Material ResourceCount="6">
+          <Resource Value="RES-STEEL" />
+        </Material>
+        <Material ResourceCount="3">
+          <Resource Value="RES-METAL_COMPOSITE" />
+        </Material>
+        <Material ResourceCount="2">
+          <Resource Value="RES-MITHRILL" />
+        </Material>
+        <Material ResourceCount="1">
+          <Resource Value="RES-ALCHEMY_SKIN" />
+        </Material>
+      </MaterialRow>
+      <MaterialRow>
+        <Material ResourceCount="6">
+          <Resource Value="RES-STEEL" />
+        </Material>
+        <Material ResourceCount="3">
+          <Resource Value="RES-METAL_COMPOSITE" />
+        </Material>
+        <Material ResourceCount="2">
+          <Resource Value="RES-MITHRILL" />
+        </Material>
+        <Material ResourceCount="1">
+          <Resource Value="RES-ALCHEMY_SKIN" />
+        </Material>
+      </MaterialRow>
+    </RecipeBase>
+    <Skills Value="SKILL_PACK-YM_GOLEM_CINZEL" />
+  </ITEM_REC-YM_CINZEL>
+  <ITEM_REC-YM_OBSIDIANA ItemsAmount="1" WeightMultiplier="0.85">
+    <InventorySlot Value="Companion" />
+    <RecipeBase ResearchCost="3" ResChildForbid="FALSE">
+      <DescriptionInfo Name="DES_YM_OBSIDIANA" Description="DES_YM_OBSIDIANA_DES" IconName="GOLEM_OBSIDIANA_Roster" />
+      <CountedTag Tag="TAG-YM_GOLEM_OBSIDIANA" Amount="1.0" />
+      <MaterialRow>
+        <Material ResourceCount="5">
+          <Resource Value="RES-OBSIDIAN" />
+        </Material>
+        <Material ResourceCount="3">
+          <Resource Value="RES-IGNEOUS_SPIKE" />
+        </Material>
+        <Material ResourceCount="2">
+          <Resource Value="RES-COAL" />
+        </Material>
+      </MaterialRow>
+      <MaterialRow>
+        <Material ResourceCount="5">
+          <Resource Value="RES-OBSIDIAN" />
+        </Material>
+        <Material ResourceCount="3">
+          <Resource Value="RES-IGNEOUS_SPIKE" />
+        </Material>
+        <Material ResourceCount="2">
+          <Resource Value="RES-COAL" />
+        </Material>
+      </MaterialRow>
+    </RecipeBase>
+    <Skills Value="SKILL_PACK-YM_GOLEM_OBSIDIANA" />
+  </ITEM_REC-YM_OBSIDIANA>
+  <ITEM_REC-YM_SANGUE ItemsAmount="1" WeightMultiplier="0.75">
+    <InventorySlot Value="Companion" />
+    <RecipeBase ResearchCost="2" ResChildForbid="FALSE">
+      <DescriptionInfo Name="DES_YM_SANGUE" Description="DES_YM_SANGUE_DES" IconName="GOLEM_SANGUE_Roster" />
+      <CountedTag Tag="TAG-YM_GOLEM_SANGUE" Amount="1.0" />
+      <MaterialRow>
+        <Material ResourceCount="4">
+          <Resource Value="RES-BLOOD_BONE" />
+        </Material>
+        <Material ResourceCount="3">
+          <Resource Value="RES-MEAT" />
+        </Material>
+        <Material ResourceCount="2">
+          <Resource Value="RES-CLAY" />
+        </Material>
+      </MaterialRow>
+      <MaterialRow>
+        <Material ResourceCount="4">
+          <Resource Value="RES-BLOOD_BONE" />
+        </Material>
+        <Material ResourceCount="3">
+          <Resource Value="RES-MEAT" />
+        </Material>
+        <Material ResourceCount="2">
+          <Resource Value="RES-CLAY" />
+        </Material>
+      </MaterialRow>
+    </RecipeBase>
+    <Skills Value="SKILL_PACK-YM_GOLEM_SANGUE" />
+  </ITEM_REC-YM_SANGUE>
+  <ITEM_REC-YM_NEBULINA ItemsAmount="1" WeightMultiplier="0.65">
+    <InventorySlot Value="Companion" />
+    <RecipeBase ResearchCost="3" ResChildForbid="FALSE">
+      <DescriptionInfo Name="DES_YM_NEBULINA" Description="DES_YM_NEBULINA_DES" IconName="GOLEM_NEBULINA_Roster" />
+      <CountedTag Tag="TAG-YM_GOLEM_NEBULINA" Amount="1.0" />
+      <MaterialRow>
+        <Material ResourceCount="3">
+          <Resource Value="RES-FORGOTTEN_ESSENCE" />
+        </Material>
+        <Material ResourceCount="2">
+          <Resource Value="RES-VOID_SPARKLER" />
+        </Material>
+        <Material ResourceCount="1">
+          <Resource Value="RES-PRISTINE_MATTER" />
+        </Material>
+      </MaterialRow>
+      <MaterialRow>
+        <Material ResourceCount="3">
+          <Resource Value="RES-FORGOTTEN_ESSENCE" />
+        </Material>
+        <Material ResourceCount="2">
+          <Resource Value="RES-VOID_SPARKLER" />
+        </Material>
+        <Material ResourceCount="1">
+          <Resource Value="RES-PRISTINE_MATTER" />
+        </Material>
+      </MaterialRow>
+    </RecipeBase>
+    <Skills Value="SKILL_PACK-YM_GOLEM_NEBULINA" />
+  </ITEM_REC-YM_NEBULINA>
+  <ITEM_REC-YM_FUNGO ItemsAmount="1" WeightMultiplier="0.70">
+    <InventorySlot Value="Companion" />
+    <RecipeBase ResearchCost="2" ResChildForbid="FALSE">
+      <DescriptionInfo Name="DES_YM_FUNGO" Description="DES_YM_FUNGO_DES" IconName="GOLEM_FUNGO_Roster" />
+      <CountedTag Tag="TAG-YM_GOLEM_FUNGO" Amount="1.0" />
+      <MaterialRow>
+        <Material ResourceCount="4">
+          <Resource Value="RES-MUSHROOMS" />
+        </Material>
+        <Material ResourceCount="3">
+          <Resource Value="RES-HERBS" />
+        </Material>
+        <Material ResourceCount="2">
+          <Resource Value="RES-SEAWEED" />
+        </Material>
+      </MaterialRow>
+      <MaterialRow>
+        <Material ResourceCount="4">
+          <Resource Value="RES-MUSHROOMS" />
+        </Material>
+        <Material ResourceCount="3">
+          <Resource Value="RES-HERBS" />
+        </Material>
+        <Material ResourceCount="2">
+          <Resource Value="RES-SEAWEED" />
+        </Material>
+      </MaterialRow>
+    </RecipeBase>
+    <Skills Value="SKILL_PACK-YM_GOLEM_FUNGO" />
+  </ITEM_REC-YM_FUNGO>
+  <ITEM_REC-YM_RELIQUIA ItemsAmount="1" WeightMultiplier="1.05">
+    <InventorySlot Value="Tool" />
+    <RecipeBase ResearchCost="5" ResChildForbid="FALSE">
+      <DescriptionInfo Name="DES_YM_CORE_RELIQUIA" Description="DES_YM_CORE_RELIQUIA_DES" IconName="YM_Kagura_Icon" />
+      <CountedTag Tag="TAG-YM_CORE_RELIQUIA" Amount="1.0" />
+      <MaterialRow>
+        <Material ResourceCount="6">
+          <Resource Value="RES-GRANDGEM" />
+        </Material>
+        <Material ResourceCount="5">
+          <Resource Value="RES-DIAMOND" />
+        </Material>
+        <Material ResourceCount="3">
+          <Resource Value="RES-MITHRILL" />
+        </Material>
+      </MaterialRow>
+      <MaterialRow>
+        <Material ResourceCount="6">
+          <Resource Value="RES-GRANDGEM" />
+        </Material>
+        <Material ResourceCount="5">
+          <Resource Value="RES-DIAMOND" />
+        </Material>
+        <Material ResourceCount="3">
+          <Resource Value="RES-MITHRILL" />
+        </Material>
+      </MaterialRow>
+    </RecipeBase>
+    <Skills Value="SKILL_PACK-YM_CORE_INERTE" />
+  </ITEM_REC-YM_RELIQUIA>
+  <ITEM_REC-YM_LAMINA_FORJA ItemsAmount="1" WeightMultiplier="0.55">
+    <InventorySlot Value="RightHand" />
+    <RecipeBase ResearchCost="1" ResChildForbid="FALSE">
+      <DescriptionInfo Name="DES_YM_LAMINA_FORJA" Description="DES_YM_LAMINA_FORJA_DES" IconName="ITEM_LAMINA_FORJA" />
+      <CountedTag Tag="TAG-YM_ITEM_LAMINA_FORJA" Amount="1.0" />
+      <MaterialRow>
+        <Material ResourceCount="3">
+          <Resource Value="RES-STEEL" />
+        </Material>
+        <Material ResourceCount="1">
+          <Resource Value="RES-COAL" />
+        </Material>
+      </MaterialRow>
+      <MaterialRow>
+        <Material ResourceCount="3">
+          <Resource Value="RES-STEEL" />
+        </Material>
+        <Material ResourceCount="1">
+          <Resource Value="RES-COAL" />
+        </Material>
+      </MaterialRow>
+    </RecipeBase>
+    <Skills Value="SKILL_PACK-YM_ITEM_LAMINA_FORJA" />
+  </ITEM_REC-YM_LAMINA_FORJA>
+  <ITEM_REC-YM_MARTELO_MESTRE ItemsAmount="1" WeightMultiplier="0.55">
+    <InventorySlot Value="RightHand" />
+    <InventorySlot Value="LeftHand" />
+    <RecipeBase ResearchCost="1" ResChildForbid="FALSE">
+      <DescriptionInfo Name="DES_YM_MARTELO_MESTRE" Description="DES_YM_MARTELO_MESTRE_DES" IconName="ITEM_MARTELO_MESTRE" />
+      <CountedTag Tag="TAG-YM_ITEM_MARTELO_MESTRE" Amount="1.0" />
+      <MaterialRow>
+        <Material ResourceCount="5">
+          <Resource Value="RES-STEEL" />
+        </Material>
+        <Material ResourceCount="3">
+          <Resource Value="RES-IRON" />
+        </Material>
+      </MaterialRow>
+      <MaterialRow>
+        <Material ResourceCount="5">
+          <Resource Value="RES-STEEL" />
+        </Material>
+        <Material ResourceCount="3">
+          <Resource Value="RES-IRON" />
+        </Material>
+      </MaterialRow>
+    </RecipeBase>
+    <Skills Value="SKILL_PACK-YM_ITEM_MARTELO_MESTRE" />
+  </ITEM_REC-YM_MARTELO_MESTRE>
+  <ITEM_REC-YM_MALHA_COTA ItemsAmount="1" WeightMultiplier="0.55">
+    <InventorySlot Value="Armour" />
+    <RecipeBase ResearchCost="1" ResChildForbid="FALSE">
+      <DescriptionInfo Name="DES_YM_MALHA_COTA" Description="DES_YM_MALHA_COTA_DES" IconName="ITEM_MALHA_COTA" />
+      <CountedTag Tag="TAG-YM_ITEM_MALHA_COTA" Amount="1.0" />
+      <MaterialRow>
+        <Material ResourceCount="4">
+          <Resource Value="RES-STEEL" />
+        </Material>
+        <Material ResourceCount="3">
+          <Resource Value="RES-LEATHER" />
+        </Material>
+      </MaterialRow>
+      <MaterialRow>
+        <Material ResourceCount="4">
+          <Resource Value="RES-STEEL" />
+        </Material>
+        <Material ResourceCount="3">
+          <Resource Value="RES-LEATHER" />
+        </Material>
+      </MaterialRow>
+    </RecipeBase>
+    <Skills Value="SKILL_PACK-YM_ITEM_MALHA_COTA" />
+  </ITEM_REC-YM_MALHA_COTA>
+  <ITEM_REC-YM_ESCUDO_PEDRA ItemsAmount="1" WeightMultiplier="0.55">
+    <InventorySlot Value="RightHand" />
+    <RecipeBase ResearchCost="1" ResChildForbid="FALSE">
+      <DescriptionInfo Name="DES_YM_ESCUDO_PEDRA" Description="DES_YM_ESCUDO_PEDRA_DES" IconName="ITEM_ESCUDO_PEDRA" />
+      <CountedTag Tag="TAG-YM_ITEM_ESCUDO_PEDRA" Amount="1.0" />
+      <MaterialRow>
+        <Material ResourceCount="4">
+          <Resource Value="RES-GRANITE" />
+        </Material>
+        <Material ResourceCount="2">
+          <Resource Value="RES-CLAY" />
+        </Material>
+      </MaterialRow>
+      <MaterialRow>
+        <Material ResourceCount="4">
+          <Resource Value="RES-GRANITE" />
+        </Material>
+        <Material ResourceCount="2">
+          <Resource Value="RES-CLAY" />
+        </Material>
+      </MaterialRow>
+    </RecipeBase>
+    <Skills Value="SKILL_PACK-YM_ITEM_ESCUDO_PEDRA" />
+  </ITEM_REC-YM_ESCUDO_PEDRA>
+  <ITEM_REC-YM_ALVO_AMBER ItemsAmount="1" WeightMultiplier="0.55">
+    <InventorySlot Value="Jewellery" />
+    <RecipeBase ResearchCost="1" ResChildForbid="FALSE">
+      <DescriptionInfo Name="DES_YM_ALVO_AMBER" Description="DES_YM_ALVO_AMBER_DES" IconName="ITEM_ALVO_AMBER" />
+      <CountedTag Tag="TAG-YM_ITEM_ALVO_AMBER" Amount="1.0" />
+      <MaterialRow>
+        <Material ResourceCount="3">
+          <Resource Value="RES-AMBER" />
+        </Material>
+        <Material ResourceCount="2">
+          <Resource Value="RES-BONE" />
+        </Material>
+      </MaterialRow>
+      <MaterialRow>
+        <Material ResourceCount="3">
+          <Resource Value="RES-AMBER" />
+        </Material>
+        <Material ResourceCount="2">
+          <Resource Value="RES-BONE" />
+        </Material>
+      </MaterialRow>
+    </RecipeBase>
+    <Skills Value="SKILL_PACK-YM_ITEM_ALVO_AMBER" />
+  </ITEM_REC-YM_ALVO_AMBER>
+  <ITEM_REC-YM_PAO_VIVO ItemsAmount="1" WeightMultiplier="0.55">
+    <InventorySlot Value="Tool" />
+    <RecipeBase ResearchCost="1" ResChildForbid="FALSE">
+      <DescriptionInfo Name="DES_YM_PAO_VIVO" Description="DES_YM_PAO_VIVO_DES" IconName="ITEM_PAO_VIVO" />
+      <CountedTag Tag="TAG-YM_ITEM_PAO_VIVO" Amount="1.0" />
+      <MaterialRow>
+        <Material ResourceCount="2">
+          <Resource Value="RES-GRAIN" />
+        </Material>
+        <Material ResourceCount="1">
+          <Resource Value="RES-BEETLE_JELLY" />
+        </Material>
+      </MaterialRow>
+      <MaterialRow>
+        <Material ResourceCount="2">
+          <Resource Value="RES-GRAIN" />
+        </Material>
+        <Material ResourceCount="1">
+          <Resource Value="RES-BEETLE_JELLY" />
+        </Material>
+      </MaterialRow>
+    </RecipeBase>
+    <Skills Value="SKILL_PACK-YM_ITEM_PAO_VIVO" />
+  </ITEM_REC-YM_PAO_VIVO>
+  <ITEM_REC-YM_ERVA_FORJA ItemsAmount="1" WeightMultiplier="0.55">
+    <InventorySlot Value="Tool" />
+    <RecipeBase ResearchCost="1" ResChildForbid="FALSE">
+      <DescriptionInfo Name="DES_YM_ERVA_FORJA" Description="DES_YM_ERVA_FORJA_DES" IconName="ITEM_ERVA_FORJA" />
+      <CountedTag Tag="TAG-YM_ITEM_ERVA_FORJA" Amount="1.0" />
+      <MaterialRow>
+        <Material ResourceCount="2">
+          <Resource Value="RES-HERBS" />
+        </Material>
+        <Material ResourceCount="1">
+          <Resource Value="RES-MUSHROOMS" />
+        </Material>
+      </MaterialRow>
+      <MaterialRow>
+        <Material ResourceCount="2">
+          <Resource Value="RES-HERBS" />
+        </Material>
+        <Material ResourceCount="1">
+          <Resource Value="RES-MUSHROOMS" />
+        </Material>
+      </MaterialRow>
+    </RecipeBase>
+    <Skills Value="SKILL_PACK-YM_ITEM_ERVA_FORJA" />
+  </ITEM_REC-YM_ERVA_FORJA>
+  <ITEM_REC-YM_ARMADILHA_LAMBRI ItemsAmount="1" WeightMultiplier="0.55">
+    <InventorySlot Value="Tool" />
+    <RecipeBase ResearchCost="1" ResChildForbid="FALSE">
+      <DescriptionInfo Name="DES_YM_ARMADILHA_LAMBRI" Description="DES_YM_ARMADILHA_LAMBRI_DES" IconName="ITEM_ARMADILHA_LAMBRI" />
+      <CountedTag Tag="TAG-YM_ITEM_ARMADILHA_LAMBRI" Amount="1.0" />
+      <MaterialRow>
+        <Material ResourceCount="2">
+          <Resource Value="RES-CLAY" />
+        </Material>
+        <Material ResourceCount="1">
+          <Resource Value="RES-WOOD" />
+        </Material>
+        <Material ResourceCount="1">
+          <Resource Value="RES-SANDSTONE" />
+        </Material>
+      </MaterialRow>
+      <MaterialRow>
+        <Material ResourceCount="2">
+          <Resource Value="RES-CLAY" />
+        </Material>
+        <Material ResourceCount="1">
+          <Resource Value="RES-WOOD" />
+        </Material>
+        <Material ResourceCount="1">
+          <Resource Value="RES-SANDSTONE" />
+        </Material>
+      </MaterialRow>
+    </RecipeBase>
+    <Skills Value="SKILL_PACK-YM_ITEM_ARMADILHA_LAMBRI" />
+  </ITEM_REC-YM_ARMADILHA_LAMBRI>
+  <ITEM_REC-YM_PINGENTE_NOME ItemsAmount="1" WeightMultiplier="0.55">
+    <InventorySlot Value="Jewellery" />
+    <RecipeBase ResearchCost="1" ResChildForbid="FALSE">
+      <DescriptionInfo Name="DES_YM_PINGENTE_NOME" Description="DES_YM_PINGENTE_NOME_DES" IconName="ITEM_PINGENTE_NOME" />
+      <CountedTag Tag="TAG-YM_ITEM_PINGENTE_NOME" Amount="1.0" />
+      <MaterialRow>
+        <Material ResourceCount="1">
+          <Resource Value="RES-AMBER" />
+        </Material>
+        <Material ResourceCount="1">
+          <Resource Value="RES-GOLD" />
+        </Material>
+      </MaterialRow>
+      <MaterialRow>
+        <Material ResourceCount="1">
+          <Resource Value="RES-AMBER" />
+        </Material>
+        <Material ResourceCount="1">
+          <Resource Value="RES-GOLD" />
+        </Material>
+      </MaterialRow>
+    </RecipeBase>
+    <Skills Value="SKILL_PACK-YM_ITEM_PINGENTE_NOME" />
+  </ITEM_REC-YM_PINGENTE_NOME>
+  <ITEM_REC-YM_ESPADA_RUNICA ItemsAmount="1" WeightMultiplier="0.55">
+    <InventorySlot Value="RightHand" />
+    <RecipeBase ResearchCost="3" ResChildForbid="FALSE">
+      <DescriptionInfo Name="DES_YM_ESPADA_RUNICA" Description="DES_YM_ESPADA_RUNICA_DES" IconName="ITEM_ESPADA_RUNICA" />
+      <CountedTag Tag="TAG-YM_ITEM_ESPADA_RUNICA" Amount="1.0" />
+      <MaterialRow>
+        <Material ResourceCount="4">
+          <Resource Value="RES-STEEL" />
+        </Material>
+        <Material ResourceCount="2">
+          <Resource Value="RES-QUARTZ" />
+        </Material>
+        <Material ResourceCount="1">
+          <Resource Value="RES-MOONSTONE" />
+        </Material>
+      </MaterialRow>
+      <MaterialRow>
+        <Material ResourceCount="4">
+          <Resource Value="RES-STEEL" />
+        </Material>
+        <Material ResourceCount="2">
+          <Resource Value="RES-QUARTZ" />
+        </Material>
+        <Material ResourceCount="1">
+          <Resource Value="RES-MOONSTONE" />
+        </Material>
+      </MaterialRow>
+    </RecipeBase>
+    <Skills Value="SKILL_PACK-YM_ITEM_ESPADA_RUNICA" />
+  </ITEM_REC-YM_ESPADA_RUNICA>
+  <ITEM_REC-YM_AMULETO_FORJA ItemsAmount="1" WeightMultiplier="0.55">
+    <InventorySlot Value="Jewellery" />
+    <RecipeBase ResearchCost="3" ResChildForbid="FALSE">
+      <DescriptionInfo Name="DES_YM_AMULETO_FORJA" Description="DES_YM_AMULETO_FORJA_DES" IconName="ITEM_AMULETO_FORJA" />
+      <CountedTag Tag="TAG-YM_ITEM_AMULETO_FORJA" Amount="1.0" />
+      <MaterialRow>
+        <Material ResourceCount="3">
+          <Resource Value="RES-AMBER" />
+        </Material>
+        <Material ResourceCount="2">
+          <Resource Value="RES-GOLD" />
+        </Material>
+        <Material ResourceCount="1">
+          <Resource Value="RES-MITHRILL" />
+        </Material>
+      </MaterialRow>
+      <MaterialRow>
+        <Material ResourceCount="3">
+          <Resource Value="RES-AMBER" />
+        </Material>
+        <Material ResourceCount="2">
+          <Resource Value="RES-GOLD" />
+        </Material>
+        <Material ResourceCount="1">
+          <Resource Value="RES-MITHRILL" />
+        </Material>
+      </MaterialRow>
+    </RecipeBase>
+    <Skills Value="SKILL_PACK-YM_ITEM_AMULETO_FORJA" />
+  </ITEM_REC-YM_AMULETO_FORJA>
+  <ITEM_REC-YM_BOTAS_ARGILA ItemsAmount="1" WeightMultiplier="0.55">
+    <InventorySlot Value="Tool" />
+    <RecipeBase ResearchCost="2" ResChildForbid="FALSE">
+      <DescriptionInfo Name="DES_YM_BOTAS_ARGILA" Description="DES_YM_BOTAS_ARGILA_DES" IconName="ITEM_BOTAS_ARGILA" />
+      <CountedTag Tag="TAG-YM_ITEM_BOTAS_ARGILA" Amount="1.0" />
+      <MaterialRow>
+        <Material ResourceCount="4">
+          <Resource Value="RES-CLAY" />
+        </Material>
+        <Material ResourceCount="2">
+          <Resource Value="RES-WOOD" />
+        </Material>
+        <Material ResourceCount="1">
+          <Resource Value="RES-SANDSTONE" />
+        </Material>
+      </MaterialRow>
+      <MaterialRow>
+        <Material ResourceCount="4">
+          <Resource Value="RES-CLAY" />
+        </Material>
+        <Material ResourceCount="2">
+          <Resource Value="RES-WOOD" />
+        </Material>
+        <Material ResourceCount="1">
+          <Resource Value="RES-SANDSTONE" />
+        </Material>
+      </MaterialRow>
+    </RecipeBase>
+    <Skills Value="SKILL_PACK-YM_ITEM_BOTAS_ARGILA" />
+  </ITEM_REC-YM_BOTAS_ARGILA>
+  <ITEM_REC-YM_DAISHO ItemsAmount="1" WeightMultiplier="0.65">
+    <InventorySlot Value="RightHand" />
+    <InventorySlot Value="LeftHand" />
+    <RecipeBase ResearchCost="3" ResChildForbid="FALSE">
+      <DescriptionInfo Name="DES_YM_DAISHO" Description="DES_YM_DAISHO_DES" IconName="YM_Daisho_Icon" />
+      <CountedTag Tag="TAG-YM_ITEM_DAISHO" Amount="1.0" />
+      <MaterialRow>
+        <Material ResourceCount="5">
+          <Resource Value="RES-STEEL" />
+        </Material>
+        <Material ResourceCount="2">
+          <Resource Value="RES-WOOD" />
+        </Material>
+        <Material ResourceCount="1">
+          <Resource Value="RES-LEATHER" />
+        </Material>
+      </MaterialRow>
+      <MaterialRow>
+        <Material ResourceCount="5">
+          <Resource Value="RES-STEEL" />
+        </Material>
+        <Material ResourceCount="2">
+          <Resource Value="RES-WOOD" />
+        </Material>
+        <Material ResourceCount="1">
+          <Resource Value="RES-LEATHER" />
+        </Material>
+      </MaterialRow>
+    </RecipeBase>
+    <Skills Value="SKILL_PACK-YM_EQUIP_DAISHO" />
+  </ITEM_REC-YM_DAISHO>
+  <ITEM_REC-YM_OMAMORI ItemsAmount="1" WeightMultiplier="0.65">
+    <InventorySlot Value="Jewellery" />
+    <RecipeBase ResearchCost="3" ResChildForbid="FALSE">
+      <DescriptionInfo Name="DES_YM_OMAMORI" Description="DES_YM_OMAMORI_DES" IconName="YM_Omamori_Icon" />
+      <CountedTag Tag="TAG-YM_ITEM_OMAMORI" Amount="1.0" />
+      <MaterialRow>
+        <Material ResourceCount="2">
+          <Resource Value="RES-LEATHER" />
+        </Material>
+        <Material ResourceCount="2">
+          <Resource Value="RES-AMBER" />
+        </Material>
+        <Material ResourceCount="1">
+          <Resource Value="RES-WOOD" />
+        </Material>
+      </MaterialRow>
+      <MaterialRow>
+        <Material ResourceCount="2">
+          <Resource Value="RES-LEATHER" />
+        </Material>
+        <Material ResourceCount="2">
+          <Resource Value="RES-AMBER" />
+        </Material>
+        <Material ResourceCount="1">
+          <Resource Value="RES-WOOD" />
+        </Material>
+      </MaterialRow>
+    </RecipeBase>
+    <Skills Value="SKILL_PACK-YM_EQUIP_OMAMORI" />
+  </ITEM_REC-YM_OMAMORI>
+  <ITEM_REC-YM_KOMAINU ItemsAmount="1" WeightMultiplier="0.65">
+    <InventorySlot Value="Tool" />
+    <RecipeBase ResearchCost="5" ResChildForbid="FALSE">
+      <DescriptionInfo Name="DES_YM_CORE_KOMAINU" Description="DES_YM_CORE_KOMAINU_DES" IconName="YM_Komainu_Icon" />
+      <CountedTag Tag="TAG-YM_CORE_KOMAINU" Amount="1.0" />
+      <MaterialRow>
+        <Material ResourceCount="5">
+          <Resource Value="RES-GRANDGEM" />
+        </Material>
+        <Material ResourceCount="5">
+          <Resource Value="RES-MITHRILL" />
+        </Material>
+        <Material ResourceCount="4">
+          <Resource Value="RES-DIAMOND" />
+        </Material>
+      </MaterialRow>
+      <MaterialRow>
+        <Material ResourceCount="5">
+          <Resource Value="RES-GRANDGEM" />
+        </Material>
+        <Material ResourceCount="5">
+          <Resource Value="RES-MITHRILL" />
+        </Material>
+        <Material ResourceCount="4">
+          <Resource Value="RES-DIAMOND" />
+        </Material>
+      </MaterialRow>
+    </RecipeBase>
+    <Skills Value="SKILL_PACK-YM_CORE_INERTE" />
+  </ITEM_REC-YM_KOMAINU>
+  <ITEM_REC-YM_ARMA_ARCO ItemsAmount="1" WeightMultiplier="1.0">
+    <InventorySlot Value="RightHand" />
+    <InventorySlot Value="LeftHand" />
+    <RecipeBase ResearchCost="2" ResChildForbid="FALSE">
+      <DescriptionInfo Name="Arco de Vigília" Description="Disparo físico rápido da retaguarda. O dano escala com Percepção." IconName="YM_Arma_ARCO" />
+      <CountedTag Tag="TAG-YM_ARMA_ARCO" Amount="1.0" />
+      <MaterialRow>
+        <Material ResourceCount="7">
+          <Resource Value="RES-WOOD" />
+        </Material>
+        <Material ResourceCount="2">
+          <Resource Value="RES-LEATHER" />
+        </Material>
+        <Material ResourceCount="2">
+          <Resource Value="RES-BONE" />
+        </Material>
+      </MaterialRow>
+      <MaterialRow>
+        <Material ResourceCount="7">
+          <Resource Value="RES-WOOD" />
+        </Material>
+        <Material ResourceCount="2">
+          <Resource Value="RES-LEATHER" />
+        </Material>
+        <Material ResourceCount="2">
+          <Resource Value="RES-BONE" />
+        </Material>
+      </MaterialRow>
+    </RecipeBase>
+    <Skills Value="SKILL_PACK-YM_ARMA_ARCO" />
+  </ITEM_REC-YM_ARMA_ARCO>
+  <ITEM_REC-YM_ARMA_BESTA ItemsAmount="1" WeightMultiplier="1.25">
+    <InventorySlot Value="RightHand" />
+    <InventorySlot Value="LeftHand" />
+    <RecipeBase ResearchCost="3" ResChildForbid="FALSE">
+      <DescriptionInfo Name="Besta de Travessia" Description="Disparo físico mais lento que o arco. Usa Inteligência e causa dano verdadeiro de essência a um alvo." IconName="YM_Arma_BESTA" />
+      <CountedTag Tag="TAG-YM_ARMA_BESTA" Amount="1.0" />
+      <MaterialRow>
+        <Material ResourceCount="6">
+          <Resource Value="RES-WOOD" />
+        </Material>
+        <Material ResourceCount="5">
+          <Resource Value="RES-STEEL" />
+        </Material>
+        <Material ResourceCount="1">
+          <Resource Value="RES-MOONSTONE" />
+        </Material>
+      </MaterialRow>
+      <MaterialRow>
+        <Material ResourceCount="6">
+          <Resource Value="RES-WOOD" />
+        </Material>
+        <Material ResourceCount="5">
+          <Resource Value="RES-STEEL" />
+        </Material>
+        <Material ResourceCount="1">
+          <Resource Value="RES-MOONSTONE" />
+        </Material>
+      </MaterialRow>
+    </RecipeBase>
+    <Skills Value="SKILL_PACK-YM_ARMA_BESTA" />
+  </ITEM_REC-YM_ARMA_BESTA>
+  <ITEM_REC-YM_ARMA_ARCABUZ ItemsAmount="1" WeightMultiplier="1.5">
+    <InventorySlot Value="RightHand" />
+    <InventorySlot Value="LeftHand" />
+    <RecipeBase ResearchCost="5" ResChildForbid="FALSE">
+      <DescriptionInfo Name="Arcabuz de Faísca" Description="Disparo físico pesado da retaguarda. Usa Percepção e causa metade do dano a alvos secundários na área em T. Tem o maior atraso entre as armas da oficina." IconName="YM_Arma_ARCABUZ" />
+      <CountedTag Tag="TAG-YM_ARMA_ARCABUZ" Amount="1.0" />
+      <MaterialRow>
+        <Material ResourceCount="8">
+          <Resource Value="RES-STEEL" />
+        </Material>
+        <Material ResourceCount="4">
+          <Resource Value="RES-ANCIENT_WOOD" />
+        </Material>
+        <Material ResourceCount="3">
+          <Resource Value="RES-QUARTZ" />
+        </Material>
+      </MaterialRow>
+      <MaterialRow>
+        <Material ResourceCount="8">
+          <Resource Value="RES-STEEL" />
+        </Material>
+        <Material ResourceCount="4">
+          <Resource Value="RES-ANCIENT_WOOD" />
+        </Material>
+        <Material ResourceCount="3">
+          <Resource Value="RES-QUARTZ" />
+        </Material>
+      </MaterialRow>
+    </RecipeBase>
+    <Skills Value="SKILL_PACK-YM_ARMA_ARCABUZ" />
+  </ITEM_REC-YM_ARMA_ARCABUZ>
+  <ITEM_REC-YM_ARMA_FUNDA ItemsAmount="1" WeightMultiplier="0.45">
+    <InventorySlot Value="RightHand" />
+    <InventorySlot Value="LeftHand" />
+    <RecipeBase ResearchCost="1" ResChildForbid="FALSE">
+      <DescriptionInfo Name="Funda de Rio" Description="Tiro físico leve da retaguarda. Usa Perspicácia e atrasa a próxima ação do alvo quando há uma ação na fila." IconName="YM_Arma_FUNDA" />
+      <CountedTag Tag="TAG-YM_ARMA_FUNDA" Amount="1.0" />
+      <MaterialRow>
+        <Material ResourceCount="4">
+          <Resource Value="RES-LEATHER" />
+        </Material>
+        <Material ResourceCount="4">
+          <Resource Value="RES-SANDSTONE" />
+        </Material>
+        <Material ResourceCount="1">
+          <Resource Value="RES-WOOD" />
+        </Material>
+      </MaterialRow>
+      <MaterialRow>
+        <Material ResourceCount="4">
+          <Resource Value="RES-LEATHER" />
+        </Material>
+        <Material ResourceCount="4">
+          <Resource Value="RES-SANDSTONE" />
+        </Material>
+        <Material ResourceCount="1">
+          <Resource Value="RES-WOOD" />
+        </Material>
+      </MaterialRow>
+    </RecipeBase>
+    <Skills Value="SKILL_PACK-YM_ARMA_FUNDA" />
+  </ITEM_REC-YM_ARMA_FUNDA>
+  <ITEM_REC-YM_ARMA_CHICOTE ItemsAmount="1" WeightMultiplier="0.6">
+    <InventorySlot Value="RightHand" />
+    <RecipeBase ResearchCost="2" ResChildForbid="FALSE">
+      <DescriptionInfo Name="Chicote de Couro Cru" Description="Golpe físico de uma mão na linha de frente. Usa Força e atrasa a ação enfileirada do alvo." IconName="YM_Arma_CHICOTE" />
+      <CountedTag Tag="TAG-YM_ARMA_CHICOTE" Amount="1.0" />
+      <MaterialRow>
+        <Material ResourceCount="7">
+          <Resource Value="RES-LEATHER" />
+        </Material>
+        <Material ResourceCount="1">
+          <Resource Value="RES-WOOD" />
+        </Material>
+        <Material ResourceCount="2">
+          <Resource Value="RES-BONE" />
+        </Material>
+      </MaterialRow>
+      <MaterialRow>
+        <Material ResourceCount="7">
+          <Resource Value="RES-LEATHER" />
+        </Material>
+        <Material ResourceCount="1">
+          <Resource Value="RES-WOOD" />
+        </Material>
+        <Material ResourceCount="2">
+          <Resource Value="RES-BONE" />
+        </Material>
+      </MaterialRow>
+    </RecipeBase>
+    <Skills Value="SKILL_PACK-YM_ARMA_CHICOTE" />
+  </ITEM_REC-YM_ARMA_CHICOTE>
+  <ITEM_REC-YM_ARMA_CHICOTE_REFORCADO ItemsAmount="1" WeightMultiplier="0.8">
+    <InventorySlot Value="RightHand" />
+    <RecipeBase ResearchCost="3" ResChildForbid="FALSE">
+      <DescriptionInfo Name="Chicote Ferrado" Description="Golpe físico de uma mão na linha de frente. Usa Força e causa metade do dano aos inimigos adjacentes. O atraso afeta os alvos atingidos que têm ação na fila." IconName="YM_Arma_CHICOTE_REFORCADO" />
+      <CountedTag Tag="TAG-YM_ARMA_CHICOTE_REFORCADO" Amount="1.0" />
+      <MaterialRow>
+        <Material ResourceCount="8">
+          <Resource Value="RES-LEATHER" />
+        </Material>
+        <Material ResourceCount="4">
+          <Resource Value="RES-STEEL" />
+        </Material>
+        <Material ResourceCount="2">
+          <Resource Value="RES-BONE" />
+        </Material>
+      </MaterialRow>
+      <MaterialRow>
+        <Material ResourceCount="8">
+          <Resource Value="RES-LEATHER" />
+        </Material>
+        <Material ResourceCount="4">
+          <Resource Value="RES-STEEL" />
+        </Material>
+        <Material ResourceCount="2">
+          <Resource Value="RES-BONE" />
+        </Material>
+      </MaterialRow>
+    </RecipeBase>
+    <Skills Value="SKILL_PACK-YM_ARMA_CHICOTE_REFORCADO" />
+  </ITEM_REC-YM_ARMA_CHICOTE_REFORCADO>
+</RECIPES_ITEMS>

@@ -1,0 +1,334 @@
+<ITEMS_TECH>
+  <!-- Eixo: Pedra e Argila (T1 -> T3) -->
+  <ITEM_TECH-YM_GOLEMS_STONE UpgradeCost="1">
+    <DescriptionInfo Name="Golens de Pedra e Argila" Description="Receitas: Choque, Cascalho." IconName="GOLEM_CHOQUE_Roster"/>
+    <UnlockRecipe UnlockPrimeRes="1" UnlockSecRes="1">
+      <ItemRecipe Value="ITEM_REC-YM_CHOQUE"/>
+    </UnlockRecipe>
+    <UnlockRecipe UnlockPrimeRes="1" UnlockSecRes="1">
+      <ItemRecipe Value="ITEM_REC-YM_CASCALHO"/>
+    </UnlockRecipe>
+  </ITEM_TECH-YM_GOLEMS_STONE>
+
+  <ITEM_TECH-YM_CHOQUE_1 UpgradeCost="1">
+    <DescriptionInfo Name="Choque aprimorado" Description="Aprimora Choque." IconName="GOLEM_CHOQUE_Roster"/>
+    <UpgradeRecipe EssenceBonus="5" AdditionalPrimeRes="1" AdditionalSecRes="1">
+      <ItemRecipe Value="ITEM_REC-YM_CHOQUE"/>
+    </UpgradeRecipe>
+    <ParentItemTech Value="ITEM_TECH-YM_GOLEMS_STONE"/>
+  </ITEM_TECH-YM_CHOQUE_1>
+
+  <ITEM_TECH-YM_CASCALHO_1 UpgradeCost="1">
+    <DescriptionInfo Name="Cascalho aprimorado" Description="Aprimora Cascalho." IconName="GOLEM_CASCALHO_Roster"/>
+    <UpgradeRecipe EssenceBonus="5" AdditionalPrimeRes="1" AdditionalSecRes="1">
+      <ItemRecipe Value="ITEM_REC-YM_CASCALHO"/>
+    </UpgradeRecipe>
+    <ParentItemTech Value="ITEM_TECH-YM_GOLEMS_STONE"/>
+  </ITEM_TECH-YM_CASCALHO_1>
+
+  <!-- Eixo: Madeira e Ossos (T1 -> T3) -->
+  <ITEM_TECH-YM_GOLEMS_WOOD UpgradeCost="1">
+    <DescriptionInfo Name="Golens de Madeira e Ossos" Description="Receitas: Galho." IconName="GOLEM_GALHO_Roster"/>
+    <UnlockRecipe UnlockPrimeRes="1" UnlockSecRes="1">
+      <ItemRecipe Value="ITEM_REC-YM_GALHO"/>
+    </UnlockRecipe>
+  </ITEM_TECH-YM_GOLEMS_WOOD>
+
+  <ITEM_TECH-YM_GALHO_1 UpgradeCost="1">
+    <DescriptionInfo Name="Galho aprimorado" Description="Aprimora Galho." IconName="GOLEM_GALHO_Roster"/>
+    <UpgradeRecipe EssenceBonus="5" AdditionalPrimeRes="1" AdditionalSecRes="1">
+      <ItemRecipe Value="ITEM_REC-YM_GALHO"/>
+    </UpgradeRecipe>
+    <ParentItemTech Value="ITEM_TECH-YM_GOLEMS_WOOD"/>
+  </ITEM_TECH-YM_GALHO_1>
+
+  <!-- Eixo: Cristal e Âmbar (T1 -> T3) -->
+  <ITEM_TECH-YM_GOLEMS_GEM UpgradeCost="1">
+    <DescriptionInfo Name="Golens de Cristal e Âmbar" Description="Receitas: Lâmpada de Âmbar." IconName="GOLEM_LAMPEJO_Roster"/>
+    <UnlockRecipe UnlockPrimeRes="1" UnlockSecRes="1">
+      <ItemRecipe Value="ITEM_REC-YM_LAMPEJO"/>
+    </UnlockRecipe>
+  </ITEM_TECH-YM_GOLEMS_GEM>
+
+  <ITEM_TECH-YM_LAMPEJO_1 UpgradeCost="1">
+    <DescriptionInfo Name="Lâmpada de Âmbar aprimorado" Description="Aprimora Lâmpada de Âmbar." IconName="GOLEM_LAMPEJO_Roster"/>
+    <UpgradeRecipe EssenceBonus="5" AdditionalPrimeRes="1" AdditionalSecRes="1">
+      <ItemRecipe Value="ITEM_REC-YM_LAMPEJO"/>
+    </UpgradeRecipe>
+    <ParentItemTech Value="ITEM_TECH-YM_GOLEMS_GEM"/>
+  </ITEM_TECH-YM_LAMPEJO_1>
+
+  <!-- Eixo: Comida e Ervas (T1 -> T3) -->
+  <ITEM_TECH-YM_GOLEMS_FOOD UpgradeCost="1">
+    <DescriptionInfo Name="Golens de Grãos" Description="Receitas: Massa-Mãe." IconName="GOLEM_MASSA_Roster"/>
+    <UnlockRecipe UnlockPrimeRes="1" UnlockSecRes="1">
+      <ItemRecipe Value="ITEM_REC-YM_MASSA"/>
+    </UnlockRecipe>
+  </ITEM_TECH-YM_GOLEMS_FOOD>
+
+  <ITEM_TECH-YM_MASSA_1 UpgradeCost="1">
+    <DescriptionInfo Name="Massa-Mãe aprimorado" Description="Aprimora Massa-Mãe." IconName="GOLEM_MASSA_Roster"/>
+    <UpgradeRecipe EssenceBonus="5" AdditionalPrimeRes="1" AdditionalSecRes="1">
+      <ItemRecipe Value="ITEM_REC-YM_MASSA"/>
+    </UpgradeRecipe>
+    <ParentItemTech Value="ITEM_TECH-YM_GOLEMS_FOOD"/>
+  </ITEM_TECH-YM_MASSA_1>
+
+  <!-- Eixo: Ferreiro e Metais (T3) -->
+  <ITEM_TECH-YM_GOLEMS_METAL UpgradeCost="1">
+    <DescriptionInfo Name="Golens de Metal" Description="Receitas: Ferreiro." IconName="GOLEM_FERREIRO_Roster"/>
+    <UnlockRecipe UnlockPrimeRes="2" UnlockSecRes="2">
+      <ItemRecipe Value="ITEM_REC-YM_FERREIRO"/>
+    </UnlockRecipe>
+  </ITEM_TECH-YM_GOLEMS_METAL>
+
+  <!-- Eixo: Obsidiana e Sangue (Novos) -->
+  <ITEM_TECH-YM_GOLEMS_OBSIDIAN UpgradeCost="1">
+    <DescriptionInfo Name="Golens de Obsidiana e Sangue" Description="Receitas: Obsidiana, Sangue." IconName="GOLEM_OBSIDIANA_Roster"/>
+    <UnlockRecipe UnlockPrimeRes="2" UnlockSecRes="2">
+      <ItemRecipe Value="ITEM_REC-YM_OBSIDIANA"/>
+    </UnlockRecipe>
+    <UnlockRecipe UnlockPrimeRes="2" UnlockSecRes="2">
+      <ItemRecipe Value="ITEM_REC-YM_SANGUE"/>
+    </UnlockRecipe>
+  </ITEM_TECH-YM_GOLEMS_OBSIDIAN>
+
+  <!-- Eixo: Nebulina e Fungo (Novos) -->
+  <ITEM_TECH-YM_GOLEMS_SPIRIT UpgradeCost="1">
+    <DescriptionInfo Name="Golens de Bruma e Fungos" Description="Receitas: Nebulina, Fungo." IconName="GOLEM_NEBULINA_Roster"/>
+    <UnlockRecipe UnlockPrimeRes="2" UnlockSecRes="2">
+      <ItemRecipe Value="ITEM_REC-YM_NEBULINA"/>
+    </UnlockRecipe>
+    <UnlockRecipe UnlockPrimeRes="2" UnlockSecRes="2">
+      <ItemRecipe Value="ITEM_REC-YM_FUNGO"/>
+    </UnlockRecipe>
+  </ITEM_TECH-YM_GOLEMS_SPIRIT>
+
+  <!-- Eixo: Relíquia (T4 Único) -->
+  <ITEM_TECH-YM_GOLEMS_RELIQUIA UpgradeCost="1">
+    <DescriptionInfo Name="Forja da Relíquia" Description="Receitas: Núcleo inerte de Relíquia." IconName="GOLEM_RELIQUIA_Roster"/>
+    <UnlockRecipe UnlockPrimeRes="3" UnlockSecRes="3">
+      <ItemRecipe Value="ITEM_REC-YM_RELIQUIA"/>
+    </UnlockRecipe>
+  </ITEM_TECH-YM_GOLEMS_RELIQUIA>
+
+  <!-- ITENS EXCLUSIVOS DO YURI (Armas/Armaduras) -->
+  <ITEM_TECH-YM_GEAR UpgradeCost="1">
+    <DescriptionInfo Name="Equipamento da Forja Viva" Description="Receitas: Lâmina de Forja, Martelo-Mestre, Malha de Cota-Viva, Escudo-Pedra, Alvo de Âmbar, Pão-Vivo, Erva da Forja, Armadilha de Lambri, Pingente do Nome." IconName="ITEM_LAMINA_FORJA"/>
+    <UnlockRecipe UnlockPrimeRes="1" UnlockSecRes="1">
+      <ItemRecipe Value="ITEM_REC-YM_LAMINA_FORJA"/>
+    </UnlockRecipe>
+    <UnlockRecipe UnlockPrimeRes="1" UnlockSecRes="1">
+      <ItemRecipe Value="ITEM_REC-YM_MARTELO_MESTRE"/>
+    </UnlockRecipe>
+    <UnlockRecipe UnlockPrimeRes="1" UnlockSecRes="1">
+      <ItemRecipe Value="ITEM_REC-YM_MALHA_COTA"/>
+    </UnlockRecipe>
+    <UnlockRecipe UnlockPrimeRes="1" UnlockSecRes="1">
+      <ItemRecipe Value="ITEM_REC-YM_ESCUDO_PEDRA"/>
+    </UnlockRecipe>
+    <UnlockRecipe UnlockPrimeRes="1" UnlockSecRes="1">
+      <ItemRecipe Value="ITEM_REC-YM_ALVO_AMBER"/>
+    </UnlockRecipe>
+    <UnlockRecipe UnlockPrimeRes="1" UnlockSecRes="1">
+      <ItemRecipe Value="ITEM_REC-YM_PAO_VIVO"/>
+    </UnlockRecipe>
+    <UnlockRecipe UnlockPrimeRes="1" UnlockSecRes="1">
+      <ItemRecipe Value="ITEM_REC-YM_ERVA_FORJA"/>
+    </UnlockRecipe>
+    <UnlockRecipe UnlockPrimeRes="1" UnlockSecRes="1">
+      <ItemRecipe Value="ITEM_REC-YM_ARMADILHA_LAMBRI"/>
+    </UnlockRecipe>
+    <UnlockRecipe UnlockPrimeRes="1" UnlockSecRes="1">
+      <ItemRecipe Value="ITEM_REC-YM_PINGENTE_NOME"/>
+    </UnlockRecipe>
+  </ITEM_TECH-YM_GEAR>
+
+  <!-- NOVOS ITENS EXPANSÃO -->
+  <ITEM_TECH-YM_GEAR_EXPANSION UpgradeCost="1">
+    <DescriptionInfo Name="Acervo de Yuri" Description="Receitas: Espada Rúnica, Amuleto da Forja, Botas de Argila, Daishō da Mina, Omamori do Santuário, Núcleo inerte de Komainu do Limiar." IconName="YM_Daisho_Icon" />
+    <UnlockRecipe UnlockPrimeRes="2" UnlockSecRes="2">
+      <ItemRecipe Value="ITEM_REC-YM_ESPADA_RUNICA" />
+    </UnlockRecipe>
+    <UnlockRecipe UnlockPrimeRes="2" UnlockSecRes="2">
+      <ItemRecipe Value="ITEM_REC-YM_AMULETO_FORJA" />
+    </UnlockRecipe>
+    <UnlockRecipe UnlockPrimeRes="2" UnlockSecRes="2">
+      <ItemRecipe Value="ITEM_REC-YM_BOTAS_ARGILA" />
+    </UnlockRecipe>
+    <UnlockRecipe UnlockPrimeRes="2" UnlockSecRes="2">
+      <ItemRecipe Value="ITEM_REC-YM_DAISHO" />
+    </UnlockRecipe>
+    <UnlockRecipe UnlockPrimeRes="2" UnlockSecRes="2">
+      <ItemRecipe Value="ITEM_REC-YM_OMAMORI" />
+    </UnlockRecipe>
+    <UnlockRecipe UnlockPrimeRes="2" UnlockSecRes="2">
+      <ItemRecipe Value="ITEM_REC-YM_KOMAINU" />
+    </UnlockRecipe>
+  </ITEM_TECH-YM_GEAR_EXPANSION>
+
+  <!-- Upgrades dos novos itens -->
+  <ITEM_TECH-YM_ESPADA_RUNICA_1 UpgradeCost="1">
+    <DescriptionInfo Name="Espada Rúnica aprimorado" Description="Aprimora Espada Rúnica." IconName="ITEM_ESPADA_RUNICA"/>
+    <UpgradeRecipe EssenceBonus="10" AdditionalPrimeRes="1" AdditionalSecRes="1">
+      <ItemRecipe Value="ITEM_REC-YM_ESPADA_RUNICA"/>
+    </UpgradeRecipe>
+    <ParentItemTech Value="ITEM_TECH-YM_GEAR_EXPANSION"/>
+  </ITEM_TECH-YM_ESPADA_RUNICA_1>
+
+  <ITEM_TECH-YM_AMULETO_FORJA_1 UpgradeCost="1">
+    <DescriptionInfo Name="Amuleto da Forja aprimorado" Description="Aprimora Amuleto da Forja." IconName="ITEM_AMULETO_FORJA"/>
+    <UpgradeRecipe EssenceBonus="10" AdditionalPrimeRes="1" AdditionalSecRes="1">
+      <ItemRecipe Value="ITEM_REC-YM_AMULETO_FORJA"/>
+    </UpgradeRecipe>
+    <ParentItemTech Value="ITEM_TECH-YM_GEAR_EXPANSION"/>
+  </ITEM_TECH-YM_AMULETO_FORJA_1>
+
+  <ITEM_TECH-YM_BOTAS_ARGILA_1 UpgradeCost="1">
+    <DescriptionInfo Name="Botas de Argila aprimorado" Description="Aprimora Botas de Argila." IconName="ITEM_BOTAS_ARGILA"/>
+    <UpgradeRecipe EssenceBonus="10" AdditionalPrimeRes="1" AdditionalSecRes="1">
+      <ItemRecipe Value="ITEM_REC-YM_BOTAS_ARGILA"/>
+    </UpgradeRecipe>
+    <ParentItemTech Value="ITEM_TECH-YM_GEAR_EXPANSION"/>
+  </ITEM_TECH-YM_BOTAS_ARGILA_1>
+  <ITEM_TECH-YM_SEIXO_RESEARCH UpgradeCost="1">
+    <DescriptionInfo Name="Seixo" Description="Golem de pedra pura. Golem de estimação com bônus de sorte. Carinhoso com outros golens." IconName="GOLEM_SEIXO_Roster" />
+    <UnlockRecipe UnlockPrimeRes="1" UnlockSecRes="1">
+      <ItemRecipe Value="ITEM_REC-YM_SEIXO" />
+    </UnlockRecipe>
+    <ParentItemTech Value="ITEM_TECH-YM_GOLEMS_STONE" />
+  </ITEM_TECH-YM_SEIXO_RESEARCH>
+  <ITEM_TECH-YM_FERRO_VIDO_RESEARCH UpgradeCost="2">
+    <DescriptionInfo Name="Ferro-Vido" Description="Golem de ferro e pedra. Escudeiro com proteção física alta e capacidade de converter vida em escudo. Protetivo." IconName="GOLEM_FERRO_VIDO_Roster" />
+    <UnlockRecipe UnlockPrimeRes="1" UnlockSecRes="1">
+      <ItemRecipe Value="ITEM_REC-YM_FERRO_VIDO" />
+    </UnlockRecipe>
+    <ParentItemTech Value="ITEM_TECH-YM_GOLEMS_METAL" />
+  </ITEM_TECH-YM_FERRO_VIDO_RESEARCH>
+  <ITEM_TECH-YM_RAIZ_RESEARCH UpgradeCost="2">
+    <DescriptionInfo Name="Raiz" Description="Golem de madeira de dríade. Suporte noturno com regeneração mental. Sereno e imune a moral negativa." IconName="GOLEM_RAIZ_Roster" />
+    <UnlockRecipe UnlockPrimeRes="1" UnlockSecRes="1">
+      <ItemRecipe Value="ITEM_REC-YM_RAIZ" />
+    </UnlockRecipe>
+    <ParentItemTech Value="ITEM_TECH-YM_GOLEMS_WOOD" />
+  </ITEM_TECH-YM_RAIZ_RESEARCH>
+  <ITEM_TECH-YM_OSSADA_RESEARCH UpgradeCost="2">
+    <DescriptionInfo Name="Ossada" Description="Golem de ossos e argila. Anti-fera com dano bônus contra bestas. Territorial." IconName="GOLEM_OSSADA_Roster" />
+    <UnlockRecipe UnlockPrimeRes="1" UnlockSecRes="1">
+      <ItemRecipe Value="ITEM_REC-YM_OSSADA" />
+    </UnlockRecipe>
+    <ParentItemTech Value="ITEM_TECH-YM_GOLEMS_WOOD" />
+  </ITEM_TECH-YM_OSSADA_RESEARCH>
+  <ITEM_TECH-YM_CRISTAL_RESEARCH UpgradeCost="2">
+    <DescriptionInfo Name="Cristal" Description="Golem de quartzo e âmbar. Ressoante mental com ataque psíquico. Ecoico." IconName="GOLEM_CRISTAL_Roster" />
+    <UnlockRecipe UnlockPrimeRes="1" UnlockSecRes="1">
+      <ItemRecipe Value="ITEM_REC-YM_CRISTAL" />
+    </UnlockRecipe>
+    <ParentItemTech Value="ITEM_TECH-YM_GOLEMS_GEM" />
+  </ITEM_TECH-YM_CRISTAL_RESEARCH>
+  <ITEM_TECH-YM_PAO_DO_CAMPO_RESEARCH UpgradeCost="2">
+    <DescriptionInfo Name="Pão-do-Campo" Description="Golem de comida cozida e grãos. Ração viva que aumenta a carga de comida do grupo. Faminto." IconName="GOLEM_PAO_DO_CAMPO_Roster" />
+    <UnlockRecipe UnlockPrimeRes="1" UnlockSecRes="1">
+      <ItemRecipe Value="ITEM_REC-YM_PAO_DO_CAMPO" />
+    </UnlockRecipe>
+    <ParentItemTech Value="ITEM_TECH-YM_GOLEMS_FOOD" />
+  </ITEM_TECH-YM_PAO_DO_CAMPO_RESEARCH>
+  <ITEM_TECH-YM_MURALHA_RESEARCH UpgradeCost="3">
+    <DescriptionInfo Name="Muralha" Description="Golem de granito e pedra armada. Muralha impassível com proteção física extrema. Leal Absoluto." IconName="GOLEM_MURALHA_Roster" />
+    <UnlockRecipe UnlockPrimeRes="1" UnlockSecRes="1">
+      <ItemRecipe Value="ITEM_REC-YM_MURALHA" />
+    </UnlockRecipe>
+    <ParentItemTech Value="ITEM_TECH-YM_GOLEMS_STONE" />
+  </ITEM_TECH-YM_MURALHA_RESEARCH>
+  <ITEM_TECH-YM_VIUVA_RESEARCH UpgradeCost="3">
+    <DescriptionInfo Name="Viúva-de-Cedro" Description="Golem de madeira sagrada. Fortalece o grupo quando há mortos. Luto Eterno." IconName="GOLEM_VIUVA_Roster" />
+    <UnlockRecipe UnlockPrimeRes="1" UnlockSecRes="1">
+      <ItemRecipe Value="ITEM_REC-YM_VIUVA" />
+    </UnlockRecipe>
+    <ParentItemTech Value="ITEM_TECH-YM_GOLEMS_WOOD" />
+  </ITEM_TECH-YM_VIUVA_RESEARCH>
+  <ITEM_TECH-YM_VEJO_RESEARCH UpgradeCost="3">
+    <DescriptionInfo Name="Veio" Description="Golem de gema, diamante e pedra-da-lua. Curinga de resistência a todos os tipos. Vaidoso." IconName="GOLEM_VEJO_Roster" />
+    <UnlockRecipe UnlockPrimeRes="1" UnlockSecRes="1">
+      <ItemRecipe Value="ITEM_REC-YM_VEJO" />
+    </UnlockRecipe>
+    <ParentItemTech Value="ITEM_TECH-YM_GOLEMS_GEM" />
+  </ITEM_TECH-YM_VEJO_RESEARCH>
+  <ITEM_TECH-YM_AGULHA_RESEARCH UpgradeCost="3">
+    <DescriptionInfo Name="Agulha" Description="Golem de ervas e cogumelos. Médico de campo com cura em área. Meticuloso." IconName="GOLEM_AGULHA_Roster" />
+    <UnlockRecipe UnlockPrimeRes="1" UnlockSecRes="1">
+      <ItemRecipe Value="ITEM_REC-YM_AGULHA" />
+    </UnlockRecipe>
+    <ParentItemTech Value="ITEM_TECH-YM_GOLEMS_FOOD" />
+  </ITEM_TECH-YM_AGULHA_RESEARCH>
+  <ITEM_TECH-YM_GUARDAO_DA_MINA_RESEARCH UpgradeCost="5">
+    <DescriptionInfo Name="Núcleo inerte de Guardião da Mina" Description="Peça de forja sem vida. Deixe o núcleo no inventário da expedição de Yuri para abrir o evento de despertar." IconName="YM_Daisho_Icon" />
+    <UnlockRecipe UnlockPrimeRes="1" UnlockSecRes="1">
+      <ItemRecipe Value="ITEM_REC-YM_GUARDAO_DA_MINA" />
+    </UnlockRecipe>
+    <ParentItemTech Value="ITEM_TECH-YM_GOLEMS_RELIQUIA" />
+  </ITEM_TECH-YM_GUARDAO_DA_MINA_RESEARCH>
+  <ITEM_TECH-YM_DRAGAO_OSSO_RESEARCH UpgradeCost="4">
+    <DescriptionInfo Name="Dragão de Osso" Description="Único de ossos de dragão e essência da morte. Mago de essência com dano verdadeiro. Arito." IconName="GOLEM_DRAGAO_OSSO_Roster" />
+    <UnlockRecipe UnlockPrimeRes="1" UnlockSecRes="1">
+      <ItemRecipe Value="ITEM_REC-YM_DRAGAO_OSSO" />
+    </UnlockRecipe>
+    <ParentItemTech Value="ITEM_TECH-YM_GOLEMS_OBSIDIAN" />
+  </ITEM_TECH-YM_DRAGAO_OSSO_RESEARCH>
+  <ITEM_TECH-YM_CEVA_RESEARCH UpgradeCost="4">
+    <DescriptionInfo Name="Ceva" Description="Único de ervas e essência da vida. Curandeiro amaldiçoado que cura o grupo mas custa HP permanentes. Empático." IconName="GOLEM_CEVA_Roster" />
+    <UnlockRecipe UnlockPrimeRes="1" UnlockSecRes="1">
+      <ItemRecipe Value="ITEM_REC-YM_CEVA" />
+    </UnlockRecipe>
+    <ParentItemTech Value="ITEM_TECH-YM_GOLEMS_SPIRIT" />
+  </ITEM_TECH-YM_CEVA_RESEARCH>
+  <ITEM_TECH-YM_CINZEL_RESEARCH UpgradeCost="4">
+    <DescriptionInfo Name="Cinzel" Description="Mestra-forjadora de aço e mithril. Aumenta a fabricação e usa seu martelo para atrasar inimigos no combate físico." IconName="GOLEM_CINZEL_Roster" />
+    <UnlockRecipe UnlockPrimeRes="1" UnlockSecRes="1">
+      <ItemRecipe Value="ITEM_REC-YM_CINZEL" />
+    </UnlockRecipe>
+    <ParentItemTech Value="ITEM_TECH-YM_GOLEMS_METAL" />
+  </ITEM_TECH-YM_CINZEL_RESEARCH>
+  <ITEM_TECH-YM_ARMA_ARCO UpgradeCost="2">
+    <DescriptionInfo Name="Arco de Vigília" Description="Disparo físico rápido da retaguarda. O dano escala com Percepção." IconName="YM_Arma_ARCO" />
+    <UnlockRecipe UnlockPrimeRes="1" UnlockSecRes="1">
+      <ItemRecipe Value="ITEM_REC-YM_ARMA_ARCO" />
+    </UnlockRecipe>
+    <ParentItemTech Value="ITEM_TECH-YM_GEAR_EXPANSION" />
+  </ITEM_TECH-YM_ARMA_ARCO>
+  <ITEM_TECH-YM_ARMA_BESTA UpgradeCost="3">
+    <DescriptionInfo Name="Besta de Travessia" Description="Disparo físico mais lento que o arco. Usa Inteligência e causa dano verdadeiro de essência a um alvo." IconName="YM_Arma_BESTA" />
+    <UnlockRecipe UnlockPrimeRes="1" UnlockSecRes="1">
+      <ItemRecipe Value="ITEM_REC-YM_ARMA_BESTA" />
+    </UnlockRecipe>
+    <ParentItemTech Value="ITEM_TECH-YM_ARMA_ARCO" />
+  </ITEM_TECH-YM_ARMA_BESTA>
+  <ITEM_TECH-YM_ARMA_ARCABUZ UpgradeCost="5">
+    <DescriptionInfo Name="Arcabuz de Faísca" Description="Disparo físico pesado da retaguarda. Usa Percepção e causa metade do dano a alvos secundários na área em T. Tem o maior atraso entre as armas da oficina." IconName="YM_Arma_ARCABUZ" />
+    <UnlockRecipe UnlockPrimeRes="1" UnlockSecRes="1">
+      <ItemRecipe Value="ITEM_REC-YM_ARMA_ARCABUZ" />
+    </UnlockRecipe>
+    <ParentItemTech Value="ITEM_TECH-YM_ARMA_BESTA" />
+  </ITEM_TECH-YM_ARMA_ARCABUZ>
+  <ITEM_TECH-YM_ARMA_FUNDA UpgradeCost="1">
+    <DescriptionInfo Name="Funda de Rio" Description="Tiro físico leve da retaguarda. Usa Perspicácia e atrasa a próxima ação do alvo quando há uma ação na fila." IconName="YM_Arma_FUNDA" />
+    <UnlockRecipe UnlockPrimeRes="1" UnlockSecRes="1">
+      <ItemRecipe Value="ITEM_REC-YM_ARMA_FUNDA" />
+    </UnlockRecipe>
+    <ParentItemTech Value="ITEM_TECH-YM_GEAR_EXPANSION" />
+  </ITEM_TECH-YM_ARMA_FUNDA>
+  <ITEM_TECH-YM_ARMA_CHICOTE UpgradeCost="2">
+    <DescriptionInfo Name="Chicote de Couro Cru" Description="Golpe físico de uma mão na linha de frente. Usa Força e atrasa a ação enfileirada do alvo." IconName="YM_Arma_CHICOTE" />
+    <UnlockRecipe UnlockPrimeRes="1" UnlockSecRes="1">
+      <ItemRecipe Value="ITEM_REC-YM_ARMA_CHICOTE" />
+    </UnlockRecipe>
+    <ParentItemTech Value="ITEM_TECH-YM_GEAR_EXPANSION" />
+  </ITEM_TECH-YM_ARMA_CHICOTE>
+  <ITEM_TECH-YM_ARMA_CHICOTE_REFORCADO UpgradeCost="3">
+    <DescriptionInfo Name="Chicote Ferrado" Description="Golpe físico de uma mão na linha de frente. Usa Força e causa metade do dano aos inimigos adjacentes. O atraso afeta os alvos atingidos que têm ação na fila." IconName="YM_Arma_CHICOTE_REFORCADO" />
+    <UnlockRecipe UnlockPrimeRes="1" UnlockSecRes="1">
+      <ItemRecipe Value="ITEM_REC-YM_ARMA_CHICOTE_REFORCADO" />
+    </UnlockRecipe>
+    <ParentItemTech Value="ITEM_TECH-YM_ARMA_CHICOTE" />
+  </ITEM_TECH-YM_ARMA_CHICOTE_REFORCADO>
+</ITEMS_TECH>

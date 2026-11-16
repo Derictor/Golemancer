@@ -1,0 +1,362 @@
+<TAGS_QUEST>
+  <TAG-YM_GOLEM_CORE Visible="FALSE">
+    <TagType Value="ItemType" />
+  </TAG-YM_GOLEM_CORE>
+  <TAG-YM_GOLEM_CHOQUE Visible="FALSE">
+    <DescriptionInfo Name="DES_YM_CHOQUE" Description="DES_YM_CHOQUE_DES" IconName="GOLEM_CHOQUE_Roster" />
+    <TagType Value="ItemType" />
+    <Parent Value="TAG-YM_GOLEM_CORE" />
+    <Parent Value="TAG-PET" />
+  </TAG-YM_GOLEM_CHOQUE>
+  <TAG-YM_GOLEM_CASCALHO Visible="FALSE">
+    <DescriptionInfo Name="DES_YM_CASCALHO" Description="DES_YM_CASCALHO_DES" IconName="GOLEM_CASCALHO_Roster" />
+    <TagType Value="ItemType" />
+    <Parent Value="TAG-YM_GOLEM_CORE" />
+    <Parent Value="TAG-PET" />
+  </TAG-YM_GOLEM_CASCALHO>
+  <TAG-YM_GOLEM_GALHO Visible="FALSE">
+    <DescriptionInfo Name="DES_YM_GALHO" Description="DES_YM_GALHO_DES" IconName="GOLEM_GALHO_Roster" />
+    <TagType Value="ItemType" />
+    <Parent Value="TAG-YM_GOLEM_CORE" />
+    <Parent Value="TAG-PET" />
+  </TAG-YM_GOLEM_GALHO>
+  <TAG-YM_GOLEM_LAMPEJO Visible="FALSE">
+    <DescriptionInfo Name="DES_YM_LAMPEJO" Description="DES_YM_LAMPEJO_DES" IconName="GOLEM_LAMPEJO_Roster" />
+    <TagType Value="ItemType" />
+    <Parent Value="TAG-YM_GOLEM_CORE" />
+    <Parent Value="TAG-PET" />
+  </TAG-YM_GOLEM_LAMPEJO>
+  <TAG-YM_GOLEM_MASSA Visible="FALSE">
+    <DescriptionInfo Name="DES_YM_MASSA" Description="DES_YM_MASSA_DES" IconName="GOLEM_MASSA_Roster" />
+    <TagType Value="ItemType" />
+    <Parent Value="TAG-YM_GOLEM_CORE" />
+    <Parent Value="TAG-PET" />
+  </TAG-YM_GOLEM_MASSA>
+  <TAG-YM_GOLEM_SEIXO Visible="FALSE">
+    <DescriptionInfo Name="DES_YM_SEIXO" Description="DES_YM_SEIXO_DES" IconName="GOLEM_SEIXO_Roster" />
+    <TagType Value="ItemType" />
+    <Parent Value="TAG-YM_GOLEM_CORE" />
+    <Parent Value="TAG-PET" />
+  </TAG-YM_GOLEM_SEIXO>
+  <TAG-YM_GOLEM_FERRO_VIDO Visible="FALSE">
+    <DescriptionInfo Name="DES_YM_FERRO_VIDO" Description="DES_YM_FERRO_VIDO_DES" IconName="GOLEM_FERRO_VIDO_Roster" />
+    <TagType Value="ItemType" />
+    <Parent Value="TAG-YM_GOLEM_CORE" />
+    <Parent Value="TAG-PET" />
+  </TAG-YM_GOLEM_FERRO_VIDO>
+  <TAG-YM_GOLEM_RAIZ Visible="FALSE">
+    <DescriptionInfo Name="DES_YM_RAIZ" Description="DES_YM_RAIZ_DES" IconName="GOLEM_RAIZ_Roster" />
+    <TagType Value="ItemType" />
+    <Parent Value="TAG-YM_GOLEM_CORE" />
+    <Parent Value="TAG-PET" />
+  </TAG-YM_GOLEM_RAIZ>
+  <TAG-YM_GOLEM_OSSADA Visible="FALSE">
+    <DescriptionInfo Name="DES_YM_OSSADA" Description="DES_YM_OSSADA_DES" IconName="GOLEM_OSSADA_Roster" />
+    <TagType Value="ItemType" />
+    <Parent Value="TAG-YM_GOLEM_CORE" />
+    <Parent Value="TAG-PET" />
+  </TAG-YM_GOLEM_OSSADA>
+  <TAG-YM_GOLEM_CRISTAL Visible="FALSE">
+    <DescriptionInfo Name="DES_YM_CRISTAL" Description="DES_YM_CRISTAL_DES" IconName="GOLEM_CRISTAL_Roster" />
+    <TagType Value="ItemType" />
+    <Parent Value="TAG-YM_GOLEM_CORE" />
+    <Parent Value="TAG-PET" />
+  </TAG-YM_GOLEM_CRISTAL>
+  <TAG-YM_GOLEM_PAO_DO_CAMPO Visible="FALSE">
+    <DescriptionInfo Name="DES_YM_PAO_DO_CAMPO" Description="DES_YM_PAO_DO_CAMPO_DES" IconName="GOLEM_PAO_DO_CAMPO_Roster" />
+    <TagType Value="ItemType" />
+    <Parent Value="TAG-YM_GOLEM_CORE" />
+    <Parent Value="TAG-PET" />
+  </TAG-YM_GOLEM_PAO_DO_CAMPO>
+  <TAG-YM_GOLEM_MURALHA Visible="FALSE">
+    <DescriptionInfo Name="DES_YM_MURALHA" Description="DES_YM_MURALHA_DES" IconName="GOLEM_MURALHA_Roster" />
+    <TagType Value="ItemType" />
+    <Parent Value="TAG-YM_GOLEM_CORE" />
+    <Parent Value="TAG-PET" />
+  </TAG-YM_GOLEM_MURALHA>
+  <TAG-YM_GOLEM_VIUVA Visible="FALSE">
+    <DescriptionInfo Name="DES_YM_VIUVA" Description="DES_YM_VIUVA_DES" IconName="GOLEM_VIUVA_Roster" />
+    <TagType Value="ItemType" />
+    <Parent Value="TAG-YM_GOLEM_CORE" />
+    <Parent Value="TAG-PET" />
+  </TAG-YM_GOLEM_VIUVA>
+  <TAG-YM_GOLEM_VEJO Visible="FALSE">
+    <DescriptionInfo Name="DES_YM_VEJO" Description="DES_YM_VEJO_DES" IconName="GOLEM_VEJO_Roster" />
+    <TagType Value="ItemType" />
+    <Parent Value="TAG-YM_GOLEM_CORE" />
+    <Parent Value="TAG-PET" />
+  </TAG-YM_GOLEM_VEJO>
+  <TAG-YM_GOLEM_AGULHA Visible="FALSE">
+    <DescriptionInfo Name="DES_YM_AGULHA" Description="DES_YM_AGULHA_DES" IconName="GOLEM_AGULHA_Roster" />
+    <TagType Value="ItemType" />
+    <Parent Value="TAG-YM_GOLEM_CORE" />
+    <Parent Value="TAG-PET" />
+  </TAG-YM_GOLEM_AGULHA>
+  <TAG-YM_GOLEM_FERREIRO Visible="FALSE">
+    <DescriptionInfo Name="DES_YM_FERREIRO" Description="DES_YM_FERREIRO_DES" IconName="GOLEM_FERREIRO_Roster" />
+    <TagType Value="ItemType" />
+    <Parent Value="TAG-YM_GOLEM_CORE" />
+    <Parent Value="TAG-PET" />
+  </TAG-YM_GOLEM_FERREIRO>
+  <TAG-YM_GOLEM_GUARDAO_DA_MINA Visible="FALSE">
+    <DescriptionInfo Name="DES_YM_GUARDAO_DA_MINA" Description="DES_YM_GUARDAO_DA_MINA_DES" IconName="GOLEM_GUARDAO_DA_MINA_Roster" />
+    <TagType Value="ItemType" />
+    <Parent Value="TAG-YM_GOLEM_CORE" />
+    <Parent Value="TAG-PET" />
+  </TAG-YM_GOLEM_GUARDAO_DA_MINA>
+  <TAG-YM_GOLEM_DRAGAO_OSSO Visible="FALSE">
+    <DescriptionInfo Name="DES_YM_DRAGAO_OSSO" Description="DES_YM_DRAGAO_OSSO_DES" IconName="GOLEM_DRAGAO_OSSO_Roster" />
+    <TagType Value="ItemType" />
+    <Parent Value="TAG-YM_GOLEM_CORE" />
+    <Parent Value="TAG-PET" />
+  </TAG-YM_GOLEM_DRAGAO_OSSO>
+  <TAG-YM_GOLEM_CEVA Visible="FALSE">
+    <DescriptionInfo Name="DES_YM_CEVA" Description="DES_YM_CEVA_DES" IconName="GOLEM_CEVA_Roster" />
+    <TagType Value="ItemType" />
+    <Parent Value="TAG-YM_GOLEM_CORE" />
+    <Parent Value="TAG-PET" />
+  </TAG-YM_GOLEM_CEVA>
+  <TAG-YM_GOLEM_CINZEL Visible="FALSE">
+    <DescriptionInfo Name="DES_YM_CINZEL" Description="DES_YM_CINZEL_DES" IconName="GOLEM_CINZEL_Roster" />
+    <TagType Value="ItemType" />
+    <Parent Value="TAG-YM_GOLEM_CORE" />
+    <Parent Value="TAG-PET" />
+  </TAG-YM_GOLEM_CINZEL>
+  <TAG-YM_GOLEM_CHILD Visible="FALSE">
+    <TagType Value="CharacterType" />
+    <Parent Value="TAG-CHILD" />
+  </TAG-YM_GOLEM_CHILD>
+  <TAG-YM_GENDER_MASCULINO Visible="FALSE" Listed="FALSE">
+    <TagType Value="CharacterType" />
+    <Parent Value="TAG-GENDER_MALE" />
+  </TAG-YM_GENDER_MASCULINO>
+  <TAG-YM_GENDER_FEMININO Visible="FALSE" Listed="FALSE">
+    <TagType Value="CharacterType" />
+    <Parent Value="TAG-GENDER_FEMALE" />
+  </TAG-YM_GENDER_FEMININO>
+  <TAG-YM_GENDER_NEUTRO Visible="FALSE" Listed="FALSE">
+    <TagType Value="CharacterType" />
+    <Parent Value="TAG-GENDER_OTHER" />
+  </TAG-YM_GENDER_NEUTRO>
+  <TAG-YM_GENDER_AMBIGUO Visible="FALSE" Listed="FALSE">
+    <TagType Value="CharacterType" />
+    <Parent Value="TAG-GENDER_OTHER" />
+  </TAG-YM_GENDER_AMBIGUO>
+  <TAG-YM_UNIQUE_RECRUITED Visible="FALSE" UseCount="TRUE">
+    <TagType Value="WorldType" />
+  </TAG-YM_UNIQUE_RECRUITED>
+  <TAG-YM_CORRUPCAO_FORJA Visible="FALSE" UseCount="TRUE">
+    <TagType Value="WorldType" />
+  </TAG-YM_CORRUPCAO_FORJA>
+  <TAG-YM_PEDIGREE Visible="FALSE">
+    <TagType Value="CharacterType" />
+  </TAG-YM_PEDIGREE>
+  <TAG-YM_STERILE Visible="FALSE">
+    <TagType Value="CharacterType" />
+  </TAG-YM_STERILE>
+  <TAG-YM_GOLEM_PAI Visible="FALSE" UseCount="TRUE">
+    <TagType Value="CharacterType" />
+  </TAG-YM_GOLEM_PAI>
+  <TAG-YM_ERRANTE Visible="FALSE">
+    <TagType Value="CharacterType" />
+  </TAG-YM_ERRANTE>
+  <TAG-YM_CHOSEN Visible="FALSE">
+    <TagType Value="CharacterType" />
+  </TAG-YM_CHOSEN>
+  <TAG-YM_ITEM_LAMINA_FORJA Visible="FALSE" UseCount="TRUE">
+    <DescriptionInfo Name="DES_YM_LAMINA_FORJA" Description="DES_YM_LAMINA_FORJA_DES" IconName="ITEM_LAMINA_FORJA" />
+    <TagType Value="ItemType" />
+    <Parent Value="TAG-MELEE_WEAPON" />
+  </TAG-YM_ITEM_LAMINA_FORJA>
+  <TAG-YM_ITEM_MARTELO_MESTRE Visible="FALSE" UseCount="TRUE">
+    <DescriptionInfo Name="DES_YM_MARTELO_MESTRE" Description="DES_YM_MARTELO_MESTRE_DES" IconName="ITEM_MARTELO_MESTRE" />
+    <TagType Value="ItemType" />
+    <Parent Value="TAG-MELEE_WEAPON" />
+  </TAG-YM_ITEM_MARTELO_MESTRE>
+  <TAG-YM_ITEM_MALHA_COTA Visible="FALSE" UseCount="TRUE">
+    <DescriptionInfo Name="DES_YM_MALHA_COTA" Description="DES_YM_MALHA_COTA_DES" IconName="ITEM_MALHA_COTA" />
+    <TagType Value="ItemType" />
+    <Parent Value="TAG-ARMOUR" />
+  </TAG-YM_ITEM_MALHA_COTA>
+  <TAG-YM_ITEM_ESCUDO_PEDRA Visible="FALSE" UseCount="TRUE">
+    <DescriptionInfo Name="DES_YM_ESCUDO_PEDRA" Description="DES_YM_ESCUDO_PEDRA_DES" IconName="ITEM_ESCUDO_PEDRA" />
+    <TagType Value="ItemType" />
+    <Parent Value="TAG-SHIELD" />
+  </TAG-YM_ITEM_ESCUDO_PEDRA>
+  <TAG-YM_ITEM_ALVO_AMBER Visible="FALSE" UseCount="TRUE">
+    <DescriptionInfo Name="DES_YM_ALVO_AMBER" Description="DES_YM_ALVO_AMBER_DES" IconName="ITEM_ALVO_AMBER" />
+    <TagType Value="ItemType" />
+    <Parent Value="TAG-JEWELLERY" />
+  </TAG-YM_ITEM_ALVO_AMBER>
+  <TAG-YM_ITEM_PAO_VIVO Visible="FALSE" UseCount="TRUE">
+    <DescriptionInfo Name="DES_YM_PAO_VIVO" Description="DES_YM_PAO_VIVO_DES" IconName="ITEM_PAO_VIVO" />
+    <TagType Value="ItemType" />
+    <Parent Value="TAG-TOOLS" />
+  </TAG-YM_ITEM_PAO_VIVO>
+  <TAG-YM_ITEM_ERVA_FORJA Visible="FALSE" UseCount="TRUE">
+    <DescriptionInfo Name="DES_YM_ERVA_FORJA" Description="DES_YM_ERVA_FORJA_DES" IconName="ITEM_ERVA_FORJA" />
+    <TagType Value="ItemType" />
+    <Parent Value="TAG-TOOLS" />
+  </TAG-YM_ITEM_ERVA_FORJA>
+  <TAG-YM_ITEM_ARMADILHA_LAMBRI Visible="FALSE" UseCount="TRUE">
+    <DescriptionInfo Name="DES_YM_ARMADILHA_LAMBRI" Description="DES_YM_ARMADILHA_LAMBRI_DES" IconName="ITEM_ARMADILHA_LAMBRI" />
+    <TagType Value="ItemType" />
+    <Parent Value="TAG-TOOLS" />
+  </TAG-YM_ITEM_ARMADILHA_LAMBRI>
+  <TAG-YM_ITEM_PINGENTE_NOME Visible="FALSE" UseCount="TRUE">
+    <DescriptionInfo Name="DES_YM_PINGENTE_NOME" Description="DES_YM_PINGENTE_NOME_DES" IconName="ITEM_PINGENTE_NOME" />
+    <TagType Value="ItemType" />
+    <Parent Value="TAG-JEWELLERY" />
+  </TAG-YM_ITEM_PINGENTE_NOME>
+  <TAG-HALF_ARGILA Visible="FALSE">
+    <TagType Value="CharacterType" />
+    <Parent Value="TAG-HUMANOID" />
+  </TAG-HALF_ARGILA>
+  <TAG-HALF_BRASA Visible="FALSE">
+    <TagType Value="CharacterType" />
+    <Parent Value="TAG-HUMANOID" />
+  </TAG-HALF_BRASA>
+  <TAG-YM_GOLEM_OBSIDIANA Visible="FALSE">
+    <DescriptionInfo Name="DES_YM_OBSIDIANA" Description="DES_YM_OBSIDIANA_DES" IconName="GOLEM_OBSIDIANA_Roster" />
+    <TagType Value="ItemType" />
+    <Parent Value="TAG-YM_GOLEM_CORE" />
+    <Parent Value="TAG-PET" />
+  </TAG-YM_GOLEM_OBSIDIANA>
+  <TAG-YM_GOLEM_SANGUE Visible="FALSE">
+    <DescriptionInfo Name="DES_YM_SANGUE" Description="DES_YM_SANGUE_DES" IconName="GOLEM_SANGUE_Roster" />
+    <TagType Value="ItemType" />
+    <Parent Value="TAG-YM_GOLEM_CORE" />
+    <Parent Value="TAG-PET" />
+  </TAG-YM_GOLEM_SANGUE>
+  <TAG-YM_GOLEM_NEBULINA Visible="FALSE">
+    <DescriptionInfo Name="DES_YM_NEBULINA" Description="DES_YM_NEBULINA_DES" IconName="GOLEM_NEBULINA_Roster" />
+    <TagType Value="ItemType" />
+    <Parent Value="TAG-YM_GOLEM_CORE" />
+    <Parent Value="TAG-PET" />
+  </TAG-YM_GOLEM_NEBULINA>
+  <TAG-YM_GOLEM_FUNGO Visible="FALSE">
+    <DescriptionInfo Name="DES_YM_FUNGO" Description="DES_YM_FUNGO_DES" IconName="GOLEM_FUNGO_Roster" />
+    <TagType Value="ItemType" />
+    <Parent Value="TAG-YM_GOLEM_CORE" />
+    <Parent Value="TAG-PET" />
+  </TAG-YM_GOLEM_FUNGO>
+  <TAG-YM_GOLEM_RELIQUIA Visible="FALSE">
+    <DescriptionInfo Name="DES_YM_RELIQUIA" Description="DES_YM_RELIQUIA_DES" IconName="GOLEM_RELIQUIA_Roster" />
+    <TagType Value="ItemType" />
+    <Parent Value="TAG-YM_GOLEM_CORE" />
+    <Parent Value="TAG-PET" />
+  </TAG-YM_GOLEM_RELIQUIA>
+  <TAG-YM_ITEM_ESPADA_RUNICA Visible="FALSE" UseCount="TRUE">
+    <DescriptionInfo Name="DES_YM_ESPADA_RUNICA" Description="DES_YM_ESPADA_RUNICA_DES" IconName="ITEM_ESPADA_RUNICA" />
+    <TagType Value="ItemType" />
+    <Parent Value="TAG-MELEE_WEAPON" />
+  </TAG-YM_ITEM_ESPADA_RUNICA>
+  <TAG-YM_ITEM_AMULETO_FORJA Visible="FALSE" UseCount="TRUE">
+    <DescriptionInfo Name="DES_YM_AMULETO_FORJA" Description="DES_YM_AMULETO_FORJA_DES" IconName="ITEM_AMULETO_FORJA" />
+    <TagType Value="ItemType" />
+    <Parent Value="TAG-JEWELLERY" />
+  </TAG-YM_ITEM_AMULETO_FORJA>
+  <TAG-YM_ITEM_BOTAS_ARGILA Visible="FALSE" UseCount="TRUE">
+    <DescriptionInfo Name="DES_YM_BOTAS_ARGILA" Description="DES_YM_BOTAS_ARGILA_DES" IconName="ITEM_BOTAS_ARGILA" />
+    <TagType Value="ItemType" />
+    <Parent Value="TAG-TOOLS" />
+  </TAG-YM_ITEM_BOTAS_ARGILA>
+  <TAG-HALF_OBSIDIANA Visible="FALSE">
+    <TagType Value="CharacterType" />
+    <Parent Value="TAG-HUMANOID" />
+  </TAG-HALF_OBSIDIANA>
+  <TAG-HALF_NEBULINA Visible="FALSE">
+    <TagType Value="CharacterType" />
+    <Parent Value="TAG-HUMANOID" />
+  </TAG-HALF_NEBULINA>
+  <TAG-YM_SANIDADE Visible="FALSE" UseCount="TRUE">
+    <TagType Value="WorldType" />
+  </TAG-YM_SANIDADE>
+  <TAG-YM_CORRUPCAO_MENTAL Visible="FALSE" UseCount="TRUE">
+    <TagType Value="WorldType" />
+  </TAG-YM_CORRUPCAO_MENTAL>
+  <TAG-YM_SANIDADE_BAIXA Visible="FALSE">
+    <TagType Value="CharacterType" />
+    <Parent Value="TAG-YM_SANIDADE" />
+  </TAG-YM_SANIDADE_BAIXA>
+  <TAG-YM_SANIDADE_CRITICA Visible="FALSE">
+    <TagType Value="CharacterType" />
+    <Parent Value="TAG-YM_SANIDADE" />
+  </TAG-YM_SANIDADE_CRITICA>
+  <TAG-YM_GOLEM_ESTALO Visible="FALSE">
+    <TagType Value="CharacterType" />
+  </TAG-YM_GOLEM_ESTALO>
+  <TAG-YM_GOLEM_TERRA_VIVA Visible="FALSE">
+    <TagType Value="CharacterType" />
+  </TAG-YM_GOLEM_TERRA_VIVA>
+  <TAG-YM_GOLEM_FANTASMA_DE_FORG Visible="FALSE">
+    <TagType Value="CharacterType" />
+  </TAG-YM_GOLEM_FANTASMA_DE_FORG>
+  <TAG-YM_GOLEM_GEMEO Visible="FALSE">
+    <TagType Value="CharacterType" />
+  </TAG-YM_GOLEM_GEMEO>
+  <TAG-YM_GOLEM_KOMAINU Visible="FALSE">
+    <DescriptionInfo Name="DES_YM_KOMAINU" Description="DES_YM_KOMAINU_DES" IconName="GOLEM_KOMAINU_Roster" />
+    <TagType Value="ItemType" />
+    <Parent Value="TAG-YM_GOLEM_CORE" />
+    <Parent Value="TAG-PET" />
+  </TAG-YM_GOLEM_KOMAINU>
+  <TAG-YM_ITEM_DAISHO Visible="FALSE" UseCount="TRUE">
+    <DescriptionInfo Name="DES_YM_DAISHO" Description="DES_YM_DAISHO_DES" IconName="YM_Daisho_Icon" />
+    <TagType Value="ItemType" />
+    <Parent Value="TAG-MELEE_WEAPON" />
+  </TAG-YM_ITEM_DAISHO>
+  <TAG-YM_ITEM_OMAMORI Visible="FALSE" UseCount="TRUE">
+    <DescriptionInfo Name="DES_YM_OMAMORI" Description="DES_YM_OMAMORI_DES" IconName="YM_Omamori_Icon" />
+    <TagType Value="ItemType" />
+    <Parent Value="TAG-JEWELLERY" />
+  </TAG-YM_ITEM_OMAMORI>
+  <TAG-YM_CORE_GUARDAO_DA_MINA Visible="FALSE" UseCount="TRUE">
+    <DescriptionInfo Name="DES_YM_CORE_GUARDAO_DA_MINA" Description="DES_YM_CORE_GUARDAO_DA_MINA_DES" IconName="YM_Daisho_Icon" />
+    <TagType Value="ItemType" />
+    <Parent Value="TAG-TOOLS" />
+  </TAG-YM_CORE_GUARDAO_DA_MINA>
+  <TAG-YM_CORE_RELIQUIA Visible="FALSE" UseCount="TRUE">
+    <DescriptionInfo Name="DES_YM_CORE_RELIQUIA" Description="DES_YM_CORE_RELIQUIA_DES" IconName="YM_Kagura_Icon" />
+    <TagType Value="ItemType" />
+    <Parent Value="TAG-TOOLS" />
+  </TAG-YM_CORE_RELIQUIA>
+  <TAG-YM_CORE_KOMAINU Visible="FALSE" UseCount="TRUE">
+    <DescriptionInfo Name="DES_YM_CORE_KOMAINU" Description="DES_YM_CORE_KOMAINU_DES" IconName="YM_Komainu_Icon" />
+    <TagType Value="ItemType" />
+    <Parent Value="TAG-TOOLS" />
+  </TAG-YM_CORE_KOMAINU>
+  <TAG-YM_TECH_DISCOVERED Visible="FALSE" UseCount="TRUE">
+    <TagType Value="CharacterType" />
+  </TAG-YM_TECH_DISCOVERED>
+  <TAG-YM_ARMA_ARCO Visible="FALSE" UseCount="TRUE">
+    <DescriptionInfo Name="Arco de Vigília" Description="Disparo físico rápido da retaguarda. O dano escala com Percepção." IconName="YM_Arma_ARCO" />
+    <TagType Value="ItemType" />
+    <Parent Value="TAG-BOW" />
+  </TAG-YM_ARMA_ARCO>
+  <TAG-YM_ARMA_BESTA Visible="FALSE" UseCount="TRUE">
+    <DescriptionInfo Name="Besta de Travessia" Description="Disparo físico mais lento que o arco. Usa Inteligência e causa dano verdadeiro de essência a um alvo." IconName="YM_Arma_BESTA" />
+    <TagType Value="ItemType" />
+    <Parent Value="TAG-BOW" />
+  </TAG-YM_ARMA_BESTA>
+  <TAG-YM_ARMA_ARCABUZ Visible="FALSE" UseCount="TRUE">
+    <DescriptionInfo Name="Arcabuz de Faísca" Description="Disparo físico pesado da retaguarda. Usa Percepção e causa metade do dano a alvos secundários na área em T. Tem o maior atraso entre as armas da oficina." IconName="YM_Arma_ARCABUZ" />
+    <TagType Value="ItemType" />
+    <Parent Value="TAG-BOW" />
+  </TAG-YM_ARMA_ARCABUZ>
+  <TAG-YM_ARMA_FUNDA Visible="FALSE" UseCount="TRUE">
+    <DescriptionInfo Name="Funda de Rio" Description="Tiro físico leve da retaguarda. Usa Perspicácia e atrasa a próxima ação do alvo quando há uma ação na fila." IconName="YM_Arma_FUNDA" />
+    <TagType Value="ItemType" />
+    <Parent Value="TAG-BOW" />
+  </TAG-YM_ARMA_FUNDA>
+  <TAG-YM_ARMA_CHICOTE Visible="FALSE" UseCount="TRUE">
+    <DescriptionInfo Name="Chicote de Couro Cru" Description="Golpe físico de uma mão na linha de frente. Usa Força e atrasa a ação enfileirada do alvo." IconName="YM_Arma_CHICOTE" />
+    <TagType Value="ItemType" />
+    <Parent Value="TAG-MELEE_WEAPON" />
+  </TAG-YM_ARMA_CHICOTE>
+  <TAG-YM_ARMA_CHICOTE_REFORCADO Visible="FALSE" UseCount="TRUE">
+    <DescriptionInfo Name="Chicote Ferrado" Description="Golpe físico de uma mão na linha de frente. Usa Força e causa metade do dano aos inimigos adjacentes. O atraso afeta os alvos atingidos que têm ação na fila." IconName="YM_Arma_CHICOTE_REFORCADO" />
+    <TagType Value="ItemType" />
+    <Parent Value="TAG-MELEE_WEAPON" />
+  </TAG-YM_ARMA_CHICOTE_REFORCADO>
+</TAGS_QUEST>

@@ -1,0 +1,454 @@
+<?xml version='1.0' encoding='utf-8'?>
+<MODULE xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" name="YM_ForjaViva" lastEventIndex="27" allowToUse="true" uniqueModuleID="2736184721">
+  <Adventure name="A Oficina no Vale" uniqueID="1" allowOnce="true" typeGeneric="false" typePerGroupGeneric="true" typeInterrupt="false" typeExpedition="false" typeVillage="false" difficulty="0" nodeIdMax="4" joinIsForced="false" joinType="OnlyOwn" joinRange="SinglePosition">
+    <nodes xsi:type="NodeStarting" ID="1" positionX="40" positionY="-30" width="350" height="660" image="EV_A_OFICINA_NO_VALE">
+      <logic>
+        <FilterBlock>
+          <LogicResultAction>
+            <scriptCallWithTag scriptName="FRA_TurnAboveOrEqualValue" parameter="22" />
+          </LogicResultAction>
+          <LogicResultAction>
+            <scriptCallWithTag scriptName="FRA_YM_UniqueRecruitment" />
+          </LogicResultAction>
+        </FilterBlock>
+      </logic>
+      <outputs ownerID="1" targetID="2" fromX="365" fromY="-580" />
+    </nodes>
+    <nodes xsi:type="NodeAdventure" ID="2" positionX="500" positionY="-30" width="350" height="660" image="EV_A_OFICINA_NO_VALE">
+      <logic>
+        <ModifierBlock>
+          <LogicModifiers>
+            <scriptCallWithTag scriptName="FMO_YM_DiscoverResearch" />
+          </LogicModifiers>
+        </ModifierBlock>
+      </logic>
+      <outputs ownerID="2" targetID="3" fromX="825" fromY="-580" name="Ajudar Yuri a terminar um golem e recrutá-lo." />
+      <outputs ownerID="2" targetID="4" fromX="825" fromY="-660" name="Agradecer e seguir viagem." />Uma oficina ainda está acesa no vale. O artífice, com mãos manchadas de cinza e óleo, molda um corpo de argila sob a luz das brasas. Yuri Mizuki levanta o olhar, com olhos âmbar brilhando.
+
+— Vocês chegam na hora certa. Este golem precisa de um sopro final, e eu preciso de companhia. Quem sabe, juntos, criamos algo que dure mais que uma vida?</nodes>
+    <nodes xsi:type="NodeAdventure" ID="3" positionX="960" positionY="-30" width="350" height="660" image="EV_A_OFICINA_NO_VALE">
+      <logic>
+        <ModifierBlock>
+          <LogicModifiers>
+            <scriptCallWithTag scriptName="FMO_YM_UniqueRecruitment" />
+          </LogicModifiers>
+        </ModifierBlock>
+      </logic>
+      <outputs ownerID="3" targetID="4" fromX="1285" fromY="-580" name="Partir com Yuri." />Yuri apaga as brasas e guarda as ferramentas. O golem recém-acordado move seus primeiros passos pesados.</nodes>
+    <nodes xsi:type="NodeAdventureEnd" ID="4" positionX="1420" positionY="-30" width="350" height="660" linkedEventUniqueID="0" />
+  </Adventure>
+
+  <Adventure name="A Forja Viva" uniqueID="2" allowOnce="false" typeGeneric="false" typePerGroupGeneric="true" typeInterrupt="false" typeExpedition="false" typeVillage="false" difficulty="0" nodeIdMax="10" joinIsForced="false" joinType="OnlyOwn" joinRange="SinglePosition">
+    <nodes xsi:type="NodeStarting" ID="1" positionX="40" positionY="-30" width="350" height="660" image="EV_A_FORJA_VIVA">
+      <logic>
+        <FilterBlock>
+          <LogicFilter name="yuri">
+            <scriptCallWithTag scriptName="FwT_ThisPlayerThisGroupCharacters" parameter="1" tag="SUBRACE-YURI_MIZUKI" />
+          </LogicFilter>
+          <LogicResultAction list="yuri">
+            <scriptCallWithTag scriptName="FRA_ListSizeMoreEqualThan" parameter="1" />
+          </LogicResultAction>
+          <LogicResultAction>
+            <scriptCallWithTag scriptName="FRA_TurnAboveOrEqualValue" parameter="7" />
+          </LogicResultAction>
+        </FilterBlock>
+      </logic>
+      <outputs ownerID="1" targetID="2" fromX="365" fromY="-580" />
+    </nodes>
+    <nodes xsi:type="NodeAdventure" ID="2" positionX="500" positionY="-30" width="350" height="660" image="EV_A_FORJA_VIVA">
+      <outputs ownerID="2" targetID="3" fromX="825" fromY="-580" name="Forjar Golem Inferior (T1) - 4 de vida física de Yuri." />
+      <outputs ownerID="2" targetID="4" fromX="825" fromY="-660" name="Forjar Golem Feitor (T2) - 6 de vida física de Yuri. Exige oficina." />
+      <outputs ownerID="2" targetID="5" fromX="825" fromY="-740" name="Forjar Golem Superior (T3) - 8 de vida física de Yuri. Exige forja e oficina." />
+      <outputs ownerID="2" targetID="6" fromX="825" fromY="-820" name="Seguir viagem." />Yuri monta a bigorna sobre um cepo. — Mostrem o que temos na bagagem. Cada golem custa parte da minha vitalidade, mas eles são meus filhos.</nodes>
+    <nodes xsi:type="NodeAdventureEnd" ID="3" positionX="1420" positionY="-30" width="350" height="660" linkedEventUniqueID="0" />
+    <nodes xsi:type="NodeAdventureEnd" ID="4" positionX="1420" positionY="-30" width="350" height="660" linkedEventUniqueID="0" />
+    <nodes xsi:type="NodeAdventureEnd" ID="5" positionX="1420" positionY="-30" width="350" height="660" linkedEventUniqueID="0" />
+    <nodes xsi:type="NodeAdventureEnd" ID="6" positionX="1420" positionY="-30" width="350" height="660" linkedEventUniqueID="0" />
+  </Adventure>
+
+  <Adventure name="O Sopro de Argila" uniqueID="3" allowOnce="false" typeGeneric="false" typePerGroupGeneric="true" typeInterrupt="false" typeExpedition="false" typeVillage="false" difficulty="0" nodeIdMax="8" joinIsForced="false" joinType="OnlyOwn" joinRange="SinglePosition">
+    <nodes xsi:type="NodeStarting" ID="1" positionX="40" positionY="-30" width="350" height="660" image="EV_SOPRO_DE_ARGILA">
+      <logic>
+        <FilterBlock>
+          <LogicFilter name="golems">
+            <scriptCallWithTag scriptName="FwT_ThisPlayerThisGroupCharacters" parameter="2" tag="TAG-YM_GOLEM_CORE" />
+          </LogicFilter>
+          <LogicResultAction list="golems">
+            <scriptCallWithTag scriptName="FRA_ListSizeMoreEqualThan" parameter="2" />
+          </LogicResultAction>
+          <LogicFilter name="masculino">
+            <scriptCallWithTag scriptName="FwT_ThisPlayerThisGroupCharacters" parameter="1" tag="TAG-YM_GENDER_MASCULINO" />
+          </LogicFilter>
+          <LogicFilter name="feminino">
+            <scriptCallWithTag scriptName="FwT_ThisPlayerThisGroupCharacters" parameter="1" tag="TAG-YM_GENDER_FEMININO" />
+          </LogicFilter>
+          <LogicResultAction list="masculino">
+            <scriptCallWithTag scriptName="FRA_ListSizeMoreEqualThan" parameter="1" />
+          </LogicResultAction>
+          <LogicResultAction list="feminino">
+            <scriptCallWithTag scriptName="FRA_ListSizeMoreEqualThan" parameter="1" />
+          </LogicResultAction>
+          <LogicFilter name="argila">
+            <scriptCallWithTag scriptName="FwT_ThisPlayerThisGroupResources" parameter="1" tag="TAG-CLAY" />
+          </LogicFilter>
+          <LogicResultAction list="argila">
+            <scriptCallWithTag scriptName="FRA_ListSizeMoreEqualThan" parameter="4" />
+          </LogicResultAction>
+          <LogicResultAction>
+            <scriptCallWithTag scriptName="FRA_Chance" parameter="10" />
+          </LogicResultAction>
+        </FilterBlock>
+      </logic>
+      <outputs ownerID="1" targetID="2" fromX="365" fromY="-580" />
+    </nodes>
+    <nodes xsi:type="NodeAdventure" ID="2" positionX="500" positionY="-30" width="350" height="660" image="EV_SOPRO_DE_ARGILA">
+      <outputs ownerID="2" targetID="3" fromX="825" fromY="-580" name="Soprar a argila e criar um filho golem." />
+      <outputs ownerID="2" targetID="4" fromX="825" fromY="-660" name="Seguir viagem." />Dois golens se encostam um ao outro, e Yuri mistura argila com essência. — O sopro de argila une pais e cria vida onde só havia matéria.</nodes>
+    <nodes xsi:type="NodeAdventure" ID="3" positionX="960" positionY="-30" width="350" height="660" image="EV_SOPRO_DE_ARGILA">
+      <logic>
+        <ModifierBlock>
+          <LogicModifiers>
+            <scriptCallWithTag scriptName="FMO_YM_ForjarProle" />
+          </LogicModifiers>
+        </ModifierBlock>
+      </logic>
+      <outputs ownerID="3" targetID="5" fromX="1285" fromY="-580" name="Esperar o nascimento." />A argila se mexe. Um filhote de golem acorda entre os pais.</nodes>
+    <nodes xsi:type="NodeAdventureEnd" ID="4" positionX="1420" positionY="-30" width="350" height="660" linkedEventUniqueID="0" />
+    <nodes xsi:type="NodeAdventureEnd" ID="5" positionX="1420" positionY="-30" width="350" height="660" linkedEventUniqueID="0" />
+  </Adventure>
+
+  <Adventure name="Batismo de Golem" uniqueID="4" allowOnce="false" typeGeneric="false" typePerGroupGeneric="true" typeInterrupt="false" typeExpedition="false" typeVillage="false" difficulty="0" nodeIdMax="10" joinIsForced="false" joinType="OnlyOwn" joinRange="SinglePosition">
+    <nodes xsi:type="NodeStarting" ID="1" positionX="40" positionY="-30" width="350" height="660" image="EV_BATISMO">
+      <logic>
+        <FilterBlock>
+          <LogicFilter name="yuri">
+            <scriptCallWithTag scriptName="FwT_ThisPlayerThisGroupCharacters" parameter="1" tag="SUBRACE-YURI_MIZUKI" />
+          </LogicFilter>
+          <LogicResultAction list="yuri">
+            <scriptCallWithTag scriptName="FRA_ListSizeMoreEqualThan" parameter="1" />
+          </LogicResultAction>
+          <LogicFilter name="golemT3">
+            <scriptCallWithTag scriptName="FwT_ThisPlayerThisGroupCharacters" parameter="1" tag="TAG-YM_GOLEM_CORE" />
+          </LogicFilter>
+          <LogicProcessing name="t3" list1="golemT3">
+            <scriptCallWithTag scriptName="FLP_FilterByTag" parameter="13" tag="TAG-WISDOM" />
+          </LogicProcessing>
+          <LogicResultAction list="t3">
+            <scriptCallWithTag scriptName="FRA_ListSizeMoreEqualThan" parameter="7" />
+          </LogicResultAction>
+          <LogicFilter name="essencia">
+            <scriptCallWithTag scriptName="FwT_ThisPlayerThisGroupResources" parameter="1" tag="TAG-HERBS" />
+          </LogicFilter>
+          <LogicResultAction list="essencia">
+            <scriptCallWithTag scriptName="FRA_ListSizeMoreEqualThan" parameter="1" />
+          </LogicResultAction>
+          <LogicResultAction>
+            <scriptCallWithTag scriptName="FRA_Chance" parameter="15" />
+          </LogicResultAction>
+        </FilterBlock>
+      </logic>
+      <outputs ownerID="1" targetID="2" fromX="365" fromY="-580" />
+    </nodes>
+    <nodes xsi:type="NodeAdventure" ID="2" positionX="500" positionY="-30" width="350" height="660" image="EV_BATISMO">
+      <outputs ownerID="2" targetID="3" fromX="825" fromY="-580" name="Realizar o Batismo (d100) - Escolha gênero e personalidade." />
+      <outputs ownerID="2" targetID="4" fromX="825" fromY="-660" name="Seguir viagem." />Yuri prepara o pingente de ouro e âmbar. — Um golem com nome nunca será só matéria. O batismo dá alma ao corpo.</nodes>
+    <nodes xsi:type="NodeAdventureEnd" ID="3" positionX="1420" positionY="-30" width="350" height="660" linkedEventUniqueID="0" />
+    <nodes xsi:type="NodeAdventureEnd" ID="4" positionX="1420" positionY="-30" width="350" height="660" linkedEventUniqueID="0" />
+  </Adventure>
+
+  <Adventure name="O Filho que Não Quer Nome" uniqueID="5" allowOnce="false" typeGeneric="false" typePerGroupGeneric="true" typeInterrupt="false" typeExpedition="false" typeVillage="false" difficulty="0" nodeIdMax="6" joinIsForced="false" joinType="OnlyOwn" joinRange="SinglePosition">
+    <nodes xsi:type="NodeStarting" ID="1" positionX="40" positionY="-30" width="350" height="660" image="EV_FILHO_SEM_NOME">
+      <logic>
+        <FilterBlock>
+          <LogicFilter name="yuri">
+            <scriptCallWithTag scriptName="FwT_ThisPlayerThisGroupCharacters" parameter="1" tag="SUBRACE-YURI_MIZUKI" />
+          </LogicFilter>
+          <LogicResultAction list="yuri">
+            <scriptCallWithTag scriptName="FRA_ListSizeMoreEqualThan" parameter="1" />
+          </LogicResultAction>
+          <LogicResultAction>
+            <scriptCallWithTag scriptName="FRA_TurnAboveOrEqualValue" parameter="14" />
+          </LogicResultAction>
+          <LogicResultAction>
+            <scriptCallWithTag scriptName="FRA_Chance" parameter="10" />
+          </LogicResultAction>
+        </FilterBlock>
+      </logic>
+      <outputs ownerID="1" targetID="2" fromX="365" fromY="-580" />
+    </nodes>
+    <nodes xsi:type="NodeAdventure" ID="2" positionX="500" positionY="-30" width="350" height="660" image="EV_FILHO_SEM_NOME">
+      <outputs ownerID="2" targetID="3" fromX="825" fromY="-580" name="Aceitar o golem Errante como é." />
+      <outputs ownerID="2" targetID="4" fromX="825" fromY="-660" name="Fundir o golem e recuperar materiais." />Um golem recém-forjado fugiu do batismo. Volta sem nome, sem personalidade definida, agindo por conta própria no primeiro combate.</nodes>
+    <nodes xsi:type="NodeAdventureEnd" ID="3" positionX="1420" positionY="-30" width="350" height="660" linkedEventUniqueID="0" />
+    <nodes xsi:type="NodeAdventureEnd" ID="4" positionX="1420" positionY="-30" width="350" height="660" linkedEventUniqueID="0" />
+  </Adventure>
+
+  <Adventure name="A Ferramenta que Engoliu o Ferreiro" uniqueID="6" allowOnce="false" typeGeneric="false" typePerGroupGeneric="true" typeInterrupt="false" typeExpedition="false" typeVillage="false" difficulty="0" nodeIdMax="6" joinIsForced="false" joinType="OnlyOwn" joinRange="SinglePosition">
+    <nodes xsi:type="NodeStarting" ID="1" positionX="40" positionY="-30" width="350" height="660" image="EV_FERRAMENTA_ENGOLIU">
+      <logic>
+        <FilterBlock>
+          <LogicFilter name="yuri">
+            <scriptCallWithTag scriptName="FwT_ThisPlayerThisGroupCharacters" parameter="1" tag="SUBRACE-YURI_MIZUKI" />
+          </LogicFilter>
+          <LogicResultAction list="yuri">
+            <scriptCallWithTag scriptName="FRA_ListSizeMoreEqualThan" parameter="1" />
+          </LogicResultAction>
+          <LogicFilter name="ferreiro">
+            <scriptCallWithTag scriptName="FwT_ThisPlayerThisGroupCharacters" parameter="1" tag="TAG-YM_GOLEM_FERREIRO" />
+          </LogicFilter>
+          <LogicResultAction list="ferreiro">
+            <scriptCallWithTag scriptName="FRA_ListSizeMoreEqualThan" parameter="1" />
+          </LogicResultAction>
+          <LogicResultAction>
+            <scriptCallWithTag scriptName="FRA_TurnAboveOrEqualValue" parameter="20" />
+          </LogicResultAction>
+          <LogicResultAction>
+            <scriptCallWithTag scriptName="FRA_Chance" parameter="8" />
+          </LogicResultAction>
+        </FilterBlock>
+      </logic>
+      <outputs ownerID="1" targetID="2" fromX="365" fromY="-580" />
+    </nodes>
+    <nodes xsi:type="NodeAdventure" ID="2" positionX="500" positionY="-30" width="350" height="660" image="EV_FERRAMENTA_ENGOLIU">
+      <outputs ownerID="2" targetID="3" fromX="825" fromY="-580" name="Permitir a troca de corpos (Yuri perde 1 talento, ganha +1 Criação)." />
+      <outputs ownerID="2" targetID="4" fromX="825" fromY="-660" name="Impedir a troca." />O golem Ferreiro tenta forjar sozinho e “engole” a essência de Yuri, trocando de corpo com ele por um instante.</nodes>
+    <nodes xsi:type="NodeAdventureEnd" ID="3" positionX="1420" positionY="-30" width="350" height="660" linkedEventUniqueID="0" />
+    <nodes xsi:type="NodeAdventureEnd" ID="4" positionX="1420" positionY="-30" width="350" height="660" linkedEventUniqueID="0" />
+  </Adventure>
+
+  <Adventure name="O Peso do Pão" uniqueID="7" allowOnce="false" typeGeneric="false" typePerGroupGeneric="true" typeInterrupt="false" typeExpedition="false" typeVillage="false" difficulty="0" nodeIdMax="8" joinIsForced="false" joinType="OnlyOwn" joinRange="SinglePosition">
+    <nodes xsi:type="NodeStarting" ID="1" positionX="40" positionY="-30" width="350" height="660" image="EV_PESO_DO_PAO">
+      <logic>
+        <FilterBlock>
+          <LogicFilter name="paodeCampo">
+            <scriptCallWithTag scriptName="FwT_ThisPlayerThisGroupCharacters" parameter="1" tag="TAG-YM_GOLEM_PAO_DO_CAMPO" />
+          </LogicFilter>
+          <LogicResultAction list="paodeCampo">
+            <scriptCallWithTag scriptName="FRA_ListSizeMoreEqualThan" parameter="1" />
+          </LogicResultAction>
+          <LogicResultAction>
+            <scriptCallWithTag scriptName="FRA_TurnAboveOrEqualValue" parameter="18" />
+          </LogicResultAction>
+          <LogicResultAction>
+            <scriptCallWithTag scriptName="FRA_Chance" parameter="12" />
+          </LogicResultAction>
+        </FilterBlock>
+      </logic>
+      <outputs ownerID="1" targetID="2" fromX="365" fromY="-580" />
+    </nodes>
+    <nodes xsi:type="NodeAdventure" ID="2" positionX="500" positionY="-30" width="350" height="660" image="EV_PESO_DO_PAO">
+      <outputs ownerID="2" targetID="3" fromX="825" fromY="-580" name="Alimentar o Pão-do-Campo (perde comida, moral alta)." />
+      <outputs ownerID="2" targetID="4" fromX="825" fromY="-660" name="Abandonar o golem (−10 moral, fica Luto Eterno)." />
+      <outputs ownerID="2" targetID="5" fromX="825" fromY="-740" name="Convencer com Sabedoria de Yuri ≥ 8." />O Pão-do-Campo, faminto, ameaça comer um aliado. Seu cheiro de fermento fica insuportável.</nodes>
+    <nodes xsi:type="NodeAdventureEnd" ID="3" positionX="1420" positionY="-30" width="350" height="660" linkedEventUniqueID="0" />
+    <nodes xsi:type="NodeAdventureEnd" ID="4" positionX="1420" positionY="-30" width="350" height="660" linkedEventUniqueID="0" />
+    <nodes xsi:type="NodeAdventureEnd" ID="5" positionX="1420" positionY="-30" width="350" height="660" linkedEventUniqueID="0" />
+  </Adventure>
+
+  <Adventure name="A Ceva Chora" uniqueID="8" allowOnce="false" typeGeneric="false" typePerGroupGeneric="true" typeInterrupt="false" typeExpedition="false" typeVillage="false" difficulty="0" nodeIdMax="8" joinIsForced="false" joinType="OnlyOwn" joinRange="SinglePosition">
+    <nodes xsi:type="NodeStarting" ID="1" positionX="40" positionY="-30" width="350" height="660" image="EV_CEVA_CHORA">
+      <logic>
+        <FilterBlock>
+          <LogicFilter name="ceva">
+            <scriptCallWithTag scriptName="FwT_ThisPlayerThisGroupCharacters" parameter="1" tag="TAG-YM_GOLEM_CEVA" />
+          </LogicFilter>
+          <LogicResultAction list="ceva">
+            <scriptCallWithTag scriptName="FRA_ListSizeMoreEqualThan" parameter="1" />
+          </LogicResultAction>
+          <LogicResultAction>
+            <scriptCallWithTag scriptName="FRA_TurnAboveOrEqualValue" parameter="22" />
+          </LogicResultAction>
+          <LogicResultAction>
+            <scriptCallWithTag scriptName="FRA_Chance" parameter="10" />
+          </LogicResultAction>
+        </FilterBlock>
+      </logic>
+      <outputs ownerID="1" targetID="2" fromX="365" fromY="-580" />
+    </nodes>
+    <nodes xsi:type="NodeAdventure" ID="2" positionX="500" positionY="-30" width="350" height="660" image="EV_CEVA_CHORA">
+      <outputs ownerID="2" targetID="3" fromX="825" fromY="-580" name="Aceitar o ritual e trazer o aliado de volta como Fantoche (10 turnos)." />
+      <outputs ownerID="2" targetID="4" fromX="825" fromY="-660" name="Recusar. (+1 moral do grupo)." />À noite, Ceva chora um aliado morto. Seu choro de ervas e água salgada ecoa pela fogueira.</nodes>
+    <nodes xsi:type="NodeAdventureEnd" ID="3" positionX="1420" positionY="-30" width="350" height="660" linkedEventUniqueID="0" />
+    <nodes xsi:type="NodeAdventureEnd" ID="4" positionX="1420" positionY="-30" width="350" height="660" linkedEventUniqueID="0" />
+  </Adventure>
+
+  <Adventure name="O Pedido do Cinzel" uniqueID="9" allowOnce="false" typeGeneric="false" typePerGroupGeneric="true" typeInterrupt="false" typeExpedition="false" typeVillage="false" difficulty="0" nodeIdMax="6" joinIsForced="false" joinType="OnlyOwn" joinRange="SinglePosition">
+    <nodes xsi:type="NodeStarting" ID="1" positionX="40" positionY="-30" width="350" height="660" image="EV_PEDIDO_DO_CINZEL">
+      <logic>
+        <FilterBlock>
+          <LogicFilter name="cinzel">
+            <scriptCallWithTag scriptName="FwT_ThisPlayerThisGroupCharacters" parameter="1" tag="TAG-YM_GOLEM_CINZEL" />
+          </LogicFilter>
+          <LogicResultAction list="cinzel">
+            <scriptCallWithTag scriptName="FRA_ListSizeMoreEqualThan" parameter="1" />
+          </LogicResultAction>
+          <LogicFilter name="lampejo">
+            <scriptCallWithTag scriptName="FwT_ThisPlayerThisGroupCharacters" parameter="1" tag="TAG-YM_GOLEM_LAMPEJO" />
+          </LogicFilter>
+          <LogicResultAction list="lampejo">
+            <scriptCallWithTag scriptName="FRA_ListSizeMoreEqualThan" parameter="1" />
+          </LogicResultAction>
+          <LogicResultAction>
+            <scriptCallWithTag scriptName="FRA_TurnAboveOrEqualValue" parameter="25" />
+          </LogicResultAction>
+          <LogicResultAction>
+            <scriptCallWithTag scriptName="FRA_Chance" parameter="6" />
+          </LogicResultAction>
+        </FilterBlock>
+      </logic>
+      <outputs ownerID="1" targetID="2" fromX="365" fromY="-580" />
+    </nodes>
+    <nodes xsi:type="NodeAdventure" ID="2" positionX="500" positionY="-30" width="350" height="660" image="EV_PEDIDO_DO_CINZEL">
+      <outputs ownerID="2" targetID="3" fromX="825" fromY="-580" name="Oferecer o Lâmp-Âmbar como sacrifício de igual (arma lendária sem penalidade)." />
+      <outputs ownerID="2" targetID="4" fromX="825" fromY="-660" name="Recusar (Cinzel perde 1 de fabricação permanente)." />Cinzel exige um sacrifício de igual: um golem com “vida” em troca de seu conhecimento de forjamento lendário.</nodes>
+    <nodes xsi:type="NodeAdventureEnd" ID="3" positionX="1420" positionY="-30" width="350" height="660" linkedEventUniqueID="0" />
+    <nodes xsi:type="NodeAdventureEnd" ID="4" positionX="1420" positionY="-30" width="350" height="660" linkedEventUniqueID="0" />
+  </Adventure>
+    <Adventure name="Na Passagem do Samurai" uniqueID="20" allowOnce="true" typeGeneric="false" typePerGroupGeneric="true" typeInterrupt="false" typeExpedition="false" typeVillage="false" difficulty="0" nodeIdMax="4" joinIsForced="false" joinType="OnlyOwn" joinRange="SinglePosition">
+    <nodes xsi:type="NodeStarting" ID="1" positionX="40" positionY="-30" width="350" height="660" image="SC_FORJA_GOLEM">
+      <logic><FilterBlock>
+        <LogicFilter name="mentor"><scriptCallWithTag scriptName="FwT_ThisPlayerThisGroupCharacters" parameter="1" tag="SUBRACE-YURI_MIZUKI" /></LogicFilter>
+        <LogicResultAction list="mentor"><scriptCallWithTag scriptName="FRA_ListSizeMoreEqualThan" parameter="1" /></LogicResultAction>
+        <LogicResultAction><scriptCallWithTag scriptName="FRA_TurnAboveOrEqualValue" parameter="31" /></LogicResultAction>
+        <LogicResultAction><scriptCallWithTag scriptName="FRA_Chance" parameter="6" /></LogicResultAction>
+      </FilterBlock></logic>
+      <outputs ownerID="1" targetID="2" fromX="365" fromY="-580" />
+    </nodes>
+    <nodes xsi:type="NodeAdventure" ID="2" positionX="500" positionY="-30" width="350" height="660" image="SC_FORJA_GOLEM">
+      <outputs ownerID="2" targetID="3" fromX="825" fromY="-580" name="Convidar para seguir com a expedição." />
+      <outputs ownerID="2" targetID="4" fromX="825" fromY="-660" name="Deixar para outra ocasião." />Nas galerias desabadas, dois punhos de espada despontam entre as pedras. Yuri pede que ajudem a libertar o guardião, que ainda segura a velha passagem.</nodes>
+    <nodes xsi:type="NodeAdventure" ID="3" positionX="960" positionY="-30" width="350" height="660" image="SC_FORJA_GOLEM">
+      <logic><ModifierBlock><LogicModifiers>
+        <scriptCallWithTag scriptName="FMO_AddCharacterNoDefaultCargo" parameter="1" tag="SUBRACE-GOLEM_GUARDAO_DA_MINA" />
+      </LogicModifiers></ModifierBlock></logic>
+      <outputs ownerID="3" targetID="4" fromX="1285" fromY="-580" name="Continuar." />Guardião da Mina aceita viajar com o grupo.</nodes>
+    <nodes xsi:type="NodeAdventureEnd" ID="4" positionX="1420" positionY="-30" width="350" height="660" linkedEventUniqueID="0" />
+  </Adventure>
+  <Adventure name="Despertar · Guardião da Mina" uniqueID="23" allowOnce="false" typeGeneric="false" typePerGroupGeneric="true" typeInterrupt="false" typeExpedition="false" typeVillage="false" difficulty="0" nodeIdMax="4" joinIsForced="false" joinType="OnlyOwn" joinRange="SinglePosition">
+    <nodes xsi:type="NodeStarting" ID="1" positionX="40" positionY="-30" width="350" height="660" image="SC_FORJA_GOLEM">
+      <logic><FilterBlock>
+        <LogicResultAction><scriptCallWithTag scriptName="FRA_YM_CanAwakenGuard" tag="SUBRACE-GOLEM_GUARDAO_DA_MINA" /></LogicResultAction>
+      </FilterBlock></logic>
+      <outputs ownerID="1" targetID="2" fromX="365" fromY="-580" />
+    </nodes>
+    <nodes xsi:type="NodeAdventure" ID="2" positionX="500" positionY="-30" width="350" height="660" image="SC_FORJA_GOLEM">
+      <outputs ownerID="2" targetID="3" fromX="825" fromY="-580" name="Dar vida ao construto." />
+      <outputs ownerID="2" targetID="4" fromX="825" fromY="-660" name="Deixar para outra ocasião." />Yuri inspeciona o núcleo de Guardião da Mina. A peça está pronta para receber a centelha. O rito consome o núcleo.</nodes>
+    <nodes xsi:type="NodeAdventure" ID="3" positionX="960" positionY="-30" width="350" height="660" image="SC_FORJA_GOLEM">
+      <logic><ModifierBlock><LogicModifiers>
+        <scriptCallWithTag scriptName="FMO_YM_AwakenGuard" tag="SUBRACE-GOLEM_GUARDAO_DA_MINA" />
+      </LogicModifiers></ModifierBlock></logic>
+      <outputs ownerID="3" targetID="4" fromX="1285" fromY="-580" name="Continuar." />Guardião da Mina dá os primeiros passos e se junta à expedição.</nodes>
+    <nodes xsi:type="NodeAdventureEnd" ID="4" positionX="1420" positionY="-30" width="350" height="660" linkedEventUniqueID="0" />
+  </Adventure>
+  <Adventure name="A Vigília de Porcelana" uniqueID="21" allowOnce="true" typeGeneric="false" typePerGroupGeneric="true" typeInterrupt="false" typeExpedition="false" typeVillage="false" difficulty="0" nodeIdMax="4" joinIsForced="false" joinType="OnlyOwn" joinRange="SinglePosition">
+    <nodes xsi:type="NodeStarting" ID="1" positionX="40" positionY="-30" width="350" height="660" image="SC_FORJA_GOLEM">
+      <logic><FilterBlock>
+        <LogicFilter name="mentor"><scriptCallWithTag scriptName="FwT_ThisPlayerThisGroupCharacters" parameter="1" tag="SUBRACE-YURI_MIZUKI" /></LogicFilter>
+        <LogicResultAction list="mentor"><scriptCallWithTag scriptName="FRA_ListSizeMoreEqualThan" parameter="1" /></LogicResultAction>
+        <LogicResultAction><scriptCallWithTag scriptName="FRA_TurnAboveOrEqualValue" parameter="28" /></LogicResultAction>
+        <LogicResultAction><scriptCallWithTag scriptName="FRA_Chance" parameter="6" /></LogicResultAction>
+      </FilterBlock></logic>
+      <outputs ownerID="1" targetID="2" fromX="365" fromY="-580" />
+    </nodes>
+    <nodes xsi:type="NodeAdventure" ID="2" positionX="500" positionY="-30" width="350" height="660" image="SC_FORJA_GOLEM">
+      <outputs ownerID="2" targetID="3" fromX="825" fromY="-580" name="Convidar para seguir com a expedição." />
+      <outputs ownerID="2" targetID="4" fromX="825" fromY="-660" name="Deixar para outra ocasião." />Uma mulher de porcelana mantém a vigília de um santuário vazio. Yuri se apresenta e oferece levar o relicário de volta à estrada.</nodes>
+    <nodes xsi:type="NodeAdventure" ID="3" positionX="960" positionY="-30" width="350" height="660" image="SC_FORJA_GOLEM">
+      <logic><ModifierBlock><LogicModifiers>
+        <scriptCallWithTag scriptName="FMO_AddCharacterNoDefaultCargo" parameter="1" tag="SUBRACE-GOLEM_RELIQUIA" />
+      </LogicModifiers></ModifierBlock></logic>
+      <outputs ownerID="3" targetID="4" fromX="1285" fromY="-580" name="Continuar." />Relíquia aceita viajar com o grupo.</nodes>
+    <nodes xsi:type="NodeAdventureEnd" ID="4" positionX="1420" positionY="-30" width="350" height="660" linkedEventUniqueID="0" />
+  </Adventure>
+  <Adventure name="Despertar · Relíquia" uniqueID="24" allowOnce="false" typeGeneric="false" typePerGroupGeneric="true" typeInterrupt="false" typeExpedition="false" typeVillage="false" difficulty="0" nodeIdMax="4" joinIsForced="false" joinType="OnlyOwn" joinRange="SinglePosition">
+    <nodes xsi:type="NodeStarting" ID="1" positionX="40" positionY="-30" width="350" height="660" image="SC_FORJA_GOLEM">
+      <logic><FilterBlock>
+        <LogicResultAction><scriptCallWithTag scriptName="FRA_YM_CanAwakenGuard" tag="SUBRACE-GOLEM_RELIQUIA" /></LogicResultAction>
+      </FilterBlock></logic>
+      <outputs ownerID="1" targetID="2" fromX="365" fromY="-580" />
+    </nodes>
+    <nodes xsi:type="NodeAdventure" ID="2" positionX="500" positionY="-30" width="350" height="660" image="SC_FORJA_GOLEM">
+      <outputs ownerID="2" targetID="3" fromX="825" fromY="-580" name="Dar vida ao construto." />
+      <outputs ownerID="2" targetID="4" fromX="825" fromY="-660" name="Deixar para outra ocasião." />Yuri inspeciona o núcleo de Relíquia. A peça está pronta para receber a centelha. O rito consome o núcleo.</nodes>
+    <nodes xsi:type="NodeAdventure" ID="3" positionX="960" positionY="-30" width="350" height="660" image="SC_FORJA_GOLEM">
+      <logic><ModifierBlock><LogicModifiers>
+        <scriptCallWithTag scriptName="FMO_YM_AwakenGuard" tag="SUBRACE-GOLEM_RELIQUIA" />
+      </LogicModifiers></ModifierBlock></logic>
+      <outputs ownerID="3" targetID="4" fromX="1285" fromY="-580" name="Continuar." />Relíquia dá os primeiros passos e se junta à expedição.</nodes>
+    <nodes xsi:type="NodeAdventureEnd" ID="4" positionX="1420" positionY="-30" width="350" height="660" linkedEventUniqueID="0" />
+  </Adventure>
+  <Adventure name="O Guardião do Limiar" uniqueID="22" allowOnce="true" typeGeneric="false" typePerGroupGeneric="true" typeInterrupt="false" typeExpedition="false" typeVillage="false" difficulty="0" nodeIdMax="4" joinIsForced="false" joinType="OnlyOwn" joinRange="SinglePosition">
+    <nodes xsi:type="NodeStarting" ID="1" positionX="40" positionY="-30" width="350" height="660" image="YM_Komainu_Evento">
+      <logic><FilterBlock>
+        <LogicFilter name="mentor"><scriptCallWithTag scriptName="FwT_ThisPlayerThisGroupCharacters" parameter="1" tag="SUBRACE-YURI_MIZUKI" /></LogicFilter>
+        <LogicResultAction list="mentor"><scriptCallWithTag scriptName="FRA_ListSizeMoreEqualThan" parameter="1" /></LogicResultAction>
+        <LogicResultAction><scriptCallWithTag scriptName="FRA_TurnAboveOrEqualValue" parameter="24" /></LogicResultAction>
+        <LogicResultAction><scriptCallWithTag scriptName="FRA_Chance" parameter="7" /></LogicResultAction>
+      </FilterBlock></logic>
+      <outputs ownerID="1" targetID="2" fromX="365" fromY="-580" />
+    </nodes>
+    <nodes xsi:type="NodeAdventure" ID="2" positionX="500" positionY="-30" width="350" height="660" image="YM_Komainu_Evento">
+      <outputs ownerID="2" targetID="3" fromX="825" fromY="-580" name="Convidar para seguir com a expedição." />
+      <outputs ownerID="2" targetID="4" fromX="825" fromY="-660" name="Deixar para outra ocasião." />No limiar de um santuário abandonado, um leão de pedra ainda vigia a entrada. Yuri baixa a cabeça e aponta a fissura no núcleo.</nodes>
+    <nodes xsi:type="NodeAdventure" ID="3" positionX="960" positionY="-30" width="350" height="660" image="YM_Komainu_Evento">
+      <logic><ModifierBlock><LogicModifiers>
+        <scriptCallWithTag scriptName="FMO_AddCharacterNoDefaultCargo" parameter="1" tag="SUBRACE-GOLEM_KOMAINU" />
+      </LogicModifiers></ModifierBlock></logic>
+      <outputs ownerID="3" targetID="4" fromX="1285" fromY="-580" name="Continuar." />Komainu do Limiar aceita viajar com o grupo.</nodes>
+    <nodes xsi:type="NodeAdventureEnd" ID="4" positionX="1420" positionY="-30" width="350" height="660" linkedEventUniqueID="0" />
+  </Adventure>
+  <Adventure name="Despertar · Komainu do Limiar" uniqueID="25" allowOnce="false" typeGeneric="false" typePerGroupGeneric="true" typeInterrupt="false" typeExpedition="false" typeVillage="false" difficulty="0" nodeIdMax="4" joinIsForced="false" joinType="OnlyOwn" joinRange="SinglePosition">
+    <nodes xsi:type="NodeStarting" ID="1" positionX="40" positionY="-30" width="350" height="660" image="SC_FORJA_GOLEM">
+      <logic><FilterBlock>
+        <LogicResultAction><scriptCallWithTag scriptName="FRA_YM_CanAwakenGuard" tag="SUBRACE-GOLEM_KOMAINU" /></LogicResultAction>
+      </FilterBlock></logic>
+      <outputs ownerID="1" targetID="2" fromX="365" fromY="-580" />
+    </nodes>
+    <nodes xsi:type="NodeAdventure" ID="2" positionX="500" positionY="-30" width="350" height="660" image="SC_FORJA_GOLEM">
+      <outputs ownerID="2" targetID="3" fromX="825" fromY="-580" name="Dar vida ao construto." />
+      <outputs ownerID="2" targetID="4" fromX="825" fromY="-660" name="Deixar para outra ocasião." />Yuri inspeciona o núcleo de Komainu do Limiar. A peça está pronta para receber a centelha. O rito consome o núcleo.</nodes>
+    <nodes xsi:type="NodeAdventure" ID="3" positionX="960" positionY="-30" width="350" height="660" image="SC_FORJA_GOLEM">
+      <logic><ModifierBlock><LogicModifiers>
+        <scriptCallWithTag scriptName="FMO_YM_AwakenGuard" tag="SUBRACE-GOLEM_KOMAINU" />
+      </LogicModifiers></ModifierBlock></logic>
+      <outputs ownerID="3" targetID="4" fromX="1285" fromY="-580" name="Continuar." />Komainu do Limiar dá os primeiros passos e se junta à expedição.</nodes>
+    <nodes xsi:type="NodeAdventureEnd" ID="4" positionX="1420" positionY="-30" width="350" height="660" linkedEventUniqueID="0" />
+  </Adventure>
+  <Adventure name="Uma Centelha em Comum" uniqueID="26" allowOnce="false" typeGeneric="false" typePerGroupGeneric="true" typeInterrupt="false" typeExpedition="false" typeVillage="false" difficulty="0" nodeIdMax="4" joinIsForced="false" joinType="OnlyOwn" joinRange="SinglePosition">
+    <nodes xsi:type="NodeStarting" ID="1" positionX="40" positionY="-30" width="350" height="660" image="SC_FORJA_GOLEM">
+      <logic><FilterBlock>
+        <LogicResultAction><scriptCallWithTag scriptName="FRA_YM_CanHaveKin" /></LogicResultAction>
+        <LogicResultAction><scriptCallWithTag scriptName="FRA_TurnAboveOrEqualValue" parameter="24" /></LogicResultAction>
+        <LogicResultAction><scriptCallWithTag scriptName="FRA_Chance" parameter="5" /></LogicResultAction>
+      </FilterBlock></logic>
+      <outputs ownerID="1" targetID="2" fromX="365" fromY="-580" />
+    </nodes>
+    <nodes xsi:type="NodeAdventure" ID="2" positionX="500" positionY="-30" width="350" height="660" image="SC_FORJA_GOLEM">
+      <outputs ownerID="2" targetID="3" fromX="825" fromY="-580" name="Dar espaço para que os dois decidam." />
+      <outputs ownerID="2" targetID="4" fromX="825" fromY="-660" name="Deixar para outra ocasião." />Na vigília, dois adultos confessam que querem formar família. Pelo menos um deles carrega a linhagem dos golens. Uma centelha poderá despertar com as heranças dos dois.</nodes>
+    <nodes xsi:type="NodeAdventure" ID="3" positionX="960" positionY="-30" width="350" height="660" image="SC_FORJA_GOLEM">
+      <logic><ModifierBlock><LogicModifiers>
+        <scriptCallWithTag scriptName="FMO_YM_AddKin" />
+      </LogicModifiers></ModifierBlock></logic>
+      <outputs ownerID="3" targetID="4" fromX="1285" fromY="-580" name="Continuar." />Com o consentimento dos dois, nasce uma criança com as marcas da família.</nodes>
+    <nodes xsi:type="NodeAdventureEnd" ID="4" positionX="1420" positionY="-30" width="350" height="660" linkedEventUniqueID="0" />
+  </Adventure>
+  <Adventure name="A Primeira Marca" uniqueID="27" allowOnce="false" typeGeneric="false" typePerGroupGeneric="true" typeInterrupt="false" typeExpedition="false" typeVillage="false" difficulty="0" nodeIdMax="4" joinIsForced="false" joinType="OnlyOwn" joinRange="SinglePosition">
+    <nodes xsi:type="NodeStarting" ID="1" positionX="40" positionY="-30" width="350" height="660" image="SC_FORJA_GOLEM">
+      <logic><FilterBlock>
+        <LogicResultAction><scriptCallWithTag scriptName="FRA_YM_HasGrowingKin" /></LogicResultAction>
+      </FilterBlock></logic>
+      <outputs ownerID="1" targetID="2" fromX="365" fromY="-580" />
+    </nodes>
+    <nodes xsi:type="NodeAdventure" ID="2" positionX="500" positionY="-30" width="350" height="660" image="SC_FORJA_GOLEM">
+      <outputs ownerID="2" targetID="3" fromX="825" fromY="-580" name="Celebrar a passagem." />
+      <outputs ownerID="2" targetID="4" fromX="825" fromY="-660" name="Deixar para outra ocasião." />Um jovem de núcleo mineral chegou à idade adulta. As marcas herdadas ganharam novos contornos.</nodes>
+    <nodes xsi:type="NodeAdventure" ID="3" positionX="960" positionY="-30" width="350" height="660" image="SC_FORJA_GOLEM">
+      <logic><ModifierBlock><LogicModifiers>
+        <scriptCallWithTag scriptName="FMO_YM_GrowKin" />
+      </LogicModifiers></ModifierBlock></logic>
+      <outputs ownerID="3" targetID="4" fromX="1285" fromY="-580" name="Continuar." />A pessoa amadurece e mantém as heranças da família.</nodes>
+    <nodes xsi:type="NodeAdventureEnd" ID="4" positionX="1420" positionY="-30" width="350" height="660" linkedEventUniqueID="0" />
+  </Adventure>
+</MODULE>

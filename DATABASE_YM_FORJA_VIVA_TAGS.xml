@@ -1,0 +1,7 @@
+<TAGS>
+  <TAG-YM_FORJA_VIVA Visible="TRUE">
+    <DescriptionInfo Name="Forja Viva" Description="Suportes de pedra abrem uma vaga de fabricação e as bancadas auxiliam a pesquisa." IconName="BuildingArmouryStone" />
+    <TagType Value="ItemType" />
+    <Parent Value="TAG-BUILDING" />
+  </TAG-YM_FORJA_VIVA>
+</TAGS>

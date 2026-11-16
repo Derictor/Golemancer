@@ -1,0 +1,19 @@
+<RECEIPTS_BUILDING>
+  <BUILD_REC-YM_FORJA_VIVA Durability="40">
+    <RecipeBase ResearchCost="4" ResChildForbid="FALSE">
+      <DescriptionInfo Name="Forja Viva" Description="Suportes de pedra abrem uma vaga de fabricação e as bancadas auxiliam a pesquisa." IconName="BuildingArmouryStone" />
+      <CountedTag Tag="TAG-YM_FORJA_VIVA" Amount="1.0" />
+      <MaterialRow>
+        <Material ResourceCount="56">
+          <Resource Value="RES-SANDSTONE" />
+        </Material>
+      </MaterialRow>
+      <MaterialRow>
+        <Material ResourceCount="32">
+          <Resource Value="RES-STEEL" />
+        </Material>
+      </MaterialRow>
+    </RecipeBase>
+    <Skills Value="SKILL_PACK-YM_FORJA_VIVA" />
+  </BUILD_REC-YM_FORJA_VIVA>
+</RECEIPTS_BUILDING>

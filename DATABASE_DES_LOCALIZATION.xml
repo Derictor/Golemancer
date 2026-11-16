@@ -1,0 +1,338 @@
+<DATABASE_DES_LOCALIZATION-NO_HSH>
+  <LOC_LIBRARY-YURI_PT Language="Portuguese">
+    <!-- Classe Yuri Mizuki -->
+    <Entry Key="DES_YURI_CLASSE" Val="Golemancer - Forjado de Golens" />
+    <Entry Key="DES_YURI_CLASSE_DES" Val="Yuri Mizuki é um artífice e ferreiro que despertou a capacidade de soprar memória em matéria inanimada. Ele cria golens vivos a partir de pedra, metal, madeira, ossos, comida e ervas. Cada golem é um filho, um companheiro de batalha e uma extensão da forja de Yuri." />
+    
+    <!-- Skills de Yuri -->
+    <Entry Key="DES_YURI_FORJA_VIVA" Val="Forja Viva" />
+    <Entry Key="DES_YURI_FORJA_VIVA_DES" Val="Aumenta a contribuição de fabricação e capacidade de carga do grupo. Yuri pode criar golens e itens em qualquer acampamento." />
+    <Entry Key="DES_YURI_FORNAR" Val="Fornar" />
+    <Entry Key="DES_YURI_FORNAR_DES" Val="Aumenta a contribuição de fabricação. Permite ativar receitas de golem diretamente no campo." />
+    <Entry Key="DES_YURI_BATISMO" Val="Batismo de Golem" />
+    <Entry Key="DES_YURI_BATISMO_DES" Val="Dá nome, gênero e personalidade única a um golem T3, transformando-o em um Único batizado por campanha." />
+    <Entry Key="DES_YURI_APRENDIZ" Val="Aprendiz da Forja" />
+    <Entry Key="DES_YURI_APRENDIZ_DES" Val="Ensina técnicas de forja a companheiros, permitindo que eles fabriquem itens simples da escola de Yuri." />
+    
+    <!-- Golens T1 -->
+    <Entry Key="DES_YM_CHOQUE" Val="Choque" />
+    <Entry Key="DES_YM_CHOQUE_DES" Val="Golem de pedra e argila. Tanque de barreira com alta proteção física. Fiel ao portador." />
+    <Entry Key="DES_YM_CASCALHO" Val="Cascalho" />
+    <Entry Key="DES_YM_CASCALHO_DES" Val="Golem de pedra e osso. Batedor agressivo com ataque físico e chance de atordoar." />
+    <Entry Key="DES_YM_GALHO" Val="Galho" />
+    <Entry Key="DES_YM_GALHO_DES" Val="Golem de madeira. Batedor florestal com visão noturna e ataque de envenenamento leve." />
+    <Entry Key="DES_YM_LAMPEJO" Val="Lâmp-Âmbar" />
+    <Entry Key="DES_YM_LAMPEJO_DES" Val="Golem de âmbar e quartzo. Lanterna viva que aumenta o alcance de visão noturna. Tímido." />
+    <Entry Key="DES_YM_MASSA" Val="Massa-Mãe" />
+    <Entry Key="DES_YM_MASSA_DES" Val="Golem de grãos e nozes. Suporte de cura leve e produção de alimentos no acampamento. Maternal." />
+    <Entry Key="DES_YM_SEIXO" Val="Seixo" />
+    <Entry Key="DES_YM_SEIXO_DES" Val="Golem de pedra pura. Golem de estimação com bônus de sorte. Carinhoso com outros golens." />
+    
+    <!-- Golens T2 -->
+    <Entry Key="DES_YM_FERRO_VIDO" Val="Ferro-Vido" />
+    <Entry Key="DES_YM_FERRO_VIDO_DES" Val="Golem de ferro e pedra. Escudeiro com proteção física alta e capacidade de converter vida em escudo. Protetivo." />
+    <Entry Key="DES_YM_RAIZ" Val="Raiz" />
+    <Entry Key="DES_YM_RAIZ_DES" Val="Golem de madeira de dríade. Suporte noturno com regeneração mental. Sereno e imune a moral negativa." />
+    <Entry Key="DES_YM_OSSADA" Val="Ossada" />
+    <Entry Key="DES_YM_OSSADA_DES" Val="Golem de ossos e argila. Anti-fera com dano bônus contra bestas. Territorial." />
+    <Entry Key="DES_YM_CRISTAL" Val="Cristal" />
+    <Entry Key="DES_YM_CRISTAL_DES" Val="Golem de quartzo e âmbar. Ressoante mental com ataque psíquico. Ecoico." />
+    <Entry Key="DES_YM_PAO_DO_CAMPO" Val="Pão-do-Campo" />
+    <Entry Key="DES_YM_PAO_DO_CAMPO_DES" Val="Golem de comida cozida e grãos. Ração viva que aumenta a carga de comida do grupo. Faminto." />
+    
+    <!-- Golens T3 -->
+    <Entry Key="DES_YM_MURALHA" Val="Muralha" />
+    <Entry Key="DES_YM_MURALHA_DES" Val="Golem de granito e pedra armada. Muralha impassível com proteção física extrema. Leal Absoluto." />
+    <Entry Key="DES_YM_VIUVA" Val="Viúva-de-Cedro" />
+    <Entry Key="DES_YM_VIUVA_DES" Val="Golem de madeira sagrada. Fortalece o grupo quando há mortos. Luto Eterno." />
+    <Entry Key="DES_YM_VEJO" Val="Veio" />
+    <Entry Key="DES_YM_VEJO_DES" Val="Golem de gema, diamante e pedra-da-lua. Curinga de resistência a todos os tipos. Vaidoso." />
+    <Entry Key="DES_YM_AGULHA" Val="Agulha" />
+    <Entry Key="DES_YM_AGULHA_DES" Val="Golem de ervas e cogumelos. Médico de campo com cura em área. Meticuloso." />
+    <Entry Key="DES_YM_FERREIRO" Val="Ferreiro" />
+    <Entry Key="DES_YM_FERREIRO_DES" Val="Golem de ferro e aço. Arma viva que aumenta a fabricação do grupo e produz itens. Exigente." />
+    
+    <!-- Golens T4 Únicos -->
+    <Entry Key="DES_YM_GUARDAO_DA_MINA" Val="Guardião da Mina" />
+    <Entry Key="DES_YM_GUARDAO_DA_MINA_DES" Val="Samurai de granito. O daishō combina katana e wakizashi. Sua disciplina favorece Força, Percepção e Sabedoria." />
+    <Entry Key="DES_YM_DRAGAO_OSSO" Val="Dragão de Osso" />
+    <Entry Key="DES_YM_DRAGAO_OSSO_DES" Val="Único de ossos de dragão e essência da morte. Mago de essência com dano verdadeiro. Arito." />
+    <Entry Key="DES_YM_CEVA" Val="Ceva" />
+    <Entry Key="DES_YM_CEVA_DES" Val="Único de ervas e essência da vida. Curandeiro amaldiçoado que cura o grupo mas custa HP permanentes. Empático." />
+    <Entry Key="DES_YM_CINZEL" Val="Cinzel" />
+    <Entry Key="DES_YM_CINZEL_DES" Val="Mestra-forjadora de aço e mithril. Aumenta a fabricação e usa seu martelo para atrasar inimigos no combate físico." />
+    
+    <!-- Golens de Evento -->
+    <Entry Key="DES_YM_ESTALO" Val="Estalo" />
+    <Entry Key="DES_YM_ESTALO_DES" Val="Golem de obsidiana e igneo. Vidraceiro de fogo com dano de área. Imprevisível." />
+    <Entry Key="DES_YM_TERRA_VIVA" Val="Terra Viva" />
+    <Entry Key="DES_YM_TERRA_VIVA_DES" Val="Golem de argila e núcleo da terra. Construtor de trincheiras com defesa de terreno. Paciente." />
+    <Entry Key="DES_YM_FANTASMA_DE_FORG" Val="Fantasma de Forja" />
+    <Entry Key="DES_YM_FANTASMA_DE_FORG_DES" Val="Único do vazio. Anula subsídios inimigos. Fala em língua morta. Vazio." />
+    <Entry Key="DES_YM_GEMEO" Val="Gêmeo-Âmbar" />
+    <Entry Key="DES_YM_GEMEO_DES" Val="Par de âmbar e malaquita. Copia habilidades do outro gêmeo. HP compartilhado." />
+    
+    <!-- Halfs -->
+    <Entry Key="DES_HALF_ARGILA" Val="Meio-Argila" />
+    <Entry Key="DES_HALF_ARGILA_DES" Val="Descendente de Yuri e golem de argila. Humano com alta inteligência e sabedoria." />
+    <Entry Key="DES_HALF_BRASA" Val="Meio-Brasa" />
+    <Entry Key="DES_HALF_BRASA_DES" Val="Descendente de Yuri e golem de brasa. Humano com alta sabedoria e misticismo." />
+    
+    <!-- Traços de Personalidade -->
+    <Entry Key="DES_YM_PERS_LEAL" Val="Leal" />
+    <Entry Key="DES_YM_PERS_LEAL_DES" Val="Moral alta e nunca deixa o grupo. Protetivo." />
+    <Entry Key="DES_YM_PERS_AGRESSIVO" Val="Agressivo" />
+    <Entry Key="DES_YM_PERS_AGRESSIVO_DES" Val="Dano físico aumentado, mas perde moral sem combate." />
+    <Entry Key="DES_YM_PERS_SERENO" Val="Sereno" />
+    <Entry Key="DES_YM_PERS_SERENO_DES" Val="Imune a redução de moral." />
+    <Entry Key="DES_YM_PERS_VAIDOSO" Val="Vaidoso" />
+    <Entry Key="DES_YM_PERS_VAIDOSO_DES" Val="Bônus de sorte, exige jóia equipada." />
+    
+    <!-- Itens de Yuri -->
+    <Entry Key="DES_YM_LAMINA_FORJA" Val="Lâmina de Forja" />
+    <Entry Key="DES_YM_LAMINA_FORJA_DES" Val="Arma de aço com bônus de dano e fabricação." />
+    <Entry Key="DES_YM_MARTELO_MESTRE" Val="Martelo-Mestre" />
+    <Entry Key="DES_YM_MARTELO_MESTRE_DES" Val="Martelo de duas mãos com dano e atordoamento." />
+    <Entry Key="DES_YM_MALHA_COTA" Val="Malha de Cota-Viva" />
+    <Entry Key="DES_YM_MALHA_COTA_DES" Val="Armadura de aço com proteção física e imune a atordoamento." />
+    <Entry Key="DES_YM_ESCUDO_PEDRA" Val="Escudo-Pedra" />
+    <Entry Key="DES_YM_ESCUDO_PEDRA_DES" Val="Escudo de granito com shifting de escudo." />
+    <Entry Key="DES_YM_ALVO_AMBER" Val="Alvo de Âmbar" />
+    <Entry Key="DES_YM_ALVO_AMBER_DES" Val="Jóia de âmbar com bônus de ritual e dano espiritual." />
+    <Entry Key="DES_YM_PAO_VIVO" Val="Pão-Vivo" />
+    <Entry Key="DES_YM_PAO_VIVO_DES" Val="Comida viva com bônus de moral e recuperação de HP." />
+    <Entry Key="DES_YM_ERVA_FORJA" Val="Erva da Forja" />
+    <Entry Key="DES_YM_ERVA_FORJA_DES" Val="Erva mágica que cura HP instantaneamente." />
+    <Entry Key="DES_YM_ARMADILHA_LAMBRI" Val="Armadilha de Lambri" />
+    <Entry Key="DES_YM_ARMADILHA_LAMBRI_DES" Val="Armadilha de argila que protege o acampamento." />
+    <Entry Key="DES_YM_PINGENTE_NOME" Val="Pingente do Nome" />
+    <Entry Key="DES_YM_PINGENTE_NOME_DES" Val="Jóia de ouro e âmbar para rebatizar um golem." />
+    
+    <!-- Novos Golens Expansão -->
+    <Entry Key="DES_YM_OBSIDIANA" Val="Obsidiana" />
+    <Entry Key="DES_YM_OBSIDIANA_DES" Val="Golem de obsidiana e igneo. Tanque de fogo com alto dano físico e resistência extrema." />
+    <Entry Key="DES_YM_SANGUE" Val="Sangue" />
+    <Entry Key="DES_YM_SANGUE_DES" Val="Golem de ossos de sangue e carne. Curandeiro de vida com leech e regeneração. Empático." />
+    <Entry Key="DES_YM_NEBULINA" Val="Nebulina" />
+    <Entry Key="DES_YM_NEBULINA_DES" Val="Golem de essência esquecida e centelheiro do vazio. Mago espiritual com alta percepção e misticismo. Etéreo." />
+    <Entry Key="DES_YM_FUNGO" Val="Fungo" />
+    <Entry Key="DES_YM_FUNGO_DES" Val="Golem de cogumelos e ervas. Suporte de regeneração e cura lenta. Simbiótico." />
+    <Entry Key="DES_YM_RELIQUIA" Val="Relíquia" />
+    <Entry Key="DES_YM_RELIQUIA_DES" Val="Miko de porcelana e pedra preciosa. Usa Misticismo, Destino e Inteligência para conduzir o rito da Kagura." />
+    
+    <!-- Novos Halves -->
+    <Entry Key="DES_HALF_OBSIDIANA" Val="Meio-Obsidiana" />
+    <Entry Key="DES_HALF_OBSIDIANA_DES" Val="Descendente de Yuri e golem de obsidiana. Humano com alta força e inteligência." />
+    <Entry Key="DES_HALF_NEBULINA" Val="Meio-Nebulina" />
+    <Entry Key="DES_HALF_NEBULINA_DES" Val="Descendente de Yuri e golem de nebulina. Humano com alta sabedoria e misticismo." />
+    
+    <!-- Novos Itens -->
+    <Entry Key="DES_YM_ESPADA_RUNICA" Val="Espada Runica" />
+    <Entry Key="DES_YM_ESPADA_RUNICA_DES" Val="Espada de aço com runas de quartzo e pedra-da-lua. Dano físico e místico." />
+    <Entry Key="DES_YM_AMULETO_FORJA" Val="Amuleto da Forja" />
+    <Entry Key="DES_YM_AMULETO_FORJA_DES" Val="Jóia de âmbar e ouro com mithrill. Aumenta fabricação e rituais." />
+    <Entry Key="DES_YM_BOTAS_ARGILA" Val="Botas de Argila" />
+    <Entry Key="DES_YM_BOTAS_ARGILA_DES" Val="Botas de argila e madeira. Aumenta movimento e carga do grupo." />
+    
+    <!-- Sanidade -->
+    <Entry Key="DES_YM_SANIDADE_LOSS" Val="Perda de Sanidade" />
+    <Entry Key="DES_YM_SANIDADE_LOSS_DES" Val="Enquanto estiver sob este efeito, o personagem tem Misticismo e Sabedoria reduzidos." />
+    <Entry Key="DES_YM_SANIDADE_RECOVER" Val="Recuperação de Sanidade" />
+    <Entry Key="DES_YM_SANIDADE_RECOVER_DES" Val="Recupera misticismo e sabedoria com o tempo, reduzindo a corrupção mental." />
+    
+    <!-- Passivas dos novos itens -->
+    <Entry Key="DES_YM_ESPADA_RUNICA_DES" Val="Espada Runica - Dano físico e místico aumentado." />
+    <Entry Key="DES_YM_AMULETO_FORJA_DES" Val="Amuleto da Forja - Fabricação e rituais aumentados." />
+    <Entry Key="DES_YM_BOTAS_ARGILA_DES" Val="Botas de Argila - Movimento e carga do grupo aumentados." />
+    <Entry Key="DES_YM_DAISHO_TECNICA" Val="Corte do Daishō" />
+    <Entry Key="DES_YM_DAISHO_TECNICA_DES" Val="Na linha de frente, causa dano físico com a katana. Escala com Força." />
+    <Entry Key="DES_YM_WAKIZASHI_TECNICA" Val="Resposta da Wakizashi" />
+    <Entry Key="DES_YM_WAKIZASHI_TECNICA_DES" Val="Ataque físico alternativo da linha de frente. Causa dano com a lâmina curta e atrasa a ação enfileirada do alvo. Escala com Percepção." />
+    <Entry Key="DES_YM_KAGURA_TECNICA" Val="Kagura de Porcelana" />
+    <Entry Key="DES_YM_KAGURA_TECNICA_DES" Val="Ao entrar em campo em um desafio mental ou espiritual, inspira até dois aliados aleatórios. Aumenta seu poder com base no Misticismo da miko e adianta ações que já estão na fila." />
+    <Entry Key="DES_YM_KOMAINU_TECNICA" Val="Guarda do Limiar" />
+    <Entry Key="DES_YM_KOMAINU_TECNICA_DES" Val="Da linha de frente, concede proteção espiritual a até dois aliados escolhidos em um desafio espiritual." />
+    <Entry Key="DES_YM_CINZEL_TECNICA" Val="Martelo de Têmpera" />
+    <Entry Key="DES_YM_CINZEL_TECNICA_DES" Val="Martelada física da linha de frente. Escala com Força e atrasa a ação enfileirada do alvo." />
+    <Entry Key="DES_YM_GOLEM_GUARDAO_DA_MINA_AVANCO" Val="Disciplina do Guardião" />
+    <Entry Key="DES_YM_GOLEM_GUARDAO_DA_MINA_AVANCO_DES" Val="Aumenta a Sabedoria." />
+    <Entry Key="DES_YM_GOLEM_RELIQUIA_AVANCO" Val="Presságio da Miko" />
+    <Entry Key="DES_YM_GOLEM_RELIQUIA_AVANCO_DES" Val="Aumenta o Destino em proporção ao atributo atual." />
+    <Entry Key="DES_YM_GOLEM_CINZEL_AVANCO" Val="Olho de Forja" />
+    <Entry Key="DES_YM_GOLEM_CINZEL_AVANCO_DES" Val="Aumenta a Percepção." />
+    <Entry Key="DES_YM_KOMAINU" Val="Komainu do Limiar" />
+    <Entry Key="DES_YM_KOMAINU_DES" Val="Leão-cão de granito animado para vigiar o santuário. Concede proteção espiritual a aliados e tem olhos atentos para a vigília." />
+    <Entry Key="DES_YM_GOLEM_KOMAINU_AVANCO" Val="Vigília do Limiar" />
+    <Entry Key="DES_YM_GOLEM_KOMAINU_AVANCO_DES" Val="Aumenta o Misticismo." />
+    <Entry Key="DES_YM_DAISHO" Val="Daishō da Mina" />
+    <Entry Key="DES_YM_DAISHO_DES" Val="Conjunto de katana e wakizashi. Ocupa as duas mãos e oferece dois ataques físicos. A lâmina longa escala com Força. A curta escala com Percepção e atrasa a ação do alvo." />
+    <Entry Key="DES_YM_OMAMORI" Val="Omamori do Santuário" />
+    <Entry Key="DES_YM_OMAMORI_DES" Val="Amuleto que concede proteção espiritual pessoal." />
+    <Entry Key="DES_YM_GOLEM" Val="Golem" />
+    <Entry Key="DES_YM_GOLEM_DES" Val="Construto desperto. Núcleo mineral e boa resistência física, com mobilidade reduzida." />
+    <Entry Key="DES_YM_MEIO_GOLEM" Val="Meio-Golem" />
+    <Entry Key="DES_YM_MEIO_GOLEM_DES" Val="Descendente com núcleo mineral e heranças da família da outra linhagem." />
+    <Entry Key="DES_YM_CORE_GUARDAO_DA_MINA" Val="Núcleo inerte · Guardião da Mina" />
+    <Entry Key="DES_YM_CORE_GUARDAO_DA_MINA_DES" Val="Peça de forja sem vida. Deixe o núcleo no inventário da expedição de Yuri para abrir o evento de despertar." />
+    <Entry Key="DES_YM_CORE_RELIQUIA" Val="Núcleo inerte · Relíquia" />
+    <Entry Key="DES_YM_CORE_RELIQUIA_DES" Val="Peça de forja sem vida. Deixe o núcleo no inventário da expedição de Yuri para abrir o evento de despertar." />
+    <Entry Key="DES_YM_CORE_KOMAINU" Val="Núcleo inerte · Komainu do Limiar" />
+    <Entry Key="DES_YM_CORE_KOMAINU_DES" Val="Peça de forja sem vida. Deixe o núcleo no inventário da expedição de Yuri para abrir o evento de despertar." />
+    <Entry Key="DES_YM_LINHAGEM_GOLEM" Val="Núcleo de Golem" />
+    <Entry Key="DES_YM_LINHAGEM_GOLEM_DES" Val="Proteção física e menor mobilidade." />
+    <Entry Key="DES_YM_LINHAGEM_GOLEM_SHIELDING_PHYSICAL" Val="Núcleo de Golem" />
+    <Entry Key="DES_YM_LINHAGEM_GOLEM_SHIELDING_PHYSICAL_DES" Val="Proteção física e menor mobilidade." />
+    <Entry Key="DES_YM_LINHAGEM_GOLEM_MOVEMENT_RANGE" Val="Núcleo de Golem" />
+    <Entry Key="DES_YM_LINHAGEM_GOLEM_MOVEMENT_RANGE_DES" Val="Proteção física e menor mobilidade." />
+    <Entry Key="DES_YM_DESC_GOLEM_CHILD" Val="Golem Jovem" />
+    <Entry Key="DES_YM_DESC_GOLEM_CHILD_DES" Val="Núcleo mineral. Amadurece com o tempo. Os traços da família acompanham o crescimento." />
+    <Entry Key="DES_YM_DESC_GOLEM_ADULT" Val="Golem Desperto" />
+    <Entry Key="DES_YM_DESC_GOLEM_ADULT_DES" Val="Núcleo mineral. A herança acumulada acompanha a vida adulta." />
+    <Entry Key="DES_YM_LINHAGEM_HUMAN" Val="Herança Humana" />
+    <Entry Key="DES_YM_LINHAGEM_HUMAN_DES" Val="Mais Inteligência, menos Misticismo." />
+    <Entry Key="DES_YM_LINHAGEM_HUMAN_INTELLIGENCE" Val="Herança Humana" />
+    <Entry Key="DES_YM_LINHAGEM_HUMAN_INTELLIGENCE_DES" Val="Mais Inteligência, menos Misticismo." />
+    <Entry Key="DES_YM_LINHAGEM_HUMAN_MYSTICISM" Val="Herança Humana" />
+    <Entry Key="DES_YM_LINHAGEM_HUMAN_MYSTICISM_DES" Val="Mais Inteligência, menos Misticismo." />
+    <Entry Key="DES_YM_DESC_HUMAN_CHILD" Val="Meio-Golem Jovem · Humana" />
+    <Entry Key="DES_YM_DESC_HUMAN_CHILD_DES" Val="Núcleo mineral. Amadurece com o tempo. Os traços da família acompanham o crescimento." />
+    <Entry Key="DES_YM_DESC_HUMAN_ADULT" Val="Meio-Golem · Humana" />
+    <Entry Key="DES_YM_DESC_HUMAN_ADULT_DES" Val="Núcleo mineral. A herança acumulada acompanha a vida adulta." />
+    <Entry Key="DES_YM_LINHAGEM_ELF" Val="Herança Élfica" />
+    <Entry Key="DES_YM_LINHAGEM_ELF_DES" Val="Mais Percepção, menos Força." />
+    <Entry Key="DES_YM_LINHAGEM_ELF_PERCEPTION" Val="Herança Élfica" />
+    <Entry Key="DES_YM_LINHAGEM_ELF_PERCEPTION_DES" Val="Mais Percepção, menos Força." />
+    <Entry Key="DES_YM_LINHAGEM_ELF_STRENGTH" Val="Herança Élfica" />
+    <Entry Key="DES_YM_LINHAGEM_ELF_STRENGTH_DES" Val="Mais Percepção, menos Força." />
+    <Entry Key="DES_YM_DESC_ELF_CHILD" Val="Meio-Golem Jovem · Élfica" />
+    <Entry Key="DES_YM_DESC_ELF_CHILD_DES" Val="Núcleo mineral. Amadurece com o tempo. Os traços da família acompanham o crescimento." />
+    <Entry Key="DES_YM_DESC_ELF_ADULT" Val="Meio-Golem · Élfica" />
+    <Entry Key="DES_YM_DESC_ELF_ADULT_DES" Val="Núcleo mineral. A herança acumulada acompanha a vida adulta." />
+    <Entry Key="DES_YM_LINHAGEM_ORC" Val="Herança Orc" />
+    <Entry Key="DES_YM_LINHAGEM_ORC_DES" Val="Mais Força, menos Inteligência." />
+    <Entry Key="DES_YM_LINHAGEM_ORC_STRENGTH" Val="Herança Orc" />
+    <Entry Key="DES_YM_LINHAGEM_ORC_STRENGTH_DES" Val="Mais Força, menos Inteligência." />
+    <Entry Key="DES_YM_LINHAGEM_ORC_INTELLIGENCE" Val="Herança Orc" />
+    <Entry Key="DES_YM_LINHAGEM_ORC_INTELLIGENCE_DES" Val="Mais Força, menos Inteligência." />
+    <Entry Key="DES_YM_DESC_ORC_CHILD" Val="Meio-Golem Jovem · Orc" />
+    <Entry Key="DES_YM_DESC_ORC_CHILD_DES" Val="Núcleo mineral. Amadurece com o tempo. Os traços da família acompanham o crescimento." />
+    <Entry Key="DES_YM_DESC_ORC_ADULT" Val="Meio-Golem · Orc" />
+    <Entry Key="DES_YM_DESC_ORC_ADULT_DES" Val="Núcleo mineral. A herança acumulada acompanha a vida adulta." />
+    <Entry Key="DES_YM_LINHAGEM_DWARF" Val="Herança Anã" />
+    <Entry Key="DES_YM_LINHAGEM_DWARF_DES" Val="Mais Fabricação, menos Perspicácia." />
+    <Entry Key="DES_YM_LINHAGEM_DWARF_CRAFTING" Val="Herança Anã" />
+    <Entry Key="DES_YM_LINHAGEM_DWARF_CRAFTING_DES" Val="Mais Fabricação, menos Perspicácia." />
+    <Entry Key="DES_YM_LINHAGEM_DWARF_WITS" Val="Herança Anã" />
+    <Entry Key="DES_YM_LINHAGEM_DWARF_WITS_DES" Val="Mais Fabricação, menos Perspicácia." />
+    <Entry Key="DES_YM_DESC_DWARF_CHILD" Val="Meio-Golem Jovem · Anã" />
+    <Entry Key="DES_YM_DESC_DWARF_CHILD_DES" Val="Núcleo mineral. Amadurece com o tempo. Os traços da família acompanham o crescimento." />
+    <Entry Key="DES_YM_DESC_DWARF_ADULT" Val="Meio-Golem · Anã" />
+    <Entry Key="DES_YM_DESC_DWARF_ADULT_DES" Val="Núcleo mineral. A herança acumulada acompanha a vida adulta." />
+    <Entry Key="DES_YM_LINHAGEM_GOBLIN" Val="Herança Goblin" />
+    <Entry Key="DES_YM_LINHAGEM_GOBLIN_DES" Val="Mais Perspicácia, menos vida física máxima." />
+    <Entry Key="DES_YM_LINHAGEM_GOBLIN_WITS" Val="Herança Goblin" />
+    <Entry Key="DES_YM_LINHAGEM_GOBLIN_WITS_DES" Val="Mais Perspicácia, menos vida física máxima." />
+    <Entry Key="DES_YM_LINHAGEM_GOBLIN_MAX_HEALTH_PHYSICAL" Val="Herança Goblin" />
+    <Entry Key="DES_YM_LINHAGEM_GOBLIN_MAX_HEALTH_PHYSICAL_DES" Val="Mais Perspicácia, menos vida física máxima." />
+    <Entry Key="DES_YM_DESC_GOBLIN_CHILD" Val="Meio-Golem Jovem · Goblin" />
+    <Entry Key="DES_YM_DESC_GOBLIN_CHILD_DES" Val="Núcleo mineral. Amadurece com o tempo. Os traços da família acompanham o crescimento." />
+    <Entry Key="DES_YM_DESC_GOBLIN_ADULT" Val="Meio-Golem · Goblin" />
+    <Entry Key="DES_YM_DESC_GOBLIN_ADULT_DES" Val="Núcleo mineral. A herança acumulada acompanha a vida adulta." />
+    <Entry Key="DES_YM_LINHAGEM_SHADOWELF" Val="Herança Élfica Sombria" />
+    <Entry Key="DES_YM_LINHAGEM_SHADOWELF_DES" Val="Mais visão noturna, menos visão diurna." />
+    <Entry Key="DES_YM_LINHAGEM_SHADOWELF_RANGE_OF_SIGHT_NIGHT" Val="Herança Élfica Sombria" />
+    <Entry Key="DES_YM_LINHAGEM_SHADOWELF_RANGE_OF_SIGHT_NIGHT_DES" Val="Mais visão noturna, menos visão diurna." />
+    <Entry Key="DES_YM_LINHAGEM_SHADOWELF_RANGE_OF_SIGHT_DAY" Val="Herança Élfica Sombria" />
+    <Entry Key="DES_YM_LINHAGEM_SHADOWELF_RANGE_OF_SIGHT_DAY_DES" Val="Mais visão noturna, menos visão diurna." />
+    <Entry Key="DES_YM_DESC_SHADOWELF_CHILD" Val="Meio-Golem Jovem · Élfica Sombria" />
+    <Entry Key="DES_YM_DESC_SHADOWELF_CHILD_DES" Val="Núcleo mineral. Amadurece com o tempo. Os traços da família acompanham o crescimento." />
+    <Entry Key="DES_YM_DESC_SHADOWELF_ADULT" Val="Meio-Golem · Élfica Sombria" />
+    <Entry Key="DES_YM_DESC_SHADOWELF_ADULT_DES" Val="Núcleo mineral. A herança acumulada acompanha a vida adulta." />
+    <Entry Key="DES_YM_LINHAGEM_DEMON" Val="Herança Demoníaca" />
+    <Entry Key="DES_YM_LINHAGEM_DEMON_DES" Val="Mais Misticismo, menos Sabedoria." />
+    <Entry Key="DES_YM_LINHAGEM_DEMON_MYSTICISM" Val="Herança Demoníaca" />
+    <Entry Key="DES_YM_LINHAGEM_DEMON_MYSTICISM_DES" Val="Mais Misticismo, menos Sabedoria." />
+    <Entry Key="DES_YM_LINHAGEM_DEMON_WISDOM" Val="Herança Demoníaca" />
+    <Entry Key="DES_YM_LINHAGEM_DEMON_WISDOM_DES" Val="Mais Misticismo, menos Sabedoria." />
+    <Entry Key="DES_YM_DESC_DEMON_CHILD" Val="Meio-Golem Jovem · Demoníaca" />
+    <Entry Key="DES_YM_DESC_DEMON_CHILD_DES" Val="Núcleo mineral. Amadurece com o tempo. Os traços da família acompanham o crescimento." />
+    <Entry Key="DES_YM_DESC_DEMON_ADULT" Val="Meio-Golem · Demoníaca" />
+    <Entry Key="DES_YM_DESC_DEMON_ADULT_DES" Val="Núcleo mineral. A herança acumulada acompanha a vida adulta." />
+    <Entry Key="DES_YM_LINHAGEM_BEAST" Val="Herança Bestial" />
+    <Entry Key="DES_YM_LINHAGEM_BEAST_DES" Val="Mais Percepção, menos Sabedoria." />
+    <Entry Key="DES_YM_LINHAGEM_BEAST_PERCEPTION" Val="Herança Bestial" />
+    <Entry Key="DES_YM_LINHAGEM_BEAST_PERCEPTION_DES" Val="Mais Percepção, menos Sabedoria." />
+    <Entry Key="DES_YM_LINHAGEM_BEAST_WISDOM" Val="Herança Bestial" />
+    <Entry Key="DES_YM_LINHAGEM_BEAST_WISDOM_DES" Val="Mais Percepção, menos Sabedoria." />
+    <Entry Key="DES_YM_DESC_BEAST_CHILD" Val="Meio-Golem Jovem · Bestial" />
+    <Entry Key="DES_YM_DESC_BEAST_CHILD_DES" Val="Núcleo mineral. Amadurece com o tempo. Os traços da família acompanham o crescimento." />
+    <Entry Key="DES_YM_DESC_BEAST_ADULT" Val="Meio-Golem · Bestial" />
+    <Entry Key="DES_YM_DESC_BEAST_ADULT_DES" Val="Núcleo mineral. A herança acumulada acompanha a vida adulta." />
+    <Entry Key="DES_YM_CORE_INERTE" Val="Peça Inerte" />
+    <Entry Key="DES_YM_CORE_INERTE_DES" Val="Sem efeito na ficha. O núcleo precisa ser despertado por Yuri." />
+    <Entry Key="DES_YM_TECH_STONE" Val="Golens de Pedra e Argila" />
+    <Entry Key="DES_YM_TECH_STONE_DES" Val="Receitas: Choque, Cascalho." />
+    <Entry Key="DES_YM_CHOQUE_1" Val="Choque aprimorado" />
+    <Entry Key="DES_YM_CHOQUE_1_DES" Val="Aprimora Choque." />
+    <Entry Key="DES_YM_CASCALHO_1" Val="Cascalho aprimorado" />
+    <Entry Key="DES_YM_CASCALHO_1_DES" Val="Aprimora Cascalho." />
+    <Entry Key="DES_YM_TECH_WOOD" Val="Golens de Madeira e Ossos" />
+    <Entry Key="DES_YM_TECH_WOOD_DES" Val="Receitas: Galho." />
+    <Entry Key="DES_YM_GALHO_1" Val="Galho aprimorado" />
+    <Entry Key="DES_YM_GALHO_1_DES" Val="Aprimora Galho." />
+    <Entry Key="DES_YM_TECH_GEM" Val="Golens de Cristal e Âmbar" />
+    <Entry Key="DES_YM_TECH_GEM_DES" Val="Receitas: Lâmp-Âmbar." />
+    <Entry Key="DES_YM_LAMPEJO_1" Val="Lâmp-Âmbar aprimorado" />
+    <Entry Key="DES_YM_LAMPEJO_1_DES" Val="Aprimora Lâmp-Âmbar." />
+    <Entry Key="DES_YM_TECH_FOOD" Val="Golens de Grãos" />
+    <Entry Key="DES_YM_TECH_FOOD_DES" Val="Receitas: Massa-Mãe." />
+    <Entry Key="DES_YM_MASSA_1" Val="Massa-Mãe aprimorado" />
+    <Entry Key="DES_YM_MASSA_1_DES" Val="Aprimora Massa-Mãe." />
+    <Entry Key="DES_YM_TECH_METAL" Val="Golens de Metal" />
+    <Entry Key="DES_YM_TECH_METAL_DES" Val="Receitas: Ferreiro." />
+    <Entry Key="DES_YM_TECH_OBSIDIAN" Val="Golens de Obsidiana e Sangue" />
+    <Entry Key="DES_YM_TECH_OBSIDIAN_DES" Val="Receitas: Obsidiana, Sangue." />
+    <Entry Key="DES_YM_TECH_SPIRIT" Val="Golens de Bruma e Fungos" />
+    <Entry Key="DES_YM_TECH_SPIRIT_DES" Val="Receitas: Nebulina, Fungo." />
+    <Entry Key="DES_YM_TECH_RELIQUIA" Val="Forja da Relíquia" />
+    <Entry Key="DES_YM_TECH_RELIQUIA_DES" Val="Receitas: Núcleo inerte · Relíquia." />
+    <Entry Key="DES_YM_TECH_GEAR" Val="Equipamento da Forja Viva" />
+    <Entry Key="DES_YM_TECH_GEAR_DES" Val="Receitas: Lâmina de Forja, Martelo-Mestre, Malha de Cota-Viva, Escudo-Pedra, Alvo de Âmbar, Pão-Vivo, Erva da Forja, Armadilha de Lambri, Pingente do Nome." />
+    <Entry Key="DES_YM_TECH_GEAR_EXPANSION" Val="Acervo de Yuri" />
+    <Entry Key="DES_YM_TECH_GEAR_EXPANSION_DES" Val="Receitas: Espada Runica, Amuleto da Forja, Botas de Argila, Daishō da Mina, Omamori do Santuário, Núcleo inerte · Komainu do Limiar." />
+    <Entry Key="DES_YM_ESPADA_RUNICA_1" Val="Espada Runica aprimorado" />
+    <Entry Key="DES_YM_ESPADA_RUNICA_1_DES" Val="Aprimora Espada Runica." />
+    <Entry Key="DES_YM_AMULETO_FORJA_1" Val="Amuleto da Forja aprimorado" />
+    <Entry Key="DES_YM_AMULETO_FORJA_1_DES" Val="Aprimora Amuleto da Forja." />
+    <Entry Key="DES_YM_BOTAS_ARGILA_1" Val="Botas de Argila aprimorado" />
+    <Entry Key="DES_YM_BOTAS_ARGILA_1_DES" Val="Aprimora Botas de Argila." />
+    <Entry Key="DES_YM_SEIXO_RESEARCH" Val="Seixo" />
+    <Entry Key="DES_YM_SEIXO_RESEARCH_DES" Val="Golem de pedra pura. Golem de estimação com bônus de sorte. Carinhoso com outros golens." />
+    <Entry Key="DES_YM_FERRO_VIDO_RESEARCH" Val="Ferro-Vido" />
+    <Entry Key="DES_YM_FERRO_VIDO_RESEARCH_DES" Val="Golem de ferro e pedra. Escudeiro com proteção física alta e capacidade de converter vida em escudo. Protetivo." />
+    <Entry Key="DES_YM_RAIZ_RESEARCH" Val="Raiz" />
+    <Entry Key="DES_YM_RAIZ_RESEARCH_DES" Val="Golem de madeira de dríade. Suporte noturno com regeneração mental. Sereno e imune a moral negativa." />
+    <Entry Key="DES_YM_OSSADA_RESEARCH" Val="Ossada" />
+    <Entry Key="DES_YM_OSSADA_RESEARCH_DES" Val="Golem de ossos e argila. Anti-fera com dano bônus contra bestas. Territorial." />
+    <Entry Key="DES_YM_CRISTAL_RESEARCH" Val="Cristal" />
+    <Entry Key="DES_YM_CRISTAL_RESEARCH_DES" Val="Golem de quartzo e âmbar. Ressoante mental com ataque psíquico. Ecoico." />
+    <Entry Key="DES_YM_PAO_DO_CAMPO_RESEARCH" Val="Pão-do-Campo" />
+    <Entry Key="DES_YM_PAO_DO_CAMPO_RESEARCH_DES" Val="Golem de comida cozida e grãos. Ração viva que aumenta a carga de comida do grupo. Faminto." />
+    <Entry Key="DES_YM_MURALHA_RESEARCH" Val="Muralha" />
+    <Entry Key="DES_YM_MURALHA_RESEARCH_DES" Val="Golem de granito e pedra armada. Muralha impassível com proteção física extrema. Leal Absoluto." />
+    <Entry Key="DES_YM_VIUVA_RESEARCH" Val="Viúva-de-Cedro" />
+    <Entry Key="DES_YM_VIUVA_RESEARCH_DES" Val="Golem de madeira sagrada. Fortalece o grupo quando há mortos. Luto Eterno." />
+    <Entry Key="DES_YM_VEJO_RESEARCH" Val="Veio" />
+    <Entry Key="DES_YM_VEJO_RESEARCH_DES" Val="Golem de gema, diamante e pedra-da-lua. Curinga de resistência a todos os tipos. Vaidoso." />
+    <Entry Key="DES_YM_AGULHA_RESEARCH" Val="Agulha" />
+    <Entry Key="DES_YM_AGULHA_RESEARCH_DES" Val="Golem de ervas e cogumelos. Médico de campo com cura em área. Meticuloso." />
+    <Entry Key="DES_YM_GUARDAO_DA_MINA_RESEARCH" Val="Núcleo inerte · Guardião da Mina" />
+    <Entry Key="DES_YM_GUARDAO_DA_MINA_RESEARCH_DES" Val="Peça de forja sem vida. Deixe o núcleo no inventário da expedição de Yuri para abrir o evento de despertar." />
+    <Entry Key="DES_YM_DRAGAO_OSSO_RESEARCH" Val="Dragão de Osso" />
+    <Entry Key="DES_YM_DRAGAO_OSSO_RESEARCH_DES" Val="Único de ossos de dragão e essência da morte. Mago de essência com dano verdadeiro. Arito." />
+    <Entry Key="DES_YM_CEVA_RESEARCH" Val="Ceva" />
+    <Entry Key="DES_YM_CEVA_RESEARCH_DES" Val="Único de ervas e essência da vida. Curandeiro amaldiçoado que cura o grupo mas custa HP permanentes. Empático." />
+    <Entry Key="DES_YM_CINZEL_RESEARCH" Val="Cinzel" />
+    <Entry Key="DES_YM_CINZEL_RESEARCH_DES" Val="Mestra-forjadora de aço e mithril. Aumenta a fabricação e usa seu martelo para atrasar inimigos no combate físico." />
+  </LOC_LIBRARY-YURI_PT>
+</DATABASE_DES_LOCALIZATION-NO_HSH>

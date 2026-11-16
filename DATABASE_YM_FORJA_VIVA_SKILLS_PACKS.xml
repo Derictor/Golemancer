@@ -1,0 +1,9 @@
+<SKILLS_PACKS>
+  <SKILL_PACK-YM_FORJA_VIVA>
+    <RarityRange MinimumCount="0" MaximumCount="0" />
+    <GuarantedSkill Value="SKILL-YM_FORJA_VIVA" />
+    <SkillGroupFilters>
+      <SkillGroupSingleFilter Name="YM_FORJA_VIVA" Requirement="NecessaryType" />
+    </SkillGroupFilters>
+  </SKILL_PACK-YM_FORJA_VIVA>
+</SKILLS_PACKS>

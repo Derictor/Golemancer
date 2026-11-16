@@ -1,0 +1,469 @@
+<SKILLS_PACKS>
+  <SKILL_PACK-YURI_CLASSE>
+    <RarityRange MinimumCount="0" MaximumCount="100" />
+    <GuarantedSkill Value="SKILL-YURI_CLASSE" />
+    <GuarantedSkill Value="SKILL-YURI_FORJA_VIVA" />
+    <GuarantedSkill Value="SKILL-YURI_FORNAR" />
+    <GuarantedSkill Value="SKILL-YURI_BATISMO" />
+    <GuarantedSkill Value="SKILL-YURI_APRENDIZ" />
+    <SkillGroupFilters>
+      <SkillGroupSingleFilter Name="Fallback" Requirement="NecessaryType" />
+    </SkillGroupFilters>
+  </SKILL_PACK-YURI_CLASSE>
+  <SKILL_PACK-YURI_AVANCO>
+    <RarityRange MinimumCount="0" MaximumCount="70" />
+    <GuarantedSkill Value="SKILL-MASTER_CRAFTSMAN" />
+    <GuarantedSkill Value="SKILL-MASTER_GATHERER" />
+    <GuarantedSkill Value="SKILL-MASTER_LUCK" />
+    <SkillGroupFilters>
+      <SkillGroupSingleFilter Name="ClassGolemancer" Requirement="OptionalType" />
+    </SkillGroupFilters>
+  </SKILL_PACK-YURI_AVANCO>
+  <SKILL_PACK-YM_GOLEM_CHOQUE>
+    <RarityRange MinimumCount="0" MaximumCount="0" />
+    <GuarantedSkill Value="SKILL-YM_GOLEM_CHOQUE" />
+    <SkillGroupFilters>
+      <SkillGroupSingleFilter Name="YM_Golem" Requirement="NecessaryType" />
+    </SkillGroupFilters>
+  </SKILL_PACK-YM_GOLEM_CHOQUE>
+  <SKILL_PACK-YM_GOLEM_CASCALHO>
+    <RarityRange MinimumCount="0" MaximumCount="0" />
+    <GuarantedSkill Value="SKILL-YM_GOLEM_CASCALHO" />
+    <SkillGroupFilters>
+      <SkillGroupSingleFilter Name="YM_Golem" Requirement="NecessaryType" />
+    </SkillGroupFilters>
+  </SKILL_PACK-YM_GOLEM_CASCALHO>
+  <SKILL_PACK-YM_GOLEM_GALHO>
+    <RarityRange MinimumCount="0" MaximumCount="0" />
+    <GuarantedSkill Value="SKILL-YM_GOLEM_GALHO" />
+    <SkillGroupFilters>
+      <SkillGroupSingleFilter Name="YM_Golem" Requirement="NecessaryType" />
+    </SkillGroupFilters>
+  </SKILL_PACK-YM_GOLEM_GALHO>
+  <SKILL_PACK-YM_GOLEM_LAMPEJO>
+    <RarityRange MinimumCount="0" MaximumCount="0" />
+    <GuarantedSkill Value="SKILL-YM_GOLEM_LAMPEJO" />
+    <SkillGroupFilters>
+      <SkillGroupSingleFilter Name="YM_Golem" Requirement="NecessaryType" />
+    </SkillGroupFilters>
+  </SKILL_PACK-YM_GOLEM_LAMPEJO>
+  <SKILL_PACK-YM_GOLEM_MASSA>
+    <RarityRange MinimumCount="0" MaximumCount="0" />
+    <GuarantedSkill Value="SKILL-YM_GOLEM_MASSA" />
+    <SkillGroupFilters>
+      <SkillGroupSingleFilter Name="YM_Golem" Requirement="NecessaryType" />
+    </SkillGroupFilters>
+  </SKILL_PACK-YM_GOLEM_MASSA>
+  <SKILL_PACK-YM_GOLEM_SEIXO>
+    <RarityRange MinimumCount="0" MaximumCount="0" />
+    <GuarantedSkill Value="SKILL-YM_GOLEM_SEIXO" />
+    <SkillGroupFilters>
+      <SkillGroupSingleFilter Name="YM_Golem" Requirement="NecessaryType" />
+    </SkillGroupFilters>
+  </SKILL_PACK-YM_GOLEM_SEIXO>
+  <SKILL_PACK-YM_GOLEM_FERRO_VIDO>
+    <RarityRange MinimumCount="0" MaximumCount="0" />
+    <GuarantedSkill Value="SKILL-YM_GOLEM_FERRO_VIDO" />
+    <SkillGroupFilters>
+      <SkillGroupSingleFilter Name="YM_Golem" Requirement="NecessaryType" />
+    </SkillGroupFilters>
+  </SKILL_PACK-YM_GOLEM_FERRO_VIDO>
+  <SKILL_PACK-YM_GOLEM_RAIZ>
+    <RarityRange MinimumCount="0" MaximumCount="0" />
+    <GuarantedSkill Value="SKILL-YM_GOLEM_RAIZ" />
+    <SkillGroupFilters>
+      <SkillGroupSingleFilter Name="YM_Golem" Requirement="NecessaryType" />
+    </SkillGroupFilters>
+  </SKILL_PACK-YM_GOLEM_RAIZ>
+  <SKILL_PACK-YM_GOLEM_OSSADA>
+    <RarityRange MinimumCount="0" MaximumCount="0" />
+    <GuarantedSkill Value="SKILL-YM_GOLEM_OSSADA" />
+    <SkillGroupFilters>
+      <SkillGroupSingleFilter Name="YM_Golem" Requirement="NecessaryType" />
+    </SkillGroupFilters>
+  </SKILL_PACK-YM_GOLEM_OSSADA>
+  <SKILL_PACK-YM_GOLEM_CRISTAL>
+    <RarityRange MinimumCount="0" MaximumCount="0" />
+    <GuarantedSkill Value="SKILL-YM_GOLEM_CRISTAL" />
+    <SkillGroupFilters>
+      <SkillGroupSingleFilter Name="YM_Golem" Requirement="NecessaryType" />
+    </SkillGroupFilters>
+  </SKILL_PACK-YM_GOLEM_CRISTAL>
+  <SKILL_PACK-YM_GOLEM_PAO_DO_CAMPO>
+    <RarityRange MinimumCount="0" MaximumCount="0" />
+    <GuarantedSkill Value="SKILL-YM_GOLEM_PAO_DO_CAMPO" />
+    <SkillGroupFilters>
+      <SkillGroupSingleFilter Name="YM_Golem" Requirement="NecessaryType" />
+    </SkillGroupFilters>
+  </SKILL_PACK-YM_GOLEM_PAO_DO_CAMPO>
+  <SKILL_PACK-YM_GOLEM_MURALHA>
+    <RarityRange MinimumCount="0" MaximumCount="0" />
+    <GuarantedSkill Value="SKILL-YM_GOLEM_MURALHA" />
+    <SkillGroupFilters>
+      <SkillGroupSingleFilter Name="YM_Golem" Requirement="NecessaryType" />
+    </SkillGroupFilters>
+  </SKILL_PACK-YM_GOLEM_MURALHA>
+  <SKILL_PACK-YM_GOLEM_VIUVA>
+    <RarityRange MinimumCount="0" MaximumCount="0" />
+    <GuarantedSkill Value="SKILL-YM_GOLEM_VIUVA" />
+    <SkillGroupFilters>
+      <SkillGroupSingleFilter Name="YM_Golem" Requirement="NecessaryType" />
+    </SkillGroupFilters>
+  </SKILL_PACK-YM_GOLEM_VIUVA>
+  <SKILL_PACK-YM_GOLEM_VEJO>
+    <RarityRange MinimumCount="0" MaximumCount="0" />
+    <GuarantedSkill Value="SKILL-YM_GOLEM_VEJO" />
+    <SkillGroupFilters>
+      <SkillGroupSingleFilter Name="YM_Golem" Requirement="NecessaryType" />
+    </SkillGroupFilters>
+  </SKILL_PACK-YM_GOLEM_VEJO>
+  <SKILL_PACK-YM_GOLEM_AGULHA>
+    <RarityRange MinimumCount="0" MaximumCount="0" />
+    <GuarantedSkill Value="SKILL-YM_GOLEM_AGULHA" />
+    <SkillGroupFilters>
+      <SkillGroupSingleFilter Name="YM_Golem" Requirement="NecessaryType" />
+    </SkillGroupFilters>
+  </SKILL_PACK-YM_GOLEM_AGULHA>
+  <SKILL_PACK-YM_GOLEM_FERREIRO>
+    <RarityRange MinimumCount="0" MaximumCount="0" />
+    <GuarantedSkill Value="SKILL-YM_GOLEM_FERREIRO" />
+    <SkillGroupFilters>
+      <SkillGroupSingleFilter Name="YM_Golem" Requirement="NecessaryType" />
+    </SkillGroupFilters>
+  </SKILL_PACK-YM_GOLEM_FERREIRO>
+  <SKILL_PACK-YM_GOLEM_GUARDAO_DA_MINA>
+    <RarityRange MinimumCount="0" MaximumCount="0" />
+    <GuarantedSkill Value="SKILL-YM_GOLEM_GUARDAO_DA_MINA" />
+    <SkillGroupFilters>
+      <SkillGroupSingleFilter Name="YM_Golem" Requirement="NecessaryType" />
+    </SkillGroupFilters>
+  </SKILL_PACK-YM_GOLEM_GUARDAO_DA_MINA>
+  <SKILL_PACK-YM_GOLEM_DRAGAO_OSSO>
+    <RarityRange MinimumCount="0" MaximumCount="0" />
+    <GuarantedSkill Value="SKILL-YM_GOLEM_DRAGAO_OSSO" />
+    <SkillGroupFilters>
+      <SkillGroupSingleFilter Name="YM_Golem" Requirement="NecessaryType" />
+    </SkillGroupFilters>
+  </SKILL_PACK-YM_GOLEM_DRAGAO_OSSO>
+  <SKILL_PACK-YM_GOLEM_CEVA>
+    <RarityRange MinimumCount="0" MaximumCount="0" />
+    <GuarantedSkill Value="SKILL-YM_GOLEM_CEVA" />
+    <SkillGroupFilters>
+      <SkillGroupSingleFilter Name="YM_Golem" Requirement="NecessaryType" />
+    </SkillGroupFilters>
+  </SKILL_PACK-YM_GOLEM_CEVA>
+  <SKILL_PACK-YM_GOLEM_CINZEL>
+    <RarityRange MinimumCount="0" MaximumCount="0" />
+    <GuarantedSkill Value="SKILL-YM_GOLEM_CINZEL" />
+    <SkillGroupFilters>
+      <SkillGroupSingleFilter Name="YM_Golem" Requirement="NecessaryType" />
+    </SkillGroupFilters>
+  </SKILL_PACK-YM_GOLEM_CINZEL>
+  <SKILL_PACK-YM_GOLEM_ESTALO>
+    <RarityRange MinimumCount="0" MaximumCount="0" />
+    <GuarantedSkill Value="SKILL-YM_GOLEM_ESTALO" />
+    <SkillGroupFilters>
+      <SkillGroupSingleFilter Name="YM_Golem" Requirement="NecessaryType" />
+    </SkillGroupFilters>
+  </SKILL_PACK-YM_GOLEM_ESTALO>
+  <SKILL_PACK-YM_GOLEM_TERRA_VIVA>
+    <RarityRange MinimumCount="0" MaximumCount="0" />
+    <GuarantedSkill Value="SKILL-YM_GOLEM_TERRA_VIVA" />
+    <SkillGroupFilters>
+      <SkillGroupSingleFilter Name="YM_Golem" Requirement="NecessaryType" />
+    </SkillGroupFilters>
+  </SKILL_PACK-YM_GOLEM_TERRA_VIVA>
+  <SKILL_PACK-YM_GOLEM_FANTASMA_DE_FORG>
+    <RarityRange MinimumCount="0" MaximumCount="0" />
+    <GuarantedSkill Value="SKILL-YM_GOLEM_FANTASMA_DE_FORG" />
+    <SkillGroupFilters>
+      <SkillGroupSingleFilter Name="YM_Golem" Requirement="NecessaryType" />
+    </SkillGroupFilters>
+  </SKILL_PACK-YM_GOLEM_FANTASMA_DE_FORG>
+  <SKILL_PACK-YM_GOLEM_GEMEO>
+    <RarityRange MinimumCount="0" MaximumCount="0" />
+    <GuarantedSkill Value="SKILL-YM_GOLEM_GEMEO" />
+    <SkillGroupFilters>
+      <SkillGroupSingleFilter Name="YM_Golem" Requirement="NecessaryType" />
+    </SkillGroupFilters>
+  </SKILL_PACK-YM_GOLEM_GEMEO>
+  <SKILL_PACK-YM_PERS_LEAL>
+    <RarityRange MinimumCount="0" MaximumCount="0" />
+    <GuarantedSkill Value="SKILL-PERS_LEAL" />
+    <SkillGroupFilters>
+      <SkillGroupSingleFilter Name="Pet" Requirement="NecessaryType" />
+    </SkillGroupFilters>
+  </SKILL_PACK-YM_PERS_LEAL>
+  <SKILL_PACK-YM_PERS_AGRESSIVO>
+    <RarityRange MinimumCount="0" MaximumCount="0" />
+    <GuarantedSkill Value="SKILL-PERS_AGRESSIVO" />
+    <SkillGroupFilters>
+      <SkillGroupSingleFilter Name="Pet" Requirement="NecessaryType" />
+    </SkillGroupFilters>
+  </SKILL_PACK-YM_PERS_AGRESSIVO>
+  <SKILL_PACK-YM_PERS_SERENO>
+    <RarityRange MinimumCount="0" MaximumCount="0" />
+    <GuarantedSkill Value="SKILL-PERS_SERENO" />
+    <SkillGroupFilters>
+      <SkillGroupSingleFilter Name="Pet" Requirement="NecessaryType" />
+    </SkillGroupFilters>
+  </SKILL_PACK-YM_PERS_SERENO>
+  <SKILL_PACK-YM_PERS_VAIDOSO>
+    <RarityRange MinimumCount="0" MaximumCount="0" />
+    <GuarantedSkill Value="SKILL-PERS_VAIDOSO" />
+    <SkillGroupFilters>
+      <SkillGroupSingleFilter Name="Pet" Requirement="NecessaryType" />
+    </SkillGroupFilters>
+  </SKILL_PACK-YM_PERS_VAIDOSO>
+  <SKILL_PACK-HALF_ARGILA_CLASSE>
+    <RarityRange MinimumCount="0" MaximumCount="0" />
+    <GuarantedSkill Value="SKILL-HALF_ARGILA_CLASSE" />
+    <SkillGroupFilters>
+      <SkillGroupSingleFilter Name="Fallback" Requirement="NecessaryType" />
+    </SkillGroupFilters>
+  </SKILL_PACK-HALF_ARGILA_CLASSE>
+  <SKILL_PACK-HALF_ARGILA_AVANCO>
+    <RarityRange MinimumCount="0" MaximumCount="70" />
+    <SkillGroupFilters>
+      <SkillGroupSingleFilter Name="HalfArgila" Requirement="OptionalType" />
+    </SkillGroupFilters>
+  </SKILL_PACK-HALF_ARGILA_AVANCO>
+  <SKILL_PACK-HALF_BRASA_CLASSE>
+    <RarityRange MinimumCount="0" MaximumCount="0" />
+    <GuarantedSkill Value="SKILL-HALF_BRASA_CLASSE" />
+    <SkillGroupFilters>
+      <SkillGroupSingleFilter Name="Fallback" Requirement="NecessaryType" />
+    </SkillGroupFilters>
+  </SKILL_PACK-HALF_BRASA_CLASSE>
+  <SKILL_PACK-HALF_BRASA_AVANCO>
+    <RarityRange MinimumCount="0" MaximumCount="70" />
+    <SkillGroupFilters>
+      <SkillGroupSingleFilter Name="HalfBrasa" Requirement="OptionalType" />
+    </SkillGroupFilters>
+  </SKILL_PACK-HALF_BRASA_AVANCO>
+  <SKILL_PACK-YM_GOLEM_OBSIDIANA>
+    <RarityRange MinimumCount="0" MaximumCount="0" />
+    <GuarantedSkill Value="SKILL-YM_GOLEM_OBSIDIANA" />
+    <SkillGroupFilters>
+      <SkillGroupSingleFilter Name="YM_Golem" Requirement="NecessaryType" />
+    </SkillGroupFilters>
+  </SKILL_PACK-YM_GOLEM_OBSIDIANA>
+  <SKILL_PACK-YM_GOLEM_SANGUE>
+    <RarityRange MinimumCount="0" MaximumCount="0" />
+    <GuarantedSkill Value="SKILL-YM_GOLEM_SANGUE" />
+    <SkillGroupFilters>
+      <SkillGroupSingleFilter Name="YM_Golem" Requirement="NecessaryType" />
+    </SkillGroupFilters>
+  </SKILL_PACK-YM_GOLEM_SANGUE>
+  <SKILL_PACK-YM_GOLEM_NEBULINA>
+    <RarityRange MinimumCount="0" MaximumCount="0" />
+    <GuarantedSkill Value="SKILL-YM_GOLEM_NEBULINA" />
+    <SkillGroupFilters>
+      <SkillGroupSingleFilter Name="YM_Golem" Requirement="NecessaryType" />
+    </SkillGroupFilters>
+  </SKILL_PACK-YM_GOLEM_NEBULINA>
+  <SKILL_PACK-YM_GOLEM_FUNGO>
+    <RarityRange MinimumCount="0" MaximumCount="0" />
+    <GuarantedSkill Value="SKILL-YM_GOLEM_FUNGO" />
+    <SkillGroupFilters>
+      <SkillGroupSingleFilter Name="YM_Golem" Requirement="NecessaryType" />
+    </SkillGroupFilters>
+  </SKILL_PACK-YM_GOLEM_FUNGO>
+  <SKILL_PACK-YM_GOLEM_RELIQUIA>
+    <RarityRange MinimumCount="0" MaximumCount="0" />
+    <GuarantedSkill Value="SKILL-YM_GOLEM_RELIQUIA" />
+    <SkillGroupFilters>
+      <SkillGroupSingleFilter Name="YM_Golem" Requirement="NecessaryType" />
+    </SkillGroupFilters>
+  </SKILL_PACK-YM_GOLEM_RELIQUIA>
+  <SKILL_PACK-HALF_OBSIDIANA_CLASSE>
+    <RarityRange MinimumCount="0" MaximumCount="0" />
+    <GuarantedSkill Value="SKILL-HALF_OBSIDIANA_CLASSE" />
+    <SkillGroupFilters>
+      <SkillGroupSingleFilter Name="Fallback" Requirement="NecessaryType" />
+    </SkillGroupFilters>
+  </SKILL_PACK-HALF_OBSIDIANA_CLASSE>
+  <SKILL_PACK-HALF_OBSIDIANA_AVANCO>
+    <RarityRange MinimumCount="0" MaximumCount="70" />
+    <GuarantedSkill Value="SKILL-MASTER_CRAFTSMAN" />
+    <SkillGroupFilters>
+      <SkillGroupSingleFilter Name="HalfObsidiana" Requirement="OptionalType" />
+    </SkillGroupFilters>
+  </SKILL_PACK-HALF_OBSIDIANA_AVANCO>
+  <SKILL_PACK-HALF_NEBULINA_CLASSE>
+    <RarityRange MinimumCount="0" MaximumCount="0" />
+    <GuarantedSkill Value="SKILL-HALF_NEBULINA_CLASSE" />
+    <SkillGroupFilters>
+      <SkillGroupSingleFilter Name="Fallback" Requirement="NecessaryType" />
+    </SkillGroupFilters>
+  </SKILL_PACK-HALF_NEBULINA_CLASSE>
+  <SKILL_PACK-HALF_NEBULINA_AVANCO>
+    <RarityRange MinimumCount="0" MaximumCount="70" />
+    <SkillGroupFilters>
+      <SkillGroupSingleFilter Name="HalfNebulina" Requirement="OptionalType" />
+    </SkillGroupFilters>
+  </SKILL_PACK-HALF_NEBULINA_AVANCO>
+  <SKILL_PACK-YM_ITEM_ESPADA_RUNICA>
+    <RarityRange MinimumCount="0" MaximumCount="0" />
+    <GuarantedSkill Value="SKILL-YM_ITEM_ESPADA_RUNICA" />
+    <SkillGroupFilters>
+      <SkillGroupSingleFilter Name="YM_Item" Requirement="NecessaryType" />
+    </SkillGroupFilters>
+  </SKILL_PACK-YM_ITEM_ESPADA_RUNICA>
+  <SKILL_PACK-YM_ITEM_AMULETO_FORJA>
+    <RarityRange MinimumCount="0" MaximumCount="0" />
+    <GuarantedSkill Value="SKILL-YM_ITEM_AMULETO_FORJA" />
+    <SkillGroupFilters>
+      <SkillGroupSingleFilter Name="YM_Item" Requirement="NecessaryType" />
+    </SkillGroupFilters>
+  </SKILL_PACK-YM_ITEM_AMULETO_FORJA>
+  <SKILL_PACK-YM_ITEM_BOTAS_ARGILA>
+    <RarityRange MinimumCount="0" MaximumCount="0" />
+    <GuarantedSkill Value="SKILL-YM_ITEM_BOTAS_ARGILA" />
+    <SkillGroupFilters>
+      <SkillGroupSingleFilter Name="YM_Item" Requirement="NecessaryType" />
+    </SkillGroupFilters>
+  </SKILL_PACK-YM_ITEM_BOTAS_ARGILA>
+  <SKILL_PACK-YM_SANIDADE>
+    <RarityRange MinimumCount="0" MaximumCount="0" />
+    <GuarantedSkill Value="SKILL-YM_SANIDADE_LOSS" />
+    <GuarantedSkill Value="SKILL-YM_SANIDADE_RECOVER" />
+    <SkillGroupFilters>
+      <SkillGroupSingleFilter Name="YM_Sanity" Requirement="NecessaryType" />
+    </SkillGroupFilters>
+  </SKILL_PACK-YM_SANIDADE>
+  <SKILL_PACK-YM_ITEM_LAMINA_FORJA>
+    <RarityRange MinimumCount="0" MaximumCount="0" />
+    <GuarantedSkill Value="SKILL-YM_ITEM_LAMINA_FORJA" />
+  </SKILL_PACK-YM_ITEM_LAMINA_FORJA>
+  <SKILL_PACK-YM_ITEM_MARTELO_MESTRE>
+    <RarityRange MinimumCount="0" MaximumCount="0" />
+    <GuarantedSkill Value="SKILL-YM_ITEM_MARTELO_MESTRE" />
+  </SKILL_PACK-YM_ITEM_MARTELO_MESTRE>
+  <SKILL_PACK-YM_ITEM_MALHA_COTA>
+    <RarityRange MinimumCount="0" MaximumCount="0" />
+    <GuarantedSkill Value="SKILL-YM_ITEM_MALHA_COTA" />
+  </SKILL_PACK-YM_ITEM_MALHA_COTA>
+  <SKILL_PACK-YM_ITEM_ESCUDO_PEDRA>
+    <RarityRange MinimumCount="0" MaximumCount="0" />
+    <GuarantedSkill Value="SKILL-YM_ITEM_ESCUDO_PEDRA" />
+  </SKILL_PACK-YM_ITEM_ESCUDO_PEDRA>
+  <SKILL_PACK-YM_ITEM_ALVO_AMBER>
+    <RarityRange MinimumCount="0" MaximumCount="0" />
+    <GuarantedSkill Value="SKILL-YM_ITEM_ALVO_AMBER" />
+  </SKILL_PACK-YM_ITEM_ALVO_AMBER>
+  <SKILL_PACK-YM_ITEM_PAO_VIVO>
+    <RarityRange MinimumCount="0" MaximumCount="0" />
+    <GuarantedSkill Value="SKILL-YM_ITEM_PAO_VIVO" />
+  </SKILL_PACK-YM_ITEM_PAO_VIVO>
+  <SKILL_PACK-YM_ITEM_ERVA_FORJA>
+    <RarityRange MinimumCount="0" MaximumCount="0" />
+    <GuarantedSkill Value="SKILL-YM_ITEM_ERVA_FORJA" />
+  </SKILL_PACK-YM_ITEM_ERVA_FORJA>
+  <SKILL_PACK-YM_ITEM_ARMADILHA_LAMBRI>
+    <RarityRange MinimumCount="0" MaximumCount="0" />
+    <GuarantedSkill Value="SKILL-YM_ITEM_ARMADILHA_LAMBRI" />
+  </SKILL_PACK-YM_ITEM_ARMADILHA_LAMBRI>
+  <SKILL_PACK-YM_ITEM_PINGENTE_NOME>
+    <RarityRange MinimumCount="0" MaximumCount="0" />
+    <GuarantedSkill Value="SKILL-YM_ITEM_PINGENTE_NOME" />
+  </SKILL_PACK-YM_ITEM_PINGENTE_NOME>
+  <SKILL_PACK-YM_GOLEM_KOMAINU>
+    <RarityRange MinimumCount="0" MaximumCount="0" />
+    <GuarantedSkill Value="SKILL-YM_GOLEM_KOMAINU" />
+    <SkillGroupFilters>
+      <SkillGroupSingleFilter Name="YM_Golem" Requirement="NecessaryType" />
+    </SkillGroupFilters>
+  </SKILL_PACK-YM_GOLEM_KOMAINU>
+  <SKILL_PACK-YM_GOLEM_GUARDAO_DA_MINA_AVANCO>
+    <RarityRange MinimumCount="0" MaximumCount="0" />
+    <GuarantedSkill Value="SKILL-YM_GOLEM_GUARDAO_DA_MINA_AVANCO" />
+    <SkillGroupFilters>
+      <SkillGroupSingleFilter Name="YM_GOLEM_GUARDAO_DA_MINA_AVANCO" Requirement="NecessaryType" />
+    </SkillGroupFilters>
+  </SKILL_PACK-YM_GOLEM_GUARDAO_DA_MINA_AVANCO>
+  <SKILL_PACK-YM_GOLEM_RELIQUIA_AVANCO>
+    <RarityRange MinimumCount="0" MaximumCount="0" />
+    <GuarantedSkill Value="SKILL-YM_GOLEM_RELIQUIA_AVANCO" />
+    <SkillGroupFilters>
+      <SkillGroupSingleFilter Name="YM_GOLEM_RELIQUIA_AVANCO" Requirement="NecessaryType" />
+    </SkillGroupFilters>
+  </SKILL_PACK-YM_GOLEM_RELIQUIA_AVANCO>
+  <SKILL_PACK-YM_GOLEM_CINZEL_AVANCO>
+    <RarityRange MinimumCount="0" MaximumCount="0" />
+    <GuarantedSkill Value="SKILL-YM_GOLEM_CINZEL_AVANCO" />
+    <SkillGroupFilters>
+      <SkillGroupSingleFilter Name="YM_GOLEM_CINZEL_AVANCO" Requirement="NecessaryType" />
+    </SkillGroupFilters>
+  </SKILL_PACK-YM_GOLEM_CINZEL_AVANCO>
+  <SKILL_PACK-YM_GOLEM_KOMAINU_AVANCO>
+    <RarityRange MinimumCount="0" MaximumCount="0" />
+    <GuarantedSkill Value="SKILL-YM_GOLEM_KOMAINU_AVANCO" />
+    <SkillGroupFilters>
+      <SkillGroupSingleFilter Name="YM_GOLEM_KOMAINU_AVANCO" Requirement="NecessaryType" />
+    </SkillGroupFilters>
+  </SKILL_PACK-YM_GOLEM_KOMAINU_AVANCO>
+  <SKILL_PACK-YM_EQUIP_DAISHO>
+    <RarityRange MinimumCount="0" MaximumCount="0" />
+    <GuarantedSkill Value="SKILL-YM_EQUIP_DAISHO" />
+    <SkillGroupFilters>
+      <SkillGroupSingleFilter Name="YM_EQUIP_DAISHO" Requirement="NecessaryType" />
+    </SkillGroupFilters>
+  </SKILL_PACK-YM_EQUIP_DAISHO>
+  <SKILL_PACK-YM_EQUIP_OMAMORI>
+    <RarityRange MinimumCount="0" MaximumCount="0" />
+    <GuarantedSkill Value="SKILL-YM_EQUIP_OMAMORI" />
+    <SkillGroupFilters>
+      <SkillGroupSingleFilter Name="YM_EQUIP_OMAMORI" Requirement="NecessaryType" />
+    </SkillGroupFilters>
+  </SKILL_PACK-YM_EQUIP_OMAMORI>
+  <SKILL_PACK-YM_CORE_INERTE>
+    <RarityRange MinimumCount="0" MaximumCount="0" />
+    <GuarantedSkill Value="SKILL-YM_CORE_INERTE" />
+    <SkillGroupFilters>
+      <SkillGroupSingleFilter Name="YM_CoreInerte" Requirement="NecessaryType" />
+    </SkillGroupFilters>
+  </SKILL_PACK-YM_CORE_INERTE>
+  <SKILL_PACK-YM_ARMA_ARCO>
+    <RarityRange MinimumCount="0" MaximumCount="0" />
+    <GuarantedSkill Value="SKILL-YM_ARMA_ARCO" />
+    <SkillGroupFilters>
+      <SkillGroupSingleFilter Name="YM_ARMA_ARCO" Requirement="NecessaryType" />
+    </SkillGroupFilters>
+  </SKILL_PACK-YM_ARMA_ARCO>
+  <SKILL_PACK-YM_ARMA_BESTA>
+    <RarityRange MinimumCount="0" MaximumCount="0" />
+    <GuarantedSkill Value="SKILL-YM_ARMA_BESTA" />
+    <SkillGroupFilters>
+      <SkillGroupSingleFilter Name="YM_ARMA_BESTA" Requirement="NecessaryType" />
+    </SkillGroupFilters>
+  </SKILL_PACK-YM_ARMA_BESTA>
+  <SKILL_PACK-YM_ARMA_ARCABUZ>
+    <RarityRange MinimumCount="0" MaximumCount="0" />
+    <GuarantedSkill Value="SKILL-YM_ARMA_ARCABUZ" />
+    <SkillGroupFilters>
+      <SkillGroupSingleFilter Name="YM_ARMA_ARCABUZ" Requirement="NecessaryType" />
+    </SkillGroupFilters>
+  </SKILL_PACK-YM_ARMA_ARCABUZ>
+  <SKILL_PACK-YM_ARMA_FUNDA>
+    <RarityRange MinimumCount="0" MaximumCount="0" />
+    <GuarantedSkill Value="SKILL-YM_ARMA_FUNDA" />
+    <SkillGroupFilters>
+      <SkillGroupSingleFilter Name="YM_ARMA_FUNDA" Requirement="NecessaryType" />
+    </SkillGroupFilters>
+  </SKILL_PACK-YM_ARMA_FUNDA>
+  <SKILL_PACK-YM_ARMA_CHICOTE>
+    <RarityRange MinimumCount="0" MaximumCount="0" />
+    <GuarantedSkill Value="SKILL-YM_ARMA_CHICOTE" />
+    <SkillGroupFilters>
+      <SkillGroupSingleFilter Name="YM_ARMA_CHICOTE" Requirement="NecessaryType" />
+    </SkillGroupFilters>
+  </SKILL_PACK-YM_ARMA_CHICOTE>
+  <SKILL_PACK-YM_ARMA_CHICOTE_REFORCADO>
+    <RarityRange MinimumCount="0" MaximumCount="0" />
+    <GuarantedSkill Value="SKILL-YM_ARMA_CHICOTE_REFORCADO" />
+    <SkillGroupFilters>
+      <SkillGroupSingleFilter Name="YM_ARMA_CHICOTE_REFORCADO" Requirement="NecessaryType" />
+    </SkillGroupFilters>
+  </SKILL_PACK-YM_ARMA_CHICOTE_REFORCADO>
+</SKILLS_PACKS>

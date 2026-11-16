@@ -1,0 +1,32 @@
+<SUBSKILLS_BUILDINGS>
+  <SUBSKILL-YM_FORJA_VIVA_VAGA Animation="" Sound="">
+    <DescriptionInfo Name="DES_SUBSKILL_BUILDING_ADD_CRAFTING_SLOTS" Description="DES_SUBSKILL_BUILDING_ADD_CRAFTING_SLOTS_DES" IconName="SubskillAddCraftingSlotsBuilding" />
+    <ShortInfo TriggerIcon="TAG-TRIGGER_GROUP_PASSIVE" DamageIcon="TAG-DAMAGE_BUILDING_CRAFTING_SLOTS" TargetIcon="TAG-TARGET_SELF_GROUP" AttackInfo="{SCRIPT:SI_ExtraSlot}" />
+    <Trigger Priority="0" RequiredToBeInFrontline="FALSE" RequiredToBeInBackline="FALSE">
+      <TriggerGroup Value="GroupPassive" />
+      <TriggerScript ScriptName="" />
+    </Trigger>
+    <Targets>
+      <TargetScript ScriptName="Trg_Self" />
+    </Targets>
+    <Activation ScriptName="GAct_ExtraCraftingSlot" />
+    <SubskillAttributesOnLevel Level="0" PowerLevel="0.0">
+      <SubskillAttribute Identifier="ExtraCraftingSlot" AttributeStringValue="+" AttributeFloatValue="1.0" />
+    </SubskillAttributesOnLevel>
+    <SubskillAttributesOnLevel Level="1" PowerLevel="0.0">
+      <SubskillAttribute Identifier="ExtraCraftingSlot" AttributeStringValue="+" AttributeFloatValue="1.0" />
+    </SubskillAttributesOnLevel>
+    <SubskillAttributesOnLevel Level="2" PowerLevel="0.0">
+      <SubskillAttribute Identifier="ExtraCraftingSlot" AttributeStringValue="+" AttributeFloatValue="1.0" />
+    </SubskillAttributesOnLevel>
+    <SubskillAttributesOnLevel Level="3" PowerLevel="0.0">
+      <SubskillAttribute Identifier="ExtraCraftingSlot" AttributeStringValue="+" AttributeFloatValue="1.0" />
+    </SubskillAttributesOnLevel>
+    <SubskillAttributesOnLevel Level="4" PowerLevel="0.0">
+      <SubskillAttribute Identifier="ExtraCraftingSlot" AttributeStringValue="+" AttributeFloatValue="1.0" />
+    </SubskillAttributesOnLevel>
+    <SubskillAttributesOnLevel Level="5" PowerLevel="0.0">
+      <SubskillAttribute Identifier="ExtraCraftingSlot" AttributeStringValue="+" AttributeFloatValue="1.0" />
+    </SubskillAttributesOnLevel>
+  </SUBSKILL-YM_FORJA_VIVA_VAGA>
+</SUBSKILLS_BUILDINGS>

@@ -1,0 +1,7 @@
+<TRAIT_CARD_CARDS>
+  <TRAIT_CARD-YURI_GOLEM_MAKER UnlockCost="3" UseCost="3">
+    <DescriptionInfo Name="DES_YURI_CLASSE" Description="DES_YURI_CLASSE_DES" IconName="YURI_Yuri_Classe" />
+    <AddSubrace Value="SUBRACE-YURI_MIZUKI" />
+    <DomainType Value="TAG-DOMAIN_MAGIC" />
+  </TRAIT_CARD-YURI_GOLEM_MAKER>
+</TRAIT_CARD_CARDS>

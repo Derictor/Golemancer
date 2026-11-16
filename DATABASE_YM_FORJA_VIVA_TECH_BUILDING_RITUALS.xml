@@ -1,0 +1,16 @@
+<BUILDINGS_TECH>
+  <BUILDING_TECH-YM_FORJA_VIVA UpgradeCost="4">
+    <DescriptionInfo Name="Forja Viva" Description="Suportes de pedra abrem uma vaga de fabricação e as bancadas auxiliam a pesquisa." IconName="BuildingArmouryStone" />
+    <UnlockRecipe UnlockPrimeRes="1" UnlockSecRes="1">
+      <BuildingRecipe Value="BUILD_REC-YM_FORJA_VIVA" />
+    </UnlockRecipe>
+    <ParentBuildingTech Value="BUILDING_TECH-FORGE" />
+  </BUILDING_TECH-YM_FORJA_VIVA>
+  <BUILDING_TECH-YM_FORJA_VIVA_RITO UpgradeCost="1">
+    <DescriptionInfo Name="Carapaça Inscrita" Description="Concede ao grupo o efeito ritual Armadura do Conhecimento." IconName="RitualKnowledgeArmour" />
+    <UnlockRecipe UnlockPrimeRes="1" UnlockSecRes="1">
+      <RitualRecipe Value="RITUAL_REC-YM_FORJA_VIVA" />
+    </UnlockRecipe>
+    <ParentBuildingTech Value="BUILDING_TECH-YM_FORJA_VIVA" />
+  </BUILDING_TECH-YM_FORJA_VIVA_RITO>
+</BUILDINGS_TECH>

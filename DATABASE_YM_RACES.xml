@@ -1,0 +1,8 @@
+<RACES>
+  <RACE-YM_GOLEM>
+    <DescriptionInfo Name="DES_YM_GOLEM" Description="DES_YM_GOLEM_DES" IconName="GOLEM_KOMAINU_Roster" />
+  </RACE-YM_GOLEM>
+  <RACE-YM_MEIO_GOLEM>
+    <DescriptionInfo Name="DES_YM_MEIO_GOLEM" Description="DES_YM_MEIO_GOLEM_DES" IconName="YM_DESC_HUMAN_ADULT" />
+  </RACE-YM_MEIO_GOLEM>
+</RACES>
