@@ -359,4 +359,28 @@
     <TagType Value="ItemType" />
     <Parent Value="TAG-MELEE_WEAPON" />
   </TAG-YM_ARMA_CHICOTE_REFORCADO>
+  <!-- Modular golem assembly components -->
+  <TAG-YM_CORE_T1 Visible="FALSE" UseCount="TRUE"><DescriptionInfo Name="Núcleo T1" Description="Núcleo inerte para despertar golens T1." IconName="GOLEM_CHOQUE_Roster" /><TagType Value="ItemType" /></TAG-YM_CORE_T1>
+  <TAG-YM_BODY_CHOQUE Visible="FALSE" UseCount="TRUE"><DescriptionInfo Name="Carcaça de CHOQUE" Description="Estrutura inerte aguardando um Núcleo T1." IconName="GOLEM_CHOQUE_Roster" /><TagType Value="ItemType" /></TAG-YM_BODY_CHOQUE>
+  <TAG-YM_BODY_CASCALHO Visible="FALSE" UseCount="TRUE"><DescriptionInfo Name="Carcaça de CASCALHO" Description="Estrutura inerte aguardando um Núcleo T1." IconName="GOLEM_CASCALHO_Roster" /><TagType Value="ItemType" /></TAG-YM_BODY_CASCALHO>
+  <TAG-YM_BODY_GALHO Visible="FALSE" UseCount="TRUE"><DescriptionInfo Name="Carcaça de GALHO" Description="Estrutura inerte aguardando um Núcleo T1." IconName="GOLEM_GALHO_Roster" /><TagType Value="ItemType" /></TAG-YM_BODY_GALHO>
+  <TAG-YM_BODY_LAMPEJO Visible="FALSE" UseCount="TRUE"><DescriptionInfo Name="Carcaça de LAMPEJO" Description="Estrutura inerte aguardando um Núcleo T1." IconName="GOLEM_LAMPEJO_Roster" /><TagType Value="ItemType" /></TAG-YM_BODY_LAMPEJO>
+  <TAG-YM_BODY_MASSA Visible="FALSE" UseCount="TRUE"><DescriptionInfo Name="Carcaça de MASSA" Description="Estrutura inerte aguardando um Núcleo T1." IconName="GOLEM_MASSA_Roster" /><TagType Value="ItemType" /></TAG-YM_BODY_MASSA>
+  <TAG-YM_BODY_SEIXO Visible="FALSE" UseCount="TRUE"><DescriptionInfo Name="Carcaça de SEIXO" Description="Estrutura inerte aguardando um Núcleo T1." IconName="GOLEM_SEIXO_Roster" /><TagType Value="ItemType" /></TAG-YM_BODY_SEIXO>
+  <TAG-YM_CORE_T2 Visible="FALSE" UseCount="TRUE"><DescriptionInfo Name="Núcleo T2" Description="Núcleo inerte para despertar golens T2." IconName="GOLEM_CHOQUE_Roster" /><TagType Value="ItemType" /></TAG-YM_CORE_T2>
+  <TAG-YM_BODY_FERRO_VIDO Visible="FALSE" UseCount="TRUE"><DescriptionInfo Name="Carcaça de FERRO VIDO" Description="Estrutura inerte aguardando um Núcleo T2." IconName="GOLEM_FERRO_VIDO_Roster" /><TagType Value="ItemType" /></TAG-YM_BODY_FERRO_VIDO>
+  <TAG-YM_BODY_RAIZ Visible="FALSE" UseCount="TRUE"><DescriptionInfo Name="Carcaça de RAIZ" Description="Estrutura inerte aguardando um Núcleo T2." IconName="GOLEM_RAIZ_Roster" /><TagType Value="ItemType" /></TAG-YM_BODY_RAIZ>
+  <TAG-YM_BODY_OSSADA Visible="FALSE" UseCount="TRUE"><DescriptionInfo Name="Carcaça de OSSADA" Description="Estrutura inerte aguardando um Núcleo T2." IconName="GOLEM_OSSADA_Roster" /><TagType Value="ItemType" /></TAG-YM_BODY_OSSADA>
+  <TAG-YM_BODY_CRISTAL Visible="FALSE" UseCount="TRUE"><DescriptionInfo Name="Carcaça de CRISTAL" Description="Estrutura inerte aguardando um Núcleo T2." IconName="GOLEM_CRISTAL_Roster" /><TagType Value="ItemType" /></TAG-YM_BODY_CRISTAL>
+  <TAG-YM_BODY_PAO_DO_CAMPO Visible="FALSE" UseCount="TRUE"><DescriptionInfo Name="Carcaça de PAO DO CAMPO" Description="Estrutura inerte aguardando um Núcleo T2." IconName="GOLEM_PAO_DO_CAMPO_Roster" /><TagType Value="ItemType" /></TAG-YM_BODY_PAO_DO_CAMPO>
+  <TAG-YM_CORE_T3 Visible="FALSE" UseCount="TRUE"><DescriptionInfo Name="Núcleo T3" Description="Núcleo inerte para despertar golens T3." IconName="GOLEM_CHOQUE_Roster" /><TagType Value="ItemType" /></TAG-YM_CORE_T3>
+  <TAG-YM_BODY_MURALHA Visible="FALSE" UseCount="TRUE"><DescriptionInfo Name="Carcaça de MURALHA" Description="Estrutura inerte aguardando um Núcleo T3." IconName="GOLEM_MURALHA_Roster" /><TagType Value="ItemType" /></TAG-YM_BODY_MURALHA>
+  <TAG-YM_BODY_VIUVA Visible="FALSE" UseCount="TRUE"><DescriptionInfo Name="Carcaça de VIUVA" Description="Estrutura inerte aguardando um Núcleo T3." IconName="GOLEM_VIUVA_Roster" /><TagType Value="ItemType" /></TAG-YM_BODY_VIUVA>
+  <TAG-YM_BODY_VEJO Visible="FALSE" UseCount="TRUE"><DescriptionInfo Name="Carcaça de VEJO" Description="Estrutura inerte aguardando um Núcleo T3." IconName="GOLEM_VEJO_Roster" /><TagType Value="ItemType" /></TAG-YM_BODY_VEJO>
+  <TAG-YM_BODY_AGULHA Visible="FALSE" UseCount="TRUE"><DescriptionInfo Name="Carcaça de AGULHA" Description="Estrutura inerte aguardando um Núcleo T3." IconName="GOLEM_AGULHA_Roster" /><TagType Value="ItemType" /></TAG-YM_BODY_AGULHA>
+  <TAG-YM_BODY_FERREIRO Visible="FALSE" UseCount="TRUE"><DescriptionInfo Name="Carcaça de FERREIRO" Description="Estrutura inerte aguardando um Núcleo T3." IconName="GOLEM_FERREIRO_Roster" /><TagType Value="ItemType" /></TAG-YM_BODY_FERREIRO>
+  <TAG-YM_BODY_OBSIDIANA Visible="FALSE" UseCount="TRUE"><DescriptionInfo Name="Carcaça de OBSIDIANA" Description="Estrutura inerte aguardando um Núcleo T3." IconName="GOLEM_OBSIDIANA_Roster" /><TagType Value="ItemType" /></TAG-YM_BODY_OBSIDIANA>
+  <TAG-YM_BODY_SANGUE Visible="FALSE" UseCount="TRUE"><DescriptionInfo Name="Carcaça de SANGUE" Description="Estrutura inerte aguardando um Núcleo T3." IconName="GOLEM_SANGUE_Roster" /><TagType Value="ItemType" /></TAG-YM_BODY_SANGUE>
+  <TAG-YM_BODY_NEBULINA Visible="FALSE" UseCount="TRUE"><DescriptionInfo Name="Carcaça de NEBULINA" Description="Estrutura inerte aguardando um Núcleo T3." IconName="GOLEM_NEBULINA_Roster" /><TagType Value="ItemType" /></TAG-YM_BODY_NEBULINA>
+  <TAG-YM_BODY_FUNGO Visible="FALSE" UseCount="TRUE"><DescriptionInfo Name="Carcaça de FUNGO" Description="Estrutura inerte aguardando um Núcleo T3." IconName="GOLEM_FUNGO_Roster" /><TagType Value="ItemType" /></TAG-YM_BODY_FUNGO>
 </TAGS_QUEST>
