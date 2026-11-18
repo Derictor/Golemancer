@@ -114,6 +114,7 @@
   <DB>DATABASE_TECH_ITEM.xml</DB>
   <SCRIPT>YM_UniqueRecruitment.cs</SCRIPT>
   <SCRIPT>YM_ForjarProle.cs</SCRIPT>
+  <SCRIPT>YM_GolemAssembly.cs</SCRIPT>
   <SCRIPT>YM_ShrineKinship.cs</SCRIPT>
   <STORY_MODULE>YM_ForjaViva.xml</STORY_MODULE>
   <TAG>Characters</TAG>
