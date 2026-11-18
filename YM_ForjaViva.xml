@@ -38,34 +38,158 @@
     <nodes xsi:type="NodeAdventureEnd" ID="4" positionX="1420" positionY="-30" width="350" height="660" linkedEventUniqueID="0" />
   </Adventure>
 
-  <Adventure name="A Forja Viva" uniqueID="2" allowOnce="false" typeGeneric="false" typePerGroupGeneric="true" typeInterrupt="false" typeExpedition="false" typeVillage="false" difficulty="0" nodeIdMax="10" joinIsForced="false" joinType="OnlyOwn" joinRange="SinglePosition">
+  <Adventure name="A Forja Viva" uniqueID="2" allowOnce="false" typeGeneric="false" typePerGroupGeneric="true" typeInterrupt="false" typeExpedition="false" typeVillage="false" difficulty="0" nodeIdMax="30" joinIsForced="false" joinType="OnlyOwn" joinRange="SinglePosition">
     <nodes xsi:type="NodeStarting" ID="1" positionX="40" positionY="-30" width="350" height="660" image="EV_A_FORJA_VIVA">
-      <logic>
-        <FilterBlock>
-          <LogicFilter name="yuri">
-            <scriptCallWithTag scriptName="FwT_ThisPlayerThisGroupCharacters" parameter="1" tag="SUBRACE-YURI_MIZUKI" />
-          </LogicFilter>
-          <LogicResultAction list="yuri">
-            <scriptCallWithTag scriptName="FRA_ListSizeMoreEqualThan" parameter="1" />
-          </LogicResultAction>
-          <LogicResultAction>
-            <scriptCallWithTag scriptName="FRA_TurnAboveOrEqualValue" parameter="7" />
-          </LogicResultAction>
-        </FilterBlock>
-      </logic>
+      <logic><FilterBlock>
+        <LogicFilter name="yuri"><scriptCallWithTag scriptName="FwT_ThisPlayerThisGroupCharacters" parameter="1" tag="SUBRACE-YURI_MIZUKI" /></LogicFilter>
+        <LogicResultAction list="yuri"><scriptCallWithTag scriptName="FRA_ListSizeMoreEqualThan" parameter="1" /></LogicResultAction>
+        <LogicResultAction><scriptCallWithTag scriptName="FRA_TurnAboveOrEqualValue" parameter="7" /></LogicResultAction>
+      </FilterBlock></logic>
       <outputs ownerID="1" targetID="2" fromX="365" fromY="-580" />
     </nodes>
     <nodes xsi:type="NodeAdventure" ID="2" positionX="500" positionY="-30" width="350" height="660" image="EV_A_FORJA_VIVA">
-      <outputs ownerID="2" targetID="3" fromX="825" fromY="-580" name="Forjar Golem Inferior (T1) - 4 de vida física de Yuri." />
-      <outputs ownerID="2" targetID="4" fromX="825" fromY="-660" name="Forjar Golem Feitor (T2) - 6 de vida física de Yuri. Exige oficina." />
-      <outputs ownerID="2" targetID="5" fromX="825" fromY="-740" name="Forjar Golem Superior (T3) - 8 de vida física de Yuri. Exige forja e oficina." />
-      <outputs ownerID="2" targetID="6" fromX="825" fromY="-820" name="Seguir viagem." />Yuri monta a bigorna sobre um cepo. — Mostrem o que temos na bagagem. Cada golem custa parte da minha vitalidade, mas eles são meus filhos.</nodes>
-    <nodes xsi:type="NodeAdventureEnd" ID="3" positionX="1420" positionY="-30" width="350" height="660" linkedEventUniqueID="0" />
-    <nodes xsi:type="NodeAdventureEnd" ID="4" positionX="1420" positionY="-30" width="350" height="660" linkedEventUniqueID="0" />
-    <nodes xsi:type="NodeAdventureEnd" ID="5" positionX="1420" positionY="-30" width="350" height="660" linkedEventUniqueID="0" />
-    <nodes xsi:type="NodeAdventureEnd" ID="6" positionX="1420" positionY="-30" width="350" height="660" linkedEventUniqueID="0" />
+      <outputs ownerID="2" targetID="3" fromX="825" fromY="-580" name="Montar golem inferior (T1)." />
+      <outputs ownerID="2" targetID="4" fromX="825" fromY="-660" name="Montar golem feitor (T2)." />
+      <outputs ownerID="2" targetID="5" fromX="825" fromY="-740" name="Montar golem superior (T3)." />
+      <outputs ownerID="2" targetID="6" fromX="825" fromY="-820" name="Continuar viagem." />Yuri acende a forja portátil e examina as peças da expedição. — Uma carcaça sem núcleo é apenas matéria. Um núcleo sem carcaça é apenas energia. Forjem as duas peças separadamente e tragam-nas até mim para despertar um companheiro.
+    </nodes>
+    <nodes xsi:type="NodeAdventure" ID="3" positionX="1800" positionY="-30" width="350" height="660" image="EV_A_FORJA_VIVA">
+      <logic><FilterBlock>
+        <LogicResultAction resultGroup="G_CHOQUE"><scriptCallWithTag scriptName="FRA_YM_HasAssemblyParts" tag="SUBRACE-GOLEM_CHOQUE" /></LogicResultAction>
+        <LogicResultAction resultGroup="G_CASCALHO"><scriptCallWithTag scriptName="FRA_YM_HasAssemblyParts" tag="SUBRACE-GOLEM_CASCALHO" /></LogicResultAction>
+        <LogicResultAction resultGroup="G_GALHO"><scriptCallWithTag scriptName="FRA_YM_HasAssemblyParts" tag="SUBRACE-GOLEM_GALHO" /></LogicResultAction>
+        <LogicResultAction resultGroup="G_LAMPEJO"><scriptCallWithTag scriptName="FRA_YM_HasAssemblyParts" tag="SUBRACE-GOLEM_LAMPEJO" /></LogicResultAction>
+        <LogicResultAction resultGroup="G_MASSA"><scriptCallWithTag scriptName="FRA_YM_HasAssemblyParts" tag="SUBRACE-GOLEM_MASSA" /></LogicResultAction>
+        <LogicResultAction resultGroup="G_SEIXO"><scriptCallWithTag scriptName="FRA_YM_HasAssemblyParts" tag="SUBRACE-GOLEM_SEIXO" /></LogicResultAction>
+      </FilterBlock></logic>
+      <outputs ownerID="3" targetID="10" fromX="825" fromY="-580" name="Despertar Choque (carcaça + Núcleo T1)." group="G_CHOQUE" />
+      <outputs ownerID="3" targetID="11" fromX="825" fromY="-580" name="Despertar Cascalho (carcaça + Núcleo T1)." group="G_CASCALHO" />
+      <outputs ownerID="3" targetID="12" fromX="825" fromY="-580" name="Despertar Galho (carcaça + Núcleo T1)." group="G_GALHO" />
+      <outputs ownerID="3" targetID="13" fromX="825" fromY="-580" name="Despertar Lâmp-Âmbar (carcaça + Núcleo T1)." group="G_LAMPEJO" />
+      <outputs ownerID="3" targetID="14" fromX="825" fromY="-580" name="Despertar Massa-Mãe (carcaça + Núcleo T1)." group="G_MASSA" />
+      <outputs ownerID="3" targetID="15" fromX="825" fromY="-580" name="Despertar Seixo (carcaça + Núcleo T1)." group="G_SEIXO" />
+      <outputs ownerID="3" targetID="2" fromX="825" fromY="-740" name="Voltar à seleção de níveis." />As peças aguardam seu sopro final. Apenas os modelos com uma carcaça e um Núcleo T1 no inventário da expedição podem ser despertados.
+    </nodes>
+    <nodes xsi:type="NodeAdventure" ID="4" positionX="2100" positionY="-30" width="350" height="660" image="EV_A_FORJA_VIVA">
+      <logic><FilterBlock>
+        <LogicResultAction resultGroup="G_FERRO_VIDO"><scriptCallWithTag scriptName="FRA_YM_HasAssemblyParts" tag="SUBRACE-GOLEM_FERRO_VIDO" /></LogicResultAction>
+        <LogicResultAction resultGroup="G_RAIZ"><scriptCallWithTag scriptName="FRA_YM_HasAssemblyParts" tag="SUBRACE-GOLEM_RAIZ" /></LogicResultAction>
+        <LogicResultAction resultGroup="G_OSSADA"><scriptCallWithTag scriptName="FRA_YM_HasAssemblyParts" tag="SUBRACE-GOLEM_OSSADA" /></LogicResultAction>
+        <LogicResultAction resultGroup="G_CRISTAL"><scriptCallWithTag scriptName="FRA_YM_HasAssemblyParts" tag="SUBRACE-GOLEM_CRISTAL" /></LogicResultAction>
+        <LogicResultAction resultGroup="G_PAO_DO_CAMPO"><scriptCallWithTag scriptName="FRA_YM_HasAssemblyParts" tag="SUBRACE-GOLEM_PAO_DO_CAMPO" /></LogicResultAction>
+      </FilterBlock></logic>
+      <outputs ownerID="4" targetID="16" fromX="825" fromY="-580" name="Despertar Ferro-Vivo (carcaça + Núcleo T2)." group="G_FERRO_VIDO" />
+      <outputs ownerID="4" targetID="17" fromX="825" fromY="-580" name="Despertar Raiz (carcaça + Núcleo T2)." group="G_RAIZ" />
+      <outputs ownerID="4" targetID="18" fromX="825" fromY="-580" name="Despertar Ossada (carcaça + Núcleo T2)." group="G_OSSADA" />
+      <outputs ownerID="4" targetID="19" fromX="825" fromY="-580" name="Despertar Cristal (carcaça + Núcleo T2)." group="G_CRISTAL" />
+      <outputs ownerID="4" targetID="20" fromX="825" fromY="-580" name="Despertar Pão-do-Campo (carcaça + Núcleo T2)." group="G_PAO_DO_CAMPO" />
+      <outputs ownerID="4" targetID="2" fromX="825" fromY="-740" name="Voltar à seleção de níveis." />As peças aguardam seu sopro final. Apenas os modelos com uma carcaça e um Núcleo T2 no inventário da expedição podem ser despertados.
+    </nodes>
+    <nodes xsi:type="NodeAdventure" ID="5" positionX="2400" positionY="-30" width="350" height="660" image="EV_A_FORJA_VIVA">
+      <logic><FilterBlock>
+        <LogicResultAction resultGroup="G_MURALHA"><scriptCallWithTag scriptName="FRA_YM_HasAssemblyParts" tag="SUBRACE-GOLEM_MURALHA" /></LogicResultAction>
+        <LogicResultAction resultGroup="G_VIUVA"><scriptCallWithTag scriptName="FRA_YM_HasAssemblyParts" tag="SUBRACE-GOLEM_VIUVA" /></LogicResultAction>
+        <LogicResultAction resultGroup="G_VEJO"><scriptCallWithTag scriptName="FRA_YM_HasAssemblyParts" tag="SUBRACE-GOLEM_VEJO" /></LogicResultAction>
+        <LogicResultAction resultGroup="G_AGULHA"><scriptCallWithTag scriptName="FRA_YM_HasAssemblyParts" tag="SUBRACE-GOLEM_AGULHA" /></LogicResultAction>
+        <LogicResultAction resultGroup="G_FERREIRO"><scriptCallWithTag scriptName="FRA_YM_HasAssemblyParts" tag="SUBRACE-GOLEM_FERREIRO" /></LogicResultAction>
+        <LogicResultAction resultGroup="G_OBSIDIANA"><scriptCallWithTag scriptName="FRA_YM_HasAssemblyParts" tag="SUBRACE-GOLEM_OBSIDIANA" /></LogicResultAction>
+        <LogicResultAction resultGroup="G_SANGUE"><scriptCallWithTag scriptName="FRA_YM_HasAssemblyParts" tag="SUBRACE-GOLEM_SANGUE" /></LogicResultAction>
+        <LogicResultAction resultGroup="G_NEBULINA"><scriptCallWithTag scriptName="FRA_YM_HasAssemblyParts" tag="SUBRACE-GOLEM_NEBULINA" /></LogicResultAction>
+        <LogicResultAction resultGroup="G_FUNGO"><scriptCallWithTag scriptName="FRA_YM_HasAssemblyParts" tag="SUBRACE-GOLEM_FUNGO" /></LogicResultAction>
+      </FilterBlock></logic>
+      <outputs ownerID="5" targetID="21" fromX="825" fromY="-580" name="Despertar Muralha (carcaça + Núcleo T3)." group="G_MURALHA" />
+      <outputs ownerID="5" targetID="22" fromX="825" fromY="-580" name="Despertar Viúva-de-Cedro (carcaça + Núcleo T3)." group="G_VIUVA" />
+      <outputs ownerID="5" targetID="23" fromX="825" fromY="-580" name="Despertar Veio (carcaça + Núcleo T3)." group="G_VEJO" />
+      <outputs ownerID="5" targetID="24" fromX="825" fromY="-580" name="Despertar Agulha (carcaça + Núcleo T3)." group="G_AGULHA" />
+      <outputs ownerID="5" targetID="25" fromX="825" fromY="-580" name="Despertar Ferreiro (carcaça + Núcleo T3)." group="G_FERREIRO" />
+      <outputs ownerID="5" targetID="26" fromX="825" fromY="-580" name="Despertar Obsidiana (carcaça + Núcleo T3)." group="G_OBSIDIANA" />
+      <outputs ownerID="5" targetID="27" fromX="825" fromY="-580" name="Despertar Sangue (carcaça + Núcleo T3)." group="G_SANGUE" />
+      <outputs ownerID="5" targetID="28" fromX="825" fromY="-580" name="Despertar Nebulina (carcaça + Núcleo T3)." group="G_NEBULINA" />
+      <outputs ownerID="5" targetID="29" fromX="825" fromY="-580" name="Despertar Fungo (carcaça + Núcleo T3)." group="G_FUNGO" />
+      <outputs ownerID="5" targetID="2" fromX="825" fromY="-740" name="Voltar à seleção de níveis." />As peças aguardam seu sopro final. Apenas os modelos com uma carcaça e um Núcleo T3 no inventário da expedição podem ser despertados.
+    </nodes>
+    <nodes xsi:type="NodeAdventureEnd" ID="6" positionX="1400" positionY="-30" width="350" height="660" linkedEventUniqueID="0" />
+    <nodes xsi:type="NodeAdventure" ID="10" positionX="2050" positionY="-30" width="350" height="660" image="EV_A_FORJA_VIVA">
+      <logic><ModifierBlock><LogicModifiers><scriptCallWithTag scriptName="FMO_YM_CompleteAssembly" tag="SUBRACE-GOLEM_CHOQUE" /></LogicModifiers></ModifierBlock></logic>
+      <outputs ownerID="10" targetID="6" fromX="1285" fromY="-580" name="Receber o golem e partir." />Yuri une as peças, fecha os olhos e sopra a centelha na argila e no metal. Choque desperta para acompanhar a expedição.
+    </nodes>
+    <nodes xsi:type="NodeAdventure" ID="11" positionX="2130" positionY="-30" width="350" height="660" image="EV_A_FORJA_VIVA">
+      <logic><ModifierBlock><LogicModifiers><scriptCallWithTag scriptName="FMO_YM_CompleteAssembly" tag="SUBRACE-GOLEM_CASCALHO" /></LogicModifiers></ModifierBlock></logic>
+      <outputs ownerID="11" targetID="6" fromX="1285" fromY="-580" name="Receber o golem e partir." />Yuri une as peças, fecha os olhos e sopra a centelha na argila e no metal. Cascalho desperta para acompanhar a expedição.
+    </nodes>
+    <nodes xsi:type="NodeAdventure" ID="12" positionX="2210" positionY="-30" width="350" height="660" image="EV_A_FORJA_VIVA">
+      <logic><ModifierBlock><LogicModifiers><scriptCallWithTag scriptName="FMO_YM_CompleteAssembly" tag="SUBRACE-GOLEM_GALHO" /></LogicModifiers></ModifierBlock></logic>
+      <outputs ownerID="12" targetID="6" fromX="1285" fromY="-580" name="Receber o golem e partir." />Yuri une as peças, fecha os olhos e sopra a centelha na argila e no metal. Galho desperta para acompanhar a expedição.
+    </nodes>
+    <nodes xsi:type="NodeAdventure" ID="13" positionX="2290" positionY="-30" width="350" height="660" image="EV_A_FORJA_VIVA">
+      <logic><ModifierBlock><LogicModifiers><scriptCallWithTag scriptName="FMO_YM_CompleteAssembly" tag="SUBRACE-GOLEM_LAMPEJO" /></LogicModifiers></ModifierBlock></logic>
+      <outputs ownerID="13" targetID="6" fromX="1285" fromY="-580" name="Receber o golem e partir." />Yuri une as peças, fecha os olhos e sopra a centelha na argila e no metal. Lâmp-Âmbar desperta para acompanhar a expedição.
+    </nodes>
+    <nodes xsi:type="NodeAdventure" ID="14" positionX="2370" positionY="-30" width="350" height="660" image="EV_A_FORJA_VIVA">
+      <logic><ModifierBlock><LogicModifiers><scriptCallWithTag scriptName="FMO_YM_CompleteAssembly" tag="SUBRACE-GOLEM_MASSA" /></LogicModifiers></ModifierBlock></logic>
+      <outputs ownerID="14" targetID="6" fromX="1285" fromY="-580" name="Receber o golem e partir." />Yuri une as peças, fecha os olhos e sopra a centelha na argila e no metal. Massa-Mãe desperta para acompanhar a expedição.
+    </nodes>
+    <nodes xsi:type="NodeAdventure" ID="15" positionX="2450" positionY="-30" width="350" height="660" image="EV_A_FORJA_VIVA">
+      <logic><ModifierBlock><LogicModifiers><scriptCallWithTag scriptName="FMO_YM_CompleteAssembly" tag="SUBRACE-GOLEM_SEIXO" /></LogicModifiers></ModifierBlock></logic>
+      <outputs ownerID="15" targetID="6" fromX="1285" fromY="-580" name="Receber o golem e partir." />Yuri une as peças, fecha os olhos e sopra a centelha na argila e no metal. Seixo desperta para acompanhar a expedição.
+    </nodes>
+    <nodes xsi:type="NodeAdventure" ID="16" positionX="2530" positionY="-30" width="350" height="660" image="EV_A_FORJA_VIVA">
+      <logic><ModifierBlock><LogicModifiers><scriptCallWithTag scriptName="FMO_YM_CompleteAssembly" tag="SUBRACE-GOLEM_FERRO_VIDO" /></LogicModifiers></ModifierBlock></logic>
+      <outputs ownerID="16" targetID="6" fromX="1285" fromY="-580" name="Receber o golem e partir." />Yuri une as peças, fecha os olhos e sopra a centelha na argila e no metal. Ferro-Vivo desperta para acompanhar a expedição.
+    </nodes>
+    <nodes xsi:type="NodeAdventure" ID="17" positionX="2610" positionY="-30" width="350" height="660" image="EV_A_FORJA_VIVA">
+      <logic><ModifierBlock><LogicModifiers><scriptCallWithTag scriptName="FMO_YM_CompleteAssembly" tag="SUBRACE-GOLEM_RAIZ" /></LogicModifiers></ModifierBlock></logic>
+      <outputs ownerID="17" targetID="6" fromX="1285" fromY="-580" name="Receber o golem e partir." />Yuri une as peças, fecha os olhos e sopra a centelha na argila e no metal. Raiz desperta para acompanhar a expedição.
+    </nodes>
+    <nodes xsi:type="NodeAdventure" ID="18" positionX="2690" positionY="-30" width="350" height="660" image="EV_A_FORJA_VIVA">
+      <logic><ModifierBlock><LogicModifiers><scriptCallWithTag scriptName="FMO_YM_CompleteAssembly" tag="SUBRACE-GOLEM_OSSADA" /></LogicModifiers></ModifierBlock></logic>
+      <outputs ownerID="18" targetID="6" fromX="1285" fromY="-580" name="Receber o golem e partir." />Yuri une as peças, fecha os olhos e sopra a centelha na argila e no metal. Ossada desperta para acompanhar a expedição.
+    </nodes>
+    <nodes xsi:type="NodeAdventure" ID="19" positionX="2770" positionY="-30" width="350" height="660" image="EV_A_FORJA_VIVA">
+      <logic><ModifierBlock><LogicModifiers><scriptCallWithTag scriptName="FMO_YM_CompleteAssembly" tag="SUBRACE-GOLEM_CRISTAL" /></LogicModifiers></ModifierBlock></logic>
+      <outputs ownerID="19" targetID="6" fromX="1285" fromY="-580" name="Receber o golem e partir." />Yuri une as peças, fecha os olhos e sopra a centelha na argila e no metal. Cristal desperta para acompanhar a expedição.
+    </nodes>
+    <nodes xsi:type="NodeAdventure" ID="20" positionX="2850" positionY="-30" width="350" height="660" image="EV_A_FORJA_VIVA">
+      <logic><ModifierBlock><LogicModifiers><scriptCallWithTag scriptName="FMO_YM_CompleteAssembly" tag="SUBRACE-GOLEM_PAO_DO_CAMPO" /></LogicModifiers></ModifierBlock></logic>
+      <outputs ownerID="20" targetID="6" fromX="1285" fromY="-580" name="Receber o golem e partir." />Yuri une as peças, fecha os olhos e sopra a centelha na argila e no metal. Pão-do-Campo desperta para acompanhar a expedição.
+    </nodes>
+    <nodes xsi:type="NodeAdventure" ID="21" positionX="2930" positionY="-30" width="350" height="660" image="EV_A_FORJA_VIVA">
+      <logic><ModifierBlock><LogicModifiers><scriptCallWithTag scriptName="FMO_YM_CompleteAssembly" tag="SUBRACE-GOLEM_MURALHA" /></LogicModifiers></ModifierBlock></logic>
+      <outputs ownerID="21" targetID="6" fromX="1285" fromY="-580" name="Receber o golem e partir." />Yuri une as peças, fecha os olhos e sopra a centelha na argila e no metal. Muralha desperta para acompanhar a expedição.
+    </nodes>
+    <nodes xsi:type="NodeAdventure" ID="22" positionX="3010" positionY="-30" width="350" height="660" image="EV_A_FORJA_VIVA">
+      <logic><ModifierBlock><LogicModifiers><scriptCallWithTag scriptName="FMO_YM_CompleteAssembly" tag="SUBRACE-GOLEM_VIUVA" /></LogicModifiers></ModifierBlock></logic>
+      <outputs ownerID="22" targetID="6" fromX="1285" fromY="-580" name="Receber o golem e partir." />Yuri une as peças, fecha os olhos e sopra a centelha na argila e no metal. Viúva-de-Cedro desperta para acompanhar a expedição.
+    </nodes>
+    <nodes xsi:type="NodeAdventure" ID="23" positionX="3090" positionY="-30" width="350" height="660" image="EV_A_FORJA_VIVA">
+      <logic><ModifierBlock><LogicModifiers><scriptCallWithTag scriptName="FMO_YM_CompleteAssembly" tag="SUBRACE-GOLEM_VEJO" /></LogicModifiers></ModifierBlock></logic>
+      <outputs ownerID="23" targetID="6" fromX="1285" fromY="-580" name="Receber o golem e partir." />Yuri une as peças, fecha os olhos e sopra a centelha na argila e no metal. Veio desperta para acompanhar a expedição.
+    </nodes>
+    <nodes xsi:type="NodeAdventure" ID="24" positionX="3170" positionY="-30" width="350" height="660" image="EV_A_FORJA_VIVA">
+      <logic><ModifierBlock><LogicModifiers><scriptCallWithTag scriptName="FMO_YM_CompleteAssembly" tag="SUBRACE-GOLEM_AGULHA" /></LogicModifiers></ModifierBlock></logic>
+      <outputs ownerID="24" targetID="6" fromX="1285" fromY="-580" name="Receber o golem e partir." />Yuri une as peças, fecha os olhos e sopra a centelha na argila e no metal. Agulha desperta para acompanhar a expedição.
+    </nodes>
+    <nodes xsi:type="NodeAdventure" ID="25" positionX="3250" positionY="-30" width="350" height="660" image="EV_A_FORJA_VIVA">
+      <logic><ModifierBlock><LogicModifiers><scriptCallWithTag scriptName="FMO_YM_CompleteAssembly" tag="SUBRACE-GOLEM_FERREIRO" /></LogicModifiers></ModifierBlock></logic>
+      <outputs ownerID="25" targetID="6" fromX="1285" fromY="-580" name="Receber o golem e partir." />Yuri une as peças, fecha os olhos e sopra a centelha na argila e no metal. Ferreiro desperta para acompanhar a expedição.
+    </nodes>
+    <nodes xsi:type="NodeAdventure" ID="26" positionX="3330" positionY="-30" width="350" height="660" image="EV_A_FORJA_VIVA">
+      <logic><ModifierBlock><LogicModifiers><scriptCallWithTag scriptName="FMO_YM_CompleteAssembly" tag="SUBRACE-GOLEM_OBSIDIANA" /></LogicModifiers></ModifierBlock></logic>
+      <outputs ownerID="26" targetID="6" fromX="1285" fromY="-580" name="Receber o golem e partir." />Yuri une as peças, fecha os olhos e sopra a centelha na argila e no metal. Obsidiana desperta para acompanhar a expedição.
+    </nodes>
+    <nodes xsi:type="NodeAdventure" ID="27" positionX="3410" positionY="-30" width="350" height="660" image="EV_A_FORJA_VIVA">
+      <logic><ModifierBlock><LogicModifiers><scriptCallWithTag scriptName="FMO_YM_CompleteAssembly" tag="SUBRACE-GOLEM_SANGUE" /></LogicModifiers></ModifierBlock></logic>
+      <outputs ownerID="27" targetID="6" fromX="1285" fromY="-580" name="Receber o golem e partir." />Yuri une as peças, fecha os olhos e sopra a centelha na argila e no metal. Sangue desperta para acompanhar a expedição.
+    </nodes>
+    <nodes xsi:type="NodeAdventure" ID="28" positionX="3490" positionY="-30" width="350" height="660" image="EV_A_FORJA_VIVA">
+      <logic><ModifierBlock><LogicModifiers><scriptCallWithTag scriptName="FMO_YM_CompleteAssembly" tag="SUBRACE-GOLEM_NEBULINA" /></LogicModifiers></ModifierBlock></logic>
+      <outputs ownerID="28" targetID="6" fromX="1285" fromY="-580" name="Receber o golem e partir." />Yuri une as peças, fecha os olhos e sopra a centelha na argila e no metal. Nebulina desperta para acompanhar a expedição.
+    </nodes>
+    <nodes xsi:type="NodeAdventure" ID="29" positionX="3570" positionY="-30" width="350" height="660" image="EV_A_FORJA_VIVA">
+      <logic><ModifierBlock><LogicModifiers><scriptCallWithTag scriptName="FMO_YM_CompleteAssembly" tag="SUBRACE-GOLEM_FUNGO" /></LogicModifiers></ModifierBlock></logic>
+      <outputs ownerID="29" targetID="6" fromX="1285" fromY="-580" name="Receber o golem e partir." />Yuri une as peças, fecha os olhos e sopra a centelha na argila e no metal. Fungo desperta para acompanhar a expedição.
+    </nodes>
   </Adventure>
-
   <Adventure name="O Sopro de Argila" uniqueID="3" allowOnce="false" typeGeneric="false" typePerGroupGeneric="true" typeInterrupt="false" typeExpedition="false" typeVillage="false" difficulty="0" nodeIdMax="8" joinIsForced="false" joinType="OnlyOwn" joinRange="SinglePosition">
     <nodes xsi:type="NodeStarting" ID="1" positionX="40" positionY="-30" width="350" height="660" image="EV_SOPRO_DE_ARGILA">
       <logic>
