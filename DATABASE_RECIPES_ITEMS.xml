@@ -1295,4 +1295,575 @@
     </RecipeBase>
     <Skills Value="SKILL_PACK-YM_ARMA_CHICOTE_REFORCADO" />
   </ITEM_REC-YM_ARMA_CHICOTE_REFORCADO>
+  <!-- Experimental staged assembly: body and core, crafted separately. -->
+  <ITEM_REC-YM_BODY_CHOQUE ItemsAmount="1" WeightMultiplier="0.55">
+    <InventorySlot Value="Tool" />
+    <RecipeBase ResearchCost="1" ResChildForbid="FALSE">
+      <DescriptionInfo Name="Carcaça de CHOQUE" Description="Estrutura inerte de golem. Combine com um Núcleo T1 durante A Forja Viva para despertar o companheiro." IconName="GOLEM_CHOQUE_Roster" />
+      <CountedTag Tag="TAG-YM_BODY_CHOQUE" Amount="1.0" />
+      <MaterialRow>
+        <Material ResourceCount="3">
+          <Resource Value="RES-SANDSTONE" />
+        </Material>
+        <Material ResourceCount="1">
+          <Resource Value="RES-CLAY" />
+        </Material>
+      </MaterialRow>
+      <MaterialRow>
+        <Material ResourceCount="3">
+          <Resource Value="RES-SANDSTONE" />
+        </Material>
+        <Material ResourceCount="1">
+          <Resource Value="RES-CLAY" />
+        </Material>
+      </MaterialRow>
+    </RecipeBase>
+    <Skills Value="SKILL_PACK-YM_CORE_INERTE" />
+  </ITEM_REC-YM_CHOQUE>
+  <ITEM_REC-YM_BODY_CASCALHO ItemsAmount="1" WeightMultiplier="0.55">
+    <InventorySlot Value="Tool" />
+    <RecipeBase ResearchCost="1" ResChildForbid="FALSE">
+      <DescriptionInfo Name="Carcaça de CASCALHO" Description="Estrutura inerte de golem. Combine com um Núcleo T1 durante A Forja Viva para despertar o companheiro." IconName="GOLEM_CASCALHO_Roster" />
+      <CountedTag Tag="TAG-YM_BODY_CASCALHO" Amount="1.0" />
+      <MaterialRow>
+        <Material ResourceCount="4">
+          <Resource Value="RES-SANDSTONE" />
+        </Material>
+        <Material ResourceCount="1">
+          <Resource Value="RES-BONE" />
+        </Material>
+      </MaterialRow>
+      <MaterialRow>
+        <Material ResourceCount="4">
+          <Resource Value="RES-SANDSTONE" />
+        </Material>
+        <Material ResourceCount="1">
+          <Resource Value="RES-BONE" />
+        </Material>
+      </MaterialRow>
+    </RecipeBase>
+    <Skills Value="SKILL_PACK-YM_CORE_INERTE" />
+  </ITEM_REC-YM_CASCALHO>
+  <ITEM_REC-YM_BODY_GALHO ItemsAmount="1" WeightMultiplier="0.55">
+    <InventorySlot Value="Tool" />
+    <RecipeBase ResearchCost="1" ResChildForbid="FALSE">
+      <DescriptionInfo Name="Carcaça de GALHO" Description="Estrutura inerte de golem. Combine com um Núcleo T1 durante A Forja Viva para despertar o companheiro." IconName="GOLEM_GALHO_Roster" />
+      <CountedTag Tag="TAG-YM_BODY_GALHO" Amount="1.0" />
+      <MaterialRow>
+        <Material ResourceCount="4">
+          <Resource Value="RES-WOOD" />
+        </Material>
+      </MaterialRow>
+      <MaterialRow>
+        <Material ResourceCount="4">
+          <Resource Value="RES-WOOD" />
+        </Material>
+      </MaterialRow>
+    </RecipeBase>
+    <Skills Value="SKILL_PACK-YM_CORE_INERTE" />
+  </ITEM_REC-YM_GALHO>
+  <ITEM_REC-YM_BODY_LAMPEJO ItemsAmount="1" WeightMultiplier="0.55">
+    <InventorySlot Value="Tool" />
+    <RecipeBase ResearchCost="1" ResChildForbid="FALSE">
+      <DescriptionInfo Name="Carcaça de LAMPEJO" Description="Estrutura inerte de golem. Combine com um Núcleo T1 durante A Forja Viva para despertar o companheiro." IconName="GOLEM_LAMPEJO_Roster" />
+      <CountedTag Tag="TAG-YM_BODY_LAMPEJO" Amount="1.0" />
+      <MaterialRow>
+        <Material ResourceCount="3">
+          <Resource Value="RES-AMBER" />
+        </Material>
+        <Material ResourceCount="1">
+          <Resource Value="RES-QUARTZ" />
+        </Material>
+      </MaterialRow>
+      <MaterialRow>
+        <Material ResourceCount="3">
+          <Resource Value="RES-AMBER" />
+        </Material>
+        <Material ResourceCount="1">
+          <Resource Value="RES-QUARTZ" />
+        </Material>
+      </MaterialRow>
+    </RecipeBase>
+    <Skills Value="SKILL_PACK-YM_CORE_INERTE" />
+  </ITEM_REC-YM_LAMPEJO>
+  <ITEM_REC-YM_BODY_MASSA ItemsAmount="1" WeightMultiplier="0.55">
+    <InventorySlot Value="Tool" />
+    <RecipeBase ResearchCost="1" ResChildForbid="FALSE">
+      <DescriptionInfo Name="Carcaça de MASSA" Description="Estrutura inerte de golem. Combine com um Núcleo T1 durante A Forja Viva para despertar o companheiro." IconName="GOLEM_MASSA_Roster" />
+      <CountedTag Tag="TAG-YM_BODY_MASSA" Amount="1.0" />
+      <MaterialRow>
+        <Material ResourceCount="4">
+          <Resource Value="RES-GRAIN" />
+        </Material>
+        <Material ResourceCount="2">
+          <Resource Value="RES-NUTS" />
+        </Material>
+      </MaterialRow>
+      <MaterialRow>
+        <Material ResourceCount="4">
+          <Resource Value="RES-GRAIN" />
+        </Material>
+        <Material ResourceCount="2">
+          <Resource Value="RES-NUTS" />
+        </Material>
+      </MaterialRow>
+    </RecipeBase>
+    <Skills Value="SKILL_PACK-YM_CORE_INERTE" />
+  </ITEM_REC-YM_MASSA>
+  <ITEM_REC-YM_BODY_SEIXO ItemsAmount="1" WeightMultiplier="0.55">
+    <InventorySlot Value="Tool" />
+    <RecipeBase ResearchCost="1" ResChildForbid="FALSE">
+      <DescriptionInfo Name="Carcaça de SEIXO" Description="Estrutura inerte de golem. Combine com um Núcleo T1 durante A Forja Viva para despertar o companheiro." IconName="GOLEM_SEIXO_Roster" />
+      <CountedTag Tag="TAG-YM_BODY_SEIXO" Amount="1.0" />
+      <MaterialRow>
+        <Material ResourceCount="3">
+          <Resource Value="RES-PURE_STONE" />
+        </Material>
+        <Material ResourceCount="2">
+          <Resource Value="RES-SANDSTONE" />
+        </Material>
+      </MaterialRow>
+      <MaterialRow>
+        <Material ResourceCount="3">
+          <Resource Value="RES-PURE_STONE" />
+        </Material>
+        <Material ResourceCount="2">
+          <Resource Value="RES-SANDSTONE" />
+        </Material>
+      </MaterialRow>
+    </RecipeBase>
+    <Skills Value="SKILL_PACK-YM_CORE_INERTE" />
+  </ITEM_REC-YM_SEIXO>
+  <ITEM_REC-YM_BODY_FERRO_VIDO ItemsAmount="1" WeightMultiplier="0.70">
+    <InventorySlot Value="Tool" />
+    <RecipeBase ResearchCost="2" ResChildForbid="FALSE">
+      <DescriptionInfo Name="Carcaça de FERRO VIDO" Description="Estrutura inerte de golem. Combine com um Núcleo T2 durante A Forja Viva para despertar o companheiro." IconName="GOLEM_FERRO_VIDO_Roster" />
+      <CountedTag Tag="TAG-YM_BODY_FERRO_VIDO" Amount="1.0" />
+      <MaterialRow>
+        <Material ResourceCount="5">
+          <Resource Value="RES-IRON" />
+        </Material>
+        <Material ResourceCount="2">
+          <Resource Value="RES-SANDSTONE" />
+        </Material>
+        <Material ResourceCount="1">
+          <Resource Value="RES-COAL" />
+        </Material>
+      </MaterialRow>
+      <MaterialRow>
+        <Material ResourceCount="5">
+          <Resource Value="RES-IRON" />
+        </Material>
+        <Material ResourceCount="2">
+          <Resource Value="RES-SANDSTONE" />
+        </Material>
+        <Material ResourceCount="1">
+          <Resource Value="RES-COAL" />
+        </Material>
+      </MaterialRow>
+    </RecipeBase>
+    <Skills Value="SKILL_PACK-YM_CORE_INERTE" />
+  </ITEM_REC-YM_FERRO_VIDO>
+  <ITEM_REC-YM_BODY_RAIZ ItemsAmount="1" WeightMultiplier="0.70">
+    <InventorySlot Value="Tool" />
+    <RecipeBase ResearchCost="2" ResChildForbid="FALSE">
+      <DescriptionInfo Name="Carcaça de RAIZ" Description="Estrutura inerte de golem. Combine com um Núcleo T2 durante A Forja Viva para despertar o companheiro." IconName="GOLEM_RAIZ_Roster" />
+      <CountedTag Tag="TAG-YM_BODY_RAIZ" Amount="1.0" />
+      <MaterialRow>
+        <Material ResourceCount="5">
+          <Resource Value="RES-DRYAD_WOOD" />
+        </Material>
+        <Material ResourceCount="2">
+          <Resource Value="RES-WOOD" />
+        </Material>
+      </MaterialRow>
+      <MaterialRow>
+        <Material ResourceCount="5">
+          <Resource Value="RES-DRYAD_WOOD" />
+        </Material>
+        <Material ResourceCount="2">
+          <Resource Value="RES-WOOD" />
+        </Material>
+      </MaterialRow>
+    </RecipeBase>
+    <Skills Value="SKILL_PACK-YM_CORE_INERTE" />
+  </ITEM_REC-YM_RAIZ>
+  <ITEM_REC-YM_BODY_OSSADA ItemsAmount="1" WeightMultiplier="0.70">
+    <InventorySlot Value="Tool" />
+    <RecipeBase ResearchCost="2" ResChildForbid="FALSE">
+      <DescriptionInfo Name="Carcaça de OSSADA" Description="Estrutura inerte de golem. Combine com um Núcleo T2 durante A Forja Viva para despertar o companheiro." IconName="GOLEM_OSSADA_Roster" />
+      <CountedTag Tag="TAG-YM_BODY_OSSADA" Amount="1.0" />
+      <MaterialRow>
+        <Material ResourceCount="3">
+          <Resource Value="RES-BONE" />
+        </Material>
+        <Material ResourceCount="4">
+          <Resource Value="RES-MONSTER_BONE" />
+        </Material>
+        <Material ResourceCount="2">
+          <Resource Value="RES-CLAY" />
+        </Material>
+      </MaterialRow>
+      <MaterialRow>
+        <Material ResourceCount="3">
+          <Resource Value="RES-BONE" />
+        </Material>
+        <Material ResourceCount="4">
+          <Resource Value="RES-MONSTER_BONE" />
+        </Material>
+        <Material ResourceCount="2">
+          <Resource Value="RES-CLAY" />
+        </Material>
+      </MaterialRow>
+    </RecipeBase>
+    <Skills Value="SKILL_PACK-YM_CORE_INERTE" />
+  </ITEM_REC-YM_OSSADA>
+  <ITEM_REC-YM_BODY_CRISTAL ItemsAmount="1" WeightMultiplier="0.70">
+    <InventorySlot Value="Tool" />
+    <RecipeBase ResearchCost="2" ResChildForbid="FALSE">
+      <DescriptionInfo Name="Carcaça de CRISTAL" Description="Estrutura inerte de golem. Combine com um Núcleo T2 durante A Forja Viva para despertar o companheiro." IconName="GOLEM_CRISTAL_Roster" />
+      <CountedTag Tag="TAG-YM_BODY_CRISTAL" Amount="1.0" />
+      <MaterialRow>
+        <Material ResourceCount="5">
+          <Resource Value="RES-QUARTZ" />
+        </Material>
+        <Material ResourceCount="3">
+          <Resource Value="RES-AMBER" />
+        </Material>
+      </MaterialRow>
+      <MaterialRow>
+        <Material ResourceCount="5">
+          <Resource Value="RES-QUARTZ" />
+        </Material>
+        <Material ResourceCount="3">
+          <Resource Value="RES-AMBER" />
+        </Material>
+      </MaterialRow>
+    </RecipeBase>
+    <Skills Value="SKILL_PACK-YM_CORE_INERTE" />
+  </ITEM_REC-YM_CRISTAL>
+  <ITEM_REC-YM_BODY_PAO_DO_CAMPO ItemsAmount="1" WeightMultiplier="0.70">
+    <InventorySlot Value="Tool" />
+    <RecipeBase ResearchCost="2" ResChildForbid="FALSE">
+      <DescriptionInfo Name="Carcaça de PAO DO CAMPO" Description="Estrutura inerte de golem. Combine com um Núcleo T2 durante A Forja Viva para despertar o companheiro." IconName="GOLEM_PAO_DO_CAMPO_Roster" />
+      <CountedTag Tag="TAG-YM_BODY_PAO_DO_CAMPO" Amount="1.0" />
+      <MaterialRow>
+        <Material ResourceCount="5">
+          <Resource Value="RES-COOKED_FOOD" />
+        </Material>
+        <Material ResourceCount="3">
+          <Resource Value="RES-GRAIN" />
+        </Material>
+        <Material ResourceCount="2">
+          <Resource Value="RES-BEETLE_JELLY" />
+        </Material>
+      </MaterialRow>
+      <MaterialRow>
+        <Material ResourceCount="5">
+          <Resource Value="RES-COOKED_FOOD" />
+        </Material>
+        <Material ResourceCount="3">
+          <Resource Value="RES-GRAIN" />
+        </Material>
+        <Material ResourceCount="1">
+          <Resource Value="RES-BEETLE_JELLY" />
+        </Material>
+      </MaterialRow>
+    </RecipeBase>
+    <Skills Value="SKILL_PACK-YM_CORE_INERTE" />
+  </ITEM_REC-YM_PAO_DO_CAMPO>
+  <ITEM_REC-YM_BODY_MURALHA ItemsAmount="1" WeightMultiplier="0.95">
+    <InventorySlot Value="Tool" />
+    <RecipeBase ResearchCost="3" ResChildForbid="FALSE">
+      <DescriptionInfo Name="Carcaça de MURALHA" Description="Estrutura inerte de golem. Combine com um Núcleo T3 durante A Forja Viva para despertar o companheiro." IconName="GOLEM_MURALHA_Roster" />
+      <CountedTag Tag="TAG-YM_BODY_MURALHA" Amount="1.0" />
+      <MaterialRow>
+        <Material ResourceCount="7">
+          <Resource Value="RES-GRANITE" />
+        </Material>
+        <Material ResourceCount="3">
+          <Resource Value="RES-ARMOURED_STONE" />
+        </Material>
+        <Material ResourceCount="4">
+          <Resource Value="RES-IRON" />
+        </Material>
+      </MaterialRow>
+      <MaterialRow>
+        <Material ResourceCount="7">
+          <Resource Value="RES-GRANITE" />
+        </Material>
+        <Material ResourceCount="3">
+          <Resource Value="RES-ARMOURED_STONE" />
+        </Material>
+        <Material ResourceCount="4">
+          <Resource Value="RES-IRON" />
+        </Material>
+      </MaterialRow>
+    </RecipeBase>
+    <Skills Value="SKILL_PACK-YM_CORE_INERTE" />
+  </ITEM_REC-YM_MURALHA>
+  <ITEM_REC-YM_BODY_VIUVA ItemsAmount="1" WeightMultiplier="0.95">
+    <InventorySlot Value="Tool" />
+    <RecipeBase ResearchCost="3" ResChildForbid="FALSE">
+      <DescriptionInfo Name="Carcaça de VIUVA" Description="Estrutura inerte de golem. Combine com um Núcleo T3 durante A Forja Viva para despertar o companheiro." IconName="GOLEM_VIUVA_Roster" />
+      <CountedTag Tag="TAG-YM_BODY_VIUVA" Amount="1.0" />
+      <MaterialRow>
+        <Material ResourceCount="6">
+          <Resource Value="RES-SACRED_WOOD" />
+        </Material>
+        <Material ResourceCount="3">
+          <Resource Value="RES-ANCIENT_WOOD" />
+        </Material>
+      </MaterialRow>
+      <MaterialRow>
+        <Material ResourceCount="6">
+          <Resource Value="RES-SACRED_WOOD" />
+        </Material>
+        <Material ResourceCount="3">
+          <Resource Value="RES-ANCIENT_WOOD" />
+        </Material>
+      </MaterialRow>
+    </RecipeBase>
+    <Skills Value="SKILL_PACK-YM_CORE_INERTE" />
+  </ITEM_REC-YM_VIUVA>
+  <ITEM_REC-YM_BODY_VEJO ItemsAmount="1" WeightMultiplier="0.95">
+    <InventorySlot Value="Tool" />
+    <RecipeBase ResearchCost="3" ResChildForbid="FALSE">
+      <DescriptionInfo Name="Carcaça de VEJO" Description="Estrutura inerte de golem. Combine com um Núcleo T3 durante A Forja Viva para despertar o companheiro." IconName="GOLEM_VEJO_Roster" />
+      <CountedTag Tag="TAG-YM_BODY_VEJO" Amount="1.0" />
+      <MaterialRow>
+        <Material ResourceCount="2">
+          <Resource Value="RES-GRANDGEM" />
+        </Material>
+        <Material ResourceCount="2">
+          <Resource Value="RES-DIAMOND" />
+        </Material>
+        <Material ResourceCount="1">
+          <Resource Value="RES-MOONSTONE" />
+        </Material>
+      </MaterialRow>
+      <MaterialRow>
+        <Material ResourceCount="2">
+          <Resource Value="RES-GRANDGEM" />
+        </Material>
+        <Material ResourceCount="1">
+          <Resource Value="RES-DIAMOND" />
+        </Material>
+        <Material ResourceCount="1">
+          <Resource Value="RES-MOONSTONE" />
+        </Material>
+      </MaterialRow>
+    </RecipeBase>
+    <Skills Value="SKILL_PACK-YM_CORE_INERTE" />
+  </ITEM_REC-YM_VEJO>
+  <ITEM_REC-YM_BODY_AGULHA ItemsAmount="1" WeightMultiplier="0.95">
+    <InventorySlot Value="Tool" />
+    <RecipeBase ResearchCost="3" ResChildForbid="FALSE">
+      <DescriptionInfo Name="Carcaça de AGULHA" Description="Estrutura inerte de golem. Combine com um Núcleo T3 durante A Forja Viva para despertar o companheiro." IconName="GOLEM_AGULHA_Roster" />
+      <CountedTag Tag="TAG-YM_BODY_AGULHA" Amount="1.0" />
+      <MaterialRow>
+        <Material ResourceCount="4">
+          <Resource Value="RES-HERBS" />
+        </Material>
+        <Material ResourceCount="2">
+          <Resource Value="RES-MUSHROOMS" />
+        </Material>
+        <Material ResourceCount="1">
+          <Resource Value="RES-SPICES" />
+        </Material>
+      </MaterialRow>
+      <MaterialRow>
+        <Material ResourceCount="4">
+          <Resource Value="RES-HERBS" />
+        </Material>
+        <Material ResourceCount="2">
+          <Resource Value="RES-MUSHROOMS" />
+        </Material>
+        <Material ResourceCount="1">
+          <Resource Value="RES-SPICES" />
+        </Material>
+      </MaterialRow>
+    </RecipeBase>
+    <Skills Value="SKILL_PACK-YM_CORE_INERTE" />
+  </ITEM_REC-YM_AGULHA>
+  <ITEM_REC-YM_BODY_FERREIRO ItemsAmount="1" WeightMultiplier="0.95">
+    <InventorySlot Value="Tool" />
+    <RecipeBase ResearchCost="3" ResChildForbid="FALSE">
+      <DescriptionInfo Name="Carcaça de FERREIRO" Description="Estrutura inerte de golem. Combine com um Núcleo T3 durante A Forja Viva para despertar o companheiro." IconName="GOLEM_FERREIRO_Roster" />
+      <CountedTag Tag="TAG-YM_BODY_FERREIRO" Amount="1.0" />
+      <MaterialRow>
+        <Material ResourceCount="6">
+          <Resource Value="RES-IRON" />
+        </Material>
+        <Material ResourceCount="3">
+          <Resource Value="RES-COAL" />
+        </Material>
+        <Material ResourceCount="2">
+          <Resource Value="RES-STEEL" />
+        </Material>
+      </MaterialRow>
+      <MaterialRow>
+        <Material ResourceCount="6">
+          <Resource Value="RES-IRON" />
+        </Material>
+        <Material ResourceCount="3">
+          <Resource Value="RES-COAL" />
+        </Material>
+        <Material ResourceCount="2">
+          <Resource Value="RES-STEEL" />
+        </Material>
+      </MaterialRow>
+    </RecipeBase>
+    <Skills Value="SKILL_PACK-YM_CORE_INERTE" />
+  </ITEM_REC-YM_FERREIRO>
+  <ITEM_REC-YM_BODY_OBSIDIANA ItemsAmount="1" WeightMultiplier="0.85">
+    <InventorySlot Value="Tool" />
+    <RecipeBase ResearchCost="3" ResChildForbid="FALSE">
+      <DescriptionInfo Name="Carcaça de OBSIDIANA" Description="Estrutura inerte de golem. Combine com um Núcleo T3 durante A Forja Viva para despertar o companheiro." IconName="GOLEM_OBSIDIANA_Roster" />
+      <CountedTag Tag="TAG-YM_BODY_OBSIDIANA" Amount="1.0" />
+      <MaterialRow>
+        <Material ResourceCount="5">
+          <Resource Value="RES-OBSIDIAN" />
+        </Material>
+        <Material ResourceCount="3">
+          <Resource Value="RES-IGNEOUS_SPIKE" />
+        </Material>
+        <Material ResourceCount="2">
+          <Resource Value="RES-COAL" />
+        </Material>
+      </MaterialRow>
+      <MaterialRow>
+        <Material ResourceCount="5">
+          <Resource Value="RES-OBSIDIAN" />
+        </Material>
+        <Material ResourceCount="3">
+          <Resource Value="RES-IGNEOUS_SPIKE" />
+        </Material>
+        <Material ResourceCount="2">
+          <Resource Value="RES-COAL" />
+        </Material>
+      </MaterialRow>
+    </RecipeBase>
+    <Skills Value="SKILL_PACK-YM_CORE_INERTE" />
+  </ITEM_REC-YM_OBSIDIANA>
+  <ITEM_REC-YM_BODY_SANGUE ItemsAmount="1" WeightMultiplier="0.75">
+    <InventorySlot Value="Tool" />
+    <RecipeBase ResearchCost="2" ResChildForbid="FALSE">
+      <DescriptionInfo Name="Carcaça de SANGUE" Description="Estrutura inerte de golem. Combine com um Núcleo T3 durante A Forja Viva para despertar o companheiro." IconName="GOLEM_SANGUE_Roster" />
+      <CountedTag Tag="TAG-YM_BODY_SANGUE" Amount="1.0" />
+      <MaterialRow>
+        <Material ResourceCount="4">
+          <Resource Value="RES-BLOOD_BONE" />
+        </Material>
+        <Material ResourceCount="3">
+          <Resource Value="RES-MEAT" />
+        </Material>
+        <Material ResourceCount="2">
+          <Resource Value="RES-CLAY" />
+        </Material>
+      </MaterialRow>
+      <MaterialRow>
+        <Material ResourceCount="4">
+          <Resource Value="RES-BLOOD_BONE" />
+        </Material>
+        <Material ResourceCount="3">
+          <Resource Value="RES-MEAT" />
+        </Material>
+        <Material ResourceCount="2">
+          <Resource Value="RES-CLAY" />
+        </Material>
+      </MaterialRow>
+    </RecipeBase>
+    <Skills Value="SKILL_PACK-YM_CORE_INERTE" />
+  </ITEM_REC-YM_SANGUE>
+  <ITEM_REC-YM_BODY_NEBULINA ItemsAmount="1" WeightMultiplier="0.65">
+    <InventorySlot Value="Tool" />
+    <RecipeBase ResearchCost="3" ResChildForbid="FALSE">
+      <DescriptionInfo Name="Carcaça de NEBULINA" Description="Estrutura inerte de golem. Combine com um Núcleo T3 durante A Forja Viva para despertar o companheiro." IconName="GOLEM_NEBULINA_Roster" />
+      <CountedTag Tag="TAG-YM_BODY_NEBULINA" Amount="1.0" />
+      <MaterialRow>
+        <Material ResourceCount="3">
+          <Resource Value="RES-FORGOTTEN_ESSENCE" />
+        </Material>
+        <Material ResourceCount="2">
+          <Resource Value="RES-VOID_SPARKLER" />
+        </Material>
+        <Material ResourceCount="1">
+          <Resource Value="RES-PRISTINE_MATTER" />
+        </Material>
+      </MaterialRow>
+      <MaterialRow>
+        <Material ResourceCount="3">
+          <Resource Value="RES-FORGOTTEN_ESSENCE" />
+        </Material>
+        <Material ResourceCount="2">
+          <Resource Value="RES-VOID_SPARKLER" />
+        </Material>
+        <Material ResourceCount="1">
+          <Resource Value="RES-PRISTINE_MATTER" />
+        </Material>
+      </MaterialRow>
+    </RecipeBase>
+    <Skills Value="SKILL_PACK-YM_CORE_INERTE" />
+  </ITEM_REC-YM_NEBULINA>
+  <ITEM_REC-YM_BODY_FUNGO ItemsAmount="1" WeightMultiplier="0.70">
+    <InventorySlot Value="Tool" />
+    <RecipeBase ResearchCost="2" ResChildForbid="FALSE">
+      <DescriptionInfo Name="Carcaça de FUNGO" Description="Estrutura inerte de golem. Combine com um Núcleo T3 durante A Forja Viva para despertar o companheiro." IconName="GOLEM_FUNGO_Roster" />
+      <CountedTag Tag="TAG-YM_BODY_FUNGO" Amount="1.0" />
+      <MaterialRow>
+        <Material ResourceCount="4">
+          <Resource Value="RES-MUSHROOMS" />
+        </Material>
+        <Material ResourceCount="3">
+          <Resource Value="RES-HERBS" />
+        </Material>
+        <Material ResourceCount="2">
+          <Resource Value="RES-SEAWEED" />
+        </Material>
+      </MaterialRow>
+      <MaterialRow>
+        <Material ResourceCount="4">
+          <Resource Value="RES-MUSHROOMS" />
+        </Material>
+        <Material ResourceCount="3">
+          <Resource Value="RES-HERBS" />
+        </Material>
+        <Material ResourceCount="2">
+          <Resource Value="RES-SEAWEED" />
+        </Material>
+      </MaterialRow>
+    </RecipeBase>
+    <Skills Value="SKILL_PACK-YM_CORE_INERTE" />
+  </ITEM_REC-YM_FUNGO>
+  <ITEM_REC-YM_CORE_T1 ItemsAmount="1" WeightMultiplier="0.50">
+    <InventorySlot Value="Tool" />
+    <RecipeBase ResearchCost="1" ResChildForbid="FALSE">
+      <DescriptionInfo Name="Núcleo T1" Description="Núcleo de energia inerte. É consumido no despertar de uma carcaça T1 por Yuri Mizuki." IconName="GOLEM_CHOQUE_Roster" />
+      <CountedTag Tag="TAG-YM_CORE_T1" Amount="1.0" />
+      <MaterialRow><Material ResourceCount="3"><Resource Value="RES-CLAY" /></Material></MaterialRow>
+      <MaterialRow><Material ResourceCount="3"><Resource Value="RES-CLAY" /></Material></MaterialRow>
+    </RecipeBase>
+    <Skills Value="SKILL_PACK-YM_CORE_INERTE" />
+  </ITEM_REC-YM_CORE_T1>
+  <ITEM_REC-YM_CORE_T2 ItemsAmount="1" WeightMultiplier="0.50">
+    <InventorySlot Value="Tool" />
+    <RecipeBase ResearchCost="2" ResChildForbid="FALSE">
+      <DescriptionInfo Name="Núcleo T2" Description="Núcleo de energia inerte. É consumido no despertar de uma carcaça T2 por Yuri Mizuki." IconName="GOLEM_CHOQUE_Roster" />
+      <CountedTag Tag="TAG-YM_CORE_T2" Amount="1.0" />
+      <MaterialRow><Material ResourceCount="4"><Resource Value="RES-AMBER" /></Material></MaterialRow>
+      <MaterialRow><Material ResourceCount="4"><Resource Value="RES-AMBER" /></Material></MaterialRow>
+    </RecipeBase>
+    <Skills Value="SKILL_PACK-YM_CORE_INERTE" />
+  </ITEM_REC-YM_CORE_T2>
+  <ITEM_REC-YM_CORE_T3 ItemsAmount="1" WeightMultiplier="0.50">
+    <InventorySlot Value="Tool" />
+    <RecipeBase ResearchCost="3" ResChildForbid="FALSE">
+      <DescriptionInfo Name="Núcleo T3" Description="Núcleo de energia inerte. É consumido no despertar de uma carcaça T3 por Yuri Mizuki." IconName="GOLEM_CHOQUE_Roster" />
+      <CountedTag Tag="TAG-YM_CORE_T3" Amount="1.0" />
+      <MaterialRow><Material ResourceCount="5"><Resource Value="RES-GRANDGEM" /></Material></MaterialRow>
+      <MaterialRow><Material ResourceCount="5"><Resource Value="RES-GRANDGEM" /></Material></MaterialRow>
+    </RecipeBase>
+    <Skills Value="SKILL_PACK-YM_CORE_INERTE" />
+  </ITEM_REC-YM_CORE_T3>
 </RECIPES_ITEMS>
