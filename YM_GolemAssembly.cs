@@ -4,6 +4,7 @@ using System.Linq;
 using DBDef;
 using Thea2.Common;
 using Thea2.Server;
+using Group = Thea2.Server.Group;
 
 namespace GameScript
 {
