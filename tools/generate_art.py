@@ -123,16 +123,21 @@ def crack_pattern(size, seed, lines=12, color=(30, 28, 26), alpha=110, width=2):
     return layer.filter(ImageFilter.GaussianBlur(0.8))
 
 def grain(size, seed, amount=14):
+    """Transparent low-opacity film grain; never cover artwork with opaque pixels."""
     w, h = size
     rnd = random.Random(seed)
     noise = Image.new("L", (w, h))
     noise.putdata([rnd.randint(0, 255) for _ in range(w * h)])
+    base = Image.new("RGBA", (w, h), (0, 0, 0, 0))
     dark = Image.new("RGBA", (w, h), (10, 9, 8, 255))
     light = Image.new("RGBA", (w, h), (250, 248, 242, 255))
-    base = Image.new("RGBA", (w, h), (0, 0, 0, 0))
-    over = Image.composite(light, base, noise.point(lambda v: 255 if v > 170 else 0))
-    under = Image.composite(dark, base, noise.point(lambda v: int(amount * 1.6) if v < 85 else 0))
-    return Image.alpha_composite(under, over)
+    # Keep both grain layers subtle. The previous white mask used alpha=255
+    # for ~1/3 of all pixels and produced the visible TV-static effect.
+    dark_alpha = noise.point(lambda v: min(18, amount) if v < 85 else 0)
+    light_alpha = noise.point(lambda v: min(12, amount) if v > 170 else 0)
+    dark.putalpha(dark_alpha)
+    light.putalpha(light_alpha)
+    return Image.alpha_composite(Image.alpha_composite(base, dark), light)
 
 def radial_glow(size, center, radius, color, strength=1.0):
     w, h = size
