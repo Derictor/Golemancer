@@ -1319,7 +1319,7 @@
       </MaterialRow>
     </RecipeBase>
     <Skills Value="SKILL_PACK-YM_CORE_INERTE" />
-  </ITEM_REC-YM_CHOQUE>
+  </ITEM_REC-YM_BODY_CHOQUE>
   <ITEM_REC-YM_BODY_CASCALHO ItemsAmount="1" WeightMultiplier="0.55">
     <InventorySlot Value="Tool" />
     <RecipeBase ResearchCost="1" ResChildForbid="FALSE">
@@ -1343,7 +1343,7 @@
       </MaterialRow>
     </RecipeBase>
     <Skills Value="SKILL_PACK-YM_CORE_INERTE" />
-  </ITEM_REC-YM_CASCALHO>
+  </ITEM_REC-YM_BODY_CASCALHO>
   <ITEM_REC-YM_BODY_GALHO ItemsAmount="1" WeightMultiplier="0.55">
     <InventorySlot Value="Tool" />
     <RecipeBase ResearchCost="1" ResChildForbid="FALSE">
@@ -1361,7 +1361,7 @@
       </MaterialRow>
     </RecipeBase>
     <Skills Value="SKILL_PACK-YM_CORE_INERTE" />
-  </ITEM_REC-YM_GALHO>
+  </ITEM_REC-YM_BODY_GALHO>
   <ITEM_REC-YM_BODY_LAMPEJO ItemsAmount="1" WeightMultiplier="0.55">
     <InventorySlot Value="Tool" />
     <RecipeBase ResearchCost="1" ResChildForbid="FALSE">
@@ -1385,7 +1385,7 @@
       </MaterialRow>
     </RecipeBase>
     <Skills Value="SKILL_PACK-YM_CORE_INERTE" />
-  </ITEM_REC-YM_LAMPEJO>
+  </ITEM_REC-YM_BODY_LAMPEJO>
   <ITEM_REC-YM_BODY_MASSA ItemsAmount="1" WeightMultiplier="0.55">
     <InventorySlot Value="Tool" />
     <RecipeBase ResearchCost="1" ResChildForbid="FALSE">
@@ -1409,7 +1409,7 @@
       </MaterialRow>
     </RecipeBase>
     <Skills Value="SKILL_PACK-YM_CORE_INERTE" />
-  </ITEM_REC-YM_MASSA>
+  </ITEM_REC-YM_BODY_MASSA>
   <ITEM_REC-YM_BODY_SEIXO ItemsAmount="1" WeightMultiplier="0.55">
     <InventorySlot Value="Tool" />
     <RecipeBase ResearchCost="1" ResChildForbid="FALSE">
@@ -1433,7 +1433,7 @@
       </MaterialRow>
     </RecipeBase>
     <Skills Value="SKILL_PACK-YM_CORE_INERTE" />
-  </ITEM_REC-YM_SEIXO>
+  </ITEM_REC-YM_BODY_SEIXO>
   <ITEM_REC-YM_BODY_FERRO_VIDO ItemsAmount="1" WeightMultiplier="0.70">
     <InventorySlot Value="Tool" />
     <RecipeBase ResearchCost="2" ResChildForbid="FALSE">
@@ -1463,7 +1463,7 @@
       </MaterialRow>
     </RecipeBase>
     <Skills Value="SKILL_PACK-YM_CORE_INERTE" />
-  </ITEM_REC-YM_FERRO_VIDO>
+  </ITEM_REC-YM_BODY_FERRO_VIDO>
   <ITEM_REC-YM_BODY_RAIZ ItemsAmount="1" WeightMultiplier="0.70">
     <InventorySlot Value="Tool" />
     <RecipeBase ResearchCost="2" ResChildForbid="FALSE">
@@ -1487,7 +1487,7 @@
       </MaterialRow>
     </RecipeBase>
     <Skills Value="SKILL_PACK-YM_CORE_INERTE" />
-  </ITEM_REC-YM_RAIZ>
+  </ITEM_REC-YM_BODY_RAIZ>
   <ITEM_REC-YM_BODY_OSSADA ItemsAmount="1" WeightMultiplier="0.70">
     <InventorySlot Value="Tool" />
     <RecipeBase ResearchCost="2" ResChildForbid="FALSE">
@@ -1517,7 +1517,7 @@
       </MaterialRow>
     </RecipeBase>
     <Skills Value="SKILL_PACK-YM_CORE_INERTE" />
-  </ITEM_REC-YM_OSSADA>
+  </ITEM_REC-YM_BODY_OSSADA>
   <ITEM_REC-YM_BODY_CRISTAL ItemsAmount="1" WeightMultiplier="0.70">
     <InventorySlot Value="Tool" />
     <RecipeBase ResearchCost="2" ResChildForbid="FALSE">
@@ -1541,7 +1541,7 @@
       </MaterialRow>
     </RecipeBase>
     <Skills Value="SKILL_PACK-YM_CORE_INERTE" />
-  </ITEM_REC-YM_CRISTAL>
+  </ITEM_REC-YM_BODY_CRISTAL>
   <ITEM_REC-YM_BODY_PAO_DO_CAMPO ItemsAmount="1" WeightMultiplier="0.70">
     <InventorySlot Value="Tool" />
     <RecipeBase ResearchCost="2" ResChildForbid="FALSE">
@@ -1571,7 +1571,7 @@
       </MaterialRow>
     </RecipeBase>
     <Skills Value="SKILL_PACK-YM_CORE_INERTE" />
-  </ITEM_REC-YM_PAO_DO_CAMPO>
+  </ITEM_REC-YM_BODY_PAO_DO_CAMPO>
   <ITEM_REC-YM_BODY_MURALHA ItemsAmount="1" WeightMultiplier="0.95">
     <InventorySlot Value="Tool" />
     <RecipeBase ResearchCost="3" ResChildForbid="FALSE">
@@ -1601,7 +1601,7 @@
       </MaterialRow>
     </RecipeBase>
     <Skills Value="SKILL_PACK-YM_CORE_INERTE" />
-  </ITEM_REC-YM_MURALHA>
+  </ITEM_REC-YM_BODY_MURALHA>
   <ITEM_REC-YM_BODY_VIUVA ItemsAmount="1" WeightMultiplier="0.95">
     <InventorySlot Value="Tool" />
     <RecipeBase ResearchCost="3" ResChildForbid="FALSE">
@@ -1625,7 +1625,7 @@
       </MaterialRow>
     </RecipeBase>
     <Skills Value="SKILL_PACK-YM_CORE_INERTE" />
-  </ITEM_REC-YM_VIUVA>
+  </ITEM_REC-YM_BODY_VIUVA>
   <ITEM_REC-YM_BODY_VEJO ItemsAmount="1" WeightMultiplier="0.95">
     <InventorySlot Value="Tool" />
     <RecipeBase ResearchCost="3" ResChildForbid="FALSE">
@@ -1655,7 +1655,7 @@
       </MaterialRow>
     </RecipeBase>
     <Skills Value="SKILL_PACK-YM_CORE_INERTE" />
-  </ITEM_REC-YM_VEJO>
+  </ITEM_REC-YM_BODY_VEJO>
   <ITEM_REC-YM_BODY_AGULHA ItemsAmount="1" WeightMultiplier="0.95">
     <InventorySlot Value="Tool" />
     <RecipeBase ResearchCost="3" ResChildForbid="FALSE">
@@ -1685,7 +1685,7 @@
       </MaterialRow>
     </RecipeBase>
     <Skills Value="SKILL_PACK-YM_CORE_INERTE" />
-  </ITEM_REC-YM_AGULHA>
+  </ITEM_REC-YM_BODY_AGULHA>
   <ITEM_REC-YM_BODY_FERREIRO ItemsAmount="1" WeightMultiplier="0.95">
     <InventorySlot Value="Tool" />
     <RecipeBase ResearchCost="3" ResChildForbid="FALSE">
@@ -1715,7 +1715,7 @@
       </MaterialRow>
     </RecipeBase>
     <Skills Value="SKILL_PACK-YM_CORE_INERTE" />
-  </ITEM_REC-YM_FERREIRO>
+  </ITEM_REC-YM_BODY_FERREIRO>
   <ITEM_REC-YM_BODY_OBSIDIANA ItemsAmount="1" WeightMultiplier="0.85">
     <InventorySlot Value="Tool" />
     <RecipeBase ResearchCost="3" ResChildForbid="FALSE">
@@ -1745,7 +1745,7 @@
       </MaterialRow>
     </RecipeBase>
     <Skills Value="SKILL_PACK-YM_CORE_INERTE" />
-  </ITEM_REC-YM_OBSIDIANA>
+  </ITEM_REC-YM_BODY_OBSIDIANA>
   <ITEM_REC-YM_BODY_SANGUE ItemsAmount="1" WeightMultiplier="0.75">
     <InventorySlot Value="Tool" />
     <RecipeBase ResearchCost="2" ResChildForbid="FALSE">
@@ -1775,7 +1775,7 @@
       </MaterialRow>
     </RecipeBase>
     <Skills Value="SKILL_PACK-YM_CORE_INERTE" />
-  </ITEM_REC-YM_SANGUE>
+  </ITEM_REC-YM_BODY_SANGUE>
   <ITEM_REC-YM_BODY_NEBULINA ItemsAmount="1" WeightMultiplier="0.65">
     <InventorySlot Value="Tool" />
     <RecipeBase ResearchCost="3" ResChildForbid="FALSE">
@@ -1805,7 +1805,7 @@
       </MaterialRow>
     </RecipeBase>
     <Skills Value="SKILL_PACK-YM_CORE_INERTE" />
-  </ITEM_REC-YM_NEBULINA>
+  </ITEM_REC-YM_BODY_NEBULINA>
   <ITEM_REC-YM_BODY_FUNGO ItemsAmount="1" WeightMultiplier="0.70">
     <InventorySlot Value="Tool" />
     <RecipeBase ResearchCost="2" ResChildForbid="FALSE">
@@ -1835,7 +1835,7 @@
       </MaterialRow>
     </RecipeBase>
     <Skills Value="SKILL_PACK-YM_CORE_INERTE" />
-  </ITEM_REC-YM_FUNGO>
+  </ITEM_REC-YM_BODY_FUNGO>
   <ITEM_REC-YM_CORE_T1 ItemsAmount="1" WeightMultiplier="0.50">
     <InventorySlot Value="Tool" />
     <RecipeBase ResearchCost="1" ResChildForbid="FALSE">
